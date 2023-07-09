@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "ffmpeg-media-type"
+version = "0.1.0"
+description = ""
+authors = ["lucemia <lucemia@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ffmpeg_media_type"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[tool.poetry.group.dev.dependencies]
+requests = "^2.31.0"
+beautifulsoup4 = "^4.12.2"
+prospector = "^1.10.2"
+bandit = "^1.7.5"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
