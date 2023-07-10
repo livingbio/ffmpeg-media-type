@@ -5,7 +5,8 @@ from bs4 import BeautifulSoup
 # credit https://stackoverflow.com/questions/48393253/how-to-parse-table-with-rowspan-and-colspan/48451104#48451104
 
 
-def table_to_2d(table_tag: BeautifulSoup) -> list[list[str | None]]:
+def table_to_2d(table_str: str) -> list[list[str | None]]:
+    table_tag = BeautifulSoup(table_str, "html.parser")
     rowspans: list[int] = []  # track pending rowspans
     rows = table_tag.find_all("tr")
 
