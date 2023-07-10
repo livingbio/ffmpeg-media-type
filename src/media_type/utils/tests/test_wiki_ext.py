@@ -7,7 +7,10 @@ from ..table import table_to_2d
 from ..wiki_ext import _extract_wiki_ext_info, extract_tables_from_wikipedia
 
 
-@pytest.mark.parametrize("case", Path(__file__).parent.glob("test_wiki_ext/*.html"))
+@pytest.mark.parametrize(
+    "case",
+    [pytest.param(k, id=k.name) for k in Path(__file__).parent.glob("test_wiki_ext/*.html")],
+)
 def test_extract_tables_from_wikipedia(snapshot: SnapshotAssertion, case: Path) -> None:
     tables = extract_tables_from_wikipedia(case.read_text())
 

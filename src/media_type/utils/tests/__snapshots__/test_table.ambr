@@ -1,73 +1,5 @@
 # serializer version: 1
-# name: test_table_to_2d[case0]
-  list([
-    list([
-      'A',
-      'B',
-      'C',
-      'D',
-    ]),
-    list([
-      'A',
-      'B',
-      'E',
-      'E',
-    ]),
-  ])
-# ---
-# name: test_table_to_2d[case1]
-  list([
-    list([
-      'A',
-      'B',
-      None,
-      None,
-    ]),
-    list([
-      'C',
-      'D',
-      None,
-      None,
-    ]),
-    list([
-      'C',
-      'D',
-      'E',
-      'F',
-    ]),
-    list([
-      'G',
-      'H',
-      None,
-      None,
-    ]),
-  ])
-# ---
-# name: test_table_to_2d[case2]
-  list([
-    list([
-      'A',
-      'B',
-      None,
-    ]),
-    list([
-      'C',
-      'D',
-      None,
-    ]),
-    list([
-      'C',
-      'E',
-      'F',
-    ]),
-    list([
-      'G',
-      'H',
-      None,
-    ]),
-  ])
-# ---
-# name: test_table_to_2d[case3]
+# name: test_table_to_2d[table1.html]
   list([
     list([
       '1',
@@ -83,6 +15,74 @@
       '3',
       '6',
       '7',
+    ]),
+  ])
+# ---
+# name: test_table_to_2d[table2.html]
+  list([
+    list([
+      'A',
+      'B',
+      None,
+    ]),
+    list([
+      'C',
+      'D',
+      None,
+    ]),
+    list([
+      'C',
+      'E',
+      'F',
+    ]),
+    list([
+      'G',
+      'H',
+      None,
+    ]),
+  ])
+# ---
+# name: test_table_to_2d[table3.html]
+  list([
+    list([
+      'A',
+      'B',
+      None,
+      None,
+    ]),
+    list([
+      'C',
+      'D',
+      None,
+      None,
+    ]),
+    list([
+      'C',
+      'D',
+      'E',
+      'F',
+    ]),
+    list([
+      'G',
+      'H',
+      None,
+      None,
+    ]),
+  ])
+# ---
+# name: test_table_to_2d[table4.html]
+  list([
+    list([
+      'A',
+      'B',
+      'C',
+      'D',
+    ]),
+    list([
+      'A',
+      'B',
+      'E',
+      'E',
     ]),
   ])
 # ---

@@ -207,7 +207,7 @@
     ExtInfo(ext='ZS', description='Script for Minecraft mod MineTweaker and CraftTweaker', used_by='Minecraft Mods'),
   ])
 # ---
-# name: test_extract_tables_from_wikipedia[case0].1
+# name: test_extract_tables_from_wikipedia[0-9.html].1
   list([
     list([
       'Ext.',
@@ -289,7 +289,7 @@
     ]),
   ])
 # ---
-# name: test_extract_tables_from_wikipedia[case0][0-9.html]
+# name: test_extract_tables_from_wikipedia[0-9.html][0-9.html]
   list([
     '''
       <table class="wikitable sortable">
@@ -336,7 +336,7 @@
     ''',
   ])
 # ---
-# name: test_extract_tables_from_wikipedia[case1].1
+# name: test_extract_tables_from_wikipedia[A-E.html].1
   list([
     list([
       'Ext.',
@@ -922,7 +922,7 @@
     ]),
   ])
 # ---
-# name: test_extract_tables_from_wikipedia[case1].2
+# name: test_extract_tables_from_wikipedia[A-E.html].2
   list([
     list([
       'Ext.',
@@ -1144,7 +1144,7 @@
     ]),
   ])
 # ---
-# name: test_extract_tables_from_wikipedia[case1].3
+# name: test_extract_tables_from_wikipedia[A-E.html].3
   list([
     list([
       'Ext.',
@@ -1732,7 +1732,7 @@
     ]),
   ])
 # ---
-# name: test_extract_tables_from_wikipedia[case1].4
+# name: test_extract_tables_from_wikipedia[A-E.html].4
   list([
     list([
       'Ext.',
@@ -2346,7 +2346,7 @@
     ]),
   ])
 # ---
-# name: test_extract_tables_from_wikipedia[case1].5
+# name: test_extract_tables_from_wikipedia[A-E.html].5
   list([
     list([
       'Ext.',
@@ -2904,7 +2904,7 @@
     ]),
   ])
 # ---
-# name: test_extract_tables_from_wikipedia[case1][A-E.html]
+# name: test_extract_tables_from_wikipedia[A-E.html][A-E.html]
   list([
     '''
       <table class="wikitable sortable">
