@@ -1,0 +1,3172 @@
+[
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "3dostr",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "3g2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "3gp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "4xm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "a64",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "aa",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "aac",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ac3",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "acm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "act",
+        "description": "ACT Voice file format",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "adf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "adp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "ads",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "adts",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "adx",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "aea",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "afc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "aiff",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "aix",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "alaw",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "alias_pix",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "amr",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "anm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "apc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "ape",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "apng",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "aqtitle",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "asf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "asf_o",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "asf_stream",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ass",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ast",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "au",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "avi",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "avm2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "avr",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "avs",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "bethsoftvid",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "bfi",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "bfstm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "bin",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "bink",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "bit",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "bmp_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "bmv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "boa",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "brender_pix",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "brstm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "c93",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "caf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "cavsvideo",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "cdg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "cdxl",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "cine",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "concat",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "crc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "dash",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "data",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "daud",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dcstr",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dds_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dfa",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "dirac",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "dnxhd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dpx_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dsf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dsicin",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dss",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "dts",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dtshd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "dv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dv1394",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dvbsub",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dvbtxt",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "dvd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "dxa",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "ea",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "ea_cdata",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "eac3",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "epaf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "exr_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "f32be",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "f32le",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "f4v",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "f64be",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "f64le",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ffm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ffmetadata",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "fifo",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "film_cpk",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "filmstrip",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "flac",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "flic",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "flv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "framecrc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "framehash",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "framemd5",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "frm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "fsb",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "g722",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "g723_1",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "g729",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "genh",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "gif",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "gsm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "gxf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "h261",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "h263",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "h264",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "hash",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "hds",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "hevc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "hls",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "hls,applehttp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "hnm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ico",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "idcin",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "idf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "iff",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ilbc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "image2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "image2pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "ingenient",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "ipmovie",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "ipod",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ircam",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "ismv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "iss",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "iv8",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ivf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "ivr",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "j2k_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "jacosub",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "jpeg_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "jpegls_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "jv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "latm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "lavfi",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "live_flv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "lmlm4",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "loas",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "lrc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "lvf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "lxf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "m4v",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "matroska",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "matroska,webm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "md5",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mgsts",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "microdvd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mjpeg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "mkvtimestamp_v2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mlp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mlv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mmf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "mov",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mov,mp4,m4a,3gp,3g2,mj2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "mp2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mp3",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "mp4",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mpc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mpc8",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mpeg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "mpeg1video",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "mpeg2video",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mpegts",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mpegtsraw",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mpegvideo",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mpjpeg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mpl2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mpsub",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "msf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "msnwctcp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mtaf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mtv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mulaw",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "musx",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mvi",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "mxf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "mxf_d10",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "mxf_opatom",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mxg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "nc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "nistsphere",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "nsv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "null",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "nut",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "nuv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "oga",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "ogg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "ogv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "oma",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "opus",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "paf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pam_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pbm_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pcx_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pgm_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pgmyuv_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pictor_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pjs",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pmp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "png_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "ppm_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "psp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "psxstr",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pva",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "pvf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "qcp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "qdraw_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "r3d",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "rawvideo",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "realtext",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "redspark",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "rl2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "rm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "roq",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "rpl",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "rsd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "rso",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "rtp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "rtp_mpegts",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "rtsp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "s16be",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "s16le",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "s24be",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "s24le",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "s32be",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "s32le",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "s8",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sami",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "sap",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sbg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sdp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sdr2",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "segment",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sgi_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "shn",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "siff",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "singlejpeg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sln",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "smjpeg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "smk",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "smoothstreaming",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "smush",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sol",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "sox",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "spdif",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "spx",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "srt",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "stl",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "stream_segment,ssegment",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "subviewer",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "subviewer1",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sunrast_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sup",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "svag",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "svcd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "swf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "tak",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "tedcaptions",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "tee",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "thp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "tiertexseq",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "tiff_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "tmv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "truehd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "tta",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "tty",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "txd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "u16be",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "u16le",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "u24be",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "u24le",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "u32be",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "u32le",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "u8",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "uncodedframecrc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "v210",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "v210x",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "vag",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "vc1",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "vc1test",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "vcd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "vivo",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "vmd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "vob",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "vobsub",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "voc",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "vpk",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "vplayer",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "vqf",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "w64",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "wav",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "wc3movie",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "webm",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "webm_chunk",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "webm_dash_manifest",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "webp",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "webp_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "webvtt",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "wsaud",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "wsd",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "wsvqa",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "wtv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "wv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "wve",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "x11grab",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "xa",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "xbin",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "xmv",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "xvag",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "xwma",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "yop",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "yuv4mpegpipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    }
+]
