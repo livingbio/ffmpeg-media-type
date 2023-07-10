@@ -83,6 +83,7 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
         content = ifile.read()
 
     match_version = re_ffmpeg_version.findall(content)
+    print(f"{content=}")
     assert match_version and len(match_version) == 1, content
     version = match_version[0]
 
