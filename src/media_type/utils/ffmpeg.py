@@ -75,7 +75,7 @@ def _extract_file_format(content: str) -> list[tuple[str, str, str]]:
 
 
 def list_support_format(version: str) -> list[FFMpegSupport]:
-    os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -formats &> format.txt")
+    os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -formats > format.txt 2>&1")
 
     re_ffmpeg_version = re.compile(r"ffmpeg version (?P<version>[\d\.]+)")
 
