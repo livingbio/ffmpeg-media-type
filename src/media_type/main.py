@@ -3,7 +3,7 @@ import json
 
 import typer
 
-from .utils.ffmpeg import list_support_format
+from utils.ffmpeg import list_support_format
 
 
 def generate(version: str) -> None:
@@ -15,9 +15,9 @@ def generate(version: str) -> None:
 
 def main() -> None:
     versions = [
-        "3.2",
-        "3.3",
-        "3.4",
+        # "3.2",
+        # "3.3",
+        # "3.4",
         "4.0",
         "4.1",
         "4.2",
@@ -25,10 +25,10 @@ def main() -> None:
         "4.4",
         "5.0",
         "5.1",
-        "6.0",
+        # "6.0",
     ]
 
-    for version in versions:
+    for version in reversed(versions):
         generate(version)
 
 
