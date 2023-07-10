@@ -3,8 +3,8 @@ import os
 import re
 from collections import defaultdict
 
-import yaml
 import typer
+import yaml
 
 
 def extract_wiki():
@@ -23,9 +23,7 @@ def extract_wiki():
             if irow["Ext."] == "Ext.":
                 continue
 
-            result[irow["Ext."].lower()].append(
-                "%s Used by %s" % (irow["Description"], irow["Used by"])
-            )
+            result[irow["Ext."].lower()].append("%s Used by %s" % (irow["Description"], irow["Used by"]))
 
     return result
 
@@ -33,9 +31,7 @@ def extract_wiki():
 def list_support_format():
     os.system("ffmpeg -formats > format.txt")
 
-    pattern = re.compile(
-        r"(?P<flag>[DE]+)[\s]+(?P<codec>[\w\d,]+)[\s]+(?P<description>.*)"
-    )
+    pattern = re.compile(r"(?P<flag>[DE]+)[\s]+(?P<codec>[\w\d,]+)[\s]+(?P<description>.*)")
     ext_pattern = re.compile(r"Common extensions: ([\w\d\,]+)\.")
 
     output = {}
