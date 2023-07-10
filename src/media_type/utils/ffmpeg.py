@@ -36,7 +36,7 @@ def _parse_muxer_info(content: str) -> dict[str, Any]:
     return output
 
 
-def _get_muxer_info(flag: str, codec: str, description: str) -> FFMpegSupport:
+def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FFMpegSupport:
     muxer_info = {
         "common_exts": [],
         "mime_type": "",
@@ -44,10 +44,10 @@ def _get_muxer_info(flag: str, codec: str, description: str) -> FFMpegSupport:
         "default_audio_codec": "",
     }
     if "E" in flag:
-        os.system(f"ffmpeg -h muxer={codec} > output")
+        os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h muxer={codec} > output")
         muxer_info.update(_parse_muxer_info(open("output").read()))
     if "D" in flag:
-        os.system(f"ffmpeg -h demuxer={codec} > output")
+        os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output")
         muxer_info.update(_parse_muxer_info(open("output").read()))
 
     return FFMpegSupport(
@@ -59,8 +59,8 @@ def _get_muxer_info(flag: str, codec: str, description: str) -> FFMpegSupport:
     )
 
 
-def list_support_format() -> tuple[str, list[FFMpegSupport]]:
-    os.system("ffmpeg -formats &> format.txt")
+def list_support_format(version: str) -> list[FFMpegSupport]:
+    os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -formats &> format.txt")
 
     re_ffmpeg_version = re.compile(r"ffmpeg version (?P<version>[\d\.]+)")
 
@@ -79,6 +79,6 @@ def list_support_format() -> tuple[str, list[FFMpegSupport]]:
     output = []
     for support_info in support_infos:
         flag, codec, description = support_info
-        output.append(_get_muxer_info(flag, codec, description))
+        output.append(_get_muxer_info(version, flag, codec, description))
 
-    return version, output
+    return output
