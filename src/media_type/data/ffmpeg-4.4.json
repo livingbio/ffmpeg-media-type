@@ -445,18 +445,6 @@
     {
         "demuxing_support": true,
         "muxing_support": true,
-        "codec": "argo_cvg",
-        "description": "",
-        "common_exts": [
-            "cvg"
-        ],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": "adpcm_psx"
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": true,
         "codec": "asf",
         "description": "",
         "common_exts": [
@@ -556,18 +544,6 @@
     {
         "demuxing_support": false,
         "muxing_support": true,
-        "codec": "avif",
-        "description": "",
-        "common_exts": [
-            "avif"
-        ],
-        "mime_type": "image/avif",
-        "default_video_codec": "av1",
-        "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": false,
-        "muxing_support": true,
         "codec": "avm2",
         "description": "",
         "common_exts": [],
@@ -612,14 +588,14 @@
     },
     {
         "demuxing_support": true,
-        "muxing_support": true,
+        "muxing_support": false,
         "codec": "avs3",
         "description": "",
         "common_exts": [
             "avs3"
         ],
         "mime_type": "",
-        "default_video_codec": "avs3",
+        "default_video_codec": "",
         "default_audio_codec": ""
     },
     {
@@ -698,18 +674,6 @@
         "mime_type": "audio/bit",
         "default_video_codec": "",
         "default_audio_codec": "g729"
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": false,
-        "codec": "bitpacked",
-        "description": "",
-        "common_exts": [
-            "bitpacked"
-        ],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": ""
     },
     {
         "demuxing_support": true,
@@ -793,7 +757,7 @@
         "codec": "cavsvideo",
         "description": "",
         "common_exts": [
-            "avs"
+            "cavs"
         ],
         "mime_type": "",
         "default_video_codec": "cavs",
@@ -964,18 +928,6 @@
         "mime_type": "",
         "default_video_codec": "",
         "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": true,
-        "codec": "dfpwm",
-        "description": "",
-        "common_exts": [
-            "dfpwm"
-        ],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": "dfpwm"
     },
     {
         "demuxing_support": true,
@@ -1483,16 +1435,6 @@
     {
         "demuxing_support": true,
         "muxing_support": false,
-        "codec": "gem_pipe",
-        "description": "",
-        "common_exts": [],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": false,
         "codec": "genh",
         "description": "",
         "common_exts": [
@@ -1745,7 +1687,6 @@
             "jls",
             "jpeg",
             "jpg",
-            "jxl",
             "ljpg",
             "pam",
             "pbm",
@@ -1753,7 +1694,6 @@
             "pfm",
             "pgm",
             "pgmyuv",
-            "phm",
             "png",
             "ppm",
             "sgi",
@@ -1771,13 +1711,10 @@
             "im8",
             "im24",
             "sunras",
-            "vbn",
             "xbm",
             "xface",
             "pix",
-            "y",
-            "avif",
-            "qoi"
+            "y"
         ],
         "mime_type": "",
         "default_video_codec": "mjpeg",
@@ -1948,16 +1885,6 @@
         "demuxing_support": true,
         "muxing_support": false,
         "codec": "jpegls_pipe",
-        "description": "",
-        "common_exts": [],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": false,
-        "codec": "jpegxl_pipe",
         "description": "",
         "common_exts": [],
         "mime_type": "",
@@ -2328,8 +2255,7 @@
             "ism",
             "ismv",
             "isma",
-            "f4v",
-            "avif"
+            "f4v"
         ],
         "mime_type": "",
         "default_video_codec": "",
@@ -2736,14 +2662,14 @@
     },
     {
         "demuxing_support": true,
-        "muxing_support": true,
+        "muxing_support": false,
         "codec": "obu",
         "description": "",
         "common_exts": [
             "obu"
         ],
         "mime_type": "",
-        "default_video_codec": "av1",
+        "default_video_codec": "",
         "default_audio_codec": ""
     },
     {
@@ -2851,16 +2777,6 @@
     {
         "demuxing_support": true,
         "muxing_support": false,
-        "codec": "pfm_pipe",
-        "description": "",
-        "common_exts": [],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": false,
         "codec": "pgm_pipe",
         "description": "",
         "common_exts": [],
@@ -2882,16 +2798,6 @@
         "demuxing_support": true,
         "muxing_support": false,
         "codec": "pgx_pipe",
-        "description": "",
-        "common_exts": [],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": false,
-        "codec": "phm_pipe",
         "description": "",
         "common_exts": [],
         "mime_type": "",
@@ -3039,16 +2945,6 @@
         "demuxing_support": true,
         "muxing_support": false,
         "codec": "qdraw_pipe",
-        "description": "",
-        "common_exts": [],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": false,
-        "codec": "qoi_pipe",
         "description": "",
         "common_exts": [],
         "mime_type": "",
@@ -3350,16 +3246,6 @@
     {
         "demuxing_support": true,
         "muxing_support": false,
-        "codec": "scd",
-        "description": "",
-        "common_exts": [],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": true,
-        "muxing_support": false,
         "codec": "sdp",
         "description": "",
         "common_exts": [],
@@ -3482,6 +3368,16 @@
         ],
         "mime_type": "",
         "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": false,
+        "muxing_support": true,
+        "codec": "singlejpeg",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "image/jpeg",
+        "default_video_codec": "mjpeg",
         "default_audio_codec": ""
     },
     {
@@ -4001,16 +3897,6 @@
     },
     {
         "demuxing_support": true,
-        "muxing_support": false,
-        "codec": "vbn_pipe",
-        "description": "",
-        "common_exts": [],
-        "mime_type": "",
-        "default_video_codec": "",
-        "default_audio_codec": ""
-    },
-    {
-        "demuxing_support": true,
         "muxing_support": true,
         "codec": "vc1",
         "description": "",
@@ -4265,15 +4151,13 @@
     },
     {
         "demuxing_support": true,
-        "muxing_support": true,
+        "muxing_support": false,
         "codec": "wsaud",
         "description": "",
-        "common_exts": [
-            "aud"
-        ],
+        "common_exts": [],
         "mime_type": "",
         "default_video_codec": "",
-        "default_audio_codec": "adpcm_ima_ws"
+        "default_audio_codec": ""
     },
     {
         "demuxing_support": true,
