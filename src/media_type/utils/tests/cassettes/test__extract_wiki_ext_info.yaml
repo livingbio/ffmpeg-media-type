@@ -1,0 +1,1705 @@
+interactions:
+- request:
+    body: null
+    headers:
+      Accept:
+      - '*/*'
+      Accept-Encoding:
+      - gzip, deflate
+      Connection:
+      - keep-alive
+      User-Agent:
+      - python-requests/2.31.0
+    method: GET
+    uri: https://en.wikipedia.org/wiki/List_of_filename_extensions_(S%E2%80%93Z)
+  response:
+    body:
+      string: "<!DOCTYPE html>\n<html class=\"client-nojs vector-feature-language-in-header-enabled
+        vector-feature-language-in-main-page-header-disabled vector-feature-sticky-header-disabled
+        vector-feature-page-tools-pinned-disabled vector-feature-toc-pinned-enabled
+        vector-feature-main-menu-pinned-disabled vector-feature-limited-width-enabled
+        vector-feature-limited-width-content-enabled vector-feature-zebra-design-disabled\"
+        lang=\"en\" dir=\"ltr\">\n<head>\n<meta charset=\"UTF-8\">\n<title>List of
+        filename extensions (S\u2013Z) - Wikipedia</title>\n<script>document.documentElement.className=\"client-js
+        vector-feature-language-in-header-enabled vector-feature-language-in-main-page-header-disabled
+        vector-feature-sticky-header-disabled vector-feature-page-tools-pinned-disabled
+        vector-feature-toc-pinned-enabled vector-feature-main-menu-pinned-disabled
+        vector-feature-limited-width-enabled vector-feature-limited-width-content-enabled
+        vector-feature-zebra-design-disabled\";(function(){var cookie=document.cookie.match(/(?:^|;
+        )enwikimwclientprefs=([^;]+)/);if(cookie){var featureName=cookie[1];document.documentElement.className=document.documentElement.className.replace(featureName+'-enabled',featureName+'-disabled');}}());RLCONF={\"wgBreakFrames\":false,\"wgSeparatorTransformTable\":[\"\",\"\"],\"wgDigitTransformTable\":[\"\",\"\"],\"wgDefaultDateFormat\":\"dmy\",\"wgMonthNames\":[\"\",\"January\",\"February\",\"March\",\"April\",\"May\",\"June\",\"July\",\"August\",\"September\",\"October\",\"November\",\"December\"],\"wgRequestId\":\"d2489cbd-97ac-43e7-94dd-371d66d80317\",\"wgCSPNonce\":false,\n\"wgCanonicalNamespace\":\"\",\"wgCanonicalSpecialPageName\":false,\"wgNamespaceNumber\":0,\"wgPageName\":\"List_of_filename_extensions_(S\u2013Z)\",\"wgTitle\":\"List
+        of filename extensions (S\u2013Z)\",\"wgCurRevisionId\":1163956348,\"wgRevisionId\":1163956348,\"wgArticleId\":38385634,\"wgIsArticle\":true,\"wgIsRedirect\":false,\"wgAction\":\"view\",\"wgUserName\":null,\"wgUserGroups\":[\"*\"],\"wgCategories\":[\"Articles
+        with short description\",\"Short description is different from Wikidata\",\"Articles
+        needing additional references from August 2016\",\"All articles needing additional
+        references\",\"Filename extensions\",\"Lists of file formats\"],\"wgPageViewLanguage\":\"en\",\"wgPageContentLanguage\":\"en\",\"wgPageContentModel\":\"wikitext\",\"wgRelevantPageName\":\"List_of_filename_extensions_(S\u2013Z)\",\"wgRelevantArticleId\":38385634,\"wgIsProbablyEditable\":true,\"wgRelevantPageIsProbablyEditable\":true,\"wgRestrictionEdit\":[],\"wgRestrictionMove\":[],\"wgFlaggedRevsParams\":{\"tags\":{\"status\":{\"levels\":1}}},\"wgVisualEditor\":{\"pageLanguageCode\":\"en\",\n\"pageLanguageDir\":\"ltr\",\"pageVariantFallbacks\":\"en\"},\"wgMFDisplayWikibaseDescriptions\":{\"search\":true,\"watchlist\":true,\"tagline\":false,\"nearby\":true},\"wgWMESchemaEditAttemptStepOversample\":false,\"wgWMEPageLength\":30000,\"wgNoticeProject\":\"wikipedia\",\"wgMediaViewerOnClick\":true,\"wgMediaViewerEnabledByDefault\":true,\"wgPopupsFlags\":10,\"wgULSCurrentAutonym\":\"English\",\"wgEditSubmitButtonLabelPublish\":true,\"wgCentralAuthMobileDomain\":false,\"wgULSPosition\":\"interlanguage\",\"wgULSisCompactLinksEnabled\":true,\"wgULSisLanguageSelectorEmpty\":false,\"wgWikibaseItemId\":\"Q4735218\",\"GEHomepageSuggestedEditsEnableTopics\":true,\"wgGETopicsMatchModeEnabled\":false,\"wgGEStructuredTaskRejectionReasonTextInputEnabled\":false,\"wgGELevelingUpEnabledForUser\":false};RLSTATE={\"skins.vector.user.styles\":\"ready\",\"ext.globalCssJs.user.styles\":\"ready\",\"site.styles\":\"ready\",\"user.styles\":\"ready\",\"skins.vector.user\":\"ready\",\"ext.globalCssJs.user\":\"ready\",\"user\":\"ready\",\"user.options\":\"loading\",\"ext.cite.styles\":\"ready\",\n\"codex-search-styles\":\"ready\",\"skins.vector.styles\":\"ready\",\"skins.vector.icons\":\"ready\",\"ext.visualEditor.desktopArticleTarget.noscript\":\"ready\",\"ext.wikimediaBadges\":\"ready\",\"ext.uls.interlanguage\":\"ready\",\"wikibase.client.init\":\"ready\"};RLPAGEMODULES=[\"ext.cite.ux-enhancements\",\"site\",\"mediawiki.page.ready\",\"skins.vector.js\",\"mmv.head\",\"mmv.bootstrap.autostart\",\"ext.visualEditor.desktopArticleTarget.init\",\"ext.visualEditor.targetLoader\",\"ext.eventLogging\",\"ext.wikimediaEvents\",\"ext.navigationTiming\",\"ext.cx.eventlogging.campaigns\",\"ext.quicksurveys.init\",\"ext.centralNotice.geoIP\",\"ext.centralNotice.startUp\",\"ext.gadget.ReferenceTooltips\",\"ext.gadget.charinsert\",\"ext.gadget.extra-toolbar-buttons\",\"ext.gadget.switcher\",\"ext.centralauth.centralautologin\",\"ext.popups\",\"ext.echo.centralauth\",\"ext.uls.compactlinks\",\"ext.uls.interface\",\"ext.cx.uls.quick.actions\",\"wikibase.client.vector-2022\",\"ext.growthExperiments.SuggestedEditSession\"];</script>\n<script>(RLQ=window.RLQ||[]).push(function(){mw.loader.implement(\"user.options@12s5i\",function($,jQuery,require,module){mw.user.tokens.set({\"patrolToken\":\"+\\\\\",\"watchToken\":\"+\\\\\",\"csrfToken\":\"+\\\\\"});});});</script>\n<link
+        rel=\"stylesheet\" href=\"/w/load.php?lang=en&amp;modules=codex-search-styles%7Cext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cskins.vector.icons%2Cstyles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector-2022\">\n<script
+        async=\"\" src=\"/w/load.php?lang=en&amp;modules=startup&amp;only=scripts&amp;raw=1&amp;skin=vector-2022\"></script>\n<meta
+        name=\"ResourceLoaderDynamicStyles\" content=\"\">\n<link rel=\"stylesheet\"
+        href=\"/w/load.php?lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector-2022\">\n<meta
+        name=\"generator\" content=\"MediaWiki 1.41.0-wmf.16\">\n<meta name=\"referrer\"
+        content=\"origin\">\n<meta name=\"referrer\" content=\"origin-when-crossorigin\">\n<meta
+        name=\"referrer\" content=\"origin-when-cross-origin\">\n<meta name=\"robots\"
+        content=\"max-image-preview:standard\">\n<meta name=\"format-detection\" content=\"telephone=no\">\n<meta
+        name=\"viewport\" content=\"width=1000\">\n<meta property=\"og:title\" content=\"List
+        of filename extensions (S\u2013Z) - Wikipedia\">\n<meta property=\"og:type\"
+        content=\"website\">\n<link rel=\"preconnect\" href=\"//upload.wikimedia.org\">\n<link
+        rel=\"alternate\" media=\"only screen and (max-width: 720px)\" href=\"//en.m.wikipedia.org/wiki/List_of_filename_extensions_(S%E2%80%93Z)\">\n<link
+        rel=\"alternate\" type=\"application/x-wiki\" title=\"Edit this page\" href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit\">\n<link
+        rel=\"apple-touch-icon\" href=\"/static/apple-touch/wikipedia.png\">\n<link
+        rel=\"icon\" href=\"/static/favicon/wikipedia.ico\">\n<link rel=\"search\"
+        type=\"application/opensearchdescription+xml\" href=\"/w/opensearch_desc.php\"
+        title=\"Wikipedia (en)\">\n<link rel=\"EditURI\" type=\"application/rsd+xml\"
+        href=\"//en.wikipedia.org/w/api.php?action=rsd\">\n<link rel=\"canonical\"
+        href=\"https://en.wikipedia.org/wiki/List_of_filename_extensions_(S%E2%80%93Z)\">\n<link
+        rel=\"license\" href=\"https://creativecommons.org/licenses/by-sa/4.0/deed.en\">\n<link
+        rel=\"alternate\" type=\"application/atom+xml\" title=\"Wikipedia Atom feed\"
+        href=\"/w/index.php?title=Special:RecentChanges&amp;feed=atom\">\n<link rel=\"dns-prefetch\"
+        href=\"//meta.wikimedia.org\" />\n<link rel=\"dns-prefetch\" href=\"//login.wikimedia.org\">\n</head>\n<body
+        class=\"skin-vector skin-vector-search-vue mediawiki ltr sitedir-ltr mw-hide-empty-elt
+        ns-0 ns-subject mw-editable page-List_of_filename_extensions_S\u2013Z rootpage-List_of_filename_extensions_S\u2013Z
+        skin-vector-2022 action-view\"><a class=\"mw-jump-link\" href=\"#bodyContent\">Jump
+        to content</a>\n<div class=\"vector-header-container\">\n\t<header class=\"vector-header
+        mw-header\">\n\t\t<div class=\"vector-header-start\">\n\t\t\t<nav class=\"vector-main-menu-landmark\"
+        aria-label=\"Site\" role=\"navigation\">\n\t\t\t\t\n<div id=\"vector-main-menu-dropdown\"
+        class=\"vector-dropdown vector-main-menu-dropdown vector-button-flush-left
+        vector-button-flush-right\"  >\n\t<input type=\"checkbox\"\n\t\tid=\"vector-main-menu-dropdown-checkbox\"\n\t\trole=\"button\"\n\t\taria-haspopup=\"true\"\n\t\tdata-event-name=\"ui.dropdown-vector-main-menu-dropdown\"\n\t\tclass=\"vector-dropdown-checkbox
+        \"\n\t\t\n\t\taria-label=\"Main menu\"\n\t\t\n\t/>\n\t<label\n\t\tid=\"vector-main-menu-dropdown-label\"\n\t\tfor=\"vector-main-menu-dropdown-checkbox\"\n\t\tclass=\"vector-dropdown-label
+        cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet
+        cdx-button--icon-only \"\n\t\taria-hidden=\"true\"\n\t\t\n\t>\n\t\t<span class=\"vector-icon
+        mw-ui-icon-menu mw-ui-icon-wikimedia-menu\"></span>\n\n\n\t\t<span class=\"vector-dropdown-label-text\">Main
+        menu</span>\n\t</label>\n\t<div class=\"vector-dropdown-content\">\n\n\n\t\t\t\t<div
+        id=\"vector-main-menu-unpinned-container\" class=\"vector-unpinned-container\">\n\t\t\n<div
+        id=\"vector-main-menu\" class=\"vector-main-menu vector-pinnable-element\">\n\t<div\n\tclass=\"vector-pinnable-header
+        vector-main-menu-pinnable-header vector-pinnable-header-unpinned\"\n\tdata-feature-name=\"main-menu-pinned\"\n\tdata-pinnable-element-id=\"vector-main-menu\"\n\tdata-pinned-container-id=\"vector-main-menu-pinned-container\"\n\tdata-unpinned-container-id=\"vector-main-menu-unpinned-container\"\n>\n\t<div
+        class=\"vector-pinnable-header-label\">Main menu</div>\n\t<button class=\"vector-pinnable-header-toggle-button
+        vector-pinnable-header-pin-button\" data-event-name=\"pinnable-header.vector-main-menu.pin\">move
+        to sidebar</button>\n\t<button class=\"vector-pinnable-header-toggle-button
+        vector-pinnable-header-unpin-button\" data-event-name=\"pinnable-header.vector-main-menu.unpin\">hide</button>\n</div>\n\n\t\n<div
+        id=\"p-navigation\" class=\"vector-menu mw-portlet mw-portlet-navigation\"
+        \ >\n\t<div class=\"vector-menu-heading\">\n\t\tNavigation\n\t</div>\n\t<div
+        class=\"vector-menu-content\">\n\t\t\n\t\t<ul class=\"vector-menu-content-list\"><li
+        id=\"n-mainpage-description\" class=\"mw-list-item\"><a href=\"/wiki/Main_Page\"
+        title=\"Visit the main page [z]\" accesskey=\"z\"><span>Main page</span></a></li><li
+        id=\"n-contents\" class=\"mw-list-item\"><a href=\"/wiki/Wikipedia:Contents\"
+        title=\"Guides to browsing Wikipedia\"><span>Contents</span></a></li><li id=\"n-currentevents\"
+        class=\"mw-list-item\"><a href=\"/wiki/Portal:Current_events\" title=\"Articles
+        related to current events\"><span>Current events</span></a></li><li id=\"n-randompage\"
+        class=\"mw-list-item\"><a href=\"/wiki/Special:Random\" title=\"Visit a randomly
+        selected article [x]\" accesskey=\"x\"><span>Random article</span></a></li><li
+        id=\"n-aboutsite\" class=\"mw-list-item\"><a href=\"/wiki/Wikipedia:About\"
+        title=\"Learn about Wikipedia and how it works\"><span>About Wikipedia</span></a></li><li
+        id=\"n-contactpage\" class=\"mw-list-item\"><a href=\"//en.wikipedia.org/wiki/Wikipedia:Contact_us\"
+        title=\"How to contact Wikipedia\"><span>Contact us</span></a></li><li id=\"n-sitesupport\"
+        class=\"mw-list-item\"><a href=\"https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en\"
+        title=\"Support us by donating to the Wikimedia Foundation\"><span>Donate</span></a></li></ul>\n\t\t\n\t</div>\n</div>\n\n\t\n\t\n<div
+        id=\"p-interaction\" class=\"vector-menu mw-portlet mw-portlet-interaction\"
+        \ >\n\t<div class=\"vector-menu-heading\">\n\t\tContribute\n\t</div>\n\t<div
+        class=\"vector-menu-content\">\n\t\t\n\t\t<ul class=\"vector-menu-content-list\"><li
+        id=\"n-help\" class=\"mw-list-item\"><a href=\"/wiki/Help:Contents\" title=\"Guidance
+        on how to use and edit Wikipedia\"><span>Help</span></a></li><li id=\"n-introduction\"
+        class=\"mw-list-item\"><a href=\"/wiki/Help:Introduction\" title=\"Learn how
+        to edit Wikipedia\"><span>Learn to edit</span></a></li><li id=\"n-portal\"
+        class=\"mw-list-item\"><a href=\"/wiki/Wikipedia:Community_portal\" title=\"The
+        hub for editors\"><span>Community portal</span></a></li><li id=\"n-recentchanges\"
+        class=\"mw-list-item\"><a href=\"/wiki/Special:RecentChanges\" title=\"A list
+        of recent changes to Wikipedia [r]\" accesskey=\"r\"><span>Recent changes</span></a></li><li
+        id=\"n-upload\" class=\"mw-list-item\"><a href=\"/wiki/Wikipedia:File_upload_wizard\"
+        title=\"Add images or other media for use on Wikipedia\"><span>Upload file</span></a></li></ul>\n\t\t\n\t</div>\n</div>\n\n\t\n<div
+        class=\"vector-main-menu-action vector-main-menu-action-lang-alert vector-main-menu-action-lang-alert-empty\">\n\t<div
+        class=\"vector-main-menu-action-item\">\n\t\t<div class=\"vector-main-menu-action-heading
+        vector-menu-heading\">Languages</div>\n\t\t<div class=\"vector-main-menu-action-content
+        vector-menu-content\">\n\t\t\t<div class=\"mw-message-box cdx-message cdx-message--block
+        mw-message-box-notice cdx-message--notice vector-language-sidebar-alert\"><span
+        class=\"cdx-message__icon\"></span><div class=\"cdx-message__content\">Language
+        links are at the top of the page across from the title.</div></div>\n\t\t</div>\n\t</div>\n</div>\n\n</div>\n\n\t\t\t\t</div>\n\n\t</div>\n</div>\n\t\t</nav>\n\t\t\t\n<a
+        href=\"/wiki/Main_Page\" class=\"mw-logo\">\n\t<img class=\"mw-logo-icon\"
+        src=\"/static/images/icons/wikipedia.png\" alt=\"\"\n\t\taria-hidden=\"true\"
+        height=\"50\" width=\"50\">\n\t<span class=\"mw-logo-container\">\n\t\t<img
+        class=\"mw-logo-wordmark\" alt=\"Wikipedia\"\n\t\t\tsrc=\"/static/images/mobile/copyright/wikipedia-wordmark-en.svg\"
+        style=\"width: 7.5em; height: 1.125em;\">\n\t\t<img class=\"mw-logo-tagline\"\n\t\t\talt=\"The
+        Free Encyclopedia\"\n\t\t\tsrc=\"/static/images/mobile/copyright/wikipedia-tagline-en.svg\"
+        width=\"117\" height=\"13\" style=\"width: 7.3125em; height: 0.8125em;\">\n\t</span>\n</a>\n\n\t\t</div>\n\t\t<div
+        class=\"vector-header-end\">\n\t\t\t\n<div id=\"p-search\" role=\"search\"
+        class=\"vector-search-box-vue  vector-search-box-collapses vector-search-box-show-thumbnail
+        vector-search-box-auto-expand-width vector-search-box\">\n\t<a href=\"/wiki/Special:Search\"\n\t\n\t\tid=\"\"\n\t\tclass=\"cdx-button
+        cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet
+        cdx-button--icon-only search-toggle\"\n\t\ttitle=\"Search Wikipedia [f]\"accesskey=\"f\"><span
+        class=\"vector-icon mw-ui-icon-search mw-ui-icon-wikimedia-search\"></span>\n\n<span>Search</span>\n\t</a>\n\t\n\t<div
+        class=\"vector-typeahead-search-container\">\n\t\t<div class=\"cdx-typeahead-search
+        cdx-typeahead-search--show-thumbnail cdx-typeahead-search--auto-expand-width\">\n\t\t\t<form
+        action=\"/w/index.php\" id=\"searchform\" class=\"cdx-search-input cdx-search-input--has-end-button\">\n\t\t\t\t<div
+        id=\"simpleSearch\" class=\"cdx-search-input__input-wrapper\"  data-search-loc=\"header-moved\">\n\t\t\t\t\t<div
+        class=\"cdx-text-input cdx-text-input--has-start-icon\">\n\t\t\t\t\t\t<input\n\t\t\t\t\t\t\tclass=\"cdx-text-input__input\"\n\t\t\t\t\t\t\t
+        type=\"search\" name=\"search\" placeholder=\"Search Wikipedia\" aria-label=\"Search
+        Wikipedia\" autocapitalize=\"sentences\" title=\"Search Wikipedia [f]\" accesskey=\"f\"
+        id=\"searchInput\"\n\t\t\t\t\t\t\t\n\t\t\t\t\t\t>\n\t\t\t\t\t\t<span class=\"cdx-text-input__icon
+        cdx-text-input__start-icon\"></span>\n\t\t\t\t\t</div>\n\t\t\t\t\t<input type=\"hidden\"
+        name=\"title\" value=\"Special:Search\">\n\t\t\t\t</div>\n\t\t\t\t<button
+        class=\"cdx-button cdx-search-input__end-button\">Search</button>\n\t\t\t</form>\n\t\t</div>\n\t</div>\n</div>\n\n\t\t\t<nav
+        class=\"vector-user-links\" aria-label=\"Personal tools\" role=\"navigation\"
+        >\n\t\n<div id=\"p-vector-user-menu-overflow\" class=\"vector-menu mw-portlet
+        mw-portlet-vector-user-menu-overflow\"  >\n\t<div class=\"vector-menu-content\">\n\t\t\n\t\t<ul
+        class=\"vector-menu-content-list\"><li id=\"pt-createaccount-2\" class=\"user-links-collapsible-item
+        mw-list-item\"><a href=\"/w/index.php?title=Special:CreateAccount&amp;returnto=List+of+filename+extensions+%28S%E2%80%93Z%29\"
+        title=\"You are encouraged to create an account and log in; however, it is
+        not mandatory\"><span>Create account</span></a></li><li id=\"pt-login-2\"
+        class=\"user-links-collapsible-item mw-list-item\"><a href=\"/w/index.php?title=Special:UserLogin&amp;returnto=List+of+filename+extensions+%28S%E2%80%93Z%29\"
+        title=\"You&#039;re encouraged to log in; however, it&#039;s not mandatory.
+        [o]\" accesskey=\"o\"><span>Log in</span></a></li></ul>\n\t\t\n\t</div>\n</div>\n\n\t\n<div
+        id=\"vector-user-links-dropdown\" class=\"vector-dropdown vector-user-menu
+        vector-button-flush-right vector-user-menu-logged-out\"  title=\"Log in and
+        more options\" >\n\t<input type=\"checkbox\"\n\t\tid=\"vector-user-links-dropdown-checkbox\"\n\t\trole=\"button\"\n\t\taria-haspopup=\"true\"\n\t\tdata-event-name=\"ui.dropdown-vector-user-links-dropdown\"\n\t\tclass=\"vector-dropdown-checkbox
+        \"\n\t\t\n\t\taria-label=\"Personal tools\"\n\t\t\n\t/>\n\t<label\n\t\tid=\"vector-user-links-dropdown-label\"\n\t\tfor=\"vector-user-links-dropdown-checkbox\"\n\t\tclass=\"vector-dropdown-label
+        cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet
+        cdx-button--icon-only \"\n\t\taria-hidden=\"true\"\n\t\t\n\t>\n\t\t<span class=\"vector-icon
+        mw-ui-icon-ellipsis mw-ui-icon-wikimedia-ellipsis\"></span>\n\n\n\t\t<span
+        class=\"vector-dropdown-label-text\">Personal tools</span>\n\t</label>\n\t<div
+        class=\"vector-dropdown-content\">\n\n\n\t\t\n<div id=\"p-personal\" class=\"vector-menu
+        mw-portlet mw-portlet-personal user-links-collapsible-item\"  title=\"User
+        menu\" >\n\t<div class=\"vector-menu-content\">\n\t\t\n\t\t<ul class=\"vector-menu-content-list\"><li
+        id=\"pt-createaccount\" class=\"user-links-collapsible-item mw-list-item\"><a
+        href=\"/w/index.php?title=Special:CreateAccount&amp;returnto=List+of+filename+extensions+%28S%E2%80%93Z%29\"
+        title=\"You are encouraged to create an account and log in; however, it is
+        not mandatory\"><span class=\"vector-icon mw-ui-icon-userAdd mw-ui-icon-wikimedia-userAdd\"></span>
+        <span>Create account</span></a></li><li id=\"pt-login\" class=\"user-links-collapsible-item
+        mw-list-item\"><a href=\"/w/index.php?title=Special:UserLogin&amp;returnto=List+of+filename+extensions+%28S%E2%80%93Z%29\"
+        title=\"You&#039;re encouraged to log in; however, it&#039;s not mandatory.
+        [o]\" accesskey=\"o\"><span class=\"vector-icon mw-ui-icon-logIn mw-ui-icon-wikimedia-logIn\"></span>
+        <span>Log in</span></a></li></ul>\n\t\t\n\t</div>\n</div>\n\n<div id=\"p-user-menu-anon-editor\"
+        class=\"vector-menu mw-portlet mw-portlet-user-menu-anon-editor\"  >\n\t<div
+        class=\"vector-menu-heading\">\n\t\tPages for logged out editors <a href=\"/wiki/Help:Introduction\"
+        aria-label=\"Learn more about editing\"><span>learn more</span></a>\n\t</div>\n\t<div
+        class=\"vector-menu-content\">\n\t\t\n\t\t<ul class=\"vector-menu-content-list\"><li
+        id=\"pt-anoncontribs\" class=\"mw-list-item\"><a href=\"/wiki/Special:MyContributions\"
+        title=\"A list of edits made from this IP address [y]\" accesskey=\"y\"><span>Contributions</span></a></li><li
+        id=\"pt-anontalk\" class=\"mw-list-item\"><a href=\"/wiki/Special:MyTalk\"
+        title=\"Discussion about edits from this IP address [n]\" accesskey=\"n\"><span>Talk</span></a></li></ul>\n\t\t\n\t</div>\n</div>\n\n\t\n\t</div>\n</div>\n</nav>\n\n\t\t</div>\n\t</header>\n</div>\n<div
+        class=\"mw-page-container\">\n\t<div class=\"mw-page-container-inner\">\n\t\t<div
+        class=\"vector-main-menu-container vector-sidebar-container-no-toc\">\n\t\t\t<div
+        id=\"mw-navigation\">\n\t\t\t\t<nav id=\"mw-panel\" class=\"vector-main-menu-landmark\"
+        aria-label=\"Site\" role=\"navigation\">\n\t\t\t\t\t<div id=\"vector-main-menu-pinned-container\"
+        class=\"vector-pinned-container\">\n\t\t\t\t\n\t\t\t\t\t</div>\n\t\t</nav>\n\t\t\t</div>\n\t\t</div>\n\t\t<div
+        class=\"vector-sitenotice-container\">\n\t\t\t<div id=\"siteNotice\"><!--
+        CentralNotice --></div>\n\t\t</div>\n\t\t<div class=\"mw-content-container\">\n\t\t\t<main
+        id=\"content\" class=\"mw-body\" role=\"main\">\n\t\t\t\t<header class=\"mw-body-header
+        vector-page-titlebar\">\n\t\t\t\t\t<h1 id=\"firstHeading\" class=\"firstHeading
+        mw-first-heading\"><span class=\"mw-page-title-main\">List of filename extensions
+        (S\u2013Z)</span></h1>\n\t\t\t\t\n\t\t\t\t\t\t\t\n<div id=\"p-lang-btn\" class=\"vector-dropdown
+        mw-portlet mw-portlet-lang\"  >\n\t<input type=\"checkbox\"\n\t\tid=\"p-lang-btn-checkbox\"\n\t\trole=\"button\"\n\t\taria-haspopup=\"true\"\n\t\tdata-event-name=\"ui.dropdown-p-lang-btn\"\n\t\tclass=\"vector-dropdown-checkbox
+        mw-interlanguage-selector\"\n\t\taria-label=\"This article exist only in this
+        language. Add the article for other languages\"\n\t\t\n\t\t\n\t/>\n\t<label\n\t\tid=\"p-lang-btn-label\"\n\t\tfor=\"p-lang-btn-checkbox\"\n\t\tclass=\"vector-dropdown-label
+        cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet
+        cdx-button--action-progressive mw-portlet-lang-heading-0\"\n\t\taria-hidden=\"true\"\n\t\t\n\t>\n\t\t<span
+        class=\"vector-icon mw-ui-icon-language-progressive mw-ui-icon-wikimedia-language-progressive\"></span>\n\n\n\t\t<span
+        class=\"vector-dropdown-label-text\">Add languages</span>\n\t</label>\n\t<div
+        class=\"vector-dropdown-content\">\n\n\t\t<div class=\"vector-menu-content\">\n\t\t\t\n\t\t\t<ul
+        class=\"vector-menu-content-list\"></ul>\n\t\t\t<div class=\"after-portlet
+        after-portlet-lang\"><span class=\"uls-after-portlet-link\"></span><span class=\"wb-langlinks-add
+        wb-langlinks-link\"><a href=\"https://www.wikidata.org/wiki/Special:EntityPage/Q4735218#sitelinks-wikipedia\"
+        title=\"Add interlanguage links\" class=\"wbc-editpage\">Add links</a></span></div>\n\t\t</div>\n\n\t</div>\n</div>\n\t\t\t\t</header>\n\t\t\t\t<div
+        class=\"vector-page-toolbar\">\n\t\t\t\t\t<div class=\"vector-page-toolbar-container\">\n\t\t\t\t\t\t<div
+        id=\"left-navigation\">\n\t\t\t\t\t\t\t<nav aria-label=\"Namespaces\">\n\t\t\t\t\t\t\t\t\n<div
+        id=\"p-associated-pages\" class=\"vector-menu vector-menu-tabs mw-portlet
+        mw-portlet-associated-pages\"  >\n\t<div class=\"vector-menu-content\">\n\t\t\n\t\t<ul
+        class=\"vector-menu-content-list\">\n\t\t\t<li id=\"ca-nstab-main\" class=\"selected
+        vector-tab-noicon mw-list-item\"><a data-mw=\"interface\" href=\"/wiki/List_of_filename_extensions_(S%E2%80%93Z)\"
+        title=\"View the content page [c]\" accesskey=\"c\" class=\"\"><span>Article</span></a>\n</li>\n<li
+        id=\"ca-talk\" class=\"vector-tab-noicon mw-list-item\"><a data-mw=\"interface\"
+        href=\"/wiki/Talk:List_of_filename_extensions_(S%E2%80%93Z)\" rel=\"discussion\"
+        title=\"Discuss improvements to the content page [t]\" accesskey=\"t\" class=\"\"><span>Talk</span></a>\n</li>\n\n\t\t</ul>\n\t\t\n\t</div>\n</div>\n\n\t\t\t\t\t\t\t\t\n\n<div
+        id=\"p-variants\" class=\"vector-dropdown mw-portlet mw-portlet-variants emptyPortlet\"
+        \ >\n\t<input type=\"checkbox\"\n\t\tid=\"p-variants-checkbox\"\n\t\trole=\"button\"\n\t\taria-haspopup=\"true\"\n\t\tdata-event-name=\"ui.dropdown-p-variants\"\n\t\tclass=\"vector-dropdown-checkbox\"\n\t\taria-label=\"Change
+        language variant\"\n\t\t\n\t\t\n\t/>\n\t<label\n\t\tid=\"p-variants-label\"\n\t\tfor=\"p-variants-checkbox\"\n\t\tclass=\"vector-dropdown-label
+        \"\n\t\taria-hidden=\"true\"\n\t\t\n\t>\n\t\t\n\t\t<span class=\"vector-dropdown-label-text\">English</span>\n\t</label>\n\t<div
+        class=\"vector-dropdown-content\">\n\n\t<div class=\"vector-menu-content\">\n\t\t\n\t\t<ul
+        class=\"vector-menu-content-list\"></ul>\n\t\t\n\t</div>\n\n\t</div>\n</div>\n\t\t\t\t\t\t\t</nav>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div
+        id=\"right-navigation\" class=\"vector-collapsible\">\n\t\t\t\t\t\t\t<nav
+        aria-label=\"Views\">\n\t\t\t\t\t\t\t\t\n<div id=\"p-views\" class=\"vector-menu
+        vector-menu-tabs mw-portlet mw-portlet-views\"  >\n\t<div class=\"vector-menu-content\">\n\t\t\n\t\t<ul
+        class=\"vector-menu-content-list\">\n\t\t\t<li id=\"ca-view\" class=\"selected
+        vector-tab-noicon mw-list-item\"><a data-mw=\"interface\" href=\"/wiki/List_of_filename_extensions_(S%E2%80%93Z)\"
+        class=\"\"><span>Read</span></a>\n</li>\n<li id=\"ca-edit\" class=\"vector-tab-noicon
+        mw-list-item\"><a data-mw=\"interface\" href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit\"
+        title=\"Edit this page [e]\" accesskey=\"e\" class=\"\"><span>Edit</span></a>\n</li>\n<li
+        id=\"ca-history\" class=\"vector-tab-noicon mw-list-item\"><a data-mw=\"interface\"
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=history\"
+        title=\"Past revisions of this page [h]\" accesskey=\"h\" class=\"\"><span>View
+        history</span></a>\n</li>\n\n\t\t</ul>\n\t\t\n\t</div>\n</div>\n\n\t\t\t\t\t\t\t</nav>\n\t\t\t\t\n\t\t\t\t\t\t\t<nav
+        class=\"vector-page-tools-landmark\" aria-label=\"More options\">\n\t\t\t\t\t\t\t\t\n<div
+        id=\"vector-page-tools-dropdown\" class=\"vector-dropdown vector-page-tools-dropdown\"
+        \ >\n\t<input type=\"checkbox\"\n\t\tid=\"vector-page-tools-dropdown-checkbox\"\n\t\trole=\"button\"\n\t\taria-haspopup=\"true\"\n\t\tdata-event-name=\"ui.dropdown-vector-page-tools-dropdown\"\n\t\tclass=\"vector-dropdown-checkbox
+        \"\n\t\t\n\t\taria-label=\"Tools\"\n\t\t\n\t/>\n\t<label\n\t\tid=\"vector-page-tools-dropdown-label\"\n\t\tfor=\"vector-page-tools-dropdown-checkbox\"\n\t\tclass=\"vector-dropdown-label
+        cdx-button cdx-button--fake-button cdx-button--fake-button--enabled cdx-button--weight-quiet\"\n\t\taria-hidden=\"true\"\n\t\t\n\t>\n\t\t\n\t\t<span
+        class=\"vector-dropdown-label-text\">Tools</span>\n\t</label>\n\t<div class=\"vector-dropdown-content\">\n\n\n\t\t\t\t\t\t\t\t\t<div
+        id=\"vector-page-tools-unpinned-container\" class=\"vector-unpinned-container\">\n\t\t\t\t\t\t\n<div
+        id=\"vector-page-tools\" class=\"vector-page-tools vector-pinnable-element\">\n\t<div\n\tclass=\"vector-pinnable-header
+        vector-page-tools-pinnable-header vector-pinnable-header-unpinned\"\n\tdata-feature-name=\"page-tools-pinned\"\n\tdata-pinnable-element-id=\"vector-page-tools\"\n\tdata-pinned-container-id=\"vector-page-tools-pinned-container\"\n\tdata-unpinned-container-id=\"vector-page-tools-unpinned-container\"\n>\n\t<div
+        class=\"vector-pinnable-header-label\">Tools</div>\n\t<button class=\"vector-pinnable-header-toggle-button
+        vector-pinnable-header-pin-button\" data-event-name=\"pinnable-header.vector-page-tools.pin\">move
+        to sidebar</button>\n\t<button class=\"vector-pinnable-header-toggle-button
+        vector-pinnable-header-unpin-button\" data-event-name=\"pinnable-header.vector-page-tools.unpin\">hide</button>\n</div>\n\n\t\n<div
+        id=\"p-cactions\" class=\"vector-menu mw-portlet mw-portlet-cactions emptyPortlet
+        vector-has-collapsible-items\"  title=\"More options\" >\n\t<div class=\"vector-menu-heading\">\n\t\tActions\n\t</div>\n\t<div
+        class=\"vector-menu-content\">\n\t\t\n\t\t<ul class=\"vector-menu-content-list\"><li
+        id=\"ca-more-view\" class=\"selected vector-more-collapsible-item mw-list-item\"><a
+        href=\"/wiki/List_of_filename_extensions_(S%E2%80%93Z)\"><span>Read</span></a></li><li
+        id=\"ca-more-edit\" class=\"vector-more-collapsible-item mw-list-item\"><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit\"><span>Edit</span></a></li><li
+        id=\"ca-more-history\" class=\"vector-more-collapsible-item mw-list-item\"><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=history\"><span>View
+        history</span></a></li></ul>\n\t\t\n\t</div>\n</div>\n\n<div id=\"p-tb\" class=\"vector-menu
+        mw-portlet mw-portlet-tb\"  >\n\t<div class=\"vector-menu-heading\">\n\t\tGeneral\n\t</div>\n\t<div
+        class=\"vector-menu-content\">\n\t\t\n\t\t<ul class=\"vector-menu-content-list\"><li
+        id=\"t-whatlinkshere\" class=\"mw-list-item\"><a href=\"/wiki/Special:WhatLinksHere/List_of_filename_extensions_(S%E2%80%93Z)\"
+        title=\"List of all English Wikipedia pages containing links to this page
+        [j]\" accesskey=\"j\"><span>What links here</span></a></li><li id=\"t-recentchangeslinked\"
+        class=\"mw-list-item\"><a href=\"/wiki/Special:RecentChangesLinked/List_of_filename_extensions_(S%E2%80%93Z)\"
+        rel=\"nofollow\" title=\"Recent changes in pages linked from this page [k]\"
+        accesskey=\"k\"><span>Related changes</span></a></li><li id=\"t-upload\" class=\"mw-list-item\"><a
+        href=\"/wiki/Wikipedia:File_Upload_Wizard\" title=\"Upload files [u]\" accesskey=\"u\"><span>Upload
+        file</span></a></li><li id=\"t-specialpages\" class=\"mw-list-item\"><a href=\"/wiki/Special:SpecialPages\"
+        title=\"A list of all special pages [q]\" accesskey=\"q\"><span>Special pages</span></a></li><li
+        id=\"t-permalink\" class=\"mw-list-item\"><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;oldid=1163956348\"
+        title=\"Permanent link to this revision of this page\"><span>Permanent link</span></a></li><li
+        id=\"t-info\" class=\"mw-list-item\"><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=info\"
+        title=\"More information about this page\"><span>Page information</span></a></li><li
+        id=\"t-cite\" class=\"mw-list-item\"><a href=\"/w/index.php?title=Special:CiteThisPage&amp;page=List_of_filename_extensions_%28S%E2%80%93Z%29&amp;id=1163956348&amp;wpFormIdentifier=titleform\"
+        title=\"Information on how to cite this page\"><span>Cite this page</span></a></li><li
+        id=\"t-wikibase\" class=\"mw-list-item\"><a href=\"https://www.wikidata.org/wiki/Special:EntityPage/Q4735218\"
+        title=\"Structured data on this page hosted by Wikidata [g]\" accesskey=\"g\"><span>Wikidata
+        item</span></a></li></ul>\n\t\t\n\t</div>\n</div>\n\n<div id=\"p-coll-print_export\"
+        class=\"vector-menu mw-portlet mw-portlet-coll-print_export\"  >\n\t<div class=\"vector-menu-heading\">\n\t\tPrint/export\n\t</div>\n\t<div
+        class=\"vector-menu-content\">\n\t\t\n\t\t<ul class=\"vector-menu-content-list\"><li
+        id=\"coll-download-as-rl\" class=\"mw-list-item\"><a href=\"/w/index.php?title=Special:DownloadAsPdf&amp;page=List_of_filename_extensions_%28S%E2%80%93Z%29&amp;action=show-download-screen\"
+        title=\"Download this page as a PDF file\"><span>Download as PDF</span></a></li><li
+        id=\"t-print\" class=\"mw-list-item\"><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;printable=yes\"
+        title=\"Printable version of this page [p]\" accesskey=\"p\"><span>Printable
+        version</span></a></li></ul>\n\t\t\n\t</div>\n</div>\n\n</div>\n\n\t\t\t\t\t\t\t\t\t</div>\n\t\t\t\t\n\t</div>\n</div>\n\t\t\t\t\t\t\t</nav>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t\t<div
+        class=\"vector-column-end\">\n\t\t\t\t\t<nav class=\"vector-page-tools-landmark
+        vector-sticky-pinned-container\" aria-label=\"More options\">\n\t\t\t\t\t\t<div
+        id=\"vector-page-tools-pinned-container\" class=\"vector-pinned-container\">\n\t\t\t\n\t\t\t\t\t\t</div>\n\t</nav>\n\t\t\t\t</div>\n\t\t\t\t<div
+        id=\"bodyContent\" class=\"vector-body\" aria-labelledby=\"firstHeading\"
+        data-mw-ve-target-container>\n\t\t\t\t\t<div class=\"vector-body-before-content\">\n\t\t\t\t\t\t\t<div
+        class=\"mw-indicators\">\n\t\t</div>\n\n\t\t\t\t\t\t<div id=\"siteSub\" class=\"noprint\">From
+        Wikipedia, the free encyclopedia</div>\n\t\t\t\t\t</div>\n\t\t\t\t\t<div id=\"contentSub\"><div
+        id=\"mw-content-subtitle\"></div></div>\n\t\t\t\t\t\n\t\t\t\t\t\n\t\t\t\t\t<div
+        id=\"mw-content-text\" class=\"mw-body-content mw-content-ltr\" lang=\"en\"
+        dir=\"ltr\"><div class=\"mw-parser-output\"><p class=\"mw-empty-elt\">\n</p>\n<style
+        data-mw-deduplicate=\"TemplateStyles:r1097763485\">.mw-parser-output .ambox{border:1px
+        solid #a2a9b1;border-left:10px solid #36c;background-color:#fbfbfb;box-sizing:border-box}.mw-parser-output
+        .ambox+link+.ambox,.mw-parser-output .ambox+link+style+.ambox,.mw-parser-output
+        .ambox+link+link+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+.ambox,.mw-parser-output
+        .ambox+.mw-empty-elt+link+style+.ambox,.mw-parser-output .ambox+.mw-empty-elt+link+link+.ambox{margin-top:-1px}html
+        body.mediawiki .mw-parser-output .ambox.mbox-small-left{margin:4px 1em 4px
+        0;overflow:hidden;width:238px;border-collapse:collapse;font-size:88%;line-height:1.25em}.mw-parser-output
+        .ambox-speedy{border-left:10px solid #b32424;background-color:#fee7e6}.mw-parser-output
+        .ambox-delete{border-left:10px solid #b32424}.mw-parser-output .ambox-content{border-left:10px
+        solid #f28500}.mw-parser-output .ambox-style{border-left:10px solid #fc3}.mw-parser-output
+        .ambox-move{border-left:10px solid #9932cc}.mw-parser-output .ambox-protection{border-left:10px
+        solid #a2a9b1}.mw-parser-output .ambox .mbox-text{border:none;padding:0.25em
+        0.5em;width:100%}.mw-parser-output .ambox .mbox-image{border:none;padding:2px
+        0 2px 0.5em;text-align:center}.mw-parser-output .ambox .mbox-imageright{border:none;padding:2px
+        0.5em 2px 0;text-align:center}.mw-parser-output .ambox .mbox-empty-cell{border:none;padding:0;width:1px}.mw-parser-output
+        .ambox .mbox-image-div{width:52px}html.client-js body.skin-minerva .mw-parser-output
+        .mbox-text-span{margin-left:23px!important}@media(min-width:720px){.mw-parser-output
+        .ambox{margin:0 10%}}</style><table class=\"box-More_citations_needed plainlinks
+        metadata ambox ambox-content ambox-Refimprove\" role=\"presentation\"><tbody><tr><td
+        class=\"mbox-image\"><div class=\"mbox-image-div\"><a href=\"/wiki/File:Question_book-new.svg\"
+        class=\"image\"><img alt=\"\" src=\"//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png\"
+        decoding=\"async\" width=\"50\" height=\"39\" srcset=\"//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png
+        1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png
+        2x\" data-file-width=\"512\" data-file-height=\"399\" /></a></div></td><td
+        class=\"mbox-text\"><div class=\"mbox-text-span\">This article <b>needs additional
+        citations for <a href=\"/wiki/Wikipedia:Verifiability\" title=\"Wikipedia:Verifiability\">verification</a></b>.<span
+        class=\"hide-when-compact\"> Please help <a class=\"external text\" href=\"https://en.wikipedia.org/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit\">improve
+        this article</a> by <a href=\"/wiki/Help:Referencing_for_beginners\" title=\"Help:Referencing
+        for beginners\">adding citations to reliable sources</a>. Unsourced material
+        may be challenged and removed.<br /><small><span class=\"plainlinks\"><i>Find
+        sources:</i>&#160;<a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?as_eq=wikipedia&amp;q=%22List+of+filename+extensions%22+S%E2%80%93Z\">\"List
+        of filename extensions\"&#160;S\u2013Z</a>&#160;\u2013&#160;<a rel=\"nofollow\"
+        class=\"external text\" href=\"https://www.google.com/search?tbm=nws&amp;q=%22List+of+filename+extensions%22+S%E2%80%93Z+-wikipedia&amp;tbs=ar:1\">news</a>&#160;<b>\xB7</b>
+        <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?&amp;q=%22List+of+filename+extensions%22+S%E2%80%93Z&amp;tbs=bkt:s&amp;tbm=bks\">newspapers</a>&#160;<b>\xB7</b>
+        <a rel=\"nofollow\" class=\"external text\" href=\"https://www.google.com/search?tbs=bks:1&amp;q=%22List+of+filename+extensions%22+S%E2%80%93Z+-wikipedia\">books</a>&#160;<b>\xB7</b>
+        <a rel=\"nofollow\" class=\"external text\" href=\"https://scholar.google.com/scholar?q=%22List+of+filename+extensions%22+S%E2%80%93Z\">scholar</a>&#160;<b>\xB7</b>
+        <a rel=\"nofollow\" class=\"external text\" href=\"https://www.jstor.org/action/doBasicSearch?Query=%22List+of+filename+extensions%22+S%E2%80%93Z&amp;acc=on&amp;wc=on\">JSTOR</a></span></small></span>
+        \ <span class=\"date-container\"><i>(<span class=\"date\">August 2016</span>)</i></span><span
+        class=\"hide-when-compact\"><i> (<small><a href=\"/wiki/Help:Maintenance_template_removal\"
+        title=\"Help:Maintenance template removal\">Learn how and when to remove this
+        template message</a></small>)</i></span></div></td></tr></tbody></table>\n<p>This
+        alphabetical <b>list of <a href=\"/wiki/Filename_extension\" title=\"Filename
+        extension\">filename extensions</a></b> contains extensions of notable file
+        formats used by multiple notable applications or services.\n</p>\n<div class=\"noprint\"><div
+        role=\"navigation\" id=\"toc\" class=\"toc plainlinks\" aria-labelledby=\"tocheading\"
+        style=\"text-align:left;\"><style data-mw-deduplicate=\"TemplateStyles:r1129693374\">.mw-parser-output
+        .hlist dl,.mw-parser-output .hlist ol,.mw-parser-output .hlist ul{margin:0;padding:0}.mw-parser-output
+        .hlist dd,.mw-parser-output .hlist dt,.mw-parser-output .hlist li{margin:0;display:inline}.mw-parser-output
+        .hlist.inline,.mw-parser-output .hlist.inline dl,.mw-parser-output .hlist.inline
+        ol,.mw-parser-output .hlist.inline ul,.mw-parser-output .hlist dl dl,.mw-parser-output
+        .hlist dl ol,.mw-parser-output .hlist dl ul,.mw-parser-output .hlist ol dl,.mw-parser-output
+        .hlist ol ol,.mw-parser-output .hlist ol ul,.mw-parser-output .hlist ul dl,.mw-parser-output
+        .hlist ul ol,.mw-parser-output .hlist ul ul{display:inline}.mw-parser-output
+        .hlist .mw-empty-li{display:none}.mw-parser-output .hlist dt::after{content:\":
+        \"}.mw-parser-output .hlist dd::after,.mw-parser-output .hlist li::after{content:\"
+        \xB7 \";font-weight:bold}.mw-parser-output .hlist dd:last-child::after,.mw-parser-output
+        .hlist dt:last-child::after,.mw-parser-output .hlist li:last-child::after{content:none}.mw-parser-output
+        .hlist dd dd:first-child::before,.mw-parser-output .hlist dd dt:first-child::before,.mw-parser-output
+        .hlist dd li:first-child::before,.mw-parser-output .hlist dt dd:first-child::before,.mw-parser-output
+        .hlist dt dt:first-child::before,.mw-parser-output .hlist dt li:first-child::before,.mw-parser-output
+        .hlist li dd:first-child::before,.mw-parser-output .hlist li dt:first-child::before,.mw-parser-output
+        .hlist li li:first-child::before{content:\" (\";font-weight:normal}.mw-parser-output
+        .hlist dd dd:last-child::after,.mw-parser-output .hlist dd dt:last-child::after,.mw-parser-output
+        .hlist dd li:last-child::after,.mw-parser-output .hlist dt dd:last-child::after,.mw-parser-output
+        .hlist dt dt:last-child::after,.mw-parser-output .hlist dt li:last-child::after,.mw-parser-output
+        .hlist li dd:last-child::after,.mw-parser-output .hlist li dt:last-child::after,.mw-parser-output
+        .hlist li li:last-child::after{content:\")\";font-weight:normal}.mw-parser-output
+        .hlist ol{counter-reset:listitem}.mw-parser-output .hlist ol>li{counter-increment:listitem}.mw-parser-output
+        .hlist ol>li::before{content:\" \"counter(listitem)\"\\a0 \"}.mw-parser-output
+        .hlist dd ol>li:first-child::before,.mw-parser-output .hlist dt ol>li:first-child::before,.mw-parser-output
+        .hlist li ol>li:first-child::before{content:\" (\"counter(listitem)\"\\a0
+        \"}</style><div class=\"hlist\">\n<div id=\"toctitle\" class=\"toctitle\"
+        style=\"text-align:center;\"><span id=\"tocheading\" style=\"font-weight:bold;\">Contents</span></div>\n<div
+        style=\"margin:auto;\">             \n<ul><li><a href=\"#!$@\">!$@</a></li>\n<li><a
+        href=\"#0\u20139\">0\u20139</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(A%E2%80%93E)#A\"
+        title=\"List of filename extensions (A\u2013E)\">A</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(A%E2%80%93E)#B\"
+        title=\"List of filename extensions (A\u2013E)\">B</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(A%E2%80%93E)#C\"
+        title=\"List of filename extensions (A\u2013E)\">C</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(A%E2%80%93E)#D\"
+        title=\"List of filename extensions (A\u2013E)\">D</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(A%E2%80%93E)#E\"
+        title=\"List of filename extensions (A\u2013E)\">E</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(F%E2%80%93L)#F\"
+        title=\"List of filename extensions (F\u2013L)\">F</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(F%E2%80%93L)#G\"
+        title=\"List of filename extensions (F\u2013L)\">G</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(F%E2%80%93L)#H\"
+        title=\"List of filename extensions (F\u2013L)\">H</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(F%E2%80%93L)#I\"
+        title=\"List of filename extensions (F\u2013L)\">I</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(F%E2%80%93L)#J\"
+        title=\"List of filename extensions (F\u2013L)\">J</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(F%E2%80%93L)#K\"
+        title=\"List of filename extensions (F\u2013L)\">K</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(F%E2%80%93L)#L\"
+        title=\"List of filename extensions (F\u2013L)\">L</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(M%E2%80%93R)#M\"
+        title=\"List of filename extensions (M\u2013R)\">M</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(M%E2%80%93R)#N\"
+        title=\"List of filename extensions (M\u2013R)\">N</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(M%E2%80%93R)#O\"
+        title=\"List of filename extensions (M\u2013R)\">O</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(M%E2%80%93R)#P\"
+        title=\"List of filename extensions (M\u2013R)\">P</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(M%E2%80%93R)#Q\"
+        title=\"List of filename extensions (M\u2013R)\">Q</a></li>\n<li><a href=\"/wiki/List_of_filename_extensions_(M%E2%80%93R)#R\"
+        title=\"List of filename extensions (M\u2013R)\">R</a></li>\n<li><a class=\"mw-selflink-fragment\"
+        href=\"#S\">S</a></li>\n<li><a class=\"mw-selflink-fragment\" href=\"#T\">T</a></li>\n<li><a
+        class=\"mw-selflink-fragment\" href=\"#U\">U</a></li>\n<li><a class=\"mw-selflink-fragment\"
+        href=\"#V\">V</a></li>\n<li><a class=\"mw-selflink-fragment\" href=\"#W\">W</a></li>\n<li><a
+        class=\"mw-selflink-fragment\" href=\"#X\">X</a></li>\n<li><a class=\"mw-selflink-fragment\"
+        href=\"#Y\">Y</a></li>\n<li><a class=\"mw-selflink-fragment\" href=\"#Z\">Z</a>
+        </li></ul>\n<p class=\"mw-empty-elt\">           \n</p>\n<ul><li><a href=\"#See_also\">See
+        also</a></li>\n<li><a href=\"#References\">References</a></li></ul>\n</div></div></div></div>\n<h2><span
+        id=\"A.E2.80.93E\"></span><span class=\"mw-headline\" id=\"A\u2013E\">A\u2013E</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=1\"
+        title=\"Edit section: A\u2013E\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<style
+        data-mw-deduplicate=\"TemplateStyles:r1033289096\">.mw-parser-output .hatnote{font-style:italic}.mw-parser-output
+        div.hatnote{padding-left:1.6em;margin-bottom:0.5em}.mw-parser-output .hatnote
+        i{font-style:normal}.mw-parser-output .hatnote+link+.hatnote{margin-top:-0.5em}</style><div
+        role=\"note\" class=\"hatnote navigation-not-searchable\">Main article: <a
+        href=\"/wiki/List_of_filename_extensions_(A%E2%80%93E)\" title=\"List of filename
+        extensions (A\u2013E)\">List of filename extensions (A\u2013E)</a></div>\n<h2><span
+        id=\"F.E2.80.93L\"></span><span class=\"mw-headline\" id=\"F\u2013L\">F\u2013L</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=2\"
+        title=\"Edit section: F\u2013L\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1033289096\"><div
+        role=\"note\" class=\"hatnote navigation-not-searchable\">Main article: <a
+        href=\"/wiki/List_of_filename_extensions_(F%E2%80%93L)\" title=\"List of filename
+        extensions (F\u2013L)\">List of filename extensions (F\u2013L)</a></div>\n<h2><span
+        id=\"M.E2.80.93R\"></span><span class=\"mw-headline\" id=\"M\u2013R\">M\u2013R</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=3\"
+        title=\"Edit section: M\u2013R\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1033289096\"><div
+        role=\"note\" class=\"hatnote navigation-not-searchable\">Main article: <a
+        href=\"/wiki/List_of_filename_extensions_(M%E2%80%93R)\" title=\"List of filename
+        extensions (M\u2013R)\">List of filename extensions (M\u2013R)</a></div>\n<h2><span
+        class=\"mw-headline\" id=\"S\">S</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=4\"
+        title=\"Edit section: S\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table
+        class=\"wikitable\">\n\n<tbody><tr>\n<th>Ext.</th>\n<th>Description</th>\n<th>Used
+        by\n</th></tr>\n<tr>\n<td><style data-mw-deduplicate=\"TemplateStyles:r1023754711\">.mw-parser-output
+        .vanchor>:target~.vanchor-text{background-color:#b1d2ff}</style><span class=\"vanchor\"><span
+        id=\".S\"></span><span class=\"vanchor-text\">S</span></span>\n</td>\n<td>assembler
+        source code file\n</td>\n<td>Unix\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"S7I\"></span><span class=\"vanchor-text\">S7I</span></span>\n</td>\n<td>Seed7
+        library / include file\n</td>\n<td><a href=\"/wiki/Seed7\" title=\"Seed7\">Seed7</a>
+        interpreter and compiler\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SAIF\"></span><span class=\"vanchor-text\">SAIF</span></span><sup id=\"cite_ref-1\"
+        class=\"reference\"><a href=\"#cite_note-1\">&#91;1&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Spatial_Archive_and_Interchange_Format\" title=\"Spatial Archive
+        and Interchange Format\">Spatial Archive and Interchange Format</a>\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SASS\"></span><span class=\"vanchor-text\">SASS</span></span><sup
+        id=\"cite_ref-SASS_2-0\" class=\"reference\"><a href=\"#cite_note-SASS-2\">&#91;2&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Sass_(stylesheet_language)\" class=\"mw-redirect\" title=\"Sass
+        (stylesheet language)\">Sass</a> stylesheet language, indented-format\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SAT\"></span><span class=\"vanchor-text\">SAT</span></span>\n</td>\n<td><a
+        href=\"/wiki/ACIS\" title=\"ACIS\">ACIS</a> ACIS <a href=\"/wiki/.sat\" class=\"mw-redirect\"
+        title=\".sat\">.sat</a>\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SAV\"></span><span class=\"vanchor-text\">SAV</span></span>\n</td>\n<td>SPSS
+        tabular data (binary)\n</td>\n<td><a href=\"/wiki/PSPP\" title=\"PSPP\">PSPP</a>,
+        <a href=\"/wiki/SPSS\" title=\"SPSS\">SPSS</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SB\"></span><span class=\"vanchor-text\">SB</span></span>\n</td>\n<td>Scratch
+        project\n</td>\n<td><a href=\"/wiki/Scratch_(programming_language)\" title=\"Scratch
+        (programming language)\">Scratch</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SB2\"></span><span class=\"vanchor-text\">SB2</span></span>\n</td>\n<td>Scratch
+        2.0 project\n</td>\n<td><a href=\"/wiki/Scratch_(programming_language)\" title=\"Scratch
+        (programming language)\">Scratch</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SB3\"></span><span class=\"vanchor-text\">SB3</span></span>\n</td>\n<td>Scratch
+        3.0 project\n</td>\n<td><a href=\"/wiki/Scratch_(programming_language)\" title=\"Scratch
+        (programming language)\">Scratch</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SBH\"></span><span class=\"vanchor-text\">SBH</span></span>\n</td>\n<td>Header\n</td>\n<td><a
+        href=\"/wiki/ScriptBasic\" title=\"ScriptBasic\">ScriptBasic</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SBV\"></span><span class=\"vanchor-text\">SBV</span></span>\n</td>\n<td>Superbase
+        <a href=\"/wiki/Relational_database#RDBMS\" title=\"Relational database\">RDBMS</a>
+        form definition data\n</td>\n<td><a href=\"/wiki/Superbase_(database)\" title=\"Superbase
+        (database)\">Superbase (database)</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SBX\"></span><span class=\"vanchor-text\">SBX</span></span>\n</td>\n<td>For
+        experimental extensions to <a href=\"/wiki/Scratch_(programming_language)\"
+        title=\"Scratch (programming language)\">Scratch</a>\n</td>\n<td>Used by scratchX
+        (scratchx.org)\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SCALA\"></span><span class=\"vanchor-text\">SCALA</span></span>\n</td>\n<td>Scala
+        source code file\n</td>\n<td><a href=\"/wiki/Scala_(programming_language)\"
+        title=\"Scala (programming language)\">Scala (programming language)</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SCM\"></span><span class=\"vanchor-text\">SCM</span></span>\n</td>\n<td>Scheme
+        source code file\n</td>\n<td>\n</td></tr>\n<tr>\n<td>SCR\n</td>\n<td><b>Sc</b>reen
+        P<b>r</b>otector file\n</td>\n<td><a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft
+        Windows\">Windows Screen Protector</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SCSS\"></span><span class=\"vanchor-text\">SCSS</span></span><sup id=\"cite_ref-SASS_2-1\"
+        class=\"reference\"><a href=\"#cite_note-SASS-2\">&#91;2&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Sass_(stylesheet_language)\" class=\"mw-redirect\" title=\"Sass
+        (stylesheet language)\">Sass</a> stylesheet language\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SDF\"></span><span class=\"vanchor-text\">SDF</span></span><sup
+        id=\"cite_ref-3\" class=\"reference\"><a href=\"#cite_note-3\">&#91;3&#93;</a></sup>\n</td>\n<td>SQL
+        Server Compact database file\n</td>\n<td>Microsoft <a href=\"/wiki/SQL_Server_Compact\"
+        title=\"SQL Server Compact\">SQL Server Compact</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SD7\"></span><span class=\"vanchor-text\">SD7</span></span>\n</td>\n<td>Seed7
+        source file\n</td>\n<td><a href=\"/wiki/Seed7\" title=\"Seed7\">Seed7</a>
+        interpreter and compiler\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SDS\"></span><span class=\"vanchor-text\">SDS</span></span>\n</td>\n<td>Self
+        Defining Structure provides for N-dimensional very large datasets using <a
+        href=\"/wiki/HHCode\" title=\"HHCode\">HHCode</a>\n</td>\n<td><a href=\"/wiki/Geographic_information_system\"
+        title=\"Geographic information system\">geographic information systems</a>
+        and relational database management systems\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SDTS\"></span><span class=\"vanchor-text\">SDTS</span></span>\n</td>\n<td><a
+        href=\"/wiki/Spatial_Data_Transfer_Standard\" title=\"Spatial Data Transfer
+        Standard\">Spatial Data Transfer Standard</a>\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SEC\"></span><span class=\"vanchor-text\">SEC</span></span>\n</td>\n<td>Secret
+        key ring file\n</td>\n<td><a href=\"/wiki/Pretty_Good_Privacy\" title=\"Pretty
+        Good Privacy\">Pretty Good Privacy</a> RSA System\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SED\"></span><span class=\"vanchor-text\">SED</span></span>\n</td>\n<td>Self
+        extraction directive file\n</td>\n<td><a href=\"/wiki/IExpress\" title=\"IExpress\">IExpress</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SEQ\"></span><span class=\"vanchor-text\">SEQ</span></span>\n</td>\n<td>Video\n</td>\n<td><a
+        href=\"/wiki/Tiertex\" class=\"mw-redirect\" title=\"Tiertex\">Tiertex</a>
+        video sequence\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SF\"></span><span class=\"vanchor-text\">SF</span></span>\n</td>\n<td><a
+        href=\"/wiki/JAR_(file_format)\" title=\"JAR (file format)\">JAR</a> Digital
+        Signature\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SFB\"></span><span class=\"vanchor-text\">SFB</span></span>\n</td>\n<td>Configuration
+        file\n</td>\n<td><a href=\"/wiki/Emacs\" title=\"Emacs\">emacs</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SFX\"></span><span class=\"vanchor-text\">SFX</span></span>\n</td>\n<td>SFX
+        (self-extracting archives) script\n</td>\n<td>RAR\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SH\"></span><span class=\"vanchor-text\">SH</span></span>\n</td>\n<td><a
+        href=\"/wiki/Unix_shell_scripting\" class=\"mw-redirect\" title=\"Unix shell
+        scripting\">Unix shell script</a>\n</td>\n<td><a href=\"/wiki/Unix_shell\"
+        title=\"Unix shell\">Unix shell interpreter</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SHAR\"></span><span class=\"vanchor-text\">SHAR</span></span>\n</td>\n<td><a
+        href=\"/wiki/Shar\" title=\"Shar\">Shell self-extracting archive</a>\n</td>\n<td>UNSHAR
+        (Unix)\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SHTM\"></span><span class=\"vanchor-text\">SHTM</span></span>\n</td>\n<td>SSI-enabled
+        HTM file\n</td>\n<td><a href=\"/wiki/Server_Side_Includes\" title=\"Server
+        Side Includes\">Server Side Includes</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SHTML\"></span><span class=\"vanchor-text\">SHTML</span></span>\n</td>\n<td>SSI-enabled
+        HTML file\n</td>\n<td><a href=\"/wiki/Server_Side_Includes\" title=\"Server
+        Side Includes\">Server Side Includes</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SHX\"></span><span class=\"vanchor-text\">SHX</span></span>\n</td>\n<td>Shape
+        entities\n<p><a href=\"/wiki/Shapefile\" title=\"Shapefile\">ESRI shapefile</a>\n</p>\n</td>\n<td><a
+        href=\"/wiki/AutoCAD\" title=\"AutoCAD\">AutoCAD</a>\n<p><a href=\"/wiki/ArcGIS_Desktop\"
+        class=\"mw-redirect\" title=\"ArcGIS Desktop\">ArcGIS</a>\n</p>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SIG\"></span><span class=\"vanchor-text\">SIG</span></span>\n</td>\n<td><a
+        href=\"/wiki/File_signature\" title=\"File signature\">Signature file</a>\n</td>\n<td><a
+        href=\"/wiki/GNU_Privacy_Guard\" title=\"GNU Privacy Guard\">gpg</a>, PopMail,
+        ThunderByte AntiVirus\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SL\"></span><span class=\"vanchor-text\">SL</span></span>\n</td>\n<td>S-Lang
+        source code file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SM\"></span><span class=\"vanchor-text\">SM</span></span>\n</td>\n<td>SMALLTALK
+        source code file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SMCLVL\"></span><span class=\"vanchor-text\">SMCLVL</span></span>\n</td>\n<td><a
+        href=\"/wiki/Secret_Maryo_Chronicles\" title=\"Secret Maryo Chronicles\">Secret
+        Maryo Chronicles</a> Level\n</td>\n<td><a href=\"/wiki/Secret_Maryo_Chronicles\"
+        title=\"Secret Maryo Chronicles\">Secret Maryo Chronicles</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SMK\"></span><span class=\"vanchor-text\">SMK</span></span>\n</td>\n<td><a
+        href=\"/wiki/Smacker_video\" title=\"Smacker video\">Smacker video</a> Format
+        (RAD Video)\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SNO\"></span><span class=\"vanchor-text\">SNO</span></span>\n</td>\n<td>SNOBOL4
+        source code file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SO\"></span><span class=\"vanchor-text\">SO</span></span>\n</td>\n<td>shared
+        object, dynamically linked library\n</td>\n<td><a href=\"/wiki/Unix\" title=\"Unix\">Unix</a>,
+        <a href=\"/wiki/Linux\" title=\"Linux\">Linux</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SPF\"></span><span class=\"vanchor-text\">SPF</span></span>\n</td>\n<td>data\n</td>\n<td><a
+        href=\"/wiki/SQR\" title=\"SQR\">SQR</a> Portable Format\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SPIFF\"></span><span class=\"vanchor-text\">SPIFF</span></span><sup
+        id=\"cite_ref-4\" class=\"reference\"><a href=\"#cite_note-4\">&#91;4&#93;</a></sup>\n</td>\n<td>Still
+        Picture Interchange File Format\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;Spin_(programming_language)&#124;SPIN&#93;&#93;\"></span><span
+        class=\"vanchor-text\"><a href=\"/wiki/Spin_(programming_language)\" class=\"mw-redirect\"
+        title=\"Spin (programming language)\">SPIN</a></span></span>\n</td>\n<td>Spin
+        source file\n</td>\n<td><a href=\"/wiki/Parallax_Propeller\" title=\"Parallax
+        Propeller\">Parallax Propeller Microcontrollers</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SPS\"></span><span class=\"vanchor-text\">SPS</span></span>\n</td>\n<td>SPSS
+        program file (text)\n</td>\n<td><a href=\"/wiki/PSPP\" title=\"PSPP\">PSPP</a>,
+        <a href=\"/wiki/SPSS\" title=\"SPSS\">SPSS</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SPT\"></span><span class=\"vanchor-text\">SPT</span></span>\n</td>\n<td>SPITBOL
+        source code file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SPV\"></span><span class=\"vanchor-text\">SPV</span></span>\n</td>\n<td>SPIR-V
+        binary file\n</td>\n<td>Vulkan, Khronos Group\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SPX\"></span><span class=\"vanchor-text\">SPX</span></span><sup
+        id=\"cite_ref-ogg-mime_5-0\" class=\"reference\"><a href=\"#cite_note-ogg-mime-5\">&#91;5&#93;</a></sup><sup
+        id=\"cite_ref-iana_6-0\" class=\"reference\"><a href=\"#cite_note-iana-6\">&#91;6&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Ogg\" title=\"Ogg\">Ogg</a> Speex bitstream\n</td>\n<td><a href=\"/wiki/Xiph.Org_Foundation\"
+        title=\"Xiph.Org Foundation\">Xiph.Org Foundation</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SPZ\"></span><span class=\"vanchor-text\">SPZ</span></span>\n</td>\n<td>Crestron
+        SIMPL Windows compiled program (ZIP format)\n</td>\n<td>Crestron SIMPL Windows\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SQL\"></span><span class=\"vanchor-text\">SQL</span></span>\n</td>\n<td><a
+        href=\"/wiki/SQL\" title=\"SQL\">Structured Query Language</a>\n</td>\n<td><a
+        href=\"/wiki/List_of_relational_database_management_systems\" title=\"List
+        of relational database management systems\">Any SQL database</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SSC\"></span><span class=\"vanchor-text\">SSC</span></span>\n</td>\n<td>Celestia
+        Solar System Catalog file\n</td>\n<td><a href=\"/wiki/Celestia\" title=\"Celestia\">Celestia</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SSC\"></span><span class=\"vanchor-text\">SSC</span></span>\n</td>\n<td>Stellarium
+        Script\n</td>\n<td><a href=\"/wiki/Stellarium_(software)\" title=\"Stellarium
+        (software)\">Stellarium</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"ST\"></span><span class=\"vanchor-text\">ST</span></span>\n</td>\n<td>SMALLTALK
+        source code file\n</td>\n<td>Little Smalltalk\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"STC\"></span><span class=\"vanchor-text\">STC</span></span>\n</td>\n<td>Celestia
+        Star Catalog file\n</td>\n<td><a href=\"/wiki/Celestia\" title=\"Celestia\">Celestia</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"STC\"></span><span class=\"vanchor-text\">STC</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> spreadsheet template\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Calc\"
+        class=\"mw-redirect\" title=\"OpenOffice.org Calc\">OpenOffice.org Calc</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"STD\"></span><span class=\"vanchor-text\">STD</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> drawing template\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Draw\"
+        class=\"mw-redirect\" title=\"OpenOffice.org Draw\">OpenOffice.org Draw</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"STI\"></span><span class=\"vanchor-text\">STI</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> presentation template\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Impress\"
+        class=\"mw-redirect\" title=\"OpenOffice.org Impress\">OpenOffice.org Impress</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"STK\"></span><span class=\"vanchor-text\">STK</span></span><sup
+        id=\"cite_ref-jalview-fileformats_7-0\" class=\"reference\"><a href=\"#cite_note-jalview-fileformats-7\">&#91;7&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Stockholm_format\" title=\"Stockholm format\">Stockholm multiple
+        sequence alignment</a>\n</td>\n<td>Bioinformatics tools eg HMMER, Xrate, Jalview\n</td></tr>\n<tr>\n<td><a
+        href=\"/wiki/STL_(file_format)\" title=\"STL (file format)\">STL</a>\n</td>\n<td>surface
+        geometry of a three-dimensional object\n</td>\n<td>software by 3D Systems\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"STM\"></span><span class=\"vanchor-text\">STM</span></span>\n</td>\n<td>SSI-enabled
+        HTML file\n</td>\n<td><a href=\"/wiki/Server_Side_Includes\" title=\"Server
+        Side Includes\">Server Side Includes</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"STO\"></span><span class=\"vanchor-text\">STO</span></span><sup id=\"cite_ref-jalview-fileformats_7-1\"
+        class=\"reference\"><a href=\"#cite_note-jalview-fileformats-7\">&#91;7&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Stockholm_format\" title=\"Stockholm format\">Stockholm multiple
+        sequence alignment</a>\n</td>\n<td>Bioinformatics tools eg HMMER, Xrate, Jalview\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"STP\"></span><span class=\"vanchor-text\">STP</span></span>\n</td>\n<td><a
+        href=\"/wiki/ISO_10303\" title=\"ISO 10303\">Standard for the Exchange of
+        Product Data</a>\n</td>\n<td>universal format for CAD exchange per ISO 10303\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"STW\"></span><span class=\"vanchor-text\">STW</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> text document template\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Writer\"
+        class=\"mw-redirect\" title=\"OpenOffice.org Writer\">OpenOffice.org Writer</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SUR\"></span><span class=\"vanchor-text\">SUR</span></span>\n</td>\n<td>Surface
+        topography (in native \"SURF\" format)\n</td>\n<td><a href=\"/wiki/MountainsMap\"
+        title=\"MountainsMap\">MountainsMap</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SVC\"></span><span class=\"vanchor-text\">SVC</span></span>\n</td>\n<td>Represents
+        the ServiceHost instance hosted by <a href=\"/wiki/Internet_Information_Services\"
+        title=\"Internet Information Services\">Internet Information Services</a>\n</td>\n<td><a
+        href=\"/wiki/Windows_Communication_Foundation\" title=\"Windows Communication
+        Foundation\">Windows Communication Foundation</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SVG\"></span><span class=\"vanchor-text\">SVG</span></span>\n</td>\n<td><a
+        href=\"/wiki/Scalable_Vector_Graphics\" class=\"mw-redirect\" title=\"Scalable
+        Vector Graphics\">Scalable Vector Graphics</a>\n</td>\n<td>many\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;SWF&#93;&#93;\"></span><span class=\"vanchor-text\"><a
+        href=\"/wiki/SWF\" title=\"SWF\">SWF</a></span></span><sup id=\"cite_ref-swfspec10_8-0\"
+        class=\"reference\"><a href=\"#cite_note-swfspec10-8\">&#91;8&#93;</a></sup>\n</td>\n<td>Shockwave
+        Flash\n</td>\n<td>Macromedia, Adobe Flash Player\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SWG\"></span><span class=\"vanchor-text\">SWG</span></span>\n</td>\n<td>SWIG
+        source code\n</td>\n<td><a href=\"/wiki/SWIG\" title=\"SWIG\">SWIG</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SWIFT\"></span><span class=\"vanchor-text\">SWIFT</span></span>\n</td>\n<td>Swift
+        source code\n</td>\n<td><a href=\"/wiki/Swift_(programming_language)\" title=\"Swift
+        (programming language)\">Swift (programming language)</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SWM\"></span><span class=\"vanchor-text\">SWM</span></span>\n</td>\n<td>split
+        <a href=\"/wiki/Windows_Imaging_Format\" title=\"Windows Imaging Format\">Windows
+        Imaging Format</a>\n</td>\n<td><a href=\"/wiki/ImageX\" class=\"mw-redirect\"
+        title=\"ImageX\">ImageX</a>, <a href=\"/wiki/Windows_Assessment_and_Deployment_Kit\"
+        title=\"Windows Assessment and Deployment Kit\">DISM</a>, <a href=\"/wiki/7-Zip\"
+        title=\"7-Zip\">7-Zip</a>, <a href=\"/wiki/Windows_Imaging_Format\" title=\"Windows
+        Imaging Format\">wimlib</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SXC\"></span><span class=\"vanchor-text\">SXC</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> spreadsheet\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Calc\" class=\"mw-redirect\"
+        title=\"OpenOffice.org Calc\">OpenOffice.org Calc</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SXD\"></span><span class=\"vanchor-text\">SXD</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> drawing\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Draw\" class=\"mw-redirect\"
+        title=\"OpenOffice.org Draw\">OpenOffice.org Draw</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SXG\"></span><span class=\"vanchor-text\">SXG</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> master document\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SXI\"></span><span class=\"vanchor-text\">SXI</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> presentation\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Impress\"
+        class=\"mw-redirect\" title=\"OpenOffice.org Impress\">OpenOffice.org Impress</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SXM\"></span><span class=\"vanchor-text\">SXM</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> formula\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Calc\" class=\"mw-redirect\"
+        title=\"OpenOffice.org Calc\">OpenOffice.org Calc</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"SXP\"></span><span class=\"vanchor-text\">SXP</span></span>\n</td>\n<td>3DS
+        Process file\n</td>\n<td>3D Studio\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"SXW\"></span><span class=\"vanchor-text\">SXW</span></span>\n</td>\n<td><a
+        href=\"/wiki/OpenOffice.org_XML\" title=\"OpenOffice.org XML\">OpenOffice.org
+        XML</a> text document\n</td>\n<td><a href=\"/wiki/OpenOffice.org_Writer\"
+        class=\"mw-redirect\" title=\"OpenOffice.org Writer\">OpenOffice.org Writer</a>\n</td></tr>\n<tr>\n<td>SYLK\n</td>\n<td><a
+        href=\"/wiki/Symbolic_Link_(SYLK)\" title=\"Symbolic Link (SYLK)\">Symbolic
+        Link (SYLK)</a> file\n</td>\n<td><a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft
+        Windows\">Windows</a>\n</td></tr>\n<tr>\n<td>SYMBOLICLINK\n</td>\n<td>Replace
+        file for a symbolic link\n</td>\n<td><a href=\"/wiki/Unix\" title=\"Unix\">Unix-like
+        OSs</a>\n</td></tr></tbody></table>\n<h2><span class=\"mw-headline\" id=\"T\">T</span><span
+        class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=5\"
+        title=\"Edit section: T\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table
+        class=\"wikitable\">\n\n<tbody><tr>\n<th>Ext.</th>\n<th>Description</th>\n<th>Used
+        by\n</th></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TAK\"></span><span class=\"vanchor-text\">TAK</span></span>\n</td>\n<td>Audio
+        codec, Lossless audio file format\n</td>\n<td><a href=\"/wiki/Winamp\" title=\"Winamp\">Winamp</a>
+        (+Plugin), foobar2000 (+Plugin), Media Player Classic \u2013 BE\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TAR\"></span><span class=\"vanchor-text\">TAR</span></span>\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> archive\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> and other
+        <a href=\"/wiki/Comparison_of_file_archivers\" title=\"Comparison of file
+        archivers\">file archivers</a> with support\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"TAZ\"></span><span class=\"vanchor-text\">TAZ</span></span><sup id=\"cite_ref-gnu.org_9-0\"
+        class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> archive compressed
+        with <a href=\"/wiki/Compress\" class=\"mw-redirect\" title=\"Compress\">compress</a>\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> and other
+        <a href=\"/wiki/Comparison_of_file_archivers\" title=\"Comparison of file
+        archivers\">file archivers</a> with support\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"TB2\"></span><span class=\"vanchor-text\">TB2</span></span><sup id=\"cite_ref-gnu.org_9-1\"
+        class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td>\n<td
+        rowspan=\"3\"><a href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a>
+        archive compressed with <a href=\"/wiki/Bzip2\" title=\"Bzip2\">Bzip2</a>\n</td>\n<td
+        rowspan=\"3\"><a href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a>
+        and other <a href=\"/wiki/Comparison_of_file_archivers\" title=\"Comparison
+        of file archivers\">file archivers</a> with support\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TBZ\"></span><span class=\"vanchor-text\">TBZ</span></span><sup
+        id=\"cite_ref-gnu.org_9-2\" class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TBZ2\"></span><span class=\"vanchor-text\">TBZ2</span></span><sup
+        id=\"cite_ref-gnu.org_9-3\" class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TC\"></span><span class=\"vanchor-text\">TC</span></span>\n</td>\n<td>Theme
+        Colour file\n</td>\n<td>Saturn CMS\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"&#91;&#91;Truevision_TGA&#124;TGA&#93;&#93;\"></span><span class=\"vanchor-text\"><a
+        href=\"/wiki/Truevision_TGA\" title=\"Truevision TGA\">TGA</a></span></span>\n</td>\n<td>Truevision
+        Advanced Raster Graphics Adapter image\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TGT\"></span><span class=\"vanchor-text\">TGT</span></span>\n</td>\n<td>Target
+        configuration file\n</td>\n<td>Target active security software\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TGZ\"></span><span class=\"vanchor-text\">TGZ</span></span><sup
+        id=\"cite_ref-gnu.org_9-4\" class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> archive compressed
+        with <a href=\"/wiki/Gzip\" title=\"Gzip\">gzip</a>\n</td>\n<td><a href=\"/wiki/Tar_(computing)\"
+        title=\"Tar (computing)\">tar</a> and other <a href=\"/wiki/Comparison_of_file_archivers\"
+        title=\"Comparison of file archivers\">file archivers</a> with support\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"THM\"></span><span class=\"vanchor-text\">THM</span></span>\n</td>\n<td>Thumbnail
+        File\n</td>\n<td><a href=\"/wiki/GoPro\" title=\"GoPro\">GoPro</a>, <a href=\"/wiki/Android_(operating_system)\"
+        title=\"Android (operating system)\">Android</a>, some versions of <a href=\"/wiki/IOS\"
+        title=\"IOS\">iOS</a> (Accessible via computer or <a href=\"/wiki/IOS_jailbreaking\"
+        title=\"IOS jailbreaking\">Jailbreak</a>, on User/Media/PhotoData/Metadata/DCIM)\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TIF\"></span><span class=\"vanchor-text\">TIF</span></span>\n</td>\n<td>See
+        TIFF\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"&#91;&#91;TIFF&#93;&#93;\"></span><span class=\"vanchor-text\"><a href=\"/wiki/TIFF\"
+        title=\"TIFF\">TIFF</a></span></span>\n</td>\n<td>Tag Image File Format image\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TLB\"></span><span class=\"vanchor-text\">TLB</span></span><sup
+        id=\"cite_ref-10\" class=\"reference\"><a href=\"#cite_note-10\">&#91;10&#93;</a></sup>\n</td>\n<td>Type
+        library\n</td>\n<td>A binary file with information about a <a href=\"/wiki/Component_Object_Model\"
+        title=\"Component Object Model\">COM</a> or <a href=\"/wiki/Distributed_Component_Object_Model\"
+        title=\"Distributed Component Object Model\">DCOM</a> object so other applications
+        can use it at runtime. Created by <a href=\"/wiki/Visual_C%2B%2B\" class=\"mw-redirect\"
+        title=\"Visual C++\">Visual C++</a> or <a href=\"/wiki/Visual_Studio\" title=\"Visual
+        Studio\">Visual Studio</a>. Used by many <a href=\"/wiki/Microsoft_Windows\"
+        title=\"Microsoft Windows\">Windows</a> applications.\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TLZ\"></span><span class=\"vanchor-text\">TLZ</span></span><sup
+        id=\"cite_ref-gnu.org_9-5\" class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> archive compressed
+        with <a href=\"/wiki/LZMA\" class=\"mw-redirect\" title=\"LZMA\">LZMA</a>\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> and other
+        <a href=\"/wiki/Comparison_of_file_archivers\" title=\"Comparison of file
+        archivers\">file archivers</a> with support\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"TMP\"></span><span class=\"vanchor-text\">TMP</span></span><sup id=\"cite_ref-11\"
+        class=\"reference\"><a href=\"#cite_note-11\">&#91;11&#93;</a></sup>\n</td>\n<td>Temporary
+        file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"TORRENT\"></span><span class=\"vanchor-text\">TORRENT</span></span><sup
+        id=\"cite_ref-bep0003_12-0\" class=\"reference\"><a href=\"#cite_note-bep0003-12\">&#91;12&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Torrent_file\" title=\"Torrent file\">Torrent file</a>\n</td>\n<td><a
+        href=\"/wiki/BitTorrent_(protocol)\" class=\"mw-redirect\" title=\"BitTorrent
+        (protocol)\">BitTorrent</a> clients (various)\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TS\"></span><span class=\"vanchor-text\">TS</span></span>\n</td>\n<td><a
+        href=\"/wiki/MPEG_transport_stream\" title=\"MPEG transport stream\">MPEG
+        transport stream</a>\n</td>\n<td>Video broadcasting, digital video cameras\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TS\"></span><span class=\"vanchor-text\">TS</span></span><sup
+        id=\"cite_ref-typescript_13-0\" class=\"reference\"><a href=\"#cite_note-typescript-13\">&#91;13&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/TypeScript\" title=\"TypeScript\">TypeScript</a>\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TSV\"></span><span class=\"vanchor-text\">TSV</span></span><sup
+        id=\"cite_ref-IANA_14-0\" class=\"reference\"><a href=\"#cite_note-IANA-14\">&#91;14&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Tab-separated_values\" title=\"Tab-separated values\">Tab-separated
+        values</a>\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"TTC\"></span><span class=\"vanchor-text\">TTC</span></span>\n</td>\n<td><a
+        href=\"/wiki/TrueType_Font\" class=\"mw-redirect\" title=\"TrueType Font\">TrueType
+        Font</a> collection\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"TTF\"></span><span class=\"vanchor-text\">TTF</span></span>\n</td>\n<td><a
+        href=\"/wiki/TrueType_Font\" class=\"mw-redirect\" title=\"TrueType Font\">TrueType
+        Font</a> file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"TXZ\"></span><span class=\"vanchor-text\">TXZ</span></span><sup id=\"cite_ref-gnu.org_9-6\"
+        class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> archive compressed
+        with <a href=\"/wiki/XZ_Utils\" title=\"XZ Utils\">xz</a>\n</td>\n<td rowspan=\"3\"><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> and other
+        <a href=\"/wiki/Comparison_of_file_archivers\" title=\"Comparison of file
+        archivers\">file archivers</a> with support\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"TZ2\"></span><span class=\"vanchor-text\">TZ2</span></span><sup id=\"cite_ref-gnu.org_9-7\"
+        class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td>\n<td>Same
+        as <a class=\"mw-selflink-fragment\" href=\"#TBZ\">TBZ</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"TZST\"></span><span class=\"vanchor-text\">TZST</span></span><sup
+        id=\"cite_ref-gnu.org_9-8\" class=\"reference\"><a href=\"#cite_note-gnu.org-9\">&#91;9&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Tar_(computing)\" title=\"Tar (computing)\">tar</a> archive compressed
+        with <a href=\"/wiki/Zstandard\" class=\"mw-redirect\" title=\"Zstandard\">Zstandard</a>\n</td></tr></tbody></table>\n<h2><span
+        class=\"mw-headline\" id=\"U\">U</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=6\"
+        title=\"Edit section: U\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table
+        class=\"wikitable\">\n\n<tbody><tr>\n<th>Ext.</th>\n<th>Description</th>\n<th>Used
+        by\n</th></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"UI\"></span><span class=\"vanchor-text\">UI</span></span>\n</td>\n<td>Espire
+        source code file\n</td>\n<td><a href=\"/wiki/Geoworks\" class=\"mw-redirect\"
+        title=\"Geoworks\">Geoworks</a> UI Compiler Geos\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"UI\"></span><span class=\"vanchor-text\">UI</span></span>\n</td>\n<td>Qt
+        Designer's UI File\n</td>\n<td><a href=\"/wiki/Trolltech\" class=\"mw-redirect\"
+        title=\"Trolltech\">Trolltech</a> Qt Designer\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"UMP\"></span><span class=\"vanchor-text\">UMP</span></span>\n</td>\n<td>Umple
+        UML Programming Language Format\n</td>\n<td><a href=\"/wiki/Umple\" title=\"Umple\">Umple</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"UNV\"></span><span class=\"vanchor-text\">UNV</span></span>\n</td>\n<td>Text
+        file containing finite elements nodal coordinates and more <a rel=\"nofollow\"
+        class=\"external text\" href=\"https://web.archive.org/web/20130317022422/http://www.sdrl.uc.edu/universal-file-formats-for-modal-analysis-testing-1\">See
+        notes</a>\n</td>\n<td>Originally used by SDRC for its I-deas software; a lot
+        of simulation software use it today\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"UOS\"></span><span class=\"vanchor-text\">UOS</span></span>\n</td>\n<td><a
+        href=\"/wiki/Uniform_Office_Format\" title=\"Uniform Office Format\">Uniform
+        Office Format</a> spreadsheet\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"UOT\"></span><span class=\"vanchor-text\">UOT</span></span>\n</td>\n<td><a
+        href=\"/wiki/Uniform_Office_Format\" title=\"Uniform Office Format\">Uniform
+        Office Format</a> text\n</td>\n<td>\n</td></tr>\n<tr>\n<td>UPS\n</td>\n<td><a
+        href=\"/wiki/ROM_cartridge\" title=\"ROM cartridge\">ROM</a> patch file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;Shortcut_(computing)#Microsoft_Windows&#124;URL&#93;&#93;\"></span><span
+        class=\"vanchor-text\"><a href=\"/wiki/Shortcut_(computing)#Microsoft_Windows\"
+        title=\"Shortcut (computing)\">URL</a></span></span>\n</td>\n<td>Remote file
+        shortcut\n</td>\n<td><a href=\"/wiki/Microsoft_Windows\" title=\"Microsoft
+        Windows\">Microsoft Windows</a>\n</td></tr>\n<tr>\n<td>USDZ\n</td>\n<td><a
+        href=\"/wiki/Augmented_reality\" title=\"Augmented reality\">Augmented Reality</a>
+        (AR) File\n</td>\n<td><a href=\"/wiki/Apple_Inc.\" title=\"Apple Inc.\">Apple</a>,
+        <a href=\"/wiki/Pixar\" title=\"Pixar\">Pixar</a>\n</td></tr>\n<tr>\n<td>UST\n</td>\n<td>Vocal
+        synthesis track data\n</td>\n<td><a href=\"/wiki/Utau\" title=\"Utau\">UTAU</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"UT!\"></span><span class=\"vanchor-text\">UT!</span></span>\n</td>\n<td>datafile\n</td>\n<td><a
+        href=\"/wiki/UTorrent\" class=\"mw-redirect\" title=\"UTorrent\">uTorrent</a>\n</td></tr>\n<tr>\n<td>UXF\n</td>\n<td>UML
+        Exchange Format\n</td>\n<td>\n</td></tr></tbody></table>\n<h2><span class=\"mw-headline\"
+        id=\"V\">V</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=7\"
+        title=\"Edit section: V\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table
+        class=\"wikitable\">\n\n<tbody><tr>\n<th>Ext.</th>\n<th>Description</th>\n<th>Used
+        by\n</th></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"V\"></span><span class=\"vanchor-text\">V</span></span>\n</td>\n<td><a
+        href=\"/wiki/Coq\" title=\"Coq\">Coq</a> source file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"V\"></span><span class=\"vanchor-text\">V</span></span>\n</td>\n<td><a
+        href=\"/wiki/Verilog\" title=\"Verilog\">Verilog</a> source file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"V4P\"></span><span class=\"vanchor-text\">V4P</span></span>\n</td>\n<td><a
+        href=\"/wiki/Vvvv\" title=\"Vvvv\">vvvv</a> patch\n</td>\n<td><a href=\"/wiki/Vvvv\"
+        title=\"Vvvv\">vvvv</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VB\"></span><span class=\"vanchor-text\">VB</span></span>\n</td>\n<td>Visual
+        Basic .Net source file\n</td>\n<td><a href=\"/wiki/Visual_Basic_.NET\" class=\"mw-redirect\"
+        title=\"Visual Basic .NET\">Visual Basic .NET</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VBOX\"></span><span class=\"vanchor-text\">VBOX</span></span><sup
+        id=\"cite_ref-15\" class=\"reference\"><a href=\"#cite_note-15\">&#91;15&#93;</a></sup>\n</td>\n<td>virtual
+        machine settings file (in <a href=\"/wiki/XML\" title=\"XML\">XML</a> format)\n</td>\n<td><a
+        href=\"/wiki/VirtualBox\" title=\"VirtualBox\">VirtualBox</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VBOX-EXTPACK\"></span><span class=\"vanchor-text\">VBOX-EXTPACK</span></span><sup
+        id=\"cite_ref-16\" class=\"reference\"><a href=\"#cite_note-16\">&#91;16&#93;</a></sup>\n</td>\n<td>VirtualBox
+        extension package\n</td>\n<td><a href=\"/wiki/VirtualBox\" title=\"VirtualBox\">VirtualBox</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VBPROJ\"></span><span class=\"vanchor-text\">VBPROJ</span></span>\n</td>\n<td>Visual
+        Basic .Net project file\n</td>\n<td>Visual Basic .Net Express and Visual Studio
+        2003-2010 Project\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VBR\"></span><span class=\"vanchor-text\">VBR</span></span>\n</td>\n<td>Visual
+        Basic Custom Control file\n</td>\n<td><a href=\"/wiki/Visual_Basic\" title=\"Visual
+        Basic\">Visual Basic</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VBS\"></span><span class=\"vanchor-text\">VBS</span></span>\n</td>\n<td>VBScript
+        script file\n</td>\n<td><a href=\"/wiki/VBScript\" title=\"VBScript\">VBScript</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VBX\"></span><span class=\"vanchor-text\">VBX</span></span>\n</td>\n<td>Visual
+        Basic eXtension\n</td>\n<td><a href=\"/wiki/Visual_Basic\" title=\"Visual
+        Basic\">Visual Basic</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VC6\"></span><span class=\"vanchor-text\">VC6</span></span>\n</td>\n<td>Graphite
+        \u2013 2D and 3D drafting\n</td>\n<td><a href=\"/wiki/Ashlar-Vellum\" title=\"Ashlar-Vellum\">Ashlar-Vellum</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VCLS\"></span><span class=\"vanchor-text\">VCLS</span></span>\n</td>\n<td>VocaListener
+        voice scanner file\n</td>\n<td>VocaListener Plug-in (<a href=\"/wiki/Vocaloid\"
+        title=\"Vocaloid\">Vocaloid3</a>)\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VDA\"></span><span class=\"vanchor-text\">VDA</span></span>\n</td>\n<td><a
+        href=\"/wiki/Truevision_TGA\" title=\"Truevision TGA\">Targa</a> bitmap graphics\n</td>\n<td>many
+        <a href=\"/wiki/Comparison_of_raster_graphics_editors\" title=\"Comparison
+        of raster graphics editors\">raster graphics editors</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VDI\"></span><span class=\"vanchor-text\">VDI</span></span>\n</td>\n<td>Virtual
+        Disk Image\n</td>\n<td><a href=\"/wiki/VirtualBox\" title=\"VirtualBox\">VirtualBox</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VDW\"></span><span class=\"vanchor-text\">VDW</span></span>\n</td>\n<td>Visio
+        web drawing\n</td>\n<td><a href=\"/wiki/Microsoft_Visio\" title=\"Microsoft
+        Visio\">Microsoft Visio</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VDX\"></span><span class=\"vanchor-text\">VDX</span></span>\n</td>\n<td>Visio
+        XML drawing\n</td>\n<td>Microsoft Visio\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VFD\"></span><span class=\"vanchor-text\">VFD</span></span>\n</td>\n<td><a
+        href=\"/wiki/Virtual_Floppy_Disk_(file_type)\" class=\"mw-redirect\" title=\"Virtual
+        Floppy Disk (file type)\">Virtual Floppy Disk</a>\n</td>\n<td><a href=\"/wiki/Windows_Virtual_PC\"
+        class=\"mw-redirect\" title=\"Windows Virtual PC\">Windows Virtual PC</a>
+        (among others)\n</td></tr>\n<tr>\n<td>VI\n</td>\n<td>Virtual Instrument\n</td>\n<td><a
+        href=\"/wiki/LabVIEW\" title=\"LabVIEW\">LabVIEW</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VMCZ\"></span><span class=\"vanchor-text\">VMCZ</span></span>\n</td>\n<td>Hyper-V
+        Exported Virtual Machine\n</td>\n<td><a href=\"/wiki/Microsoft\" title=\"Microsoft\">Microsoft</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;VMDK&#93;&#93;\"></span><span class=\"vanchor-text\"><a
+        href=\"/wiki/VMDK\" title=\"VMDK\">VMDK</a></span></span><sup id=\"cite_ref-vmdk-disk-format_17-0\"
+        class=\"reference\"><a href=\"#cite_note-vmdk-disk-format-17\">&#91;17&#93;</a></sup>\n</td>\n<td>Virtual
+        Disk file\n</td>\n<td><a href=\"/wiki/VMware\" title=\"VMware\">VMware</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VMG\"></span><span class=\"vanchor-text\">VMG</span></span>\n</td>\n<td>Nokia
+        message file format\n</td>\n<td>Text Message Editor (<a href=\"/wiki/Nokia_PC_Suite\"
+        title=\"Nokia PC Suite\">Nokia PC Suite</a>)\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;VOB&#93;&#93;\"></span><span class=\"vanchor-text\"><a
+        href=\"/wiki/VOB\" title=\"VOB\">VOB</a></span></span><sup id=\"cite_ref-dvd-book_18-0\"
+        class=\"reference\"><a href=\"#cite_note-dvd-book-18\">&#91;18&#93;</a></sup><sup
+        id=\"cite_ref-dvd-books_19-0\" class=\"reference\"><a href=\"#cite_note-dvd-books-19\">&#91;19&#93;</a></sup>\n</td>\n<td>Video
+        Object\n</td>\n<td><a href=\"/wiki/DVD-R\" class=\"mw-redirect\" title=\"DVD-R\">DVD-R</a>,
+        <a href=\"/wiki/DVD-RW\" class=\"mw-redirect\" title=\"DVD-RW\">DVD-RW</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VMX\"></span><span class=\"vanchor-text\">VMX</span></span>\n</td>\n<td>virtual
+        machine configuration file\n</td>\n<td><a href=\"/wiki/VMware\" title=\"VMware\">VMware</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VPK\"></span><span class=\"vanchor-text\">VPK</span></span>\n</td>\n<td><a
+        href=\"/wiki/Valve_Corporation\" title=\"Valve Corporation\">Valve</a> package\n</td>\n<td><a
+        href=\"/wiki/Source_(game_engine)\" title=\"Source (game engine)\">Source
+        engine</a> games\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VPM\"></span><span class=\"vanchor-text\">VPM</span></span>\n</td>\n<td><a
+        href=\"/wiki/Garmin\" title=\"Garmin\">Garmin</a> <a href=\"/wiki/Voice_command_device#Speech_recognition_in_cars\"
+        class=\"mw-redirect\" title=\"Voice command device\">Voice</a> Processing
+        Module\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VPP\"></span><span class=\"vanchor-text\">VPP</span></span>\n</td>\n<td>Visual
+        Paradigm Project\n</td>\n<td><a href=\"/wiki/Visual_Paradigm_for_UML\" class=\"mw-redirect\"
+        title=\"Visual Paradigm for UML\">Visual Paradigm for UML</a>\n</td></tr>\n<tr>\n<td>VPR\n</td>\n<td>Vocal
+        synthesizer track data\n</td>\n<td><a href=\"/wiki/Vocaloid_5\" title=\"Vocaloid
+        5\">Vocaloid 5</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VQM\"></span><span class=\"vanchor-text\">VQM</span></span>\n</td>\n<td><a
+        href=\"/wiki/Hardware_description_language\" title=\"Hardware description
+        language\">Hardware description language</a>\n</td>\n<td><a href=\"/wiki/Altera\"
+        title=\"Altera\">Altera</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VRB\"></span><span class=\"vanchor-text\">VRB</span></span>\n</td>\n<td>LateX
+        Beamer file containing verbatim commands\n</td>\n<td><a href=\"/wiki/Beamer_(LaTeX)\"
+        title=\"Beamer (LaTeX)\">LaTeX Beamer</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VRB\"></span><span class=\"vanchor-text\">VRB</span></span>\n</td>\n<td>Veeam
+        reversed incremental backup archive\n</td>\n<td><a href=\"/wiki/Veeam\" title=\"Veeam\">Veeam
+        software</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VS\"></span><span class=\"vanchor-text\">VS</span></span>\n</td>\n<td>Vellum
+        Solids\n</td>\n<td><a href=\"/wiki/Ashlar-Vellum\" title=\"Ashlar-Vellum\">Ashlar-Vellum</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VSD\"></span><span class=\"vanchor-text\">VSD</span></span>\n</td>\n<td>Visio
+        drawing\n</td>\n<td>Microsoft Visio\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VSDX\"></span><span class=\"vanchor-text\">VSDX</span></span><sup id=\"cite_ref-20\"
+        class=\"reference\"><a href=\"#cite_note-20\">&#91;20&#93;</a></sup>\n</td>\n<td>Visio
+        drawing\n</td>\n<td>Microsoft Visio\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VSM\"></span><span class=\"vanchor-text\">VSM</span></span>\n</td>\n<td>Visual
+        Simulation Model\n</td>\n<td><a href=\"/wiki/VisSim\" title=\"VisSim\">VisSim</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VSQ\"></span><span class=\"vanchor-text\">VSQ</span></span>\n</td>\n<td>Vocal
+        synthesizer track data\n</td>\n<td><a href=\"/wiki/Vocaloid_2\" title=\"Vocaloid
+        2\">Vocaloid 2</a>\n</td></tr>\n<tr>\n<td>VSQx\n</td>\n<td>Vocal synthesizer
+        track data\n</td>\n<td><a href=\"/wiki/Vocaloid_3\" title=\"Vocaloid 3\">Vocaloid
+        3</a>, <a href=\"/wiki/Vocaloid_4\" title=\"Vocaloid 4\">Vocaloid 4</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VST\"></span><span class=\"vanchor-text\">VST</span></span>\n</td>\n<td><a
+        href=\"/wiki/Truevision_TGA\" title=\"Truevision TGA\">Truevision</a> Vista
+        graphics\n</td>\n<td>many <a href=\"/wiki/Comparison_of_raster_graphics_editors\"
+        title=\"Comparison of raster graphics editors\">raster graphics editors</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VSTO\"></span><span class=\"vanchor-text\">VSTO</span></span>\n</td>\n<td>Microsoft
+        Office add-in file\n</td>\n<td><a href=\"/wiki/Microsoft_Visual_Studio\" class=\"mw-redirect\"
+        title=\"Microsoft Visual Studio\">Microsoft Visual Studio</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VSVNBAK\"></span><span class=\"vanchor-text\">VSVNBAK</span></span>\n</td>\n<td>VisualSVN
+        Server repository backup\n</td>\n<td><a href=\"/wiki/VisualSVN_Server\" title=\"VisualSVN
+        Server\">VisualSVN Server</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"VTF\"></span><span class=\"vanchor-text\">VTF</span></span>\n</td>\n<td>Valve
+        Texture Format file<sup id=\"cite_ref-21\" class=\"reference\"><a href=\"#cite_note-21\">&#91;21&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Valve_Corporation\" title=\"Valve Corporation\">Valve Corporation</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"VUE\"></span><span class=\"vanchor-text\">VUE</span></span>\n</td>\n<td>Visual
+        Understanding Environment map\n</td>\n<td><a href=\"/wiki/Visual_Understanding_Environment\"
+        title=\"Visual Understanding Environment\">Visual Understanding Environment</a>\n</td></tr>\n<tr>\n<td>VVVVVV\n</td>\n<td>VVVVVV
+        map file\n</td>\n<td><a href=\"/wiki/VVVVVV\" title=\"VVVVVV\">VVVVVV</a>\n</td></tr>\n</tbody></table>\n<h2><span
+        class=\"mw-headline\" id=\"W\">W</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=8\"
+        title=\"Edit section: W\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table
+        class=\"wikitable\">\n\n<tbody><tr>\n<th>Ext.</th>\n<th>Description</th>\n<th>Used
+        by\n</th></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;WAV&#93;&#93;\"></span><span class=\"vanchor-text\"><a
+        href=\"/wiki/WAV\" title=\"WAV\">WAV</a></span></span>\n</td>\n<td>Sound format
+        (Microsoft Windows RIFF WAVE)\n</td>\n<td>Media Player\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;WEBM&#93;&#93;\"></span><span class=\"vanchor-text\"><a
+        href=\"/wiki/WEBM\" class=\"mw-redirect\" title=\"WEBM\">WEBM</a></span></span>\n</td>\n<td><a
+        href=\"/wiki/Royalty-free\" title=\"Royalty-free\">Royalty-free</a> video/audio
+        container\n</td>\n<td><a href=\"/wiki/HTML5\" title=\"HTML5\">HTML5</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"WITNESS_CAMPAIGN\"></span><span class=\"vanchor-text\">WITNESS_CAMPAIGN</span></span>\n</td>\n<td>Game
+        save file for <a href=\"/wiki/The_Witness_(2016_video_game)\" title=\"The
+        Witness (2016 video game)\">The Witness</a>\n</td>\n<td><a href=\"/wiki/The_Witness_(2016_video_game)\"
+        title=\"The Witness (2016 video game)\">The Witness</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"WK1\"></span><span class=\"vanchor-text\">WK1</span></span>\n</td>\n<td>Spreadsheet\n</td>\n<td><a
+        href=\"/wiki/Lotus_1-2-3\" title=\"Lotus 1-2-3\">Lotus 1-2-3</a> version 2.x
+        \u2013 <a href=\"/wiki/Lotus_Symphony_for_DOS\" class=\"mw-redirect\" title=\"Lotus
+        Symphony for DOS\">Lotus Symphony</a> 1.1+\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"WK3\"></span><span class=\"vanchor-text\">WK3</span></span>\n</td>\n<td>Spreadsheet\n</td>\n<td>Lotus
+        1-2-3 version 3.x\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"WKS\"></span><span class=\"vanchor-text\">WKS</span></span>\n</td>\n<td>Spreadsheet\n</td>\n<td>Lotus
+        1-2-3 version 1A \u2013 Lotus Symphony 1.0, <a href=\"/wiki/Microsoft_Works\"
+        title=\"Microsoft Works\">Microsoft Works</a>\n</td></tr>\n<tr>\n<td>WLMP\n</td>\n<td>Windows
+        Live Moviemaker Project, contains paths from where the images/audios/videos
+        of the project are located\n</td>\n<td><a href=\"/wiki/Windows_Live_Movie_Maker\"
+        class=\"mw-redirect\" title=\"Windows Live Movie Maker\">Windows Live Movie
+        Maker</a><sup id=\"cite_ref-22\" class=\"reference\"><a href=\"#cite_note-22\">&#91;22&#93;</a></sup>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"WMA\"></span><span class=\"vanchor-text\">WMA</span></span>\n</td>\n<td>Windows
+        Media Audio file <a href=\"/wiki/Advanced_Systems_Format\" title=\"Advanced
+        Systems Format\">Advanced Systems Format</a>\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"WMDB\"></span><span class=\"vanchor-text\">WMDB</span></span>\n</td>\n<td>Windows
+        Media Player database\n</td>\n<td><a href=\"/wiki/Windows_Media_Player\" title=\"Windows
+        Media Player\">Windows Media Player</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"&#91;&#91;Windows_Metafile&#124;WMF&#93;&#93;\"></span><span class=\"vanchor-text\"><a
+        href=\"/wiki/Windows_Metafile\" title=\"Windows Metafile\">WMF</a></span></span>\n</td>\n<td>Windows
+        MetaFile vector graphics\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"WMV\"></span><span class=\"vanchor-text\">WMV</span></span>\n</td>\n<td>Windows
+        Media Video file <a href=\"/wiki/Advanced_Systems_Format\" title=\"Advanced
+        Systems Format\">Advanced Systems Format</a>\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"WOS\"></span><span class=\"vanchor-text\">WOS</span></span>\n</td>\n<td>WoS
+        bibliographic reference file\n</td>\n<td>ISI/Clarivate Analytics\n</td></tr>\n</tbody></table>\n<h2><span
+        class=\"mw-headline\" id=\"X\">X</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=9\"
+        title=\"Edit section: X\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table
+        class=\"wikitable\">\n\n<tbody><tr>\n<th>Ext.</th>\n<th>Description</th>\n<th>Used
+        by\n</th></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"X\"></span><span class=\"vanchor-text\">X</span></span>\n</td>\n<td>LEX
+        source code file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"X\"></span><span class=\"vanchor-text\">X</span></span>\n</td>\n<td>XBasic
+        Source code file\n</td>\n<td><a href=\"/wiki/Xbasic\" class=\"mw-redirect\"
+        title=\"Xbasic\">Xbasic</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"X3D\"></span><span class=\"vanchor-text\">X3D</span></span>\n</td>\n<td>x3d
+        and xdart Formats\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XAR\"></span><span class=\"vanchor-text\">XAR</span></span>\n</td>\n<td><a
+        href=\"/wiki/Xara\" title=\"Xara\">Xara</a> graphics file\n</td>\n<td>Files
+        created by <a href=\"/wiki/Xara_Photo_%26_Graphic_Designer\" class=\"mw-redirect\"
+        title=\"Xara Photo &amp; Graphic Designer\">Xara Photo &amp; Graphic Designer</a>
+        (formerly Xara Xtreme and Xara Studio); early versions used the extension
+        ART\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XAR\"></span><span class=\"vanchor-text\">XAR</span></span>\n</td>\n<td><a
+        href=\"/wiki/Xar_(archiver)\" title=\"Xar (archiver)\">eXtensible ARchive</a>\n</td>\n<td><a
+        href=\"/wiki/Xar_(archiver)\" title=\"Xar (archiver)\">xar</a>, <a href=\"/wiki/7-Zip\"
+        title=\"7-Zip\">7-Zip</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XBRL\"></span><span class=\"vanchor-text\">XBRL</span></span>\n</td>\n<td>eXtensible
+        Business Reporting Language instance file\n</td>\n<td><a href=\"/wiki/XBRL\"
+        title=\"XBRL\">eXtensible Business Reporting Language</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;XCF_(file_format)&#124;XCF&#93;&#93;\"></span><span
+        class=\"vanchor-text\"><a href=\"/wiki/XCF_(file_format)\" title=\"XCF (file
+        format)\">XCF</a></span></span>\n</td>\n<td><a href=\"/wiki/GIMP\" title=\"GIMP\">Gimp</a>
+        image file\n</td>\n<td><a href=\"/wiki/GIMP\" title=\"GIMP\">GNU Image Manipulation
+        Program</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XDM\"></span><span class=\"vanchor-text\">XDM</span></span>\n</td>\n<td>Directory
+        Manipulator for 32-bit Protected Mode\n</td>\n<td>Xenotech Research Labs\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XE\"></span><span class=\"vanchor-text\">XE</span></span>\n</td>\n<td>Xenon
+        \u2013 for Associative 3D Modeling\n</td>\n<td><a href=\"/wiki/Ashlar-Vellum\"
+        title=\"Ashlar-Vellum\">Ashlar-Vellum</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XEX\"></span><span class=\"vanchor-text\">XEX</span></span>\n</td>\n<td><a
+        href=\"/wiki/Xbox_360\" title=\"Xbox 360\">Xbox 360</a> Executable File\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XLS\"></span><span class=\"vanchor-text\">XLS</span></span><sup
+        id=\"cite_ref-23\" class=\"reference\"><a href=\"#cite_note-23\">&#91;23&#93;</a></sup>\n</td>\n<td>Microsoft
+        Excel Spreadsheet\n</td>\n<td><a href=\"/wiki/Microsoft_Excel\" title=\"Microsoft
+        Excel\">Microsoft Excel</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XLSB\"></span><span class=\"vanchor-text\">XLSB</span></span>\n</td>\n<td>Microsoft
+        Excel 2007 Binary Workbook (BIFF12)(Spreadsheets)\n</td>\n<td>Microsoft Excel
+        2007 (see <a href=\"/wiki/Microsoft_Office_2007_file_extensions\" class=\"mw-redirect\"
+        title=\"Microsoft Office 2007 file extensions\">Microsoft Office 2007 file
+        extensions</a>)\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XLSM\"></span><span class=\"vanchor-text\">XLSM</span></span>\n</td>\n<td>Microsoft
+        Excel 2007 Macro-Enabled Workbook (Spreadsheets)\n</td>\n<td>Microsoft Excel
+        2007 (see <a href=\"/wiki/Microsoft_Office_2007_file_extensions\" class=\"mw-redirect\"
+        title=\"Microsoft Office 2007 file extensions\">Microsoft Office 2007 file
+        extensions</a>)\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XLSX\"></span><span class=\"vanchor-text\">XLSX</span></span><sup id=\"cite_ref-24\"
+        class=\"reference\"><a href=\"#cite_note-24\">&#91;24&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Office_Open_XML\" title=\"Office Open XML\">Office Open XML</a>
+        Workbook (Spreadsheets)\n</td>\n<td>Microsoft Excel 2007 (see <a href=\"/wiki/Microsoft_Office_2007_file_extensions\"
+        class=\"mw-redirect\" title=\"Microsoft Office 2007 file extensions\">Microsoft
+        Office 2007 file extensions</a>)\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XM\"></span><span class=\"vanchor-text\">XM</span></span>\n</td>\n<td><a
+        href=\"/wiki/FastTracker_2\" title=\"FastTracker 2\">FastTracker 2</a> extended
+        module\n</td>\n<td>AWAVE, Mod4Win, FastTracker, ImpulseTracker\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"&#91;&#91;XML&#93;&#93;\"></span><span class=\"vanchor-text\"><a
+        href=\"/wiki/XML\" title=\"XML\">XML</a></span></span>\n</td>\n<td>eXtensible
+        Markup Language file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"&#91;&#91;XMF&#93;&#93;\"></span><span class=\"vanchor-text\"><a href=\"/wiki/XMF\"
+        title=\"XMF\">XMF</a></span></span>\n</td>\n<td>eXtensible Music Format\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XP\"></span><span class=\"vanchor-text\">XP</span></span>\n</td>\n<td>eXtended
+        Pattern\n</td>\n<td><a href=\"/wiki/FastTracker_2\" title=\"FastTracker 2\">FastTracker
+        2</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XPL\"></span><span class=\"vanchor-text\">XPL</span></span>\n</td>\n<td><a
+        href=\"/wiki/X-Plane_(simulator)\" title=\"X-Plane (simulator)\">X-Plane</a>
+        system file\n</td>\n<td>Laminar research\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XPS\"></span><span class=\"vanchor-text\">XPS</span></span>\n</td>\n<td><a
+        href=\"/wiki/Open_XML_Paper_Specification\" title=\"Open XML Paper Specification\">Open
+        XML Paper Specification</a> / OpenXPS\n</td>\n<td>open standard document format
+        initially created by Microsoft and similar in concept to Adobe PDF files\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XSD\"></span><span class=\"vanchor-text\">XSD</span></span><sup
+        id=\"cite_ref-25\" class=\"reference\"><a href=\"#cite_note-25\">&#91;25&#93;</a></sup><sup
+        id=\"cite_ref-26\" class=\"reference\"><a href=\"#cite_note-26\">&#91;26&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/XML_Schema_(W3C)\" title=\"XML Schema (W3C)\">XML schema</a>
+        description\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XSF\"></span><span class=\"vanchor-text\">XSF</span></span>\n</td>\n<td>data\n</td>\n<td>Microsoft
+        <a href=\"/wiki/InfoPath\" class=\"mw-redirect\" title=\"InfoPath\">InfoPath</a>
+        file\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XSL\"></span><span class=\"vanchor-text\">XSL</span></span><sup
+        id=\"cite_ref-XSL_27-0\" class=\"reference\"><a href=\"#cite_note-XSL-27\">&#91;27&#93;</a></sup>\n</td>\n<td>XSL
+        Stylesheet\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XSLT\"></span><span class=\"vanchor-text\">XSLT</span></span><sup id=\"cite_ref-XSL_27-1\"
+        class=\"reference\"><a href=\"#cite_note-XSL-27\">&#91;27&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/XSLT\" title=\"XSLT\">XSLT</a> file\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XSN\"></span><span class=\"vanchor-text\">XSN</span></span>\n</td>\n<td>Microsoft
+        InfoPath template\n</td>\n<td>Microsoft <a href=\"/wiki/InfoPath\" class=\"mw-redirect\"
+        title=\"InfoPath\">InfoPath</a>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"&#91;&#91;XSPF&#93;&#93;\"></span><span class=\"vanchor-text\"><a href=\"/wiki/XSPF\"
+        class=\"mw-redirect\" title=\"XSPF\">XSPF</a></span></span>\n</td>\n<td>XML
+        Sharable Playlist Format\n</td>\n<td>\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"XX\"></span><span class=\"vanchor-text\">XX</span></span>\n</td>\n<td>XX-encoded
+        file (ASCII)\n</td>\n<td><a href=\"/wiki/Xxencoding\" title=\"Xxencoding\">XXDECODE</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XXE\"></span><span class=\"vanchor-text\">XXE</span></span>\n</td>\n<td>XX-encoded
+        file (ASCII)\n</td>\n<td><a href=\"/wiki/Xxencoding\" title=\"Xxencoding\">XXDECODE</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XXX\"></span><span class=\"vanchor-text\">XXX</span></span>\n</td>\n<td>Singer
+        Embroidery Format\n</td>\n<td><a href=\"/wiki/Embroidermodder\" title=\"Embroidermodder\">Embroidermodder</a>\n</td></tr>\n\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XYZ\"></span><span class=\"vanchor-text\">XYZ</span></span>\n</td>\n<td>Molecular
+        coordinates\n</td>\n<td>XMol, <a href=\"/wiki/RasMol\" title=\"RasMol\">RasMol</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"XZ\"></span><span class=\"vanchor-text\">XZ</span></span>\n</td>\n<td>a
+        <a href=\"/wiki/Lossless_data_compression\" class=\"mw-redirect\" title=\"Lossless
+        data compression\">lossless data compression</a> file format incorporating
+        the <a href=\"/wiki/Lempel%E2%80%93Ziv%E2%80%93Markov_chain_algorithm\" title=\"Lempel\u2013Ziv\u2013Markov
+        chain algorithm\">LZMA/LZMA2</a> compression <a href=\"/wiki/Algorithm\" title=\"Algorithm\">algorithms</a>.\n</td>\n<td><a
+        href=\"/wiki/XZ_Utils\" title=\"XZ Utils\">xz</a>\n</td></tr></tbody></table>\n<h2><span
+        class=\"mw-headline\" id=\"Y\">Y</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=10\"
+        title=\"Edit section: Y\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table
+        class=\"wikitable\">\n\n<tbody><tr>\n<th>Ext.</th>\n<th>Description</th>\n<th>Used
+        by\n</th></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"Y\"></span><span class=\"vanchor-text\">Y</span></span>\n</td>\n<td>YACC
+        grammar file\n</td>\n<td><a href=\"/wiki/Yacc\" title=\"Yacc\">Yacc</a>/<a
+        href=\"/wiki/GNU_bison\" class=\"mw-redirect\" title=\"GNU bison\">Bison</a>\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"YML\"></span><span class=\"vanchor-text\">YML</span></span><sup
+        id=\"cite_ref-28\" class=\"reference\"><a href=\"#cite_note-28\">&#91;28&#93;</a></sup>\n</td>\n<td>YML
+        markup file\n</td>\n<td>domain specific language output to XML\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"YAML\"></span><span class=\"vanchor-text\">YAML</span></span><sup
+        id=\"cite_ref-YAML_Version_1.2_29-0\" class=\"reference\"><a href=\"#cite_note-YAML_Version_1.2-29\">&#91;29&#93;</a></sup>\n</td>\n<td>YAML
+        source file\n</td>\n<td><a href=\"/wiki/YAML\" title=\"YAML\">YAML</a> (data
+        serialization language)\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\"
+        id=\"Z\">Z</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=11\"
+        title=\"Edit section: Z\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<table
+        class=\"wikitable\">\n\n<tbody><tr>\n<th>Ext.</th>\n<th>Description</th>\n<th>Used
+        by\n</th></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"ZIP\"></span><span class=\"vanchor-text\">ZIP</span></span><sup
+        id=\"cite_ref-30\" class=\"reference\"><a href=\"#cite_note-30\">&#91;30&#93;</a></sup>\n</td>\n<td><a
+        href=\"/wiki/Zip_(file_format)\" class=\"mw-redirect\" title=\"Zip (file format)\">Zip
+        (file format)</a>\n</td>\n<td>PKZip \u2013 WinZip \u2013 Mac OS X\n</td></tr>\n<tr>\n<td><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1023754711\"><span
+        class=\"vanchor\"><span id=\"ZRX\"></span><span class=\"vanchor-text\">ZRX</span></span>\n</td>\n<td><a
+        href=\"/wiki/REXX\" class=\"mw-redirect\" title=\"REXX\">REXX</a> scripting
+        language for <a href=\"/wiki/ZOC_(software)\" title=\"ZOC (software)\">ZOC_(software)</a>\n</td>\n<td>ZOC
+        terminal emulator\n</td></tr>\n<tr>\n<td><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1023754711\"><span class=\"vanchor\"><span
+        id=\"ZS\"></span><span class=\"vanchor-text\">ZS</span></span>\n</td>\n<td>Script
+        for <a href=\"/wiki/Minecraft\" title=\"Minecraft\">Minecraft</a> <a href=\"/wiki/Mod_(video_gaming)\"
+        class=\"mw-redirect\" title=\"Mod (video gaming)\">mod</a> MineTweaker<sup
+        id=\"cite_ref-31\" class=\"reference\"><a href=\"#cite_note-31\">&#91;31&#93;</a></sup>
+        and CraftTweaker<sup id=\"cite_ref-32\" class=\"reference\"><a href=\"#cite_note-32\">&#91;32&#93;</a></sup>\n</td>\n<td>Minecraft
+        Mods\n</td></tr>\n</tbody></table>\n<h2><span class=\"mw-headline\" id=\"See_also\">See
+        also</span><span class=\"mw-editsection\"><span class=\"mw-editsection-bracket\">[</span><a
+        href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=12\"
+        title=\"Edit section: See also\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<ul><li><a
+        href=\"/wiki/List_of_filename_extensions\" title=\"List of filename extensions\">List
+        of filename extensions</a></li>\n<li><a href=\"/wiki/List_of_file_formats\"
+        title=\"List of file formats\">List of file formats</a></li></ul>\n<h2><span
+        class=\"mw-headline\" id=\"References\">References</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=13\"
+        title=\"Edit section: References\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<style
+        data-mw-deduplicate=\"TemplateStyles:r1011085734\">.mw-parser-output .reflist{font-size:90%;margin-bottom:0.5em;list-style-type:decimal}.mw-parser-output
+        .reflist .references{font-size:100%;margin-bottom:0;list-style-type:inherit}.mw-parser-output
+        .reflist-columns-2{column-width:30em}.mw-parser-output .reflist-columns-3{column-width:25em}.mw-parser-output
+        .reflist-columns{margin-top:0.3em}.mw-parser-output .reflist-columns ol{margin-top:0}.mw-parser-output
+        .reflist-columns li{page-break-inside:avoid;break-inside:avoid-column}.mw-parser-output
+        .reflist-upper-alpha{list-style-type:upper-alpha}.mw-parser-output .reflist-upper-roman{list-style-type:upper-roman}.mw-parser-output
+        .reflist-lower-alpha{list-style-type:lower-alpha}.mw-parser-output .reflist-lower-greek{list-style-type:lower-greek}.mw-parser-output
+        .reflist-lower-roman{list-style-type:lower-roman}</style><div class=\"reflist\">\n<div
+        class=\"mw-references-wrap mw-references-columns\"><ol class=\"references\">\n<li
+        id=\"cite_note-1\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-1\">^</a></b></span>
+        <span class=\"reference-text\"><style data-mw-deduplicate=\"TemplateStyles:r1133582631\">.mw-parser-output
+        cite.citation{font-style:inherit;word-wrap:break-word}.mw-parser-output .citation
+        q{quotes:\"\\\"\"\"\\\"\"\"'\"\"'\"}.mw-parser-output .citation:target{background-color:rgba(0,127,255,0.133)}.mw-parser-output
+        .id-lock-free a,.mw-parser-output .citation .cs1-lock-free a{background:url(\"//upload.wikimedia.org/wikipedia/commons/6/65/Lock-green.svg\")right
+        0.1em center/9px no-repeat}.mw-parser-output .id-lock-limited a,.mw-parser-output
+        .id-lock-registration a,.mw-parser-output .citation .cs1-lock-limited a,.mw-parser-output
+        .citation .cs1-lock-registration a{background:url(\"//upload.wikimedia.org/wikipedia/commons/d/d6/Lock-gray-alt-2.svg\")right
+        0.1em center/9px no-repeat}.mw-parser-output .id-lock-subscription a,.mw-parser-output
+        .citation .cs1-lock-subscription a{background:url(\"//upload.wikimedia.org/wikipedia/commons/a/aa/Lock-red-alt-2.svg\")right
+        0.1em center/9px no-repeat}.mw-parser-output .cs1-ws-icon a{background:url(\"//upload.wikimedia.org/wikipedia/commons/4/4c/Wikisource-logo.svg\")right
+        0.1em center/12px no-repeat}.mw-parser-output .cs1-code{color:inherit;background:inherit;border:none;padding:inherit}.mw-parser-output
+        .cs1-hidden-error{display:none;color:#d33}.mw-parser-output .cs1-visible-error{color:#d33}.mw-parser-output
+        .cs1-maint{display:none;color:#3a3;margin-left:0.3em}.mw-parser-output .cs1-format{font-size:95%}.mw-parser-output
+        .cs1-kern-left{padding-left:0.2em}.mw-parser-output .cs1-kern-right{padding-right:0.2em}.mw-parser-output
+        .citation .mw-selflink{font-weight:inherit}</style><cite class=\"citation
+        web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://publications.gc.ca/pub?id=9.613373&amp;sl=0\">\"CGIS-SAIF
+        Canadian geomatics interchange standard: spatial archive and interchange format:
+        formal definition (release 3.2)\"</a>. <a href=\"/wiki/British_Columbia_Ministry_of_Environment_%26_Climate_Change_Strategy\"
+        class=\"mw-redirect\" title=\"British Columbia Ministry of Environment &amp;
+        Climate Change Strategy\">British Columbia Ministry of Environment &amp; Climate
+        Change Strategy</a>. December 1992<span class=\"reference-accessdate\">. Retrieved
+        <span class=\"nowrap\">2020-09-25</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=CGIS-SAIF+Canadian+geomatics+interchange+standard%3A+spatial+archive+and+interchange+format%3A+formal+definition+%28release+3.2%29&amp;rft.pub=British+Columbia+Ministry+of+Environment+%26+Climate+Change+Strategy&amp;rft.date=1992-12&amp;rft_id=http%3A%2F%2Fpublications.gc.ca%2Fpub%3Fid%3D9.613373%26sl%3D0&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-SASS-2\"><span class=\"mw-cite-backlink\">^
+        <a href=\"#cite_ref-SASS_2-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-SASS_2-1\"><sup><i><b>b</b></i></sup></a></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://sass-lang.com/documentation/syntax\">\"Syntax\"</a>.
+        <i>sass-lang.com</i><span class=\"reference-accessdate\">. Retrieved <span
+        class=\"nowrap\">2020-09-25</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=sass-lang.com&amp;rft.atitle=Syntax&amp;rft_id=https%3A%2F%2Fsass-lang.com%2Fdocumentation%2Fsyntax&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-3\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-3\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.microsoft.com/en-us/dotnet/framework/data/adonet/sql/linq/sql-server-compact-and-linq-to-sql\">\"SQL
+        Server Compact and LINQ to SQL\"</a>. <i>Microsoft Docs</i><span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">12 January</span> 2021</span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Microsoft+Docs&amp;rft.atitle=SQL+Server+Compact+and+LINQ+to+SQL&amp;rft_id=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fdotnet%2Fframework%2Fdata%2Fadonet%2Fsql%2Flinq%2Fsql-server-compact-and-linq-to-sql&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-4\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-4\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://jpeg.org/jpeg/\">\"Overview
+        of JPEG\"</a>. <i>jpeg.org</i><span class=\"reference-accessdate\">. Retrieved
+        <span class=\"nowrap\">2020-09-27</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=jpeg.org&amp;rft.atitle=Overview+of+JPEG&amp;rft_id=https%3A%2F%2Fjpeg.org%2Fjpeg%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-ogg-mime-5\"><span
+        class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-ogg-mime_5-0\">^</a></b></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"http://wiki.xiph.org/index.php/MIME_Types_and_File_Extensions\">\"MIME
+        Types and File Extensions\"</a>. XiphWiki. 2009-10-04<span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2009-10-24</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=MIME+Types+and+File+Extensions&amp;rft.pub=XiphWiki&amp;rft.date=2009-10-04&amp;rft_id=http%3A%2F%2Fwiki.xiph.org%2Findex.php%2FMIME_Types_and_File_Extensions&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-iana-6\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-iana_6-0\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        id=\"CITEREFI._GoncalvesS._PfeifferC._Montgomery2008\" class=\"citation cs1\">I.
+        Goncalves; S. Pfeiffer; <a href=\"/wiki/Chris_Montgomery\" title=\"Chris Montgomery\">C.
+        Montgomery</a> (2008). <a rel=\"nofollow\" class=\"external text\" href=\"https://datatracker.ietf.org/doc/html/rfc5334#section-10\"><i>Ogg
+        Media Types</i></a>. sec.&#160;10. <a href=\"/wiki/Doi_(identifier)\" class=\"mw-redirect\"
+        title=\"Doi (identifier)\">doi</a>:<span class=\"cs1-lock-free\" title=\"Freely
+        accessible\"><a rel=\"nofollow\" class=\"external text\" href=\"https://doi.org/10.17487%2FRFC5334\">10.17487/RFC5334</a></span>.
+        <a href=\"/wiki/Request_for_Comments\" title=\"Request for Comments\">RFC</a>
+        <a rel=\"nofollow\" class=\"external text\" href=\"https://datatracker.ietf.org/doc/html/rfc5334\">5334</a>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=book&amp;rft.btitle=Ogg+Media+Types&amp;rft.pages=sec.-10&amp;rft.date=2008&amp;rft_id=info%3Adoi%2F10.17487%2F&#82;FC5334&amp;rft.au=I.+Goncalves&amp;rft.au=S.+Pfeiffer&amp;rft.au=C.+Montgomery&amp;rft_id=https%3A%2F%2Fdatatracker.ietf.org%2Fdoc%2Fhtml%2Frfc5334%26%23035%3Bsection-10&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-jalview-fileformats-7\"><span
+        class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-jalview-fileformats_7-0\"><sup><i><b>a</b></i></sup></a>
+        <a href=\"#cite_ref-jalview-fileformats_7-1\"><sup><i><b>b</b></i></sup></a></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"http://www.jalview.org/help/html/io/fileformats.html\">\"Alignment
+        Fileformats\"</a>. 22 May 2019<span class=\"reference-accessdate\">. Retrieved
+        <span class=\"nowrap\">22 May</span> 2019</span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Alignment+Fileformats&amp;rft.date=2019-05-22&amp;rft_id=http%3A%2F%2Fwww.jalview.org%2Fhelp%2Fhtml%2Fio%2Ffileformats.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-swfspec10-8\"><span
+        class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-swfspec10_8-0\">^</a></b></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120131083755/http://www.adobe.com/content/dam/Adobe/en/devnet/swf/pdf/swf_file_format_spec_v10.pdf\">\"SWF
+        File Format Specification Version 10\"</a> <span class=\"cs1-format\">(PDF)</span>.
+        Archived from <a rel=\"nofollow\" class=\"external text\" href=\"https://www.adobe.com/content/dam/Adobe/en/devnet/swf/pdf/swf_file_format_spec_v10.pdf\">the
+        original</a> <span class=\"cs1-format\">(PDF)</span> on 2012-01-31<span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2012-02-26</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=SWF+File+Format+Specification+Version+10&amp;rft_id=https%3A%2F%2Fwww.adobe.com%2Fcontent%2Fdam%2FAdobe%2Fen%2Fdevnet%2Fswf%2Fpdf%2Fswf_file_format_spec_v10.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-gnu.org-9\"><span
+        class=\"mw-cite-backlink\">^ <a href=\"#cite_ref-gnu.org_9-0\"><sup><i><b>a</b></i></sup></a>
+        <a href=\"#cite_ref-gnu.org_9-1\"><sup><i><b>b</b></i></sup></a> <a href=\"#cite_ref-gnu.org_9-2\"><sup><i><b>c</b></i></sup></a>
+        <a href=\"#cite_ref-gnu.org_9-3\"><sup><i><b>d</b></i></sup></a> <a href=\"#cite_ref-gnu.org_9-4\"><sup><i><b>e</b></i></sup></a>
+        <a href=\"#cite_ref-gnu.org_9-5\"><sup><i><b>f</b></i></sup></a> <a href=\"#cite_ref-gnu.org_9-6\"><sup><i><b>g</b></i></sup></a>
+        <a href=\"#cite_ref-gnu.org_9-7\"><sup><i><b>h</b></i></sup></a> <a href=\"#cite_ref-gnu.org_9-8\"><sup><i><b>i</b></i></sup></a></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://www.gnu.org/software/tar/manual/html_chapter/Formats.html#Compression\">\"GNU
+        tar 1.32: 8.1 Using Less Space through Compression\"</a>. <i>GNU</i>. 2019-02-23<span
+        class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2019-08-11</span></span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=GNU&amp;rft.atitle=GNU+tar+1.32%3A+8.1+Using+Less+Space+through+Compression&amp;rft.date=2019-02-23&amp;rft_id=https%3A%2F%2Fwww.gnu.org%2Fsoftware%2Ftar%2Fmanual%2Fhtml_chapter%2FFormats.html%23Compression&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-10\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-10\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.microsoft.com/en-us/windows/win32/midl/com-dcom-and-type-libraries\">\"COM,
+        DCOM, and Type Libraries\"</a>. Microsoft. 2020-05-31<span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2020-10-02</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=COM%2C+DCOM%2C+and+Type+Libraries&amp;rft.pub=Microsoft&amp;rft.date=2020-05-31&amp;rft_id=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fwindows%2Fwin32%2Fmidl%2Fcom-dcom-and-type-libraries&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-11\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-11\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://fileinfo.com/help/temporary_files\">\"What
+        are temporary (.TMP) files and how do I delete them?\"</a>. <i>fileinfo.com</i><span
+        class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-12-18</span></span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=fileinfo.com&amp;rft.atitle=What+are+temporary+%28.TMP%29+files+and+how+do+I+delete+them%3F&amp;rft_id=https%3A%2F%2Ffileinfo.com%2Fhelp%2Ftemporary_files&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-bep0003-12\"><span
+        class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-bep0003_12-0\">^</a></b></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"http://www.bittorrent.org/beps/bep_0003.html\">\"BEP-0003:
+        The BitTorrent Protocol Specification\"</a>. <i>Bittorrent.org</i><span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2009-10-22</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Bittorrent.org&amp;rft.atitle=BEP-0003%3A+The+BitTorrent+Protocol+Specification&amp;rft_id=http%3A%2F%2Fwww.bittorrent.org%2Fbeps%2Fbep_0003.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-typescript-13\"><span
+        class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-typescript_13-0\">^</a></b></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://www.typescriptlang.org/docs/handbook/2/basic-types.html\">\"TypeScript
+        Documentation: The Basics\"</a>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=TypeScript+Documentation%3A+The+Basics&amp;rft_id=https%3A%2F%2Fwww.typescriptlang.org%2Fdocs%2Fhandbook%2F2%2Fbasic-types.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-IANA-14\"><span
+        class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-IANA_14-0\">^</a></b></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://www.iana.org/assignments/media-types/text/tab-separated-values\">\"Definition
+        of tab-separated-values (tsv)\"</a>. Internet Assigned Numbers Authority (IANA).</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Definition+of+tab-separated-values+%28tsv%29&amp;rft.pub=Internet+Assigned+Numbers+Authority+%28IANA%29&amp;rft_id=https%3A%2F%2Fwww.iana.org%2Fassignments%2Fmedia-types%2Ftext%2Ftab-separated-values&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-15\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-15\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.virtualbox.org/manual/ch10.html\">\"Oracle
+        VM VirtualBox User Manual, Chapter 10. Technical background\"</a>. Oracle
+        Corporation<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">28
+        December</span> 2016</span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Oracle+VM+VirtualBox+User+Manual%2C+Chapter+10.+Technical+background&amp;rft.pub=Oracle+Corporation&amp;rft_id=https%3A%2F%2Fwww.virtualbox.org%2Fmanual%2Fch10.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-16\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-16\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://www.virtualbox.org/manual/ch01.html\">\"Oracle
+        VM VirtualBox User Manual, Chapter 1.5. Installing VirtualBox and extension
+        packs\"</a>. Oracle Corporation<span class=\"reference-accessdate\">. Retrieved
+        <span class=\"nowrap\">28 December</span> 2016</span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Oracle+VM+VirtualBox+User+Manual%2C+Chapter+1.5.+Installing+VirtualBox+and+extension+packs&amp;rft.pub=Oracle+Corporation&amp;rft_id=https%3A%2F%2Fwww.virtualbox.org%2Fmanual%2Fch01.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-vmdk-disk-format-17\"><span
+        class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-vmdk-disk-format_17-0\">^</a></b></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://www.vmware.com/support/developer/vddk/vmdk_50_technote.pdf\">\"Virtual
+        Disk Format 5.0\"</a> <span class=\"cs1-format\">(PDF)</span>. VMware. December
+        20, 2011.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Virtual+Disk+Format+5.0&amp;rft.pub=VMware&amp;rft.date=2011-12-20&amp;rft_id=https%3A%2F%2Fwww.vmware.com%2Fsupport%2Fdeveloper%2Fvddk%2Fvmdk_50_technote.pdf&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-dvd-book-18\"><span
+        class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-dvd-book_18-0\">^</a></b></span>
+        <span class=\"reference-text\">DVD FLLC (2009-02) <a rel=\"nofollow\" class=\"external
+        text\" href=\"http://www.dvdfllc.co.jp/format/f_bconst.html\">DVD Book Construction
+        \u2013 list of all available DVD Books</a>, Retrieved on 2009-07-24</span>\n</li>\n<li
+        id=\"cite_note-dvd-books-19\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-dvd-books_19-0\">^</a></b></span>
+        <span class=\"reference-text\">DVD FLLC <a rel=\"nofollow\" class=\"external
+        text\" href=\"http://www.dvdfllc.co.jp/format/f_histry.html\">DVD Format Book
+        \u2013 History of Supplements for DVD Books</a>, Retrieved on 2009-07-24</span>\n</li>\n<li
+        id=\"cite_note-20\"><span class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-20\">^</a></b></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://docs.microsoft.com/en-us/office/client-developer/visio/introduction-to-the-visio-file-formatvsdx\">\"Introduction
+        to the Visio file format (.vsdx)\"</a>. Microsoft. 2015-03-09<span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2020-11-04</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Introduction+to+the+Visio+file+format+%28.vsdx%29&amp;rft.pub=Microsoft&amp;rft.date=2015-03-09&amp;rft_id=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Foffice%2Fclient-developer%2Fvisio%2Fintroduction-to-the-visio-file-formatvsdx&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-21\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-21\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://developer.valvesoftware.com/wiki/Valve_Texture_Format\">\"Valve
+        Texture Format\"</a>. <i>developer.valvesoftware</i><span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2022-09-07</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=developer.valvesoftware&amp;rft.atitle=Valve+Texture+Format&amp;rft_id=https%3A%2F%2Fdeveloper.valvesoftware.com%2Fwiki%2FValve_Texture_Format&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-22\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-22\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://fileinfo.com/extension/wlmp\">\"WLMP
+        File Extension \u2013 What is a .wlmp file and how do I open it?\"</a>. <i>fileinfo.com</i><span
+        class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2021-03-03</span></span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=fileinfo.com&amp;rft.atitle=WLMP+File+Extension+%E2%80%93+What+is+a+.wlmp+file+and+how+do+I+open+it%3F&amp;rft_id=https%3A%2F%2Ffileinfo.com%2Fextension%2Fwlmp&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-23\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-23\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.microsoft.com/en-us/openspecs/office_file_formats/ms-xls/cd03cb5f-ca02-4934-a391-bb674cb8aa06\">\"&#91;MS-XLS&#93;:
+        Excel Binary File Format (.xls) Structure\"</a>. Microsoft. 2020-10-15<span
+        class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-11-04</span></span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=%5BMS-XLS%5D%3A+Excel+Binary+File+Format+%28.xls%29+Structure&amp;rft.pub=Microsoft&amp;rft.date=2020-10-15&amp;rft_id=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fopenspecs%2Foffice_file_formats%2Fms-xls%2Fcd03cb5f-ca02-4934-a391-bb674cb8aa06&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-24\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-24\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://docs.microsoft.com/en-us/openspecs/office_standards/ms-xlsx/2c5dee00-eff2-4b22-92b6-0738acd4475e\">\"Excel
+        (.xlsx) Extensions to the Office Open XML SpreadsheetML File Format\"</a>.
+        2020-02-19<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-08-29</span></span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=Excel+%28.xlsx%29+Extensions+to+the+Office+Open+XML+SpreadsheetML+File+Format&amp;rft.date=2020-02-19&amp;rft_id=https%3A%2F%2Fdocs.microsoft.com%2Fen-us%2Fopenspecs%2Foffice_standards%2Fms-xlsx%2F2c5dee00-eff2-4b22-92b6-0738acd4475e&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-25\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-25\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.w3.org/TR/xmlschema11-1/\">\"W3C
+        XML Schema Definition Language (XSD) 1.1 Part 1: Structures\"</a>. <i>w3.org</i>.
+        2012-04-05<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-09-25</span></span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=w3.org&amp;rft.atitle=W3C+XML+Schema+Definition+Language+%28XSD%29+1.1+Part+1%3A+Structures&amp;rft.date=2012-04-05&amp;rft_id=http%3A%2F%2Fwww.w3.org%2FTR%2Fxmlschema11-1%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-26\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-26\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.w3.org/TR/xmlschema11-2/\">\"W3C
+        XML Schema Definition Language (XSD) 1.1 Part 2: Datatypes\"</a>. <i>w3.org</i>.
+        2012-04-05<span class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-09-25</span></span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=w3.org&amp;rft.atitle=W3C+XML+Schema+Definition+Language+%28XSD%29+1.1+Part+2%3A+Datatypes&amp;rft.date=2012-04-05&amp;rft_id=http%3A%2F%2Fwww.w3.org%2FTR%2Fxmlschema11-2%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-XSL-27\"><span class=\"mw-cite-backlink\">^
+        <a href=\"#cite_ref-XSL_27-0\"><sup><i><b>a</b></i></sup></a> <a href=\"#cite_ref-XSL_27-1\"><sup><i><b>b</b></i></sup></a></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://www.w3.org/Style/XSL/\">\"The
+        Extensible Stylesheet Language Family (XSL)\"</a>. <i>w3.org</i>. 2017-09-09<span
+        class=\"reference-accessdate\">. Retrieved <span class=\"nowrap\">2020-11-04</span></span>.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=w3.org&amp;rft.atitle=The+Extensible+Stylesheet+Language+Family+%28XSL%29&amp;rft.date=2017-09-09&amp;rft_id=https%3A%2F%2Fwww.w3.org%2FStyle%2FXSL%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-28\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-28\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://fdik.org/yml/\">\"YML
+        \u2013 Why a Markup Language?!\"</a>. <i>fdik.org</i>. 2019-11-02<span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2020-09-25</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=fdik.org&amp;rft.atitle=YML+%E2%80%93+Why+a+Markup+Language%3F%21&amp;rft.date=2019-11-02&amp;rft_id=https%3A%2F%2Ffdik.org%2Fyml%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-YAML_Version_1.2-29\"><span
+        class=\"mw-cite-backlink\"><b><a href=\"#cite_ref-YAML_Version_1.2_29-0\">^</a></b></span>
+        <span class=\"reference-text\"><link rel=\"mw-deduplicated-inline-style\"
+        href=\"mw-data:TemplateStyles:r1133582631\"><cite class=\"citation web cs1\"><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://yaml.org/spec/1.2/spec.html\">\"YAML
+        Ain't Markup Language (YAML) Version 1.2\"</a>. <i>YAML.org</i><span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2019-05-29</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=YAML.org&amp;rft.atitle=YAML+Ain%27t+Markup+Language+%28YAML%29+Version+1.2&amp;rft_id=https%3A%2F%2Fyaml.org%2Fspec%2F1.2%2Fspec.html&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-30\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-30\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"http://www.iso.org/iso/catalogue_detail.htm?csnumber=60101\">\"ISO/IEC
+        21320-1:2015 Document Container File &#8212; Part 1: Core\"</a>. ITTF. 2015.</cite><span
+        title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook&amp;rft.genre=unknown&amp;rft.btitle=ISO%2FIEC+21320-1%3A2015+Document+Container+File+%26mdash%3B+Part+1%3A+Core&amp;rft.pub=ITTF&amp;rft.date=2015&amp;rft_id=http%3A%2F%2Fwww.iso.org%2Fiso%2Fcatalogue_detail.htm%3Fcsnumber%3D60101&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-31\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-31\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        id=\"CITEREFHebben\" class=\"citation web cs1\">Hebben, Stan. <a rel=\"nofollow\"
+        class=\"external text\" href=\"http://minetweaker3.powerofbytes.com/wiki/Tutorial:Introduction#Scripts\">\"Tutorial:Introduction\"</a>.
+        <i>Minetweaker 3</i><span class=\"reference-accessdate\">. Retrieved <span
+        class=\"nowrap\">28 September</span> 2014</span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=Minetweaker+3&amp;rft.atitle=Tutorial%3AIntroduction&amp;rft.aulast=Hebben&amp;rft.aufirst=Stan&amp;rft_id=http%3A%2F%2Fminetweaker3.powerofbytes.com%2Fwiki%2FTutorial%3AIntroduction%23Scripts&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n<li id=\"cite_note-32\"><span class=\"mw-cite-backlink\"><b><a
+        href=\"#cite_ref-32\">^</a></b></span> <span class=\"reference-text\"><link
+        rel=\"mw-deduplicated-inline-style\" href=\"mw-data:TemplateStyles:r1133582631\"><cite
+        class=\"citation web cs1\"><a rel=\"nofollow\" class=\"external text\" href=\"https://crafttweaker.readthedocs.io/en/latest/\">\"Crafttweaker
+        Documentation\"</a>. <i>crafttweaker.readthedocs.io</i><span class=\"reference-accessdate\">.
+        Retrieved <span class=\"nowrap\">2019-11-17</span></span>.</cite><span title=\"ctx_ver=Z39.88-2004&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal&amp;rft.genre=unknown&amp;rft.jtitle=crafttweaker.readthedocs.io&amp;rft.atitle=Crafttweaker+Documentation&amp;rft_id=https%3A%2F%2Fcrafttweaker.readthedocs.io%2Fen%2Flatest%2F&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AList+of+filename+extensions+%28S%E2%80%93Z%29\"
+        class=\"Z3988\"></span></span>\n</li>\n</ol></div></div>\n<h2><span class=\"mw-headline\"
+        id=\"External_links\">External links</span><span class=\"mw-editsection\"><span
+        class=\"mw-editsection-bracket\">[</span><a href=\"/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;action=edit&amp;section=14\"
+        title=\"Edit section: External links\">edit</a><span class=\"mw-editsection-bracket\">]</span></span></h2>\n<ul><li><a
+        rel=\"nofollow\" class=\"external text\" href=\"http://dotwhat.net/\">File
+        Extension Resource</a></li>\n<li><a rel=\"nofollow\" class=\"external text\"
+        href=\"http://www.fileinfo.com/\">The File Extensions Resource</a></li>\n<li><a
+        rel=\"nofollow\" class=\"external text\" href=\"http://www.file-extensions.org/\">File
+        information site</a></li>\n<li><a rel=\"nofollow\" class=\"external text\"
+        href=\"https://fileexpert.net/\">File Extension Database</a></li>\n<li><a
+        rel=\"nofollow\" class=\"external text\" href=\"https://web.archive.org/web/20120517125537/http://www.findfiles.net/file-formats\">File
+        format finder</a></li>\n<li><a rel=\"nofollow\" class=\"external text\" href=\"http://www.cryer.co.uk/filetypes/\">List
+        of file types</a></li></ul>\n<!-- \nNewPP limit report\nParsed by mw2412\nCached
+        time: 20230707084002\nCache expiry: 1814400\nReduced expiry: false\nComplications:
+        [vary\u2010revision\u2010sha1, no\u2010toc]\nCPU time usage: 0.487 seconds\nReal
+        time usage: 0.615 seconds\nPreprocessor visited node count: 9247/1000000\nPost\u2010expand
+        include size: 92998/2097152 bytes\nTemplate argument size: 5073/2097152 bytes\nHighest
+        expansion depth: 16/100\nExpensive parser function count: 4/500\nUnstrip recursion
+        depth: 1/20\nUnstrip post\u2010expand size: 122592/5000000 bytes\nLua time
+        usage: 0.180/10.000 seconds\nLua memory usage: 7156471/52428800 bytes\nNumber
+        of Wikibase entities loaded: 0/400\n-->\n<!--\nTransclusion expansion time
+        report (%,ms,calls,template)\n100.00%  497.578      1 -total\n 40.37%  200.851
+        \     1 Template:Reflist\n 28.59%  142.274     29 Template:Cite_web\n 13.49%
+        \  67.123    190 Template:Visible_anchor\n 12.80%   63.701      1 Template:List_of_filename_extensions_TOC\n
+        11.12%   55.313      1 Template:Refimprove\n 10.72%   53.328      1 Template:Short_description\n
+        \ 9.93%   49.416      1 Template:Ambox\n  7.06%   35.124      1 Template:Compact_ToC\n
+        \ 5.80%   28.852      2 Template:Pagetype\n-->\n\n<!-- Saved in parser cache
+        with key enwiki:pcache:idhash:38385634-0!canonical and timestamp 20230707084002
+        and revision id 1163956348. Rendering was triggered because: page-view\n -->\n</div><!--esi
+        <esi:include src=\"/esitest-fa8a495983347898/content\" /> --><noscript><img
+        src=\"//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1\" alt=\"\"
+        title=\"\" width=\"1\" height=\"1\" style=\"border: none; position: absolute;\"
+        /></noscript>\n<div class=\"printfooter\" data-nosnippet=\"\">Retrieved from
+        \"<a dir=\"ltr\" href=\"https://en.wikipedia.org/w/index.php?title=List_of_filename_extensions_(S\u2013Z)&amp;oldid=1163956348\">https://en.wikipedia.org/w/index.php?title=List_of_filename_extensions_(S\u2013Z)&amp;oldid=1163956348</a>\"</div></div>\n\t\t\t\t\t<div
+        id=\"catlinks\" class=\"catlinks\" data-mw=\"interface\"><div id=\"mw-normal-catlinks\"
+        class=\"mw-normal-catlinks\"><a href=\"/wiki/Help:Category\" title=\"Help:Category\">Categories</a>:
+        <ul><li><a href=\"/wiki/Category:Filename_extensions\" title=\"Category:Filename
+        extensions\">Filename extensions</a></li><li><a href=\"/wiki/Category:Lists_of_file_formats\"
+        title=\"Category:Lists of file formats\">Lists of file formats</a></li></ul></div><div
+        id=\"mw-hidden-catlinks\" class=\"mw-hidden-catlinks mw-hidden-cats-hidden\">Hidden
+        categories: <ul><li><a href=\"/wiki/Category:Articles_with_short_description\"
+        title=\"Category:Articles with short description\">Articles with short description</a></li><li><a
+        href=\"/wiki/Category:Short_description_is_different_from_Wikidata\" title=\"Category:Short
+        description is different from Wikidata\">Short description is different from
+        Wikidata</a></li><li><a href=\"/wiki/Category:Articles_needing_additional_references_from_August_2016\"
+        title=\"Category:Articles needing additional references from August 2016\">Articles
+        needing additional references from August 2016</a></li><li><a href=\"/wiki/Category:All_articles_needing_additional_references\"
+        title=\"Category:All articles needing additional references\">All articles
+        needing additional references</a></li></ul></div></div>\n\t\t\t\t</div>\n\t\t\t</main>\n\t\t\t\n\t\t</div>\n\t\t<div
+        class=\"mw-footer-container\">\n\t\t\t\n<footer id=\"footer\" class=\"mw-footer\"
+        role=\"contentinfo\" >\n\t<ul id=\"footer-info\">\n\t<li id=\"footer-info-lastmod\">
+        This page was last edited on 7 July 2023, at 08:39<span class=\"anonymous-show\">&#160;(UTC)</span>.</li>\n\t<li
+        id=\"footer-info-copyright\">Text is available under the <a rel=\"license\"
+        href=\"https://creativecommons.org/licenses/by-sa/4.0/\">Creative Commons
+        Attribution-ShareAlike License 4.0</a><a rel=\"license\" href=\"//creativecommons.org/licenses/by-sa/4.0/\"
+        style=\"display:none;\"></a>;\nadditional terms may apply.  By using this
+        site, you agree to the <a href=\"//foundation.wikimedia.org/wiki/Terms_of_Use\">Terms
+        of Use</a> and <a href=\"//foundation.wikimedia.org/wiki/Privacy_policy\">Privacy
+        Policy</a>. Wikipedia\xAE is a registered trademark of the <a href=\"//www.wikimediafoundation.org/\">Wikimedia
+        Foundation, Inc.</a>, a non-profit organization.</li>\n</ul>\n\n\t<ul id=\"footer-places\">\n\t<li
+        id=\"footer-places-privacy\"><a href=\"https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy\">Privacy
+        policy</a></li>\n\t<li id=\"footer-places-about\"><a href=\"/wiki/Wikipedia:About\">About
+        Wikipedia</a></li>\n\t<li id=\"footer-places-disclaimers\"><a href=\"/wiki/Wikipedia:General_disclaimer\">Disclaimers</a></li>\n\t<li
+        id=\"footer-places-contact\"><a href=\"//en.wikipedia.org/wiki/Wikipedia:Contact_us\">Contact
+        Wikipedia</a></li>\n\t<li id=\"footer-places-wm-codeofconduct\"><a href=\"https://foundation.wikimedia.org/wiki/Special:MyLanguage/Universal_Code_of_Conduct\">Code
+        of Conduct</a></li>\n\t<li id=\"footer-places-mobileview\"><a href=\"//en.m.wikipedia.org/w/index.php?title=List_of_filename_extensions_(S%E2%80%93Z)&amp;mobileaction=toggle_view_mobile\"
+        class=\"noprint stopMobileRedirectToggle\">Mobile view</a></li>\n\t<li id=\"footer-places-developers\"><a
+        href=\"https://developer.wikimedia.org\">Developers</a></li>\n\t<li id=\"footer-places-statslink\"><a
+        href=\"https://stats.wikimedia.org/#/en.wikipedia.org\">Statistics</a></li>\n\t<li
+        id=\"footer-places-cookiestatement\"><a href=\"https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement\">Cookie
+        statement</a></li>\n</ul>\n\n\t<ul id=\"footer-icons\" class=\"noprint\">\n\t<li
+        id=\"footer-copyrightico\"><a href=\"https://wikimediafoundation.org/\"><img
+        src=\"/static/images/footer/wikimedia-button.png\" srcset=\"/static/images/footer/wikimedia-button-1.5x.png
+        1.5x, /static/images/footer/wikimedia-button-2x.png 2x\" width=\"88\" height=\"31\"
+        alt=\"Wikimedia Foundation\" loading=\"lazy\" /></a></li>\n\t<li id=\"footer-poweredbyico\"><a
+        href=\"https://www.mediawiki.org/\"><img src=\"/static/images/footer/poweredby_mediawiki_88x31.png\"
+        alt=\"Powered by MediaWiki\" srcset=\"/static/images/footer/poweredby_mediawiki_132x47.png
+        1.5x, /static/images/footer/poweredby_mediawiki_176x62.png 2x\" width=\"88\"
+        height=\"31\" loading=\"lazy\"></a></li>\n</ul>\n\n</footer>\n\n\t\t</div>\n\t</div>
+        \n</div> \n<div class='vector-settings'>\n\t\n<button\n\tid=\"\"\n\tclass=\"cdx-button
+        cdx-button--icon-only vector-limited-width-toggle\"\n\t><span class=\"vector-icon
+        mw-ui-icon-fullScreen mw-ui-icon-wikimedia-fullScreen\"></span>\n\n<span>Toggle
+        limited content width</span>\n\n</button>\n\n</div>\n<script>(RLQ=window.RLQ||[]).push(function(){mw.config.set({\"wgHostname\":\"mw2367\",\"wgBackendResponseTime\":104,\"wgPageParseReport\":{\"limitreport\":{\"cputime\":\"0.487\",\"walltime\":\"0.615\",\"ppvisitednodes\":{\"value\":9247,\"limit\":1000000},\"postexpandincludesize\":{\"value\":92998,\"limit\":2097152},\"templateargumentsize\":{\"value\":5073,\"limit\":2097152},\"expansiondepth\":{\"value\":16,\"limit\":100},\"expensivefunctioncount\":{\"value\":4,\"limit\":500},\"unstrip-depth\":{\"value\":1,\"limit\":20},\"unstrip-size\":{\"value\":122592,\"limit\":5000000},\"entityaccesscount\":{\"value\":0,\"limit\":400},\"timingprofile\":[\"100.00%
+        \ 497.578      1 -total\",\" 40.37%  200.851      1 Template:Reflist\",\"
+        28.59%  142.274     29 Template:Cite_web\",\" 13.49%   67.123    190 Template:Visible_anchor\",\"
+        12.80%   63.701      1 Template:List_of_filename_extensions_TOC\",\" 11.12%
+        \  55.313      1 Template:Refimprove\",\" 10.72%   53.328      1 Template:Short_description\",\"
+        \ 9.93%   49.416      1 Template:Ambox\",\"  7.06%   35.124      1 Template:Compact_ToC\",\"
+        \ 5.80%   28.852      2 Template:Pagetype\"]},\"scribunto\":{\"limitreport-timeusage\":{\"value\":\"0.180\",\"limit\":\"10.000\"},\"limitreport-memusage\":{\"value\":7156471,\"limit\":52428800}},\"cachereport\":{\"origin\":\"mw2412\",\"timestamp\":\"20230707084002\",\"ttl\":1814400,\"transientcontent\":false}}});});</script>\n<script
+        type=\"application/ld+json\">{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Article\",\"name\":\"List
+        of filename extensions (S\\u2013Z)\",\"url\":\"https:\\/\\/en.wikipedia.org\\/wiki\\/List_of_filename_extensions_(S%E2%80%93Z)\",\"sameAs\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q4735218\",\"mainEntity\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q4735218\",\"author\":{\"@type\":\"Organization\",\"name\":\"Contributors
+        to Wikimedia projects\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Wikimedia
+        Foundation, Inc.\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/www.wikimedia.org\\/static\\/images\\/wmf-hor-googpub.png\"}},\"datePublished\":\"2013-01-31T19:23:25Z\",\"dateModified\":\"2023-07-07T08:39:09Z\",\"headline\":\"Wikimedia
+        list article\"}</script><script type=\"application/ld+json\">{\"@context\":\"https:\\/\\/schema.org\",\"@type\":\"Article\",\"name\":\"List
+        of filename extensions (S\\u2013Z)\",\"url\":\"https:\\/\\/en.wikipedia.org\\/wiki\\/List_of_filename_extensions_(S%E2%80%93Z)\",\"sameAs\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q4735218\",\"mainEntity\":\"http:\\/\\/www.wikidata.org\\/entity\\/Q4735218\",\"author\":{\"@type\":\"Organization\",\"name\":\"Contributors
+        to Wikimedia projects\"},\"publisher\":{\"@type\":\"Organization\",\"name\":\"Wikimedia
+        Foundation, Inc.\",\"logo\":{\"@type\":\"ImageObject\",\"url\":\"https:\\/\\/www.wikimedia.org\\/static\\/images\\/wmf-hor-googpub.png\"}},\"datePublished\":\"2013-01-31T19:23:25Z\",\"dateModified\":\"2023-07-07T08:39:09Z\",\"headline\":\"Wikimedia
+        list article\"}</script>\n</body>\n</html>"
+    headers:
+      accept-ranges:
+      - bytes
+      age:
+      - '54822'
+      cache-control:
+      - private, s-maxage=0, max-age=0, must-revalidate
+      content-encoding:
+      - gzip
+      content-language:
+      - en
+      content-length:
+      - '27170'
+      content-type:
+      - text/html; charset=UTF-8
+      date:
+      - Sun, 09 Jul 2023 15:06:48 GMT
+      last-modified:
+      - Fri, 07 Jul 2023 08:39:09 GMT
+      nel:
+      - '{ "report_to": "wm_nel", "max_age": 604800, "failure_fraction": 0.05, "success_fraction":
+        0.0}'
+      report-to:
+      - '{ "group": "wm_nel", "max_age": 604800, "endpoints": [{ "url": "https://intake-logging.wikimedia.org/v1/events?stream=w3c.reportingapi.network_error&schema_uri=/w3c/reportingapi/network_error/1.0.0"
+        }] }'
+      server:
+      - mw2367.codfw.wmnet
+      server-timing:
+      - cache;desc="hit-front", host;desc="cp5020"
+      set-cookie:
+      - WMF-Last-Access=10-Jul-2023;Path=/;HttpOnly;secure;Expires=Fri, 11 Aug 2023
+        00:00:00 GMT
+      - WMF-Last-Access-Global=10-Jul-2023;Path=/;Domain=.wikipedia.org;HttpOnly;secure;Expires=Fri,
+        11 Aug 2023 00:00:00 GMT
+      - WMF-DP=9c6;Path=/;HttpOnly;secure;Expires=Mon, 10 Jul 2023 00:00:00 GMT
+      - GeoIP=TW:TPE:Taipei:25.05:121.53:v4; Path=/; secure; Domain=.wikipedia.org
+      - NetworkProbeLimit=0.001;Path=/;Secure;Max-Age=3600
+      strict-transport-security:
+      - max-age=106384710; includeSubDomains; preload
+      vary:
+      - Accept-Encoding,Cookie,Authorization
+      x-cache:
+      - cp5020 miss, cp5020 hit/9
+      x-cache-status:
+      - hit-front
+      x-client-ip:
+      - 36.224.228.174
+      x-content-type-options:
+      - nosniff
+    status:
+      code: 200
+      message: OK
+version: 1

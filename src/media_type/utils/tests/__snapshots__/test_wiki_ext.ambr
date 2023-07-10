@@ -1,0 +1,4208 @@
+# serializer version: 1
+# name: test__extract_wiki_ext_info
+  list([
+    ExtInfo(ext='S', description='assembler source code file', used_by='Unix'),
+    ExtInfo(ext='S7I', description='Seed7 library / include file', used_by='Seed7 interpreter and compiler'),
+    ExtInfo(ext='SAIF', description='Spatial Archive and Interchange Format', used_by=''),
+    ExtInfo(ext='SASS', description='Sass stylesheet language, indented-format', used_by=''),
+    ExtInfo(ext='SAT', description='ACIS ACIS .sat', used_by=''),
+    ExtInfo(ext='SAV', description='SPSS tabular data (binary)', used_by='PSPP, SPSS'),
+    ExtInfo(ext='SB', description='Scratch project', used_by='Scratch'),
+    ExtInfo(ext='SB2', description='Scratch 2.0 project', used_by='Scratch'),
+    ExtInfo(ext='SB3', description='Scratch 3.0 project', used_by='Scratch'),
+    ExtInfo(ext='SBH', description='Header', used_by='ScriptBasic'),
+    ExtInfo(ext='SBV', description='Superbase RDBMS form definition data', used_by='Superbase (database)'),
+    ExtInfo(ext='SBX', description='For experimental extensions to Scratch', used_by='Used by scratchX (scratchx.org)'),
+    ExtInfo(ext='SCALA', description='Scala source code file', used_by='Scala (programming language)'),
+    ExtInfo(ext='SCM', description='Scheme source code file', used_by=''),
+    ExtInfo(ext='SCR', description='Screen Protector file', used_by='Windows Screen Protector'),
+    ExtInfo(ext='SCSS', description='Sass stylesheet language', used_by=''),
+    ExtInfo(ext='SDF', description='SQL Server Compact database file', used_by='Microsoft SQL Server Compact'),
+    ExtInfo(ext='SD7', description='Seed7 source file', used_by='Seed7 interpreter and compiler'),
+    ExtInfo(ext='SDS', description='Self Defining Structure provides for N-dimensional very large datasets using HHCode', used_by='geographic information systems and relational database management systems'),
+    ExtInfo(ext='SDTS', description='Spatial Data Transfer Standard', used_by=''),
+    ExtInfo(ext='SEC', description='Secret key ring file', used_by='Pretty Good Privacy RSA System'),
+    ExtInfo(ext='SED', description='Self extraction directive file', used_by='IExpress'),
+    ExtInfo(ext='SEQ', description='Video', used_by='Tiertex video sequence'),
+    ExtInfo(ext='SF', description='JAR Digital Signature', used_by=''),
+    ExtInfo(ext='SFB', description='Configuration file', used_by='emacs'),
+    ExtInfo(ext='SFX', description='SFX (self-extracting archives) script', used_by='RAR'),
+    ExtInfo(ext='SH', description='Unix shell script', used_by='Unix shell interpreter'),
+    ExtInfo(ext='SHAR', description='Shell self-extracting archive', used_by='UNSHAR (Unix)'),
+    ExtInfo(ext='SHTM', description='SSI-enabled HTM file', used_by='Server Side Includes'),
+    ExtInfo(ext='SHTML', description='SSI-enabled HTML file', used_by='Server Side Includes'),
+    ExtInfo(ext='SHX', description='Shape entities\nESRI shapefile', used_by='AutoCAD\nArcGIS'),
+    ExtInfo(ext='SIG', description='Signature file', used_by='gpg, PopMail, ThunderByte AntiVirus'),
+    ExtInfo(ext='SL', description='S-Lang source code file', used_by=''),
+    ExtInfo(ext='SM', description='SMALLTALK source code file', used_by=''),
+    ExtInfo(ext='SMCLVL', description='Secret Maryo Chronicles Level', used_by='Secret Maryo Chronicles'),
+    ExtInfo(ext='SMK', description='Smacker video Format (RAD Video)', used_by=''),
+    ExtInfo(ext='SNO', description='SNOBOL4 source code file', used_by=''),
+    ExtInfo(ext='SO', description='shared object, dynamically linked library', used_by='Unix, Linux'),
+    ExtInfo(ext='SPF', description='data', used_by='SQR Portable Format'),
+    ExtInfo(ext='SPIFF', description='Still Picture Interchange File Format', used_by=''),
+    ExtInfo(ext='SPIN', description='Spin source file', used_by='Parallax Propeller Microcontrollers'),
+    ExtInfo(ext='SPS', description='SPSS program file (text)', used_by='PSPP, SPSS'),
+    ExtInfo(ext='SPT', description='SPITBOL source code file', used_by=''),
+    ExtInfo(ext='SPV', description='SPIR-V binary file', used_by='Vulkan, Khronos Group'),
+    ExtInfo(ext='SPX', description='Ogg Speex bitstream', used_by='Xiph.Org Foundation'),
+    ExtInfo(ext='SPZ', description='Crestron SIMPL Windows compiled program (ZIP format)', used_by='Crestron SIMPL Windows'),
+    ExtInfo(ext='SQL', description='Structured Query Language', used_by='Any SQL database'),
+    ExtInfo(ext='SSC', description='Celestia Solar System Catalog file', used_by='Celestia'),
+    ExtInfo(ext='SSC', description='Stellarium Script', used_by='Stellarium'),
+    ExtInfo(ext='ST', description='SMALLTALK source code file', used_by='Little Smalltalk'),
+    ExtInfo(ext='STC', description='Celestia Star Catalog file', used_by='Celestia'),
+    ExtInfo(ext='STC', description='OpenOffice.org XML spreadsheet template', used_by='OpenOffice.org Calc'),
+    ExtInfo(ext='STD', description='OpenOffice.org XML drawing template', used_by='OpenOffice.org Draw'),
+    ExtInfo(ext='STI', description='OpenOffice.org XML presentation template', used_by='OpenOffice.org Impress'),
+    ExtInfo(ext='STK', description='Stockholm multiple sequence alignment', used_by='Bioinformatics tools eg HMMER, Xrate, Jalview'),
+    ExtInfo(ext='STL', description='surface geometry of a three-dimensional object', used_by='software by 3D Systems'),
+    ExtInfo(ext='STM', description='SSI-enabled HTML file', used_by='Server Side Includes'),
+    ExtInfo(ext='STO', description='Stockholm multiple sequence alignment', used_by='Bioinformatics tools eg HMMER, Xrate, Jalview'),
+    ExtInfo(ext='STP', description='Standard for the Exchange of Product Data', used_by='universal format for CAD exchange per ISO 10303'),
+    ExtInfo(ext='STW', description='OpenOffice.org XML text document template', used_by='OpenOffice.org Writer'),
+    ExtInfo(ext='SUR', description='Surface topography (in native "SURF" format)', used_by='MountainsMap'),
+    ExtInfo(ext='SVC', description='Represents the ServiceHost instance hosted by Internet Information Services', used_by='Windows Communication Foundation'),
+    ExtInfo(ext='SVG', description='Scalable Vector Graphics', used_by='many'),
+    ExtInfo(ext='SWF', description='Shockwave Flash', used_by='Macromedia, Adobe Flash Player'),
+    ExtInfo(ext='SWG', description='SWIG source code', used_by='SWIG'),
+    ExtInfo(ext='SWIFT', description='Swift source code', used_by='Swift (programming language)'),
+    ExtInfo(ext='SWM', description='split Windows Imaging Format', used_by='ImageX, DISM, 7-Zip, wimlib'),
+    ExtInfo(ext='SXC', description='OpenOffice.org XML spreadsheet', used_by='OpenOffice.org Calc'),
+    ExtInfo(ext='SXD', description='OpenOffice.org XML drawing', used_by='OpenOffice.org Draw'),
+    ExtInfo(ext='SXG', description='OpenOffice.org XML master document', used_by=''),
+    ExtInfo(ext='SXI', description='OpenOffice.org XML presentation', used_by='OpenOffice.org Impress'),
+    ExtInfo(ext='SXM', description='OpenOffice.org XML formula', used_by='OpenOffice.org Calc'),
+    ExtInfo(ext='SXP', description='3DS Process file', used_by='3D Studio'),
+    ExtInfo(ext='SXW', description='OpenOffice.org XML text document', used_by='OpenOffice.org Writer'),
+    ExtInfo(ext='SYLK', description='Symbolic Link (SYLK) file', used_by='Windows'),
+    ExtInfo(ext='SYMBOLICLINK', description='Replace file for a symbolic link', used_by='Unix-like OSs'),
+    ExtInfo(ext='TAK', description='Audio codec, Lossless audio file format', used_by='Winamp (+Plugin), foobar2000 (+Plugin), Media Player Classic – BE'),
+    ExtInfo(ext='TAR', description='tar archive', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='TAZ', description='tar archive compressed with compress', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='TB2', description='tar archive compressed with Bzip2', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='TBZ', description='tar archive compressed with Bzip2', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='TBZ2', description='tar archive compressed with Bzip2', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='TC', description='Theme Colour file', used_by='Saturn CMS'),
+    ExtInfo(ext='TGA', description='Truevision Advanced Raster Graphics Adapter image', used_by=''),
+    ExtInfo(ext='TGT', description='Target configuration file', used_by='Target active security software'),
+    ExtInfo(ext='TGZ', description='tar archive compressed with gzip', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='THM', description='Thumbnail File', used_by='GoPro, Android, some versions of iOS (Accessible via computer or Jailbreak, on User/Media/PhotoData/Metadata/DCIM)'),
+    ExtInfo(ext='TIF', description='See TIFF', used_by=''),
+    ExtInfo(ext='TIFF', description='Tag Image File Format image', used_by=''),
+    ExtInfo(ext='TLB', description='Type library', used_by='A binary file with information about a COM or DCOM object so other applications can use it at runtime. Created by Visual C++ or Visual Studio. Used by many Windows applications.'),
+    ExtInfo(ext='TLZ', description='tar archive compressed with LZMA', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='TMP', description='Temporary file', used_by=''),
+    ExtInfo(ext='TORRENT', description='Torrent file', used_by='BitTorrent clients (various)'),
+    ExtInfo(ext='TS', description='MPEG transport stream', used_by='Video broadcasting, digital video cameras'),
+    ExtInfo(ext='TS', description='TypeScript', used_by=''),
+    ExtInfo(ext='TSV', description='Tab-separated values', used_by=''),
+    ExtInfo(ext='TTC', description='TrueType Font collection', used_by=''),
+    ExtInfo(ext='TTF', description='TrueType Font file', used_by=''),
+    ExtInfo(ext='TXZ', description='tar archive compressed with xz', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='TZ2', description='Same as TBZ', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='TZST', description='tar archive compressed with Zstandard', used_by='tar and other file archivers with support'),
+    ExtInfo(ext='UI', description='Espire source code file', used_by='Geoworks UI Compiler Geos'),
+    ExtInfo(ext='UI', description="Qt Designer's UI File", used_by='Trolltech Qt Designer'),
+    ExtInfo(ext='UMP', description='Umple UML Programming Language Format', used_by='Umple'),
+    ExtInfo(ext='UNV', description='Text file containing finite elements nodal coordinates and more See notes', used_by='Originally used by SDRC for its I-deas software; a lot of simulation software use it today'),
+    ExtInfo(ext='UOS', description='Uniform Office Format spreadsheet', used_by=''),
+    ExtInfo(ext='UOT', description='Uniform Office Format text', used_by=''),
+    ExtInfo(ext='UPS', description='ROM patch file', used_by=''),
+    ExtInfo(ext='URL', description='Remote file shortcut', used_by='Microsoft Windows'),
+    ExtInfo(ext='USDZ', description='Augmented Reality (AR) File', used_by='Apple, Pixar'),
+    ExtInfo(ext='UST', description='Vocal synthesis track data', used_by='UTAU'),
+    ExtInfo(ext='UT!', description='datafile', used_by='uTorrent'),
+    ExtInfo(ext='UXF', description='UML Exchange Format', used_by=''),
+    ExtInfo(ext='V', description='Coq source file', used_by=''),
+    ExtInfo(ext='V', description='Verilog source file', used_by=''),
+    ExtInfo(ext='V4P', description='vvvv patch', used_by='vvvv'),
+    ExtInfo(ext='VB', description='Visual Basic .Net source file', used_by='Visual Basic .NET'),
+    ExtInfo(ext='VBOX', description='virtual machine settings file (in XML format)', used_by='VirtualBox'),
+    ExtInfo(ext='VBOX-EXTPACK', description='VirtualBox extension package', used_by='VirtualBox'),
+    ExtInfo(ext='VBPROJ', description='Visual Basic .Net project file', used_by='Visual Basic .Net Express and Visual Studio 2003-2010 Project'),
+    ExtInfo(ext='VBR', description='Visual Basic Custom Control file', used_by='Visual Basic'),
+    ExtInfo(ext='VBS', description='VBScript script file', used_by='VBScript'),
+    ExtInfo(ext='VBX', description='Visual Basic eXtension', used_by='Visual Basic'),
+    ExtInfo(ext='VC6', description='Graphite – 2D and 3D drafting', used_by='Ashlar-Vellum'),
+    ExtInfo(ext='VCLS', description='VocaListener voice scanner file', used_by='VocaListener Plug-in (Vocaloid3)'),
+    ExtInfo(ext='VDA', description='Targa bitmap graphics', used_by='many raster graphics editors'),
+    ExtInfo(ext='VDI', description='Virtual Disk Image', used_by='VirtualBox'),
+    ExtInfo(ext='VDW', description='Visio web drawing', used_by='Microsoft Visio'),
+    ExtInfo(ext='VDX', description='Visio XML drawing', used_by='Microsoft Visio'),
+    ExtInfo(ext='VFD', description='Virtual Floppy Disk', used_by='Windows Virtual PC (among others)'),
+    ExtInfo(ext='VI', description='Virtual Instrument', used_by='LabVIEW'),
+    ExtInfo(ext='VMCZ', description='Hyper-V Exported Virtual Machine', used_by='Microsoft'),
+    ExtInfo(ext='VMDK', description='Virtual Disk file', used_by='VMware'),
+    ExtInfo(ext='VMG', description='Nokia message file format', used_by='Text Message Editor (Nokia PC Suite)'),
+    ExtInfo(ext='VOB', description='Video Object', used_by='DVD-R, DVD-RW'),
+    ExtInfo(ext='VMX', description='virtual machine configuration file', used_by='VMware'),
+    ExtInfo(ext='VPK', description='Valve package', used_by='Source engine games'),
+    ExtInfo(ext='VPM', description='Garmin Voice Processing Module', used_by=''),
+    ExtInfo(ext='VPP', description='Visual Paradigm Project', used_by='Visual Paradigm for UML'),
+    ExtInfo(ext='VPR', description='Vocal synthesizer track data', used_by='Vocaloid 5'),
+    ExtInfo(ext='VQM', description='Hardware description language', used_by='Altera'),
+    ExtInfo(ext='VRB', description='LateX Beamer file containing verbatim commands', used_by='LaTeX Beamer'),
+    ExtInfo(ext='VRB', description='Veeam reversed incremental backup archive', used_by='Veeam software'),
+    ExtInfo(ext='VS', description='Vellum Solids', used_by='Ashlar-Vellum'),
+    ExtInfo(ext='VSD', description='Visio drawing', used_by='Microsoft Visio'),
+    ExtInfo(ext='VSDX', description='Visio drawing', used_by='Microsoft Visio'),
+    ExtInfo(ext='VSM', description='Visual Simulation Model', used_by='VisSim'),
+    ExtInfo(ext='VSQ', description='Vocal synthesizer track data', used_by='Vocaloid 2'),
+    ExtInfo(ext='VSQx', description='Vocal synthesizer track data', used_by='Vocaloid 3, Vocaloid 4'),
+    ExtInfo(ext='VST', description='Truevision Vista graphics', used_by='many raster graphics editors'),
+    ExtInfo(ext='VSTO', description='Microsoft Office add-in file', used_by='Microsoft Visual Studio'),
+    ExtInfo(ext='VSVNBAK', description='VisualSVN Server repository backup', used_by='VisualSVN Server'),
+    ExtInfo(ext='VTF', description='Valve Texture Format file', used_by='Valve Corporation'),
+    ExtInfo(ext='VUE', description='Visual Understanding Environment map', used_by='Visual Understanding Environment'),
+    ExtInfo(ext='VVVVVV', description='VVVVVV map file', used_by='VVVVVV'),
+    ExtInfo(ext='WAV', description='Sound format (Microsoft Windows RIFF WAVE)', used_by='Media Player'),
+    ExtInfo(ext='WEBM', description='Royalty-free video/audio container', used_by='HTML5'),
+    ExtInfo(ext='WITNESS_CAMPAIGN', description='Game save file for The Witness', used_by='The Witness'),
+    ExtInfo(ext='WK1', description='Spreadsheet', used_by='Lotus 1-2-3 version 2.x – Lotus Symphony 1.1+'),
+    ExtInfo(ext='WK3', description='Spreadsheet', used_by='Lotus 1-2-3 version 3.x'),
+    ExtInfo(ext='WKS', description='Spreadsheet', used_by='Lotus 1-2-3 version 1A – Lotus Symphony 1.0, Microsoft Works'),
+    ExtInfo(ext='WLMP', description='Windows Live Moviemaker Project, contains paths from where the images/audios/videos of the project are located', used_by='Windows Live Movie Maker'),
+    ExtInfo(ext='WMA', description='Windows Media Audio file Advanced Systems Format', used_by=''),
+    ExtInfo(ext='WMDB', description='Windows Media Player database', used_by='Windows Media Player'),
+    ExtInfo(ext='WMF', description='Windows MetaFile vector graphics', used_by=''),
+    ExtInfo(ext='WMV', description='Windows Media Video file Advanced Systems Format', used_by=''),
+    ExtInfo(ext='WOS', description='WoS bibliographic reference file', used_by='ISI/Clarivate Analytics'),
+    ExtInfo(ext='X', description='LEX source code file', used_by=''),
+    ExtInfo(ext='X', description='XBasic Source code file', used_by='Xbasic'),
+    ExtInfo(ext='X3D', description='x3d and xdart Formats', used_by=''),
+    ExtInfo(ext='XAR', description='Xara graphics file', used_by='Files created by Xara Photo & Graphic Designer (formerly Xara Xtreme and Xara Studio); early versions used the extension ART'),
+    ExtInfo(ext='XAR', description='eXtensible ARchive', used_by='xar, 7-Zip'),
+    ExtInfo(ext='XBRL', description='eXtensible Business Reporting Language instance file', used_by='eXtensible Business Reporting Language'),
+    ExtInfo(ext='XCF', description='Gimp image file', used_by='GNU Image Manipulation Program'),
+    ExtInfo(ext='XDM', description='Directory Manipulator for 32-bit Protected Mode', used_by='Xenotech Research Labs'),
+    ExtInfo(ext='XE', description='Xenon – for Associative 3D Modeling', used_by='Ashlar-Vellum'),
+    ExtInfo(ext='XEX', description='Xbox 360 Executable File', used_by=''),
+    ExtInfo(ext='XLS', description='Microsoft Excel Spreadsheet', used_by='Microsoft Excel'),
+    ExtInfo(ext='XLSB', description='Microsoft Excel 2007 Binary Workbook (BIFF12)(Spreadsheets)', used_by='Microsoft Excel 2007 (see Microsoft Office 2007 file extensions)'),
+    ExtInfo(ext='XLSM', description='Microsoft Excel 2007 Macro-Enabled Workbook (Spreadsheets)', used_by='Microsoft Excel 2007 (see Microsoft Office 2007 file extensions)'),
+    ExtInfo(ext='XLSX', description='Office Open XML Workbook (Spreadsheets)', used_by='Microsoft Excel 2007 (see Microsoft Office 2007 file extensions)'),
+    ExtInfo(ext='XM', description='FastTracker 2 extended module', used_by='AWAVE, Mod4Win, FastTracker, ImpulseTracker'),
+    ExtInfo(ext='XML', description='eXtensible Markup Language file', used_by=''),
+    ExtInfo(ext='XMF', description='eXtensible Music Format', used_by=''),
+    ExtInfo(ext='XP', description='eXtended Pattern', used_by='FastTracker 2'),
+    ExtInfo(ext='XPL', description='X-Plane system file', used_by='Laminar research'),
+    ExtInfo(ext='XPS', description='Open XML Paper Specification / OpenXPS', used_by='open standard document format initially created by Microsoft and similar in concept to Adobe PDF files'),
+    ExtInfo(ext='XSD', description='XML schema description', used_by=''),
+    ExtInfo(ext='XSF', description='data', used_by='Microsoft InfoPath file'),
+    ExtInfo(ext='XSL', description='XSL Stylesheet', used_by=''),
+    ExtInfo(ext='XSLT', description='XSLT file', used_by=''),
+    ExtInfo(ext='XSN', description='Microsoft InfoPath template', used_by='Microsoft InfoPath'),
+    ExtInfo(ext='XSPF', description='XML Sharable Playlist Format', used_by=''),
+    ExtInfo(ext='XX', description='XX-encoded file (ASCII)', used_by='XXDECODE'),
+    ExtInfo(ext='XXE', description='XX-encoded file (ASCII)', used_by='XXDECODE'),
+    ExtInfo(ext='XXX', description='Singer Embroidery Format', used_by='Embroidermodder'),
+    ExtInfo(ext='XYZ', description='Molecular coordinates', used_by='XMol, RasMol'),
+    ExtInfo(ext='XZ', description='a lossless data compression file format incorporating the LZMA/LZMA2 compression algorithms.', used_by='xz'),
+    ExtInfo(ext='Y', description='YACC grammar file', used_by='Yacc/Bison'),
+    ExtInfo(ext='YML', description='YML markup file', used_by='domain specific language output to XML'),
+    ExtInfo(ext='YAML', description='YAML source file', used_by='YAML (data serialization language)'),
+    ExtInfo(ext='ZIP', description='Zip (file format)', used_by='PKZip – WinZip – Mac OS X'),
+    ExtInfo(ext='ZRX', description='REXX scripting language for ZOC_(software)', used_by='ZOC terminal emulator'),
+    ExtInfo(ext='ZS', description='Script for Minecraft mod MineTweaker and CraftTweaker', used_by='Minecraft Mods'),
+  ])
+# ---
+# name: test_extract_tables_from_wikipedia[0-9.html].1
+  list([
+    list([
+      'Ext.',
+      'Description',
+      '''
+        Used by
+  
+      ''',
+    ]),
+    list([
+      '''
+        3G2[1]
+  
+      ''',
+      '''
+        Mobile phone video
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        3GP[2]
+  
+      ''',
+      '''
+        Mobile phone video
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        3MF[3]
+  
+      ''',
+      '''
+        3D manufacturing format
+  
+      ''',
+      '''
+        3D builder
+  
+      ''',
+    ]),
+    list([
+      '''
+        7z[4]
+  
+      ''',
+      '''
+        A compressed archive file format that supports several different data compression, encryption and pre-processing algorithms
+  
+      ''',
+      '''
+        7-zip
+  
+      ''',
+    ]),
+    list([
+      '''
+        4TH[5]
+  
+      ''',
+      '''
+        Forth language source code file
+  
+      ''',
+      '''
+        Forth development systems
+  
+      ''',
+    ]),
+  ])
+# ---
+# name: test_extract_tables_from_wikipedia[0-9.html][0-9.html]
+  list([
+    '''
+      <table class="wikitable sortable">
+      <tbody><tr>
+      <th>Ext.</th>
+      <th>Description</th>
+      <th>Used by
+      </th></tr>
+      <tr>
+      <td><style data-mw-deduplicate="TemplateStyles:r1023754711">.mw-parser-output .vanchor>:target~.vanchor-text{background-color:#b1d2ff}</style><span class="vanchor"><span id="[[3GP_and_3G2|3G2]]"></span><span class="vanchor-text"><a href="/wiki/3GP_and_3G2" title="3GP and 3G2">3G2</a></span></span><sup class="reference" id="cite_ref-3gpp2_1-0"><a href="#cite_note-3gpp2-1">[1]</a></sup>
+      </td>
+      <td>Mobile phone video
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[3GP_and_3G2|3GP]]"></span><span class="vanchor-text"><a href="/wiki/3GP_and_3G2" title="3GP and 3G2">3GP</a></span></span><sup class="reference" id="cite_ref-3gp-specification_2-0"><a href="#cite_note-3gp-specification-2">[2]</a></sup>
+      </td>
+      <td>Mobile phone video
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[3D_Manufacturing_Format|3MF]]"></span><span class="vanchor-text"><a href="/wiki/3D_Manufacturing_Format" title="3D Manufacturing Format">3MF</a></span></span><sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>
+      </td>
+      <td>3D manufacturing format
+      </td>
+      <td>3D builder
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="7z"></span><span class="vanchor-text">7z</span></span><sup class="reference" id="cite_ref-4"><a href="#cite_note-4">[4]</a></sup>
+      </td>
+      <td>A compressed archive file format that supports several different data compression, encryption and pre-processing algorithms
+      </td>
+      <td>7-zip
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="4TH"></span><span class="vanchor-text">4TH</span></span><sup class="reference" id="cite_ref-5"><a href="#cite_note-5">[5]</a></sup>
+      </td>
+      <td><a href="/wiki/Forth_(programming_language)" title="Forth (programming language)">Forth language</a> source code file
+      </td>
+      <td>Forth development systems
+      </td></tr></tbody></table>
+    ''',
+  ])
+# ---
+# name: test_extract_tables_from_wikipedia[A-E.html].1
+  list([
+    list([
+      'Ext.',
+      'Description',
+      '''
+        Used by
+  
+      ''',
+    ]),
+    list([
+      '''
+        A
+  
+      ''',
+      '''
+        Archive file
+  
+      ''',
+      '''
+        ar (Unix)
+  
+      ''',
+    ]),
+    list([
+      '''
+        AAC
+  
+      ''',
+      '''
+        Advanced Audio Coding file
+  
+      ''',
+      '''
+        iOS, Nintendo DSi, Nintendo 3DS, YouTube Music
+  
+      ''',
+    ]),
+    list([
+      '''
+        ACCDB[1]
+  
+      ''',
+      '''
+        Microsoft Access Database
+  
+      ''',
+      '''
+        Microsoft Access Database (Open XML)
+  
+      ''',
+    ]),
+    list([
+      '''
+        ACCFT[2]
+  
+      ''',
+      '''
+        Microsoft Access Data Type Template
+  
+      ''',
+      '''
+        Microsoft Access
+  
+      ''',
+    ]),
+    list([
+      '''
+        ADT
+  
+      ''',
+      '''
+        Abrechnungsdatentransfer, an xDT application
+  
+      ''',
+      '''
+        Healthcare providers in Germany
+  
+      ''',
+    ]),
+    list([
+      '''
+        ADX
+  
+      ''',
+      '''
+        Document
+  
+      ''',
+      '''
+        Archetype Designer
+  
+      ''',
+    ]),
+    list([
+      '''
+        ADZ
+  
+      ''',
+      '''
+        Amiga Disk Zipped (See Amiga Disk File)
+  
+      ''',
+      '''
+        GZip
+  
+      ''',
+    ]),
+    list([
+      '''
+        AGDA
+  
+      ''',
+      '''
+        Agda (programming language) source file
+  
+      ''',
+      '''
+        Agda typechecker/compiler
+  
+      ''',
+    ]),
+    list([
+      '''
+        AGR
+  
+      ''',
+      '''
+        ArcView ASCII grid
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        AHK
+  
+      ''',
+      '''
+        AutoHotkey script file
+  
+      ''',
+      '''
+        AutoHotkey
+  
+      ''',
+    ]),
+    list([
+      '''
+        AI[3]
+  
+      ''',
+      '''
+        Adobe Illustrator Artwork
+  
+      ''',
+      '''
+        Adobe Illustrator
+  
+      ''',
+    ]),
+    list([
+      '''
+        AIFF[4]
+  
+      ''',
+      '''
+        Audio Interchange File Format
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        AIFC[4]
+  
+      ''',
+      '''
+        Compressed Audio Interchange File Format
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        AIO
+  
+      ''',
+      '''
+        APL programming language file transfer format file
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        AMF[5][6]
+  
+      ''',
+      '''
+        Additive Manufacturing File Format
+  
+      ''',
+      '''
+        Computer Aided Design Software
+  
+      ''',
+    ]),
+    list([
+      '''
+        AMG
+  
+      ''',
+      '''
+        System image file
+  
+      ''',
+      '''
+        ACTOR
+  
+      ''',
+    ]),
+    list([
+      '''
+        AML[7]
+  
+      ''',
+      '''
+        AutomationML
+  
+      ''',
+      '''
+        AutomationML Group
+  
+      ''',
+    ]),
+    list([
+      '''
+        AMLX[7]
+  
+      ''',
+      '''
+        Compressed and packed AutomationML file
+  
+      ''',
+      '''
+        AutomationML Group
+  
+      ''',
+    ]),
+    list([
+      '''
+        AMPL
+  
+      ''',
+      '''
+        AMPL source code file
+  
+      ''',
+      '''
+        AMPL
+  
+      ''',
+    ]),
+    list([
+      '''
+        AMR
+  
+      ''',
+      '''
+        Adaptive Multi-Rate audio
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        AMV
+  
+      ''',
+      '''
+        Actions Media Video
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        ANI[8]
+  
+      ''',
+      '''
+        Animation cursors for Win
+  
+      ''',
+      '''
+        Win95 - WinNT
+  
+      ''',
+    ]),
+    list([
+      '''
+        ANN
+  
+      ''',
+      '''
+        Annotations of old Windows Help file
+  
+      ''',
+      '''
+        Windows 3.0 - XP
+  
+      ''',
+    ]),
+    list([
+      '''
+        APE
+  
+      ''',
+      '''
+        Monkey's Audio (Lossless)
+  
+      ''',
+      '''
+        audio media players
+  
+      ''',
+    ]),
+    list([
+      '''
+        APK
+  
+      ''',
+      '''
+        Android application package
+  
+      ''',
+      '''
+        Android
+  
+      ''',
+    ]),
+    list([
+      '''
+        APK
+  
+      ''',
+      '''
+        Alpine Linux Package
+  
+      ''',
+      '''
+         Alpine Linux and derivatives
+  
+      ''',
+    ]),
+    list([
+      '''
+        ARC[9]
+  
+      ''',
+      '''
+        ARC (file format)
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        ART[10]
+  
+      ''',
+      '''
+        Gerber format
+  
+      ''',
+      '''
+        Cadence Allegro, EAGLE
+  
+      ''',
+    ]),
+    list([
+      '''
+        ASAX[11]
+  
+      ''',
+      '''
+        ASP.NET global application file
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        ASCX[11]
+  
+      ''',
+      '''
+        ASP.NET User Control
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        ASF[12]
+  
+      ''',
+      '''
+        Advanced Streaming Format (Compressed Windows audio/video)
+  
+      ''',
+      '''
+        Microsoft Corporation
+  
+      ''',
+    ]),
+    list([
+      '''
+        ASHX[11]
+  
+      ''',
+      '''
+        ASP.NET handler file
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        ASM
+  
+      ''',
+      '''
+        Assembler language source
+  
+      ''',
+      '''
+        TASM, MASM, NASM, FASM
+  
+      ''',
+    ]),
+    list([
+      '''
+        ASPX
+  
+      ''',
+      '''
+        Active server page extended file
+  
+      ''',
+      '''
+        Microsoft Corporation
+  
+      ''',
+    ]),
+    list([
+      '''
+        ASX[13]
+  
+      ''',
+      '''
+        Advanced Stream Redirector file, redirects to an ASF file (see ASF)
+  
+      ''',
+      '''
+        Microsoft Corporation
+  
+      ''',
+    ]),
+    list([
+      '''
+        ATG[14]
+  
+      ''',
+      '''
+        Coco/R LL(1) formal grammar
+  
+      ''',
+      '''
+        Coco/R
+  
+      ''',
+    ]),
+    list([
+      '''
+        AT3[15]
+  
+      ''',
+      '''
+        Atrac 3 Sound/music file
+  
+      ''',
+      '''
+        All Sony devices and programs with the Atrac 3+ specification
+  
+      ''',
+    ]),
+    list([
+      '''
+        AVI[16][17]
+  
+      ''',
+      '''
+        Audio Video Interleave
+  
+      ''',
+      '''
+        Video for Windows
+  
+      ''',
+    ]),
+    list([
+      '''
+        AWK
+  
+      ''',
+      '''
+        AWK script/program
+  
+      ''',
+      '''
+        awk, GNU Awk, mawk, nawk, MKS AWK, Awka (compiler)
+  
+      ''',
+    ]),
+    list([
+      '''
+        AX
+  
+      ''',
+      '''
+        DirectShow Filter
+  
+      ''',
+      '''
+        Microsoft Corporation (Video Players)
+  
+      ''',
+    ]),
+    list([
+      '''
+        AXF[18]
+  
+      ''',
+      '''
+        lightweight geodatabase
+  
+      ''',
+      '''
+        ESRI ArcPad
+  
+      ''',
+    ]),
+  ])
+# ---
+# name: test_extract_tables_from_wikipedia[A-E.html].2
+  list([
+    list([
+      'Ext.',
+      'Description',
+      '''
+        Used by
+  
+      ''',
+    ]),
+    list([
+      '''
+        B
+  
+      ''',
+      '''
+        BASIC language source
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        B
+  
+      ''',
+      '''
+        bc arbitrary precision calculator language file
+  
+      ''',
+      '''
+        Unix bc tool
+  
+      ''',
+    ]),
+    list([
+      '''
+        BAK
+  
+      ''',
+      '''
+        backup
+  
+      ''',
+      '''
+        various
+  
+      ''',
+    ]),
+    list([
+      '''
+        BAR
+  
+      ''',
+      '''
+        Broker Archive. Compressed file containing number of other files for deployment.[19]
+  
+      ''',
+      '''
+        IBM App Connect
+  
+      ''',
+    ]),
+    list([
+      '''
+        BAS
+  
+      ''',
+      '''
+        BASIC language source
+  
+      ''',
+      '''
+        QuickBASIC - GW-BASIC - FreeBASIC - others
+  
+      ''',
+    ]),
+    list([
+      '''
+        BAT
+  
+      ''',
+      '''
+        Batch file
+  
+      ''',
+      '''
+        MS-DOS, RT-11
+  
+      ''',
+    ]),
+    list([
+      '''
+        BDF
+  
+      ''',
+      '''
+        Glyph Bitmap Distribution Format, a format used to store bitmap fonts.
+  
+      ''',
+      '''
+        Adobe
+  
+      ''',
+    ]),
+    list([
+      '''
+        BDT
+  
+      ''',
+      '''
+        Behandlungsdatentransfer, an xDT application
+  
+      ''',
+      '''
+        Healthcare providers in Germany
+  
+      ''',
+    ]),
+    list([
+      '''
+        BEAM
+  
+      ''',
+      '''
+        Executable bytecode file in fat binary format
+  
+      ''',
+      '''
+        BEAM (Erlang virtual machine)[20]
+  
+      ''',
+    ]),
+    list([
+      '''
+        BIN
+  
+      ''',
+      '''
+        binary file
+  
+      ''',
+      '''
+        Every OS
+  
+      ''',
+    ]),
+    list([
+      '''
+        BM3
+  
+      ''',
+      '''
+        UIQ3 Phone backup
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        BMP[21]
+  
+      ''',
+      '''
+        OS/2 or Win graphics format (BitMap Picture)
+  
+      ''',
+      '''
+        QPeg - CorelDraw - PC Paintbrush - many
+  
+      ''',
+    ]),
+    list([
+      '''
+        BPS
+  
+      ''',
+      '''
+        WPS backup file[22]
+  
+      ''',
+      '''
+        Microsoft Word, Microsoft Works
+  
+      ''',
+    ]),
+    list([
+      '''
+        BZ2[23]
+  
+      ''',
+      '''
+        Archive
+  
+      ''',
+      '''
+        bzip2
+  
+      ''',
+    ]),
+    list([
+      '''
+        BLEND
+  
+      ''',
+      '''
+        Blender project file
+  
+      ''',
+      '''
+        Blender
+  
+      ''',
+    ]),
+  ])
+# ---
+# name: test_extract_tables_from_wikipedia[A-E.html].3
+  list([
+    list([
+      'Ext.',
+      'Description',
+      '''
+        Used by
+  
+      ''',
+    ]),
+    list([
+      '''
+        C--
+  
+      ''',
+      '''
+        C-- language source
+  
+      ''',
+      '''
+        Sphinx C--
+  
+      ''',
+    ]),
+    list([
+      '''
+        C
+  
+      ''',
+      '''
+        C language source
+        Note that on case-sensitive platforms like Unix and with the gcc compiler the uppercase .C extension indicates a C++ source file.[24]
+        
+  
+      ''',
+      '''
+        Watcom C/C++, Borland C/C++, gcc and other C compilers
+  
+      ''',
+    ]),
+    list([
+      '''
+        C
+  
+      ''',
+      '''
+        Unix file archive
+  
+      ''',
+      '''
+        COMPACT
+  
+      ''',
+    ]),
+    list([
+      '''
+        C++
+  
+      ''',
+      '''
+        C++ language source
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CPP
+  
+      ''',
+      '''
+        C++ language source
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        C32
+  
+      ''',
+      '''
+        COMBOOT Executable (32-bit)
+  
+      ''',
+      '''
+        SYSLINUX
+  
+      ''',
+    ]),
+    list([
+      '''
+        CAB[25]
+  
+      ''',
+      '''
+        Cabinet archive
+  
+      ''',
+      '''
+        Windows 95 and later, many file archivers
+  
+      ''',
+    ]),
+    list([
+      '''
+        CBT
+  
+      ''',
+      '''
+        COMBOOT Executable (incompatible with DOS COM files)
+  
+      ''',
+      '''
+        SYSLINUX
+  
+      ''',
+    ]),
+    list([
+      '''
+        CC
+  
+      ''',
+      '''
+        C++ language source
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CD
+  
+      ''',
+      '''
+        ASP.NET class diagram file[11]
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CDF[26]
+  
+      ''',
+      '''
+        Common Data Format
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CDF[27]
+  
+      ''',
+      '''
+        Computable Document Format
+  
+      ''',
+      '''
+        Mathematica
+  
+      ''',
+    ]),
+    list([
+      '''
+        CDP[28]
+  
+      ''',
+      '''
+        Trainz Railroad Simulator Content Dispatcher Pack
+  
+      ''',
+      '''
+        Trainz Railroad Simulator
+  
+      ''',
+    ]),
+    list([
+      '''
+        CDR[29]
+  
+      ''',
+      '''
+        Vector graphics format (drawinF
+  
+      ''',
+      '''
+        CorelDraw
+  
+      ''',
+    ]),
+    list([
+      '''
+        CER[30]
+  
+      ''',
+      '''
+        Security certificate
+  
+      ''',
+      '''
+        Microsoft Windows
+  
+      ''',
+    ]),
+    list([
+      '''
+        CGM[31][32]
+  
+      ''',
+      '''
+        Computer Graphics Metafile vector graphics
+  
+      ''',
+      '''
+        A&L - HG - many
+  
+      ''',
+    ]),
+    list([
+      '''
+        CHM[33]
+  
+      ''',
+      '''
+        Compiled Help File
+  
+      ''',
+      '''
+        Microsoft Windows, Help Explorer Viewer
+  
+      ''',
+    ]),
+    list([
+      '''
+        CHO[34]
+  
+      ''',
+      '''
+        ChordPro lead sheet (lyrics and chords)
+  
+      ''',
+      '''
+        ChordPro and similar tools
+  
+      ''',
+    ]),
+    list([
+      '''
+        CIA
+  
+      ''',
+      '''
+        Decrypted Nintendo 3DS ROM cartridge
+  
+      ''',
+      '''
+        Nintendo 3DS
+  
+      ''',
+    ]),
+    list([
+      '''
+        CIF[35][36]
+  
+      ''',
+      '''
+        Crystallographic Information File
+  
+      ''',
+      '''
+        RasMol, Jmol
+  
+      ''',
+    ]),
+    list([
+      '''
+        CLASS[37]
+  
+      ''',
+      '''
+        Java class file
+  
+      ''',
+      '''
+        Java
+  
+      ''',
+    ]),
+    list([
+      '''
+        CMD
+  
+      ''',
+      '''
+        Command Prompt batch file
+  
+      ''',
+      '''
+        Microsoft Windows NT based operating systems
+  
+      ''',
+    ]),
+    list([
+      '''
+        CMD[38]
+  
+      ''',
+      '''
+        executable programs
+  
+      ''',
+      '''
+        CP/M-86 operating system
+  
+      ''',
+    ]),
+    list([
+      '''
+        CMOD[39]
+  
+      ''',
+      '''
+        Celestia Model
+  
+      ''',
+      '''
+        Celestia
+  
+      ''',
+    ]),
+    list([
+      '''
+        CN1[40]
+  
+      ''',
+      '''
+        CNR IDL
+  
+      ''',
+      '''
+        MITRE
+  
+      ''',
+    ]),
+    list([
+      '''
+        COE[41]
+  
+      ''',
+      '''
+        Coefficient file
+  
+      ''',
+      '''
+        Xilinx ISE
+  
+      ''',
+    ]),
+    list([
+      '''
+        COM
+  
+      ''',
+      '''
+        DOS program
+  
+      ''',
+      '''
+        DOS-
+  
+      ''',
+    ]),
+    list([
+      '''
+        COMPILE[11]
+  
+      ''',
+      '''
+        ASP.NET precompiled stub file
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CPC[42]
+  
+      ''',
+      '''
+        Compressed image
+  
+      ''',
+      '''
+        Cartesian Perceptual Compression
+  
+      ''',
+    ]),
+    list([
+      '''
+        CPIO
+  
+      ''',
+      '''
+        cpio archive file
+  
+      ''',
+      '''
+        cpio
+  
+      ''',
+    ]),
+    list([
+      '''
+        CPL[43]
+  
+      ''',
+      '''
+        Control panel file
+  
+      ''',
+      '''
+        Windows 3.x
+  
+      ''',
+    ]),
+    list([
+      '''
+        CR2[44]
+  
+      ''',
+      '''
+        Raw image format
+  
+      ''',
+      '''
+        Canon digital cameras
+  
+      ''',
+    ]),
+    list([
+      '''
+        CRAI[45]
+  
+      ''',
+      '''
+        CRAM index
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CRAFT
+  
+      ''',
+      '''
+        Holds Spacecraft Assembly information
+  
+      ''',
+      '''
+        Kerbal Space Program
+  
+      ''',
+    ]),
+    list([
+      '''
+        CRT[30]
+  
+      ''',
+      '''
+        Security certificate
+  
+      ''',
+      '''
+        Microsoft Windows
+  
+      ''',
+    ]),
+    list([
+      '''
+        CS[46]
+  
+      ''',
+      '''
+        C# language source
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CSPROJ[47][48]
+  
+      ''',
+      '''
+        C# project file
+  
+      ''',
+      '''
+        Microsoft Visual Studio
+  
+      ''',
+    ]),
+    list([
+      '''
+        CSS[49]
+  
+      ''',
+      '''
+        Cascading style sheet
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CSO[50]
+  
+      ''',
+      '''
+        Compiled Shader Object, extension of compiled HLSL
+  
+      ''',
+      '''
+        High-Level Shading Language
+  
+      ''',
+    ]),
+    list([
+      '''
+        CSV[51]
+  
+      ''',
+      '''
+        Comma Separated Values text file format (ASCII)
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        CUR
+  
+      ''',
+      '''
+        Non-animated cursor (extended from ICO)
+  
+      ''',
+      '''
+        Windows
+  
+      ''',
+    ]),
+  ])
+# ---
+# name: test_extract_tables_from_wikipedia[A-E.html].4
+  list([
+    list([
+      'Ext.',
+      'Description',
+      '''
+        Used by
+  
+      ''',
+    ]),
+    list([
+      '''
+        D
+  
+      ''',
+      '''
+        D Programming Language source file
+  
+      ''',
+      '''
+        DMD
+  
+      ''',
+    ]),
+    list([
+      '''
+        D
+  
+      ''',
+      '''
+        Directory containing configuration files (informal standard)
+  
+      ''',
+      '''
+        Unix
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAA
+  
+      ''',
+      '''
+        Direct Access Archive
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAE
+  
+      ''',
+      '''
+        COLLADA file
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAF
+  
+      ''',
+      '''
+        Data file
+  
+      ''',
+      '''
+        Digital Anchor
+  
+      ''',
+    ]),
+    list([
+      '''
+        DART
+  
+      ''',
+      '''
+        Dart (programming language) source file
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        AMPL data file
+  
+      ''',
+      '''
+        AMPL
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        LDraw (Sub)Part File, 3D Model
+  
+      ''',
+      '''
+        LDraw
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        Data
+  
+      ''',
+      '''
+        RSNetWorx Project
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        Data file in special format or ASCII
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        Database file
+  
+      ''',
+      '''
+        Clarion (programming language)
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        Norton Utilities disc image data. It saves Boot sector, part of FAT and root directory in image.DAT on same drive.
+  
+      ''',
+      '''
+        Norton Utilities
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        Optical disc image (can be ISO9660, but not restricted to)
+  
+      ''',
+      '''
+        cdrdao, burnatonce
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        Video CD MPEG stream
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DAT
+  
+      ''',
+      '''
+        Windows registry hive (REG.DAT Windows 3.11; USER.DAT and SYSTEM.DAT Windows 95, 98, and ME; NTUSER.DAT Windows NT/2000/XP/7)
+  
+      ''',
+      '''
+        Microsoft Windows
+  
+      ''',
+    ]),
+    list([
+      '''
+        DATS
+  
+      ''',
+      '''
+        Dynamic source
+  
+      ''',
+      '''
+        ATS
+  
+      ''',
+    ]),
+    list([
+      '''
+        DBA
+  
+      ''',
+      '''
+        DarkBasic source code
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DBC
+  
+      ''',
+      '''
+        Database Connection configuration file
+  
+      ''',
+      '''
+        AbInitio
+  
+      ''',
+    ]),
+    list([
+      '''
+        DBG
+  
+      ''',
+      '''
+        Debugger script
+  
+      ''',
+      '''
+        DOS debug - Watcom debugger
+  
+      ''',
+    ]),
+    list([
+      '''
+        DBG
+  
+      ''',
+      '''
+        Symbolic debugging information
+  
+      ''',
+      '''
+        Microsoft C/C++
+  
+      ''',
+    ]),
+    list([
+      '''
+        DEB
+  
+      ''',
+      '''
+        deb software package
+  
+      ''',
+      '''
+        Debian Linux and derivatives
+  
+      ''',
+    ]),
+    list([
+      '''
+        DICOM
+  
+      ''',
+      '''
+        Digital Imaging and Communications in Medicine (DICOM) bitmap
+  
+      ''',
+      '''
+        DICOM Software (XnView)
+  
+      ''',
+    ]),
+    list([
+      '''
+        DIF
+  
+      ''',
+      '''
+        Data Interchange Format
+  
+      ''',
+      '''
+        Visicalc
+  
+      ''',
+    ]),
+    list([
+      '''
+        DIF
+  
+      ''',
+      '''
+        Output from [diff] command - script for Patch command
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DIRED
+  
+      ''',
+      '''
+        Directory listing (ls format)
+  
+      ''',
+      '''
+        Dired
+  
+      ''',
+    ]),
+    list([
+      '''
+        DIVX
+  
+      ''',
+      '''
+        DivX media format
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DMG
+  
+      ''',
+      '''
+        Apple Disk Image
+  
+      ''',
+      '''
+        macOS (Disk Utility),
+  
+      ''',
+    ]),
+    list([
+      '''
+        DMP
+  
+      ''',
+      '''
+        memory dump file (e.g. screen or memory)
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DN
+  
+      ''',
+      '''
+        Dimension model format
+  
+      ''',
+      '''
+        Adobe Dimension[52]
+  
+      ''',
+    ]),
+    list([
+      '''
+        DNG[53]
+  
+      ''',
+      '''
+        Digital Negative, a-publicly available archival format for the raw files generated by digital cameras
+  
+      ''',
+      '''
+        At least 30 camera models from at least 10 manufacturers, and at least 200 software products
+  
+      ''',
+    ]),
+    list([
+      '''
+        DOC[54][55][56]
+  
+      ''',
+      '''
+        A Document, or an ASCII text file with text formatting codes in with the text; used by many word processors
+  
+      ''',
+      '''
+        Microsoft Word and others
+  
+      ''',
+    ]),
+    list([
+      '''
+        DOCM
+  
+      ''',
+      '''
+        Microsoft Word Macro-Enabled Document
+  
+      ''',
+      '''
+        Microsoft Word
+  
+      ''',
+    ]),
+    list([
+      '''
+        DOCX[57]
+  
+      ''',
+      '''
+        Microsoft Word Document
+  
+      ''',
+      '''
+        Microsoft Word
+  
+      ''',
+    ]),
+    list([
+      '''
+        DOT[57]
+  
+      ''',
+      '''
+        Microsoft Word document template
+  
+      ''',
+      '''
+        Microsoft Word
+  
+      ''',
+    ]),
+    list([
+      '''
+        DOTX[57]
+  
+      ''',
+      '''
+        Office Open XML Text document template
+  
+      ''',
+      '''
+        Microsoft Word
+  
+      ''',
+    ]),
+    list([
+      '''
+        DPX[58][59]
+  
+      ''',
+      '''
+        Digital Picture Exchange
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DRC
+  
+      ''',
+      '''
+        Dirac format video
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DSC[60]
+  
+      ''',
+      '''
+        Celestia Deep Space Catalog file
+  
+      ''',
+      '''
+        Celestia
+  
+      ''',
+    ]),
+    list([
+      '''
+        DTD[61]
+  
+      ''',
+      '''
+        Document Type Definition
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DVC[62]
+  
+      ''',
+      '''
+        Data version control yaml pointer into blob storage
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        DWF
+  
+      ''',
+      '''
+        Autodesk Design Web Format
+  
+      ''',
+      '''
+        Design Review
+  
+      ''',
+    ]),
+    list([
+      '''
+        DWG[63]
+  
+      ''',
+      '''
+        Drawing
+  
+      ''',
+      '''
+        AutoCAD, IntelliCAD, PowerCAD, Drafix, DraftSight etc.
+  
+      ''',
+    ]),
+    list([
+      '''
+        DXF[64]
+  
+      ''',
+      '''
+        Drawing Interchange File Format vector graphics
+  
+      ''',
+      '''
+        AutoCAD, IntelliCAD, PowerCAD, etc.
+  
+      ''',
+    ]),
+  ])
+# ---
+# name: test_extract_tables_from_wikipedia[A-E.html].5
+  list([
+    list([
+      'Ext.',
+      'Description',
+      '''
+        Used by
+  
+      ''',
+    ]),
+    list([
+      '''
+        E
+  
+      ''',
+      '''
+        E language source code
+  
+      ''',
+      '''
+        E
+  
+      ''',
+    ]),
+    list([
+      '''
+        E##
+  
+      ''',
+      '''
+        EnCase Evidence File chunk
+  
+      ''',
+      '''
+        EnCase Forensic Analysis Suite entity
+  
+      ''',
+    ]),
+    list([
+      '''
+        E00
+  
+      ''',
+      '''
+        ArcInfo interchange file
+  
+      ''',
+      '''
+        GIS software
+  
+      ''',
+    ]),
+    list([
+      '''
+        E2D
+  
+      ''',
+      '''
+        2-dimensional vector graphics file
+  
+      ''',
+      '''
+        Editor included in JFire
+  
+      ''',
+    ]),
+    list([
+      '''
+        e57
+  
+      ''',
+      '''
+        A file format developed by ASTM International for storing point clouds and images
+  
+      ''',
+      '''
+        Most software that enables viewing and/or editing of 3D point clouds
+  
+      ''',
+    ]),
+    list([
+      '''
+        EBD
+  
+      ''',
+      '''
+        versions of DOS system files (AUTOEXEC.BAT, COMMAND.COM, CONFIG.SYS, WINBOOT.SYS, etc.) for an emergency boot disk
+  
+      ''',
+      '''
+        Windows 98, ME
+  
+      ''',
+    ]),
+    list([
+      '''
+        EC
+  
+      ''',
+      '''
+        Source code
+  
+      ''',
+      '''
+        eC
+  
+      ''',
+    ]),
+    list([
+      '''
+        ECC
+  
+      ''',
+      '''
+        Error-checking file
+  
+      ''',
+      '''
+        dvdisaster
+  
+      ''',
+    ]),
+    list([
+      '''
+        EDE
+  
+      ''',
+      '''
+        Ensoniq EPS disk image
+  
+      ''',
+      '''
+        AWAVE
+  
+      ''',
+    ]),
+    list([
+      '''
+        EDF
+  
+      ''',
+      '''
+        European data format
+  
+      ''',
+      '''
+        Medical timeseries storage files
+  
+      ''',
+    ]),
+    list([
+      '''
+        EFI
+  
+      ''',
+      '''
+        Extensible Firmware Interface
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        EIS
+  
+      ''',
+      '''
+        EIS Spectrum Analyser Project
+  
+      ''',
+      '''
+        EIS Spectrum Analyser
+  
+      ''',
+    ]),
+    list([
+      '''
+        EL
+  
+      ''',
+      '''
+        Emacs Lisp source code file
+  
+      ''',
+      '''
+        Emacs
+  
+      ''',
+    ]),
+    list([
+      '''
+        ELC
+  
+      ''',
+      '''
+        Byte-compiled Emacs Lisp code
+  
+      ''',
+      '''
+        Emacs
+  
+      ''',
+    ]),
+    list([
+      '''
+        ELF
+  
+      ''',
+      '''
+        Executable and Linkable File
+  
+      ''',
+      '''
+        Unix
+  
+      ''',
+    ]),
+    list([
+      '''
+        EMAIL
+  
+      ''',
+      '''
+        Outlook Express Email Message
+  
+      ''',
+      '''
+        Windows Live Mail, Outlook Express, Microsoft Notepad
+  
+      ''',
+    ]),
+    list([
+      '''
+        EMAKER
+  
+      ''',
+      '''
+        E language source code (maker)
+  
+      ''',
+      '''
+        E
+  
+      ''',
+    ]),
+    list([
+      '''
+        EMF
+  
+      ''',
+      '''
+        Microsoft Enhanced Metafile
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        EML
+  
+      ''',
+      '''
+        Email conforming to RFC 5322;[65] Stationery Template
+  
+      ''',
+      '''
+        Email clients;Outlook Express
+  
+      ''',
+    ]),
+    list([
+      '''
+        EMZ
+  
+      ''',
+      '''
+        Microsoft Enhanced Metafile compressed with ZIP
+  
+      ''',
+      '''
+        Microsoft Office suite
+  
+      ''',
+    ]),
+    list([
+      '''
+        EOT
+  
+      ''',
+      '''
+        Embedded OpenType
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        EP
+  
+      ''',
+      '''
+        GUI wireframe/prototype project
+  
+      ''',
+      '''
+        Prikhi Pencil, Evolus Pencil
+  
+      ''',
+    ]),
+    list([
+      '''
+        EPA
+  
+      ''',
+      '''
+        Award BIOS splash screen
+  
+      ''',
+      '''
+        Award BIOS, XnView
+  
+      ''',
+    ]),
+    list([
+      '''
+        EPS
+  
+      ''',
+      '''
+        Encapsulated PostScript
+  
+      ''',
+      '''
+        CorelDraw - PhotoStyler - PMView - Adobe Illustrator - Ventua Publisher
+  
+      ''',
+    ]),
+    list([
+      '''
+        EPUB
+  
+      ''',
+      '''
+        Electronic Publication (e-Reader format)
+  
+      ''',
+      '''
+        Okular (Linux) - Apple Books - Sony Reader - Adobe Digital Editions - Calibre (LMW)
+  
+      ''',
+    ]),
+    list([
+      '''
+        EU4
+  
+      ''',
+      '''
+        Europa Universalis 4 save game file
+  
+      ''',
+      '''
+        Europa Universalis 4
+  
+      ''',
+    ]),
+    list([
+      '''
+        ERL
+  
+      ''',
+      '''
+        Erlang source code file
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        ES6
+  
+      ''',
+      '''
+        ECMAScript 6 file
+  
+      ''',
+      '''
+        
+  
+      ''',
+    ]),
+    list([
+      '''
+        ESCPCB
+  
+      ''',
+      '''
+        Data file of "esCAD pcb", PCB Pattern Layout Design Software
+  
+      ''',
+      '''
+        esCAD pcb provided by Electro-System
+  
+      ''',
+    ]),
+    list([
+      '''
+        ESCSCH
+  
+      ''',
+      '''
+        Data file of "esCAD sch", Drawing Schematics Diagram Software
+  
+      ''',
+      '''
+        esCAD sch provided by Electro-System
+  
+      ''',
+    ]),
+    list([
+      '''
+        ESD
+  
+      ''',
+      '''
+        Windows Imaging Format
+  
+      ''',
+      '''
+        ImageX, DISM, 7-Zip, wimlib
+  
+      ''',
+    ]),
+    list([
+      '''
+        ETL
+  
+      ''',
+      '''
+        event trace log file
+  
+      ''',
+      '''
+        Microsoft[66][67]
+  
+      ''',
+    ]),
+    list([
+      '''
+        EVT
+  
+      ''',
+      '''
+        Windows Event log file
+  
+      ''',
+      '''
+        Microsoft Windows NT 4.0 - XP; Microsoft Event Viewer
+  
+      ''',
+    ]),
+    list([
+      '''
+        EVTX
+  
+      ''',
+      '''
+        Windows Event log file XML structured
+  
+      ''',
+      '''
+        Microsoft Windows Vista, 7, 8; Microsoft Event Viewer
+  
+      ''',
+    ]),
+    list([
+      '''
+        EX
+  
+      ''',
+      '''
+        Elixir source code file
+  
+      ''',
+      '''
+        Elixir programming language running on BEAM (Erlang virtual machine)[68]
+  
+      ''',
+    ]),
+    list([
+      '''
+        EXE
+  
+      ''',
+      '''
+        Directly executable program
+  
+      ''',
+      '''
+        DOS, OpenVMS, Microsoft Windows, Symbian or OS/2
+  
+      ''',
+    ]),
+    list([
+      '''
+        EXP
+  
+      ''',
+      '''
+        Drawing File format
+  
+      ''',
+      '''
+        Drawing Express
+  
+      ''',
+    ]),
+    list([
+      '''
+        EXP
+  
+      ''',
+      '''
+        Melco Embroidery Format
+  
+      ''',
+      '''
+        Embroidermodder
+  
+      ''',
+    ]),
+    list([
+      '''
+        EXS
+  
+      ''',
+      '''
+        Elixir script file
+  
+      ''',
+      '''
+        Interactive Elixir (IEx) shell[69]
+  
+      ''',
+    ]),
+  ])
+# ---
+# name: test_extract_tables_from_wikipedia[A-E.html][A-E.html]
+  list([
+    '''
+      <table class="wikitable sortable">
+      <tbody><tr>
+      <th scope="col">Ext.</th>
+      <th scope="col">Description</th>
+      <th scope="col">Used by
+      </th></tr>
+      <tr>
+      <td><style data-mw-deduplicate="TemplateStyles:r1023754711">.mw-parser-output .vanchor>:target~.vanchor-text{background-color:#b1d2ff}</style><span class="vanchor"><span id="A"></span><span class="vanchor-text">A</span></span>
+      </td>
+      <td>Archive file
+      </td>
+      <td><a href="/wiki/Ar_(Unix)" title="Ar (Unix)">ar (Unix)</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[Advanced_Audio_Coding|AAC]]"></span><span class="vanchor-text"><a href="/wiki/Advanced_Audio_Coding" title="Advanced Audio Coding">AAC</a></span></span>
+      </td>
+      <td>Advanced Audio Coding file
+      </td>
+      <td><a href="/wiki/IOS" title="IOS">iOS</a>, <a href="/wiki/Nintendo_DSi" title="Nintendo DSi">Nintendo DSi</a>, <a href="/wiki/Nintendo_3DS" title="Nintendo 3DS">Nintendo 3DS</a>, <a href="/wiki/YouTube_Music" title="YouTube Music">YouTube Music</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ACCDB"></span><span class="vanchor-text">ACCDB</span></span><sup class="reference" id="cite_ref-1"><a href="#cite_note-1">[1]</a></sup>
+      </td>
+      <td>Microsoft Access Database
+      </td>
+      <td><a href="/wiki/Microsoft_Access" title="Microsoft Access">Microsoft Access</a> Database (Open XML)
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ACCFT"></span><span class="vanchor-text">ACCFT</span></span><sup class="reference" id="cite_ref-2"><a href="#cite_note-2">[2]</a></sup>
+      </td>
+      <td><a href="/wiki/Microsoft_Access" title="Microsoft Access">Microsoft Access</a> Data Type Template
+      </td>
+      <td><a href="/wiki/Microsoft_Access" title="Microsoft Access">Microsoft Access</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ADT"></span><span class="vanchor-text">ADT</span></span>
+      </td>
+      <td>Abrechnungsdatentransfer, an <a href="/wiki/XDT" title="XDT">xDT</a> application
+      </td>
+      <td>Healthcare providers in Germany
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ADX"></span><span class="vanchor-text">ADX</span></span>
+      </td>
+      <td>Document
+      </td>
+      <td><a class="new" href="/w/index.php?title=Archetype_Designer&amp;action=edit&amp;redlink=1" title="Archetype Designer (page does not exist)">Archetype Designer</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ADZ"></span><span class="vanchor-text">ADZ</span></span>
+      </td>
+      <td>Amiga Disk Zipped (See <a href="/wiki/Amiga_Disk_File" title="Amiga Disk File">Amiga Disk File</a>)
+      </td>
+      <td>GZip
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AGDA"></span><span class="vanchor-text">AGDA</span></span>
+      </td>
+      <td><a href="/wiki/Agda_(programming_language)" title="Agda (programming language)">Agda (programming language)</a> source file
+      </td>
+      <td>Agda typechecker/compiler
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AGR"></span><span class="vanchor-text">AGR</span></span>
+      </td>
+      <td><a href="/wiki/ArcView" title="ArcView">ArcView</a> ASCII grid
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AHK"></span><span class="vanchor-text">AHK</span></span>
+      </td>
+      <td>AutoHotkey script file
+      </td>
+      <td><a href="/wiki/AutoHotkey" title="AutoHotkey">AutoHotkey</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AI"></span><span class="vanchor-text">AI</span></span><sup class="reference" id="cite_ref-3"><a href="#cite_note-3">[3]</a></sup>
+      </td>
+      <td><a href="/wiki/Adobe_Illustrator_Artwork" title="Adobe Illustrator Artwork">Adobe Illustrator Artwork</a>
+      </td>
+      <td><a href="/wiki/Adobe_Illustrator" title="Adobe Illustrator">Adobe Illustrator</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AIFF"></span><span class="vanchor-text">AIFF</span></span><sup class="reference" id="cite_ref-aiff-spec_4-0"><a href="#cite_note-aiff-spec-4">[4]</a></sup>
+      </td>
+      <td><a href="/wiki/Audio_Interchange_File_Format" title="Audio Interchange File Format">Audio Interchange File Format</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AIFC"></span><span class="vanchor-text">AIFC</span></span><sup class="reference" id="cite_ref-aiff-spec_4-1"><a href="#cite_note-aiff-spec-4">[4]</a></sup>
+      </td>
+      <td>Compressed <a href="/wiki/Audio_Interchange_File_Format" title="Audio Interchange File Format">Audio Interchange File Format</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AIO"></span><span class="vanchor-text">AIO</span></span>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/APL_programming_language" title="APL programming language">APL programming language</a> file transfer format file
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AMF"></span><span class="vanchor-text">AMF</span></span><sup class="reference" id="cite_ref-ASTM_F2915_5-0"><a href="#cite_note-ASTM_F2915-5">[5]</a></sup><sup class="reference" id="cite_ref-ISO_52915_6-0"><a href="#cite_note-ISO_52915-6">[6]</a></sup>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Additive_Manufacturing_File_Format" title="Additive Manufacturing File Format">Additive Manufacturing File Format</a>
+      </td>
+      <td>Computer Aided Design Software
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AMG"></span><span class="vanchor-text">AMG</span></span>
+      </td>
+      <td>System image file
+      </td>
+      <td>ACTOR
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AML"></span><span class="vanchor-text">AML</span></span><sup class="reference" id="cite_ref-AutomationML_7-0"><a href="#cite_note-AutomationML-7">[7]</a></sup>
+      </td>
+      <td><a href="/wiki/AutomationML" title="AutomationML">AutomationML</a>
+      </td>
+      <td><a class="new" href="/w/index.php?title=AutomationML_Group&amp;action=edit&amp;redlink=1" title="AutomationML Group (page does not exist)">AutomationML Group</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AMLX"></span><span class="vanchor-text">AMLX</span></span><sup class="reference" id="cite_ref-AutomationML_7-1"><a href="#cite_note-AutomationML-7">[7]</a></sup>
+      </td>
+      <td>Compressed and packed <a href="/wiki/AutomationML" title="AutomationML">AutomationML</a> file
+      </td>
+      <td><a class="new" href="/w/index.php?title=AutomationML_Group&amp;action=edit&amp;redlink=1" title="AutomationML Group (page does not exist)">AutomationML Group</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AMPL"></span><span class="vanchor-text">AMPL</span></span>
+      </td>
+      <td>AMPL source code file
+      </td>
+      <td><a href="/wiki/AMPL" title="AMPL">AMPL</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AMR"></span><span class="vanchor-text">AMR</span></span>
+      </td>
+      <td><a href="/wiki/Adaptive_Multi-Rate_audio_codec" title="Adaptive Multi-Rate audio codec">Adaptive Multi-Rate audio</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[AMV_video_format|AMV]]"></span><span class="vanchor-text"><a href="/wiki/AMV_video_format" title="AMV video format">AMV</a></span></span>
+      </td>
+      <td>Actions Media Video
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ANI"></span><span class="vanchor-text">ANI</span></span><sup class="reference" id="cite_ref-8"><a href="#cite_note-8">[8]</a></sup>
+      </td>
+      <td>Animation cursors for Win
+      </td>
+      <td>Win95 - <a class="mw-redirect" href="/wiki/WinNT" title="WinNT">WinNT</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ANN"></span><span class="vanchor-text">ANN</span></span>
+      </td>
+      <td>Annotations of old <a href="/wiki/WinHelp" title="WinHelp">Windows Help</a> file
+      </td>
+      <td><a href="/wiki/Windows_3.0" title="Windows 3.0">Windows 3.0</a> - <a href="/wiki/Windows_XP" title="Windows XP">XP</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="APE"></span><span class="vanchor-text">APE</span></span>
+      </td>
+      <td><a href="/wiki/Monkey%27s_Audio" title="Monkey's Audio">Monkey's Audio</a> (Lossless)
+      </td>
+      <td>audio media players
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[apk_(file_format)|APK]]"></span><span class="vanchor-text"><a href="/wiki/Apk_(file_format)" title="Apk (file format)">APK</a></span></span>
+      </td>
+      <td>Android application package
+      </td>
+      <td><a href="/wiki/Android_(operating_system)" title="Android (operating system)">Android</a>
+      </td></tr>
+      <tr>
+      <td>APK
+      </td>
+      <td>Alpine Linux Package
+      </td>
+      <td><a href="/wiki/Alpine_Linux" title="Alpine Linux"> Alpine Linux and derivatives</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ARC"></span><span class="vanchor-text">ARC</span></span><sup class="reference" id="cite_ref-9"><a href="#cite_note-9">[9]</a></sup>
+      </td>
+      <td><a href="/wiki/ARC_(file_format)" title="ARC (file format)">ARC (file format)</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ART"></span><span class="vanchor-text">ART</span></span><sup class="reference" id="cite_ref-10"><a href="#cite_note-10">[10]</a></sup>
+      </td>
+      <td><a href="/wiki/Gerber_format" title="Gerber format">Gerber format</a>
+      </td>
+      <td><a href="/wiki/Cadence_Design_Systems" title="Cadence Design Systems">Cadence</a> Allegro, <a href="/wiki/EAGLE_(program)" title="EAGLE (program)">EAGLE</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ASAX"></span><span class="vanchor-text">ASAX</span></span><sup class="reference" id="cite_ref-ASP.NET_11-0"><a href="#cite_note-ASP.NET-11">[11]</a></sup>
+      </td>
+      <td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> global application file
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ASCX"></span><span class="vanchor-text">ASCX</span></span><sup class="reference" id="cite_ref-ASP.NET_11-1"><a href="#cite_note-ASP.NET-11">[11]</a></sup>
+      </td>
+      <td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> User Control
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ASF"></span><span class="vanchor-text">ASF</span></span><sup class="reference" id="cite_ref-12"><a href="#cite_note-12">[12]</a></sup>
+      </td>
+      <td>Advanced Streaming Format (Compressed Windows audio/video)
+      </td>
+      <td>Microsoft Corporation
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ASHX"></span><span class="vanchor-text">ASHX</span></span><sup class="reference" id="cite_ref-ASP.NET_11-2"><a href="#cite_note-ASP.NET-11">[11]</a></sup>
+      </td>
+      <td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> handler file
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ASM"></span><span class="vanchor-text">ASM</span></span>
+      </td>
+      <td>Assembler language source
+      </td>
+      <td><a class="mw-redirect" href="/wiki/TASM" title="TASM">TASM</a>, <a class="mw-redirect" href="/wiki/MASM" title="MASM">MASM</a>, <a href="/wiki/Netwide_Assembler" title="Netwide Assembler">NASM</a>, <a href="/wiki/FASM" title="FASM">FASM</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ASPX"></span><span class="vanchor-text">ASPX</span></span>
+      </td>
+      <td>Active server page extended file
+      </td>
+      <td>Microsoft Corporation
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ASX"></span><span class="vanchor-text">ASX</span></span><sup class="reference" id="cite_ref-13"><a href="#cite_note-13">[13]</a></sup>
+      </td>
+      <td><a href="/wiki/Advanced_Stream_Redirector" title="Advanced Stream Redirector">Advanced Stream Redirector</a> file, redirects to an ASF file (see ASF)
+      </td>
+      <td>Microsoft Corporation
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ATG"></span><span class="vanchor-text">ATG</span></span><sup class="reference" id="cite_ref-14"><a href="#cite_note-14">[14]</a></sup>
+      </td>
+      <td><a href="/wiki/Coco/R" title="Coco/R">Coco/R</a> <a class="mw-redirect" href="/wiki/LL(1)" title="LL(1)">LL(1)</a> <a href="/wiki/Formal_grammar" title="Formal grammar">formal grammar</a>
+      </td>
+      <td><a href="/wiki/Coco/R" title="Coco/R">Coco/R</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AT3"></span><span class="vanchor-text">AT3</span></span><sup class="reference" id="cite_ref-15"><a href="#cite_note-15">[15]</a></sup>
+      </td>
+      <td>Atrac 3 Sound/music file
+      </td>
+      <td>All Sony devices and programs with the Atrac 3+ specification
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AVI"></span><span class="vanchor-text">AVI</span></span><sup class="reference" id="cite_ref-16"><a href="#cite_note-16">[16]</a></sup><sup class="reference" id="cite_ref-17"><a href="#cite_note-17">[17]</a></sup>
+      </td>
+      <td><a href="/wiki/Audio_Video_Interleave" title="Audio Video Interleave">Audio Video Interleave</a>
+      </td>
+      <td><a href="/wiki/Video_for_Windows" title="Video for Windows">Video for Windows</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AWK"></span><span class="vanchor-text">AWK</span></span>
+      </td>
+      <td>AWK script/program
+      </td>
+      <td>awk, GNU Awk, mawk, nawk, MKS AWK, Awka (compiler)
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AX"></span><span class="vanchor-text">AX</span></span>
+      </td>
+      <td>DirectShow Filter
+      </td>
+      <td>Microsoft Corporation (Video Players)
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="AXF"></span><span class="vanchor-text">AXF</span></span><sup class="reference" id="cite_ref-18"><a href="#cite_note-18">[18]</a></sup>
+      </td>
+      <td>lightweight geodatabase
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Environmental_Systems_Research_Institute" title="Environmental Systems Research Institute">ESRI</a> ArcPad
+      </td></tr>
+      </tbody></table>
+    ''',
+    '''
+      <table class="wikitable">
+      <tbody><tr>
+      <th scope="col">Ext.</th>
+      <th scope="col">Description</th>
+      <th scope="col">Used by
+      </th></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="B"></span><span class="vanchor-text">B</span></span>
+      </td>
+      <td><a href="/wiki/BASIC" title="BASIC">BASIC</a> language source
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="B"></span><span class="vanchor-text">B</span></span>
+      </td>
+      <td><a href="/wiki/Bc_(programming_language)" title="Bc (programming language)">bc</a> arbitrary precision calculator language file
+      </td>
+      <td>Unix bc tool
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="BAK"></span><span class="vanchor-text">BAK</span></span>
+      </td>
+      <td><a href="/wiki/Bak_file" title="Bak file">backup</a>
+      </td>
+      <td>various
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="BAR"></span><span class="vanchor-text">BAR</span></span>
+      </td>
+      <td>Broker Archive. Compressed file containing number of other files for deployment.<sup class="reference" id="cite_ref-19"><a href="#cite_note-19">[19]</a></sup>
+      </td>
+      <td>IBM App Connect
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="BAS"></span><span class="vanchor-text">BAS</span></span>
+      </td>
+      <td>BASIC language source
+      </td>
+      <td><a href="/wiki/QuickBASIC" title="QuickBASIC">QuickBASIC</a> - <a href="/wiki/GW-BASIC" title="GW-BASIC">GW-BASIC</a> - <a href="/wiki/FreeBASIC" title="FreeBASIC">FreeBASIC</a> - others
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[Batch_file|BAT]]"></span><span class="vanchor-text"><a href="/wiki/Batch_file" title="Batch file">BAT</a></span></span>
+      </td>
+      <td>Batch file
+      </td>
+      <td><a href="/wiki/MS-DOS" title="MS-DOS">MS-DOS</a>, <a href="/wiki/RT-11" title="RT-11">RT-11</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="BDF"></span><span class="vanchor-text">BDF</span></span>
+      </td>
+      <td><a href="/wiki/Glyph_Bitmap_Distribution_Format" title="Glyph Bitmap Distribution Format">Glyph Bitmap Distribution Format</a>, a format used to store bitmap fonts.
+      </td>
+      <td><a href="/wiki/Adobe_Inc." title="Adobe Inc.">Adobe</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="BDT"></span><span class="vanchor-text">BDT</span></span>
+      </td>
+      <td>Behandlungsdatentransfer, an <a href="/wiki/XDT" title="XDT">xDT</a> application
+      </td>
+      <td>Healthcare providers in Germany
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="BEAM"></span><span class="vanchor-text">BEAM</span></span>
+      </td>
+      <td><a href="/wiki/Executable" title="Executable">Executable</a> <a href="/wiki/Bytecode" title="Bytecode">bytecode</a> file in <a href="/wiki/Fat_binary" title="Fat binary">fat binary</a> format
+      </td>
+      <td><a href="/wiki/BEAM_(Erlang_virtual_machine)" title="BEAM (Erlang virtual machine)">BEAM (Erlang virtual machine)</a><sup class="reference" id="cite_ref-20"><a href="#cite_note-20">[20]</a></sup>
+      </td></tr>
+      <tr>
+      <td>BIN
+      </td>
+      <td>binary file
+      </td>
+      <td>Every OS
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="BM3"></span><span class="vanchor-text">BM3</span></span>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/UIQ3" title="UIQ3">UIQ3</a> Phone backup
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[Windows_and_OS/2_bitmap|BMP]]"></span><span class="vanchor-text"><a class="mw-redirect" href="/wiki/Windows_and_OS/2_bitmap" title="Windows and OS/2 bitmap">BMP</a></span></span><sup class="reference" id="cite_ref-21"><a href="#cite_note-21">[21]</a></sup>
+      </td>
+      <td><a href="/wiki/OS/2" title="OS/2">OS/2</a> or Win graphics format (BitMap Picture)
+      </td>
+      <td>QPeg - CorelDraw - PC Paintbrush - many
+      </td></tr>
+      <tr>
+      <td>BPS
+      </td>
+      <td>WPS backup file<sup class="reference" id="cite_ref-22"><a href="#cite_note-22">[22]</a></sup>
+      </td>
+      <td><a href="/wiki/Microsoft_Word" title="Microsoft Word">Microsoft Word</a>, <a href="/wiki/Microsoft_Works" title="Microsoft Works">Microsoft Works</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="BZ2"></span><span class="vanchor-text">BZ2</span></span><sup class="reference" id="cite_ref-23"><a href="#cite_note-23">[23]</a></sup>
+      </td>
+      <td>Archive
+      </td>
+      <td><a href="/wiki/Bzip2" title="Bzip2">bzip2</a>
+      </td></tr>
+      <tr>
+      <td>BLEND
+      </td>
+      <td>Blender project file
+      </td>
+      <td><a href="/wiki/Blender_(software)" title="Blender (software)">Blender</a>
+      </td></tr>
+      </tbody></table>
+    ''',
+    '''
+      <table class="wikitable">
+      <tbody><tr>
+      <th scope="col">Ext.</th>
+      <th scope="col">Description</th>
+      <th scope="col">Used by
+      </th></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="C--"></span><span class="vanchor-text">C--</span></span>
+      </td>
+      <td><a href="/wiki/C--" title="C--">C--</a> language source
+      </td>
+      <td>Sphinx C--
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="C"></span><span class="vanchor-text">C</span></span>
+      </td>
+      <td><a href="/wiki/C_(programming_language)" title="C (programming language)">C</a> language source<br/>
+      <p>Note that on case-sensitive platforms like Unix and with the gcc compiler the uppercase .C extension indicates a C++ source file.<sup class="reference" id="cite_ref-24"><a href="#cite_note-24">[24]</a></sup>
+      </p>
+      </td>
+      <td>Watcom C/C++, Borland C/C++, gcc and other C compilers
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="C"></span><span class="vanchor-text">C</span></span>
+      </td>
+      <td>Unix file archive
+      </td>
+      <td>COMPACT
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="C++"></span><span class="vanchor-text">C++</span></span>
+      </td>
+      <td><a href="/wiki/C%2B%2B" title="C++">C++</a> language source
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CPP"></span><span class="vanchor-text">CPP</span></span>
+      </td>
+      <td><a href="/wiki/C%2B%2B" title="C++">C++</a> language source
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="C32"></span><span class="vanchor-text">C32</span></span>
+      </td>
+      <td>COMBOOT <a href="/wiki/Executable" title="Executable">Executable</a> (<a class="mw-redirect" href="/wiki/32-bit" title="32-bit">32-bit</a>)
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Syslinux" title="Syslinux">SYSLINUX</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CAB"></span><span class="vanchor-text">CAB</span></span><sup class="reference" id="cite_ref-25"><a href="#cite_note-25">[25]</a></sup>
+      </td>
+      <td><a href="/wiki/Cabinet_(file_format)" title="Cabinet (file format)">Cabinet archive</a>
+      </td>
+      <td><a href="/wiki/Windows_95" title="Windows 95">Windows 95</a> and later, many <a href="/wiki/Comparison_of_file_archivers" title="Comparison of file archivers">file archivers</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CBT"></span><span class="vanchor-text">CBT</span></span>
+      </td>
+      <td>COMBOOT <a href="/wiki/Executable" title="Executable">Executable</a> (incompatible with <a href="/wiki/DOS" title="DOS">DOS</a> <a href="/wiki/COM_file" title="COM file">COM</a> files)
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Syslinux" title="Syslinux">SYSLINUX</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CC"></span><span class="vanchor-text">CC</span></span>
+      </td>
+      <td><a href="/wiki/C%2B%2B" title="C++">C++</a> language source
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CD"></span><span class="vanchor-text">CD</span></span>
+      </td>
+      <td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> class diagram file<sup class="reference" id="cite_ref-ASP.NET_11-3"><a href="#cite_note-ASP.NET-11">[11]</a></sup>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CDF"></span><span class="vanchor-text">CDF</span></span><sup class="reference" id="cite_ref-26"><a href="#cite_note-26">[26]</a></sup>
+      </td>
+      <td><a href="/wiki/Common_Data_Format" title="Common Data Format">Common Data Format</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CDF"></span><span class="vanchor-text">CDF</span></span><sup class="reference" id="cite_ref-27"><a href="#cite_note-27">[27]</a></sup>
+      </td>
+      <td>Computable Document Format
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Mathematica" title="Mathematica">Mathematica</a>
+      </td></tr>
+      <tr>
+      <td>CDP<sup class="reference" id="cite_ref-28"><a href="#cite_note-28">[28]</a></sup>
+      </td>
+      <td><a href="/wiki/Trainz" title="Trainz">Trainz Railroad Simulator</a> Content Dispatcher Pack
+      </td>
+      <td><a href="/wiki/Trainz" title="Trainz">Trainz Railroad Simulator</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CDR"></span><span class="vanchor-text">CDR</span></span><sup class="reference" id="cite_ref-29"><a href="#cite_note-29">[29]</a></sup>
+      </td>
+      <td>Vector graphics format (drawinF
+      </td>
+      <td><a class="mw-redirect" href="/wiki/CorelDraw" title="CorelDraw">CorelDraw</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CER"></span><span class="vanchor-text">CER</span></span><sup class="reference" id="cite_ref-Certificate_extensions_explained_30-0"><a href="#cite_note-Certificate_extensions_explained-30">[30]</a></sup>
+      </td>
+      <td>Security certificate
+      </td>
+      <td><a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CGM"></span><span class="vanchor-text">CGM</span></span><sup class="reference" id="cite_ref-31"><a href="#cite_note-31">[31]</a></sup><sup class="reference" id="cite_ref-32"><a href="#cite_note-32">[32]</a></sup>
+      </td>
+      <td><a href="/wiki/Computer_Graphics_Metafile" title="Computer Graphics Metafile">Computer Graphics Metafile</a> vector graphics
+      </td>
+      <td>A&amp;L - HG - many
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[Microsoft_Compiled_HTML_Help|CHM]]"></span><span class="vanchor-text"><a href="/wiki/Microsoft_Compiled_HTML_Help" title="Microsoft Compiled HTML Help">CHM</a></span></span><sup class="reference" id="cite_ref-33"><a href="#cite_note-33">[33]</a></sup>
+      </td>
+      <td>Compiled Help File
+      </td>
+      <td><a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a>, Help Explorer Viewer
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CHO"></span><span class="vanchor-text">CHO</span></span><sup class="reference" id="cite_ref-34"><a href="#cite_note-34">[34]</a></sup>
+      </td>
+      <td>ChordPro lead sheet (lyrics and chords)
+      </td>
+      <td><a href="/wiki/ChordPro" title="ChordPro">ChordPro</a> and similar tools
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CIA"></span><span class="vanchor-text">CIA</span></span>
+      </td>
+      <td>Decrypted Nintendo 3DS <a class="mw-redirect" href="/wiki/ROM" title="ROM">ROM</a> cartridge
+      </td>
+      <td><a href="/wiki/Nintendo_3DS" title="Nintendo 3DS">Nintendo 3DS</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CIF"></span><span class="vanchor-text">CIF</span></span><sup class="reference" id="cite_ref-Hall1991_35-0"><a href="#cite_note-Hall1991-35">[35]</a></sup><sup class="reference" id="cite_ref-Brown2002_36-0"><a href="#cite_note-Brown2002-36">[36]</a></sup>
+      </td>
+      <td><a href="/wiki/Crystallographic_Information_File" title="Crystallographic Information File">Crystallographic Information File</a>
+      </td>
+      <td><a href="/wiki/RasMol" title="RasMol">RasMol</a>, <a href="/wiki/Jmol" title="Jmol">Jmol</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CLASS"></span><span class="vanchor-text">CLASS</span></span><sup class="reference" id="cite_ref-37"><a href="#cite_note-37">[37]</a></sup>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Class_(file_format)" title="Class (file format)">Java class file</a>
+      </td>
+      <td><a href="/wiki/Java_(programming_language)" title="Java (programming language)">Java</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CMD"></span><span class="vanchor-text">CMD</span></span>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Command_Prompt_(Windows)" title="Command Prompt (Windows)">Command Prompt</a> batch file
+      </td>
+      <td>Microsoft Windows NT based operating systems
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[CMD_file_(CP/M)|CMD]]"></span><span class="vanchor-text"><a href="/wiki/CMD_file_(CP/M)" title="CMD file (CP/M)">CMD</a></span></span><sup class="reference" id="cite_ref-Elliott_CPM_CMD_38-0"><a href="#cite_note-Elliott_CPM_CMD-38">[38]</a></sup>
+      </td>
+      <td>executable programs
+      </td>
+      <td>CP/M-86 operating system
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CMOD"></span><span class="vanchor-text">CMOD</span></span><sup class="reference" id="cite_ref-39"><a href="#cite_note-39">[39]</a></sup>
+      </td>
+      <td>Celestia Model
+      </td>
+      <td><a href="/wiki/Celestia" title="Celestia">Celestia</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CN1"></span><span class="vanchor-text">CN1</span></span><sup class="reference" id="cite_ref-40"><a href="#cite_note-40">[40]</a></sup>
+      </td>
+      <td>CNR IDL
+      </td>
+      <td><a class="mw-redirect" href="/wiki/MITRE" title="MITRE">MITRE</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="COE"></span><span class="vanchor-text">COE</span></span><sup class="reference" id="cite_ref-41"><a href="#cite_note-41">[41]</a></sup>
+      </td>
+      <td>Coefficient file
+      </td>
+      <td><a href="/wiki/Xilinx_ISE" title="Xilinx ISE">Xilinx ISE</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[COM_file|COM]]"></span><span class="vanchor-text"><a href="/wiki/COM_file" title="COM file">COM</a></span></span>
+      </td>
+      <td><a href="/wiki/DOS" title="DOS">DOS</a> program
+      </td>
+      <td><a href="/wiki/DOS" title="DOS">DOS</a>-
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="COMPILE"></span><span class="vanchor-text">COMPILE</span></span><sup class="reference" id="cite_ref-ASP.NET_11-4"><a href="#cite_note-ASP.NET-11">[11]</a></sup>
+      </td>
+      <td><a href="/wiki/ASP.NET" title="ASP.NET">ASP.NET</a> precompiled stub file
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CPC"></span><span class="vanchor-text">CPC</span></span><sup class="reference" id="cite_ref-42"><a href="#cite_note-42">[42]</a></sup>
+      </td>
+      <td>Compressed image
+      </td>
+      <td><a href="/wiki/Cartesian_Perceptual_Compression" title="Cartesian Perceptual Compression">Cartesian Perceptual Compression</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CPIO"></span><span class="vanchor-text">CPIO</span></span>
+      </td>
+      <td><a href="/wiki/Cpio" title="Cpio">cpio</a> <a href="/wiki/Archive_file" title="Archive file">archive file</a>
+      </td>
+      <td><a href="/wiki/Cpio" title="Cpio">cpio</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CPL"></span><span class="vanchor-text">CPL</span></span><sup class="reference" id="cite_ref-43"><a href="#cite_note-43">[43]</a></sup>
+      </td>
+      <td>Control panel file
+      </td>
+      <td>Windows 3.x
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CR2"></span><span class="vanchor-text">CR2</span></span><sup class="reference" id="cite_ref-44"><a href="#cite_note-44">[44]</a></sup>
+      </td>
+      <td><a href="/wiki/Raw_image_format" title="Raw image format">Raw image format</a>
+      </td>
+      <td><a href="/wiki/Canon_Inc." title="Canon Inc.">Canon</a> <a href="/wiki/Digital_camera" title="Digital camera">digital cameras</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CRAI"></span><span class="vanchor-text">CRAI</span></span><sup class="reference" id="cite_ref-Fritz2011_45-0"><a href="#cite_note-Fritz2011-45">[45]</a></sup>
+      </td>
+      <td><a href="/wiki/CRAM_(file_format)" title="CRAM (file format)">CRAM</a> index
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td>CRAFT
+      </td>
+      <td>Holds Spacecraft Assembly information
+      </td>
+      <td><a href="/wiki/Kerbal_Space_Program" title="Kerbal Space Program">Kerbal Space Program</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CRT"></span><span class="vanchor-text">CRT</span></span><sup class="reference" id="cite_ref-Certificate_extensions_explained_30-1"><a href="#cite_note-Certificate_extensions_explained-30">[30]</a></sup>
+      </td>
+      <td>Security certificate
+      </td>
+      <td><a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CS"></span><span class="vanchor-text">CS</span></span><sup class="reference" id="cite_ref-46"><a href="#cite_note-46">[46]</a></sup>
+      </td>
+      <td><a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> language source
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CSPROJ"></span><span class="vanchor-text">CSPROJ</span></span><sup class="reference" id="cite_ref-47"><a href="#cite_note-47">[47]</a></sup><sup class="reference" id="cite_ref-48"><a href="#cite_note-48">[48]</a></sup>
+      </td>
+      <td><a href="/wiki/C_Sharp_(programming_language)" title="C Sharp (programming language)">C#</a> project file
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Microsoft_Visual_Studio" title="Microsoft Visual Studio">Microsoft Visual Studio</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CSS"></span><span class="vanchor-text">CSS</span></span><sup class="reference" id="cite_ref-49"><a href="#cite_note-49">[49]</a></sup>
+      </td>
+      <td><a href="/wiki/CSS" title="CSS">Cascading style sheet</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CSO"></span><span class="vanchor-text">CSO</span></span><sup class="reference" id="cite_ref-50"><a href="#cite_note-50">[50]</a></sup>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/HLSL" title="HLSL">Compiled Shader Object, extension of compiled HLSL</a>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/HLSL" title="HLSL">High-Level Shading Language</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="CSV"></span><span class="vanchor-text">CSV</span></span><sup class="reference" id="cite_ref-rfc4180_51-0"><a href="#cite_note-rfc4180-51">[51]</a></sup>
+      </td>
+      <td><a href="/wiki/Comma-separated_values" title="Comma-separated values">Comma Separated Values</a> text file format (ASCII)
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[ICO_(file_format)|CUR]]"></span><span class="vanchor-text"><a href="/wiki/ICO_(file_format)" title="ICO (file format)">CUR</a></span></span>
+      </td>
+      <td>Non-animated cursor (extended from <a href="/wiki/ICO_(file_format)" title="ICO (file format)">ICO</a>)
+      </td>
+      <td>Windows
+      </td></tr></tbody></table>
+    ''',
+    '''
+      <table class="wikitable">
+      <tbody><tr>
+      <th scope="col">Ext.</th>
+      <th scope="col">Description</th>
+      <th scope="col">Used by
+      </th></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="D"></span><span class="vanchor-text">D</span></span>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/D_Programming_Language" title="D Programming Language">D Programming Language</a> source file
+      </td>
+      <td>DMD
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="D"></span><span class="vanchor-text">D</span></span>
+      </td>
+      <td>Directory containing configuration files (informal standard)
+      </td>
+      <td>Unix
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAA"></span><span class="vanchor-text">DAA</span></span>
+      </td>
+      <td><a href="/wiki/Direct_Access_Archive" title="Direct Access Archive">Direct Access Archive</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAE"></span><span class="vanchor-text">DAE</span></span>
+      </td>
+      <td><a href="/wiki/COLLADA" title="COLLADA">COLLADA</a> file
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAF"></span><span class="vanchor-text">DAF</span></span>
+      </td>
+      <td>Data file
+      </td>
+      <td>Digital Anchor
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DART"></span><span class="vanchor-text">DART</span></span>
+      </td>
+      <td><a href="/wiki/Dart_(programming_language)" title="Dart (programming language)">Dart (programming language)</a> source file
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td>AMPL data file
+      </td>
+      <td><a href="/wiki/AMPL" title="AMPL">AMPL</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td>LDraw (Sub)Part File, 3D Model
+      </td>
+      <td><a href="/wiki/LDraw" title="LDraw">LDraw</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td>Data
+      </td>
+      <td>RSNetWorx Project
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td>Data file in special format or <a href="/wiki/ASCII" title="ASCII">ASCII</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td>Database file
+      </td>
+      <td><a href="/wiki/Clarion_(programming_language)" title="Clarion (programming language)">Clarion (programming language)</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td>Norton Utilities <a class="mw-redirect" href="/wiki/Disc_image" title="Disc image">disc image</a> data. It saves <a href="/wiki/File_Allocation_Table#Bootsector" title="File Allocation Table">Boot sector</a>, part of <a href="/wiki/File_Allocation_Table" title="File Allocation Table">FAT</a> and root <a href="/wiki/File_Allocation_Table#Directory_table" title="File Allocation Table">directory</a> in image.DAT on same drive.
+      </td>
+      <td><a href="/wiki/Norton_Utilities" title="Norton Utilities">Norton Utilities</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td>Optical disc image (can be ISO9660, but not restricted to)
+      </td>
+      <td><a href="/wiki/Cdrdao" title="Cdrdao">cdrdao</a>, <a href="/wiki/Burnatonce" title="Burnatonce">burnatonce</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td><a href="/wiki/Video_CD" title="Video CD">Video CD</a> <a href="/wiki/MPEG-1" title="MPEG-1">MPEG</a> stream
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DAT"></span><span class="vanchor-text">DAT</span></span>
+      </td>
+      <td><a href="/wiki/Windows_Registry" title="Windows Registry">Windows registry</a> hive (REG.DAT Windows 3.11; USER.DAT and SYSTEM.DAT Windows 95, 98, and ME; NTUSER.DAT Windows NT/2000/XP/7)
+      </td>
+      <td>Microsoft Windows
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DATS"></span><span class="vanchor-text">DATS</span></span>
+      </td>
+      <td>Dynamic source
+      </td>
+      <td>ATS
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DBA"></span><span class="vanchor-text">DBA</span></span>
+      </td>
+      <td>DarkBasic source code
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DBC"></span><span class="vanchor-text">DBC</span></span>
+      </td>
+      <td>Database Connection configuration file
+      </td>
+      <td>AbInitio
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DBG"></span><span class="vanchor-text">DBG</span></span>
+      </td>
+      <td>Debugger script
+      </td>
+      <td>DOS debug - Watcom debugger
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DBG"></span><span class="vanchor-text">DBG</span></span>
+      </td>
+      <td>Symbolic debugging information
+      </td>
+      <td>Microsoft C/C++
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DEB"></span><span class="vanchor-text">DEB</span></span>
+      </td>
+      <td><a href="/wiki/Deb_(file_format)" title="Deb (file format)">deb</a> software package
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Debian_Linux" title="Debian Linux">Debian Linux</a> and <a href="/wiki/List_of_Linux_distributions#Debian-based" title="List of Linux distributions">derivatives</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DICOM"></span><span class="vanchor-text">DICOM</span></span>
+      </td>
+      <td>Digital Imaging and Communications in Medicine (<a href="/wiki/DICOM#Data_format" title="DICOM">DICOM</a>) bitmap
+      </td>
+      <td><a href="/wiki/DICOM#DICOM_Software" title="DICOM">DICOM Software</a> (<a href="/wiki/XnView" title="XnView">XnView</a>)
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DIF"></span><span class="vanchor-text">DIF</span></span>
+      </td>
+      <td><a href="/wiki/Data_Interchange_Format" title="Data Interchange Format">Data Interchange Format</a>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Visicalc" title="Visicalc">Visicalc</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DIF"></span><span class="vanchor-text">DIF</span></span>
+      </td>
+      <td>Output from [diff] command - script for Patch command
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DIRED"></span><span class="vanchor-text">DIRED</span></span>
+      </td>
+      <td><a href="/wiki/Directory_(computing)" title="Directory (computing)">Directory</a> listing (<a href="/wiki/Ls" title="Ls">ls</a> format)
+      </td>
+      <td><a href="/wiki/Dired" title="Dired">Dired</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DIVX"></span><span class="vanchor-text">DIVX</span></span>
+      </td>
+      <td><a href="/wiki/DivX" title="DivX">DivX</a> media format
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DMG"></span><span class="vanchor-text">DMG</span></span>
+      </td>
+      <td><a href="/wiki/Apple_Disk_Image" title="Apple Disk Image">Apple Disk Image</a>
+      </td>
+      <td><a href="/wiki/MacOS" title="MacOS">macOS</a> (<a href="/wiki/Disk_Utility" title="Disk Utility">Disk Utility</a>),
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DMP"></span><span class="vanchor-text">DMP</span></span>
+      </td>
+      <td><a href="/wiki/Core_dump" title="Core dump">memory dump</a> file (e.g. screen or memory)
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DN"></span><span class="vanchor-text">DN</span></span>
+      </td>
+      <td>Dimension model format
+      </td>
+      <td><a href="/wiki/Adobe_Dimension" title="Adobe Dimension">Adobe Dimension</a><sup class="reference" id="cite_ref-52"><a href="#cite_note-52">[52]</a></sup>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[Digital_Negative|DNG]]"></span><span class="vanchor-text"><a href="/wiki/Digital_Negative" title="Digital Negative">DNG</a></span></span><sup class="reference" id="cite_ref-53"><a href="#cite_note-53">[53]</a></sup>
+      </td>
+      <td><a href="/wiki/Digital_Negative" title="Digital Negative">Digital Negative</a>, a-publicly available archival format for the raw files generated by digital cameras
+      </td>
+      <td>At least 30 camera models from at least 10 manufacturers, and at least 200 software products
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[Doc_(computing)|DOC]]"></span><span class="vanchor-text"><a href="/wiki/Doc_(computing)" title="Doc (computing)">DOC</a></span></span><sup class="reference" id="cite_ref-54"><a href="#cite_note-54">[54]</a></sup><sup class="reference" id="cite_ref-55"><a href="#cite_note-55">[55]</a></sup><sup class="reference" id="cite_ref-ms-doc-specification_56-0"><a href="#cite_note-ms-doc-specification-56">[56]</a></sup>
+      </td>
+      <td>A Document, or an <a href="/wiki/ASCII" title="ASCII">ASCII</a> text file with text formatting codes in with the text; used by many word processors
+      </td>
+      <td><a href="/wiki/Microsoft_Word" title="Microsoft Word">Microsoft Word</a> and others
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DOCM"></span><span class="vanchor-text">DOCM</span></span>
+      </td>
+      <td>Microsoft Word Macro-Enabled Document
+      </td>
+      <td><a href="/wiki/Microsoft_Word" title="Microsoft Word">Microsoft Word</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DOCX"></span><span class="vanchor-text">DOCX</span></span><sup class="reference" id="cite_ref-WordFormats_57-0"><a href="#cite_note-WordFormats-57">[57]</a></sup>
+      </td>
+      <td>Microsoft Word Document
+      </td>
+      <td><a href="/wiki/Microsoft_Word" title="Microsoft Word">Microsoft Word</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DOT"></span><span class="vanchor-text">DOT</span></span><sup class="reference" id="cite_ref-WordFormats_57-1"><a href="#cite_note-WordFormats-57">[57]</a></sup>
+      </td>
+      <td>Microsoft Word document template
+      </td>
+      <td><a href="/wiki/Microsoft_Word" title="Microsoft Word">Microsoft Word</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DOTX"></span><span class="vanchor-text">DOTX</span></span><sup class="reference" id="cite_ref-WordFormats_57-2"><a href="#cite_note-WordFormats-57">[57]</a></sup>
+      </td>
+      <td><a href="/wiki/Office_Open_XML" title="Office Open XML">Office Open XML</a> Text document template
+      </td>
+      <td><a href="/wiki/Microsoft_Word" title="Microsoft Word">Microsoft Word</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DPX"></span><span class="vanchor-text">DPX</span></span><sup class="reference" id="cite_ref-58"><a href="#cite_note-58">[58]</a></sup><sup class="reference" id="cite_ref-59"><a href="#cite_note-59">[59]</a></sup>
+      </td>
+      <td><a href="/wiki/Digital_Picture_Exchange" title="Digital Picture Exchange">Digital Picture Exchange</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DRC"></span><span class="vanchor-text">DRC</span></span>
+      </td>
+      <td><a href="/wiki/Dirac_(video_compression_format)" title="Dirac (video compression format)">Dirac</a> format video
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DSC"></span><span class="vanchor-text">DSC</span></span><sup class="reference" id="cite_ref-60"><a href="#cite_note-60">[60]</a></sup>
+      </td>
+      <td>Celestia Deep Space Catalog file
+      </td>
+      <td><a href="/wiki/Celestia" title="Celestia">Celestia</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DTD"></span><span class="vanchor-text">DTD</span></span><sup class="reference" id="cite_ref-61"><a href="#cite_note-61">[61]</a></sup>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Document_Type_Definition" title="Document Type Definition">Document Type Definition</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DVC"></span><span class="vanchor-text">DVC</span></span><sup class="reference" id="cite_ref-62"><a href="#cite_note-62">[62]</a></sup>
+      </td>
+      <td>Data version control yaml pointer into blob storage
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DWF"></span><span class="vanchor-text">DWF</span></span>
+      </td>
+      <td>Autodesk <a href="/wiki/Design_Web_Format" title="Design Web Format">Design Web Format</a>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Design_Review" title="Design Review">Design Review</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[.dwg|DWG]]"></span><span class="vanchor-text"><a href="/wiki/.dwg" title=".dwg">DWG</a></span></span><sup class="reference" id="cite_ref-63"><a href="#cite_note-63">[63]</a></sup>
+      </td>
+      <td>Drawing
+      </td>
+      <td><a href="/wiki/AutoCAD" title="AutoCAD">AutoCAD</a>, <a class="mw-redirect" href="/wiki/IntelliCAD_Technology_Consortium" title="IntelliCAD Technology Consortium">IntelliCAD</a>, PowerCAD, Drafix, DraftSight etc.
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="DXF"></span><span class="vanchor-text">DXF</span></span><sup class="reference" id="cite_ref-64"><a href="#cite_note-64">[64]</a></sup>
+      </td>
+      <td>Drawing Interchange File Format vector graphics
+      </td>
+      <td><a href="/wiki/AutoCAD" title="AutoCAD">AutoCAD</a>, <a class="mw-redirect" href="/wiki/IntelliCAD_Technology_Consortium" title="IntelliCAD Technology Consortium">IntelliCAD</a>, PowerCAD, etc.
+      </td></tr></tbody></table>
+    ''',
+    '''
+      <table class="wikitable">
+      <tbody><tr>
+      <th scope="col">Ext.</th>
+      <th scope="col">Description</th>
+      <th scope="col">Used by
+      </th></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="E"></span><span class="vanchor-text">E</span></span>
+      </td>
+      <td>E language source code
+      </td>
+      <td><a href="/wiki/E_(programming_language)" title="E (programming language)">E</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="E##"></span><span class="vanchor-text">E##</span></span>
+      </td>
+      <td>EnCase Evidence File chunk
+      </td>
+      <td><a href="/wiki/EnCase" title="EnCase">EnCase</a> Forensic Analysis Suite entity
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="E00"></span><span class="vanchor-text">E00</span></span>
+      </td>
+      <td>ArcInfo interchange file
+      </td>
+      <td>GIS software
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="E2D"></span><span class="vanchor-text">E2D</span></span>
+      </td>
+      <td>2-dimensional vector graphics file
+      </td>
+      <td>Editor included in <a href="/wiki/JFire" title="JFire">JFire</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="e57"></span><span class="vanchor-text">e57</span></span>
+      </td>
+      <td>A file format developed by <a href="/wiki/ASTM_International" title="ASTM International">ASTM International</a> for storing <a href="/wiki/Point_cloud" title="Point cloud">point clouds</a> and images
+      </td>
+      <td>Most software that enables viewing and/or editing of 3D point clouds
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EBD"></span><span class="vanchor-text">EBD</span></span>
+      </td>
+      <td>versions of DOS system files (<a href="/wiki/AUTOEXEC.BAT" title="AUTOEXEC.BAT">AUTOEXEC.BAT</a>, <a href="/wiki/COMMAND.COM" title="COMMAND.COM">COMMAND.COM</a>, <a href="/wiki/CONFIG.SYS" title="CONFIG.SYS">CONFIG.SYS</a>, <a class="mw-redirect" href="/wiki/WINBOOT.SYS" title="WINBOOT.SYS">WINBOOT.SYS</a>, etc.) for an emergency boot disk
+      </td>
+      <td><a href="/wiki/Windows_98" title="Windows 98">Windows 98</a>, <a class="mw-redirect" href="/wiki/Windows_ME" title="Windows ME">ME</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EC"></span><span class="vanchor-text">EC</span></span>
+      </td>
+      <td>Source code
+      </td>
+      <td><a href="/wiki/EC_(programming_language)" title="EC (programming language)">eC</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ECC"></span><span class="vanchor-text">ECC</span></span>
+      </td>
+      <td>Error-checking file
+      </td>
+      <td><a href="/wiki/Dvdisaster" title="Dvdisaster">dvdisaster</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EDE"></span><span class="vanchor-text">EDE</span></span>
+      </td>
+      <td><a href="/wiki/Ensoniq_EPS" title="Ensoniq EPS">Ensoniq EPS</a> disk image
+      </td>
+      <td>AWAVE
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EDF"></span><span class="vanchor-text">EDF</span></span>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/European_data_format" title="European data format">European data format</a>
+      </td>
+      <td>Medical timeseries storage files
+      </td></tr>
+      <tr>
+      <td>EFI
+      </td>
+      <td>Extensible Firmware Interface
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EIS"></span><span class="vanchor-text">EIS</span></span>
+      </td>
+      <td>EIS Spectrum Analyser Project
+      </td>
+      <td><a class="external text" href="http://www.abc.chemistry.bsu.by/vi/analyser/" rel="nofollow">EIS Spectrum Analyser</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EL"></span><span class="vanchor-text">EL</span></span>
+      </td>
+      <td><a href="/wiki/Emacs_Lisp" title="Emacs Lisp">Emacs Lisp</a> source code file
+      </td>
+      <td><a href="/wiki/Emacs" title="Emacs">Emacs</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ELC"></span><span class="vanchor-text">ELC</span></span>
+      </td>
+      <td>Byte-compiled <a href="/wiki/Emacs_Lisp" title="Emacs Lisp">Emacs Lisp</a> code
+      </td>
+      <td><a href="/wiki/Emacs" title="Emacs">Emacs</a>
+      </td></tr>
+      <tr>
+      <td>ELF
+      </td>
+      <td><a href="/wiki/Executable_and_Linkable_Format" title="Executable and Linkable Format">Executable and Linkable File</a>
+      </td>
+      <td><a href="/wiki/Unix" title="Unix">Unix</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EMAIL"></span><span class="vanchor-text">EMAIL</span></span>
+      </td>
+      <td>Outlook Express Email Message
+      </td>
+      <td><a href="/wiki/Windows_Live_Mail" title="Windows Live Mail">Windows Live Mail</a>, <a href="/wiki/Outlook_Express" title="Outlook Express">Outlook Express</a>, <a class="mw-redirect" href="/wiki/Microsoft_Notepad" title="Microsoft Notepad">Microsoft Notepad</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EMAKER"></span><span class="vanchor-text">EMAKER</span></span>
+      </td>
+      <td>E language source code (maker)
+      </td>
+      <td><a href="/wiki/E_(programming_language)" title="E (programming language)">E</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[Windows_Metafile|EMF]]"></span><span class="vanchor-text"><a href="/wiki/Windows_Metafile" title="Windows Metafile">EMF</a></span></span>
+      </td>
+      <td>Microsoft Enhanced Metafile
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EML"></span><span class="vanchor-text">EML</span></span>
+      </td>
+      <td>Email conforming to <a class="mw-redirect" href="/wiki/Request_For_Comment" title="Request For Comment">RFC</a> <a href="/wiki/Email#Message_format" title="Email">5322</a>;<sup class="reference" id="cite_ref-65"><a href="#cite_note-65">[65]</a></sup> Stationery Template
+      </td>
+      <td><a class="mw-redirect" href="/wiki/Email_clients" title="Email clients">Email clients</a>;<a href="/wiki/Outlook_Express" title="Outlook Express">Outlook Express</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EMZ"></span><span class="vanchor-text">EMZ</span></span>
+      </td>
+      <td>Microsoft <a href="/wiki/Windows_Metafile" title="Windows Metafile">Enhanced Metafile</a> compressed with <a class="mw-redirect" href="/wiki/Zip_(file_format)" title="Zip (file format)">ZIP</a>
+      </td>
+      <td>Microsoft Office suite
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EOT"></span><span class="vanchor-text">EOT</span></span>
+      </td>
+      <td><a href="/wiki/Embedded_OpenType" title="Embedded OpenType">Embedded OpenType</a>
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EP"></span><span class="vanchor-text">EP</span></span>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/GUI" title="GUI">GUI</a> wireframe/prototype project
+      </td>
+      <td>Prikhi Pencil, Evolus Pencil
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EPA"></span><span class="vanchor-text">EPA</span></span>
+      </td>
+      <td>Award BIOS <a href="/wiki/Splash_screen" title="Splash screen">splash screen</a>
+      </td>
+      <td><a href="/wiki/Award_Software" title="Award Software">Award</a> <a href="/wiki/BIOS#The_BIOS_business" title="BIOS">BIOS</a>, <a class="mw-redirect" href="/wiki/Xnview" title="Xnview">XnView</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EPS"></span><span class="vanchor-text">EPS</span></span>
+      </td>
+      <td><a href="/wiki/Encapsulated_PostScript" title="Encapsulated PostScript">Encapsulated PostScript</a>
+      </td>
+      <td>CorelDraw - PhotoStyler - PMView - Adobe Illustrator - Ventua Publisher
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[EPUB]]"></span><span class="vanchor-text"><a href="/wiki/EPUB" title="EPUB">EPUB</a></span></span>
+      </td>
+      <td>Electronic Publication (e-Reader format)
+      </td>
+      <td><a href="/wiki/Okular" title="Okular">Okular</a> (Linux) - <a href="/wiki/Apple_Books" title="Apple Books">Apple Books</a> - Sony Reader - Adobe Digital Editions - <a href="/wiki/Calibre_(software)" title="Calibre (software)">Calibre</a> (LMW)
+      </td></tr>
+      <tr>
+      <td>EU4
+      </td>
+      <td><a href="/wiki/Europa_Universalis_IV" title="Europa Universalis IV">Europa Universalis 4</a> save game file
+      </td>
+      <td><a href="/wiki/Europa_Universalis_IV" title="Europa Universalis IV">Europa Universalis 4</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ERL"></span><span class="vanchor-text">ERL</span></span>
+      </td>
+      <td><a href="/wiki/Erlang_(programming_language)" title="Erlang (programming language)">Erlang</a> source code file
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ES6"></span><span class="vanchor-text">ES6</span></span>
+      </td>
+      <td><a href="/wiki/ECMAScript" title="ECMAScript">ECMAScript</a> 6 file
+      </td>
+      <td>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ESCPCB"></span><span class="vanchor-text">ESCPCB</span></span>
+      </td>
+      <td>Data file of "esCAD pcb", PCB Pattern Layout Design Software
+      </td>
+      <td>esCAD pcb provided by <a href="/wiki/Electro-System" title="Electro-System">Electro-System</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ESCSCH"></span><span class="vanchor-text">ESCSCH</span></span>
+      </td>
+      <td>Data file of "esCAD sch", Drawing Schematics Diagram Software
+      </td>
+      <td>esCAD sch provided by <a href="/wiki/Electro-System" title="Electro-System">Electro-System</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ESD"></span><span class="vanchor-text">ESD</span></span>
+      </td>
+      <td><a href="/wiki/Windows_Imaging_Format" title="Windows Imaging Format">Windows Imaging Format</a>
+      </td>
+      <td><a class="mw-redirect" href="/wiki/ImageX" title="ImageX">ImageX</a>, <a href="/wiki/Windows_Assessment_and_Deployment_Kit" title="Windows Assessment and Deployment Kit">DISM</a>, <a href="/wiki/7-Zip" title="7-Zip">7-Zip</a>, <a href="/wiki/Windows_Imaging_Format" title="Windows Imaging Format">wimlib</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="ETL"></span><span class="vanchor-text">ETL</span></span>
+      </td>
+      <td>event trace log file
+      </td>
+      <td>Microsoft<sup class="reference" id="cite_ref-66"><a href="#cite_note-66">[66]</a></sup><sup class="reference" id="cite_ref-67"><a href="#cite_note-67">[67]</a></sup>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EVT"></span><span class="vanchor-text">EVT</span></span>
+      </td>
+      <td>Windows Event log file
+      </td>
+      <td>Microsoft <a href="/wiki/Windows_NT_4.0" title="Windows NT 4.0">Windows NT 4.0</a> - <a href="/wiki/Windows_XP" title="Windows XP">XP</a>; Microsoft <a href="/wiki/Event_Viewer" title="Event Viewer">Event Viewer</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EVTX"></span><span class="vanchor-text">EVTX</span></span>
+      </td>
+      <td>Windows Event log file <a href="/wiki/XML" title="XML">XML</a> structured
+      </td>
+      <td>Microsoft <a href="/wiki/Windows_Vista" title="Windows Vista">Windows Vista</a>, <a href="/wiki/Windows_7" title="Windows 7">7</a>, <a href="/wiki/Windows_8" title="Windows 8">8</a>; Microsoft <a href="/wiki/Event_Viewer" title="Event Viewer">Event Viewer</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EX"></span><span class="vanchor-text">EX</span></span>
+      </td>
+      <td><a href="/wiki/Elixir_(programming_language)" title="Elixir (programming language)">Elixir</a> source code file
+      </td>
+      <td>Elixir programming language running on <a href="/wiki/BEAM_(Erlang_virtual_machine)" title="BEAM (Erlang virtual machine)">BEAM (Erlang virtual machine)</a><sup class="reference" id="cite_ref-68"><a href="#cite_note-68">[68]</a></sup>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="[[EXE]]"></span><span class="vanchor-text"><a class="mw-redirect" href="/wiki/EXE" title="EXE">EXE</a></span></span>
+      </td>
+      <td>Directly executable program
+      </td>
+      <td><a href="/wiki/DOS" title="DOS">DOS</a>, <a href="/wiki/OpenVMS" title="OpenVMS">OpenVMS</a>, <a href="/wiki/Microsoft_Windows" title="Microsoft Windows">Microsoft Windows</a>, <a href="/wiki/Symbian" title="Symbian">Symbian</a> or <a href="/wiki/OS/2" title="OS/2">OS/2</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EXP"></span><span class="vanchor-text">EXP</span></span>
+      </td>
+      <td>Drawing File format
+      </td>
+      <td><a href="/wiki/Drawing_Express" title="Drawing Express">Drawing Express</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EXP"></span><span class="vanchor-text">EXP</span></span>
+      </td>
+      <td>Melco Embroidery Format
+      </td>
+      <td><a href="/wiki/Embroidermodder" title="Embroidermodder">Embroidermodder</a>
+      </td></tr>
+      <tr>
+      <td><link href="mw-data:TemplateStyles:r1023754711" rel="mw-deduplicated-inline-style"/><span class="vanchor"><span id="EXS"></span><span class="vanchor-text">EXS</span></span>
+      </td>
+      <td><a href="/wiki/Elixir_(programming_language)" title="Elixir (programming language)">Elixir</a> script file
+      </td>
+      <td>Interactive Elixir (IEx) shell<sup class="reference" id="cite_ref-69"><a href="#cite_note-69">[69]</a></sup>
+      </td></tr>
+      </tbody></table>
+    ''',
+  ])
+# ---
