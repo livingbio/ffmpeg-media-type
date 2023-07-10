@@ -18,6 +18,7 @@ class FFMpegSupport:
 
 
 def _parse_muxer_info(content: str) -> dict[str, Any]:
+    print(f"{content=}")
     re_ext_pattern = re.compile(r"Common extensions: ([\w\d\,]+)\.")
     re_mime_type_pattern = re.compile(r"Mime type: ([\w\d\/\-\+]+)")
     re_default_video_codec_pattern = re.compile(r"Default video codec: ([\w\d\/\-\+]+)")
@@ -50,6 +51,7 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
         os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output 2>&1")
         muxer_info.update(_parse_muxer_info(open("output").read()))
 
+    print(f"{codec=}, {muxer_info=}")
     return FFMpegSupport(
         demuxing_support="D" in flag,
         muxing_support="E" in flag,
@@ -73,15 +75,8 @@ def _extract_file_format(content: str) -> list[tuple[str, str, str]]:
 def list_support_format(version: str) -> list[FFMpegSupport]:
     os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -formats > format.txt 2>&1")
 
-    re_ffmpeg_version = re.compile(r"ffmpeg version (?P<version>[\d\.]+)")
-
     with open("format.txt") as ifile:
         content = ifile.read()
-
-    match_version = re_ffmpeg_version.findall(content)
-    print(f"{content=}")
-    assert match_version and len(match_version) == 1, content
-    version = match_version[0]
 
     print(f"FFMpeg version: {version}")
 

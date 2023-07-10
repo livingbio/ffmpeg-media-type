@@ -1755,6 +1755,18 @@
         "default_audio_codec": ""
     },
     {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "mjpeg_2000",
+        "description": "",
+        "common_exts": [
+            "j2k"
+        ],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
         "demuxing_support": false,
         "muxing_support": true,
         "codec": "mkvtimestamp_v2",
@@ -2389,6 +2401,16 @@
         "default_audio_codec": ""
     },
     {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "psd_pipe",
+        "description": "",
+        "common_exts": [],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
         "demuxing_support": false,
         "muxing_support": true,
         "codec": "psp",
@@ -2712,6 +2734,18 @@
     },
     {
         "demuxing_support": true,
+        "muxing_support": true,
+        "codec": "scc",
+        "description": "",
+        "common_exts": [
+            "scc"
+        ],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
         "muxing_support": false,
         "codec": "sdp",
         "description": "",
@@ -2727,6 +2761,30 @@
         "description": "",
         "common_exts": [
             "sdr2"
+        ],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sds",
+        "description": "",
+        "common_exts": [
+            "sds"
+        ],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "sdx",
+        "description": "",
+        "common_exts": [
+            "sdx"
         ],
         "mime_type": "",
         "default_video_codec": "",
@@ -3586,6 +3644,16 @@
         "common_exts": [
             "xmv"
         ],
+        "mime_type": "",
+        "default_video_codec": "",
+        "default_audio_codec": ""
+    },
+    {
+        "demuxing_support": true,
+        "muxing_support": false,
+        "codec": "xpm_pipe",
+        "description": "",
+        "common_exts": [],
         "mime_type": "",
         "default_video_codec": "",
         "default_audio_codec": ""
