@@ -43,12 +43,16 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
         "default_video_codec": "",
         "default_audio_codec": "",
     }
-    if "E" in flag:
-        os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h muxer={codec} > output")
-        muxer_info.update(_parse_muxer_info(open("output").read()))
-    if "D" in flag:
-        os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output")
-        muxer_info.update(_parse_muxer_info(open("output").read()))
+    # if "E" in flag:
+    #     os.system(
+    #         f"docker run jrottenberg/ffmpeg:{version}-scratch -h muxer={codec} > output"
+    #     )
+    #     muxer_info.update(_parse_muxer_info(open("output").read()))
+    # if "D" in flag:
+    #     os.system(
+    #         f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output"
+    #     )
+    #     muxer_info.update(_parse_muxer_info(open("output").read()))
 
     return FFMpegSupport(
         demuxing_support="D" in flag,
@@ -59,12 +63,21 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
     )
 
 
+def _extract_file_format(content: str) -> list[tuple[str, str, str]]:
+    re_ffmpeg_support_file_format = re.compile(r"(?P<flag>[DE]+)[\s]+(?P<codec>[\w\d,]+)[\s]+(?P<description>[^\n]*)")
+    output = []
+    for iline in content.split("\n"):
+        support_infos = re_ffmpeg_support_file_format.findall(iline)
+
+        if support_infos:
+            output.append(support_infos[0])
+    return output
+
+
 def list_support_format(version: str) -> list[FFMpegSupport]:
     os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -formats &> format.txt")
 
     re_ffmpeg_version = re.compile(r"ffmpeg version (?P<version>[\d\.]+)")
-
-    re_ffmpeg_support_file_format = re.compile(r"(?P<flag>[DE]+)[\s]+(?P<codec>[\w\d,]+)[\s]+(?P<description>.*)")
 
     with open("format.txt") as ifile:
         content = ifile.read()
@@ -75,7 +88,7 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
 
     print(f"FFMpeg version: {version}")
 
-    support_infos = re_ffmpeg_support_file_format.findall(content)
+    support_infos = _extract_file_format(content)
     output = []
     for support_info in support_infos:
         flag, codec, description = support_info
