@@ -43,16 +43,12 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
         "default_video_codec": "",
         "default_audio_codec": "",
     }
-    # if "E" in flag:
-    #     os.system(
-    #         f"docker run jrottenberg/ffmpeg:{version}-scratch -h muxer={codec} > output"
-    #     )
-    #     muxer_info.update(_parse_muxer_info(open("output").read()))
-    # if "D" in flag:
-    #     os.system(
-    #         f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output"
-    #     )
-    #     muxer_info.update(_parse_muxer_info(open("output").read()))
+    if "E" in flag:
+        os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h muxer={codec} > output 2>&1")
+        muxer_info.update(_parse_muxer_info(open("output").read()))
+    if "D" in flag:
+        os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output 2>&1")
+        muxer_info.update(_parse_muxer_info(open("output").read()))
 
     return FFMpegSupport(
         demuxing_support="D" in flag,
