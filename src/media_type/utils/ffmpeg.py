@@ -1,8 +1,53 @@
+import json
 import os
 import re
 import subprocess
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any
+
+
+@dataclass
+class FormatInfo:
+    name: str
+    enable: bool = True
+    description: str = ""
+    exts: list[str] = field(default_factory=list)
+
+
+@dataclass
+class FFProbeFormat:
+    filename: str | None = None
+    duration: float | None = None
+    format_name: str | None = None
+    format_long_name: str | None = None
+    start_time: float | None = None
+    size: int | None = None
+    probe_score: int | None = None
+
+
+@dataclass
+class FFProbeStreamTags:
+    rotate: int = 0
+
+
+@dataclass
+class FFProbeStream:
+    index: int | None = None
+    width: int | None = None
+    height: int | None = None
+    codec_type: str | None = None
+    codec_name: str | None = None
+    codec_long_name: str | None = None
+    profile: str | None = None
+    pix_fmt: str | None = None
+    r_frame_rate: str | None = None
+    tags: FFProbeStreamTags = field(default_factory=FFProbeStreamTags)
+
+
+@dataclass
+class FFProbeInfo:
+    format: FFProbeFormat
+    streams: list[FFProbeStream]
 
 
 @dataclass
@@ -19,7 +64,7 @@ class FFMpegSupport:
 
 
 def _parse_muxer_info(content: str) -> dict[str, Any]:
-    print(f"{content=}")
+    # print(f"{content=}")
     re_ext_pattern = re.compile(r"Common extensions: ([\w\d\,]+)\.")
     re_mime_type_pattern = re.compile(r"Mime type: ([\w\d\/\-\+]+)")
     re_default_video_codec_pattern = re.compile(r"Default video codec: ([\w\d\/\-\+]+)")
@@ -52,7 +97,7 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
         os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output 2>&1")
         muxer_info.update(_parse_muxer_info(open("output").read()))
 
-    print(f"{codec=}, {muxer_info=}")
+    # print(f"{codec=}, {muxer_info=}")
     return FFMpegSupport(
         demuxing_support="D" in flag,
         muxing_support="E" in flag,
@@ -79,7 +124,7 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
     with open("format.txt") as ifile:
         content = ifile.read()
 
-    print(f"FFMpeg version: {version}")
+    # print(f"FFMpeg version: {version}")
 
     support_infos = _extract_file_format(content)
     output = []
@@ -99,3 +144,26 @@ def get_ffmpeg_version() -> str:
         return version
     except FileNotFoundError as e:
         raise FileNotFoundError("FFmpeg not found") from e
+
+
+def ffprobe_file(file_path: str) -> FFProbeInfo:
+    # Construct the FFprobe command with JSON output format
+    ffprobe_cmd = [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_format",
+        "-show_streams",
+        "-of",
+        "json",
+        file_path,
+    ]
+
+    try:
+        # Execute the FFprobe command and capture the output
+        output = subprocess.check_output(ffprobe_cmd, stderr=subprocess.STDOUT)
+        output_str = output.decode("utf-8")  # Convert bytes to string
+        return FFProbeInfo(**json.loads(output_str))
+    except subprocess.CalledProcessError as e:
+        # print(f"FFprobe error: {e.output}")
+        raise

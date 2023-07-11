@@ -1,6 +1,9 @@
+from pathlib import Path
+
+import pytest
 from syrupy.assertion import SnapshotAssertion
 
-from ..ffmpeg import _get_muxer_info, get_ffmpeg_version, list_support_format
+from ..ffmpeg import _get_muxer_info, ffprobe_file, get_ffmpeg_version, list_support_format
 
 
 def test_list_support_format(snapshot: SnapshotAssertion) -> None:
@@ -13,3 +16,11 @@ def test__get_muxer_info(snapshot: SnapshotAssertion) -> None:
 
 def test_get_ffmpeg_version() -> None:
     get_ffmpeg_version()
+
+
+@pytest.mark.parametrize(
+    "case",
+    [pytest.param(k, id=k.name) for k in Path(__file__).parent.glob("test_ffmpeg/*")],
+)
+def test_ffprobe_file(case: Path) -> None:
+    ffprobe_file(str(case))
