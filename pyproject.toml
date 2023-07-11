@@ -4,7 +4,7 @@ version = "0.0.0"
 description = ""
 authors = ["lucemia <lucemia@gmail.com>"]
 readme = "README.md"
-packages = [{ include = "ffmpeg_media_type" }]
+packages = [{ include = "ffmpeg_media_type", from = "src" }]
 
 [tool.poetry.dependencies]
 python = "^3.10"

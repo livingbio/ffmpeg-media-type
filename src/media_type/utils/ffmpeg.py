@@ -1,5 +1,6 @@
 import os
 import re
+import subprocess
 from dataclasses import dataclass
 from typing import Any
 
@@ -87,3 +88,14 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
         output.append(_get_muxer_info(version, flag, codec, description))
 
     return output
+
+
+def get_ffmpeg_version() -> str:
+    try:
+        result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True)
+        output_lines = result.stdout.strip().split("\n")
+        version_line = output_lines[0].strip()
+        version = version_line.split(" ")[2]
+        return version
+    except FileNotFoundError as e:
+        raise FileNotFoundError("FFmpeg not found") from e
