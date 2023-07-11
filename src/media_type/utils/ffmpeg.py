@@ -16,9 +16,13 @@ class FormatInfo:
 
 @dataclass
 class FFProbeFormat:
+    filename: str | None = None
     duration: float | None = None
     format_name: str | None = None
+    format_long_name: str | None = None
+    start_time: float | None = None
     size: int | None = None
+    probe_score: int | None = None
 
 
 @dataclass
@@ -28,10 +32,15 @@ class FFProbeStreamTags:
 
 @dataclass
 class FFProbeStream:
+    index: int | None = None
     width: int | None = None
     height: int | None = None
     codec_type: str | None = None
     codec_name: str | None = None
+    codec_long_name: str | None = None
+    profile: str | None = None
+    pix_fmt: str | None = None
+    r_frame_rate: str | None = None
     tags: FFProbeStreamTags = FFProbeStreamTags()
 
 

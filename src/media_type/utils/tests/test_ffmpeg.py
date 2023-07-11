@@ -1,7 +1,9 @@
+from dataclasses import asdict
 from pathlib import Path
 
 import pytest
 from syrupy.assertion import SnapshotAssertion
+from syrupy.filters import paths
 
 from ..ffmpeg import _get_muxer_info, ffprobe_file, get_ffmpeg_version, list_support_format
 
@@ -23,4 +25,4 @@ def test_get_ffmpeg_version() -> None:
     [pytest.param(k, id=k.name) for k in Path(__file__).parent.glob("test_ffmpeg/*")],
 )
 def test_ffprobe_file(case: Path, snapshot: SnapshotAssertion) -> None:
-    assert snapshot(name=case.name) == ffprobe_file(str(case))
+    assert snapshot(name=case.name, exclude=paths("format.filename")) == asdict(ffprobe_file(str(case)))
