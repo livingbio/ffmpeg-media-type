@@ -55,7 +55,7 @@ class FFMpegSupport:
 
 
 def _parse_muxer_info(content: str) -> dict[str, Any]:
-    print(f"{content=}")
+    # print(f"{content=}")
     re_ext_pattern = re.compile(r"Common extensions: ([\w\d\,]+)\.")
     re_mime_type_pattern = re.compile(r"Mime type: ([\w\d\/\-\+]+)")
     re_default_video_codec_pattern = re.compile(r"Default video codec: ([\w\d\/\-\+]+)")
@@ -88,7 +88,7 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
         os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output 2>&1")
         muxer_info.update(_parse_muxer_info(open("output").read()))
 
-    print(f"{codec=}, {muxer_info=}")
+    # print(f"{codec=}, {muxer_info=}")
     return FFMpegSupport(
         demuxing_support="D" in flag,
         muxing_support="E" in flag,
@@ -115,7 +115,7 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
     with open("format.txt") as ifile:
         content = ifile.read()
 
-    print(f"FFMpeg version: {version}")
+    # print(f"FFMpeg version: {version}")
 
     support_infos = _extract_file_format(content)
     output = []
@@ -156,5 +156,5 @@ def ffprobe_file(file_path: str) -> FFProbeInfo:
         output_str = output.decode("utf-8")  # Convert bytes to string
         return FFProbeInfo(**json.loads(output_str))
     except subprocess.CalledProcessError as e:
-        print(f"FFprobe error: {e.output}")
+        # print(f"FFprobe error: {e.output}")
         raise
