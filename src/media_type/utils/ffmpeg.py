@@ -1,8 +1,44 @@
+import json
 import os
 import re
 import subprocess
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from typing import Any
+
+
+@dataclass
+class FormatInfo:
+    name: str
+    enable: bool = True
+    description: str = ""
+    exts: list[str] = field(default_factory=list)
+
+
+@dataclass
+class FFProbeFormat:
+    duration: float | None = None
+    format_name: str | None = None
+    size: int | None = None
+
+
+@dataclass
+class FFProbeStreamTags:
+    rotate: int = 0
+
+
+@dataclass
+class FFProbeStream:
+    width: int | None = None
+    height: int | None = None
+    codec_type: str | None = None
+    codec_name: str | None = None
+    tags: FFProbeStreamTags = FFProbeStreamTags()
+
+
+@dataclass
+class FFProbeInfo:
+    format: FFProbeFormat
+    streams: list[FFProbeStream]
 
 
 @dataclass
@@ -99,3 +135,26 @@ def get_ffmpeg_version() -> str:
         return version
     except FileNotFoundError as e:
         raise FileNotFoundError("FFmpeg not found") from e
+
+
+def ffprobe_file(file_path: str) -> FFProbeInfo:
+    # Construct the FFprobe command with JSON output format
+    ffprobe_cmd = [
+        "ffprobe",
+        "-v",
+        "error",
+        "-show_format",
+        "-show_streams",
+        "-of",
+        "json",
+        file_path,
+    ]
+
+    try:
+        # Execute the FFprobe command and capture the output
+        output = subprocess.check_output(ffprobe_cmd, stderr=subprocess.STDOUT)
+        output_str = output.decode("utf-8")  # Convert bytes to string
+        return FFProbeInfo(**json.loads(output_str))
+    except subprocess.CalledProcessError as e:
+        print(f"FFprobe error: {e.output}")
+        raise
