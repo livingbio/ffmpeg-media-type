@@ -41,7 +41,7 @@ class FFProbeStream:
     profile: str | None = None
     pix_fmt: str | None = None
     r_frame_rate: str | None = None
-    tags: FFProbeStreamTags = FFProbeStreamTags()
+    tags: FFProbeStreamTags = field(default_factory=FFProbeStreamTags)
 
 
 @dataclass
