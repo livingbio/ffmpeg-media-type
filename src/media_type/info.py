@@ -15,5 +15,5 @@ class MediaInfo:
     suggest_ext: str | None = None
 
 
-def detect() -> None:
+def detect(uri: str) -> None:
     ...

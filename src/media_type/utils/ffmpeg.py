@@ -4,6 +4,7 @@ import re
 import subprocess
 from dataclasses import asdict, dataclass, field
 from functools import lru_cache
+from pathlib import Path
 from typing import Any
 
 
@@ -136,15 +137,20 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
     return output
 
 
+def _cache_file(version: str) -> str:
+    major_minor_version = ".".join(version.split(".")[:2])
+    return str(Path(__file__).parent.parent / "data" / f"ffmpeg-{major_minor_version}.json")
+
+
 def generate_cache(version: str) -> None:
     infos = list_support_format(version)
 
-    with open(f"data/ffmpeg-{version}.json", "w") as ofile:
+    with open(_cache_file(version), "w") as ofile:
         ofile.write(json.dumps([asdict(k) for k in infos], indent=4))
 
 
 def load_cache(version: str) -> list[FFMpegSupport]:
-    with open(f"data/ffmpeg-{version}.json") as ifile:
+    with open(_cache_file(version)) as ifile:
         return [FFMpegSupport(**k) for k in json.load(ifile)]
 
 
