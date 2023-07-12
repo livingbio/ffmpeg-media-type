@@ -1,6 +1,6 @@
 import typer
 
-from .utils.ffmpeg import generate_cache
+from .utils.ffmpeg import _generate_cache
 
 
 def main() -> None:
@@ -19,7 +19,7 @@ def main() -> None:
     ]
 
     for version in versions:
-        generate_cache(version)
+        _generate_cache(version)
 
 
 if __name__ == "__main__":

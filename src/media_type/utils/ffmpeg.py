@@ -9,14 +9,6 @@ from typing import Any
 
 
 @dataclass
-class FormatInfo:
-    name: str
-    enable: bool = True
-    description: str = ""
-    exts: list[str] = field(default_factory=list)
-
-
-@dataclass
 class FFProbeFormat:
     filename: str | None = None
     duration: float | None = None
@@ -142,16 +134,26 @@ def _cache_file(version: str) -> str:
     return str(Path(__file__).parent.parent / "data" / f"ffmpeg-{major_minor_version}.json")
 
 
-def generate_cache(version: str) -> None:
+def _generate_cache(version: str) -> None:
     infos = list_support_format(version)
 
     with open(_cache_file(version), "w") as ofile:
         ofile.write(json.dumps([asdict(k) for k in infos], indent=4))
 
 
-def load_cache(version: str) -> list[FFMpegSupport]:
+@lru_cache
+def _load_cache(version: str) -> list[FFMpegSupport]:
     with open(_cache_file(version)) as ifile:
         return [FFMpegSupport(**k) for k in json.load(ifile)]
+
+
+def load_cache() -> dict[str, FFMpegSupport]:
+    ffmpeg_version = get_ffmpeg_version()
+    output = {}
+    for info in _load_cache(ffmpeg_version):
+        output[info.codec] = info
+
+    return output
 
 
 @lru_cache
