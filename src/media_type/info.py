@@ -1,14 +1,15 @@
 import os
 import subprocess
 import tempfile
-from dataclasses import dataclass
 from typing import Literal
+from urllib.parse import urlparse
+
+from pydantic import BaseModel
 
 from .utils.ffmpeg import FFProbeInfo, ffprobe_file, load_cache
 
 
-@dataclass
-class MediaInfo:
+class MediaInfo(BaseModel):
     type: Literal["image", "video", "audio"]
 
     width: int | None = None
@@ -48,49 +49,94 @@ def generate_thumbnail(video_path: str, time_offset: float = 0) -> str:
     return thumbnail_path
 
 
-def _guess_file_info(
+def _extract_file_extension(uri: str) -> str:
+    parsed_uri = urlparse(uri)
+    path = parsed_uri.path
+    filename = os.path.basename(path)
+    _, extension = os.path.splitext(filename)
+    return extension[1:]
+
+
+_KNOWN_CODEC_EXTS = {
+    "png_pipe": ["png"],
+    "svg_pipe": ["svg"],
+    "tiff_pipe": ["tiff", "tif"],
+    "bmp_pipe": ["bmp"],
+    "gif_pipe": ["gif"],
+    "jpeg_pipe": ["jpeg", "jpg"],
+    "webp_pipe": ["webp"],
+}
+
+
+def _guess_media_info(
+    uri: str,
     info: FFProbeInfo,
-) -> tuple[Literal["image", "video", "audio"], int, int, float]:
-    if not info.format.duration or info.format.format_name == "image2":
-        return (
-            "image",
-            info.streams[0].width or 0,
-            info.streams[0].height or 0,
-            0,
+) -> MediaInfo:
+    infos = load_cache()
+    current_ext = _extract_file_extension(uri)
+
+    format_name = info.format.format_name
+    duration = info.format.duration
+
+    # NOTE: handle ffmpeg's image compatibility
+    if format_name == "image2":
+        format_name = info.streams[0].codec_name
+
+    # NOTE: detect file extension
+    if format_name in _KNOWN_CODEC_EXTS:
+        common_exts = _KNOWN_CODEC_EXTS[format_name]
+    elif format_name in infos:
+        common_exts = infos[format_name].common_exts
+    else:
+        common_exts = []
+
+    if current_ext in common_exts:
+        suggest_ext = current_ext
+    elif common_exts:
+        suggest_ext = common_exts[0]
+    else:
+        suggest_ext = None
+
+    # NOTE: we classify gif as image
+    if not duration or format_name == "gif":
+        return MediaInfo(
+            type="image",
+            width=info.streams[0].width or 0,
+            height=info.streams[0].height or 0,
+            duration=duration or 0,
+            format=format_name,
+            size=info.format.size,
+            suggest_ext=suggest_ext,
         )
 
     for stream in info.streams:
+        # NOTE: if there is at least one video stream, the media is video
         if stream.codec_type == "video":
             width = stream.width
             height = stream.height
 
-            # gif may have duration
-            if info.format.format_name == "gif":
-                return "image", width or 0, height or 0, info.format.duration or 0
-            else:
-                return "video", width or 0, height or 0, info.format.duration or 0
+            return MediaInfo(
+                type="video",
+                width=width or 0,
+                height=height or 0,
+                duration=duration or 0,
+                format=format_name,
+                size=info.format.size,
+                suggest_ext=suggest_ext,
+            )
 
-    # Audio
-    return "audio", 0, 0, info.format.duration or 0
+    # NOTE: if there is no video stream, the media is audio
+    return MediaInfo(
+        type="audio",
+        width=0,
+        height=0,
+        duration=duration or 0,
+        format=format_name,
+        size=info.format.size,
+        suggest_ext=suggest_ext,
+    )
 
 
 def detect(uri: str) -> MediaInfo:
     probe_info = ffprobe_file(uri)
-    infos = load_cache()
-
-    _type, width, height, duration = _guess_file_info(probe_info)
-
-    if probe_info.format.format_name in infos:
-        ext = infos[probe_info.format.format_name].common_exts[0]
-    else:
-        ext = None
-
-    return MediaInfo(
-        type=_type,
-        width=width,
-        height=height,
-        duration=duration,
-        format=probe_info.format.format_name,
-        size=probe_info.format.size,
-        suggest_ext=ext,
-    )
+    return _guess_media_info(uri, probe_info)

@@ -1,0 +1,40 @@
+# serializer version: 1
+# name: test_detect[10257640.mp4]
+  MediaInfo(type='video', width=640, height=480, duration=6.803447, format='mov,mp4,m4a,3gp,3g2,mj2', size=593915, suggest_ext='mp4')
+# ---
+# name: test_detect[188794898-eeb81e4b-b33a-4bdf-85a8-3b4b8460b88a.png]
+  MediaInfo(type='image', width=262, height=259, duration=0.0, format='png_pipe', size=47210, suggest_ext='png')
+# ---
+# name: test_detect[201432913186_fish.gif]
+  MediaInfo(type='image', width=480, height=360, duration=1.2, format='gif', size=30333, suggest_ext='gif')
+# ---
+# name: test_detect[4ox1IBJxK3cVd0uJA6gOtceSP3g.jpg]
+  MediaInfo(type='video', width=1254, height=836, duration=0.04, format='mjpeg', size=1249892, suggest_ext='mjpg')
+# ---
+# name: test_detect[9b5174019e8c9bec190903528ff6d0392a2d6a9b.mp4]
+  MediaInfo(type='video', width=1920, height=1080, duration=38.740617, format='mov,mp4,m4a,3gp,3g2,mj2', size=7164941, suggest_ext='mp4')
+# ---
+# name: test_detect[9c7ee468-24a3-4930-9832-73f0f6001ab1.webp]
+  MediaInfo(type='image', width=1920, height=787, duration=0.0, format='webp_pipe', size=55242, suggest_ext='webp')
+# ---
+# name: test_detect[Cle9pQ5.jpg]
+  MediaInfo(type='video', width=720, height=668, duration=0.04, format='mjpeg', size=72973, suggest_ext='mjpg')
+# ---
+# name: test_detect[SampleAudio_0.4mb.mp3]
+  MediaInfo(type='audio', width=0, height=0, duration=27.74475, format='mp3', size=443926, suggest_ext='mp3')
+# ---
+# name: test_detect[SampleVideo_1280x720_1mb.mp4]
+  MediaInfo(type='video', width=1280, height=720, duration=5.312, format='mov,mp4,m4a,3gp,3g2,mj2', size=1055736, suggest_ext='mp4')
+# ---
+# name: test_detect[cd89b1bf161582d55161f5ba94d03cc7728825c2.jpe]
+  MediaInfo(type='image', width=4716, height=3144, duration=0.0, format='jpeg_pipe', size=12642182, suggest_ext='jpeg')
+# ---
+# name: test_detect[maxresdefault.jpg-sdafdeagwdsadf]
+  MediaInfo(type='image', width=1280, height=720, duration=0.0, format='jpeg_pipe', size=99802, suggest_ext='jpeg')
+# ---
+# name: test_detect[overlay.png]
+  MediaInfo(type='image', width=163, height=117, duration=0.0, format='png_pipe', size=2212, suggest_ext='png')
+# ---
+# name: test_detect[silent_video.mp4]
+  MediaInfo(type='video', width=1920, height=1080, duration=6.965292, format='mov,mp4,m4a,3gp,3g2,mj2', size=14770522, suggest_ext='mp4')
+# ---
