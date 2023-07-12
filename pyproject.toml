@@ -5,6 +5,8 @@ description = ""
 authors = ["lucemia <lucemia@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "ffmpeg_media_type", from = "src" }]
+include = ["ffmpeg_media_type/py.typed", "ffmpeg_media_type/data/*.json"]
+exclude = ["**/tests"]
 
 [tool.poetry.dependencies]
 python = "^3.10"
