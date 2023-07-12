@@ -2,7 +2,8 @@ import json
 import os
 import re
 import subprocess
-from dataclasses import dataclass, field
+from dataclasses import asdict, dataclass, field
+from functools import lru_cache
 from typing import Any
 
 
@@ -135,6 +136,19 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
     return output
 
 
+def generate_cache(version: str) -> None:
+    infos = list_support_format(version)
+
+    with open(f"data/ffmpeg-{version}.json", "w") as ofile:
+        ofile.write(json.dumps([asdict(k) for k in infos], indent=4))
+
+
+def load_cache(version: str) -> list[FFMpegSupport]:
+    with open(f"data/ffmpeg-{version}.json") as ifile:
+        return [FFMpegSupport(**k) for k in json.load(ifile)]
+
+
+@lru_cache
 def get_ffmpeg_version() -> str:
     try:
         result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True)
