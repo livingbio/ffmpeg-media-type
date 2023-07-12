@@ -1,15 +1,14 @@
 import re
-from dataclasses import dataclass
 from typing import List
 
 import requests
 from bs4 import BeautifulSoup
+from pydantic import BaseModel
 
 from .table import table_to_2d
 
 
-@dataclass
-class ExtInfo:
+class ExtInfo(BaseModel):
     ext: str
     description: str
     used_by: str
@@ -50,7 +49,13 @@ def _extract_wiki_ext_info(url: str) -> list[ExtInfo]:
         normalize_table = table_to_2d(table)
 
         for row in normalize_table[1:]:
-            output.append(ExtInfo(*(__remove_note(k) for k in row[:3])))
+            output.append(
+                ExtInfo(
+                    ext=__remove_note(row[0]),
+                    description=__remove_note(row[1]),
+                    used_by=__remove_note(row[2]),
+                )
+            )
 
     return output
 

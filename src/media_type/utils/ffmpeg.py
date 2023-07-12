@@ -2,20 +2,14 @@ import json
 import os
 import re
 import subprocess
-from dataclasses import dataclass, field
+from functools import lru_cache
+from pathlib import Path
 from typing import Any
 
-
-@dataclass
-class FormatInfo:
-    name: str
-    enable: bool = True
-    description: str = ""
-    exts: list[str] = field(default_factory=list)
+from pydantic import BaseModel, Field
 
 
-@dataclass
-class FFProbeFormat:
+class FFProbeFormat(BaseModel):
     filename: str | None = None
     duration: float | None = None
     format_name: str | None = None
@@ -24,14 +18,18 @@ class FFProbeFormat:
     size: int | None = None
     probe_score: int | None = None
 
+    class Config:
+        extra = "allow"
 
-@dataclass
-class FFProbeStreamTags:
+
+class FFProbeStreamTags(BaseModel):
     rotate: int = 0
 
+    class Config:
+        extra = "allow"
 
-@dataclass
-class FFProbeStream:
+
+class FFProbeStream(BaseModel):
     index: int | None = None
     width: int | None = None
     height: int | None = None
@@ -41,17 +39,21 @@ class FFProbeStream:
     profile: str | None = None
     pix_fmt: str | None = None
     r_frame_rate: str | None = None
-    tags: FFProbeStreamTags = field(default_factory=FFProbeStreamTags)
+    tags: FFProbeStreamTags = Field(default_factory=FFProbeStreamTags)
+
+    class Config:
+        extra = "allow"
 
 
-@dataclass
-class FFProbeInfo:
+class FFProbeInfo(BaseModel):
     format: FFProbeFormat
     streams: list[FFProbeStream]
 
+    class Config:
+        extra = "allow"
 
-@dataclass
-class FFMpegSupport:
+
+class FFMpegSupport(BaseModel):
     demuxing_support: bool
     muxing_support: bool
     codec: str
@@ -135,6 +137,34 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
     return output
 
 
+def _cache_file(version: str) -> str:
+    major_minor_version = ".".join(version.split(".")[:2])
+    return str(Path(__file__).parent.parent / "data" / f"ffmpeg-{major_minor_version}.json")
+
+
+def _generate_cache(version: str) -> None:
+    infos = list_support_format(version)
+
+    with open(_cache_file(version), "w") as ofile:
+        ofile.write(json.dumps([k.dict() for k in infos], indent=4))
+
+
+@lru_cache
+def _load_cache(version: str) -> list[FFMpegSupport]:
+    with open(_cache_file(version)) as ifile:
+        return [FFMpegSupport(**k) for k in json.load(ifile)]
+
+
+def load_cache() -> dict[str, FFMpegSupport]:
+    ffmpeg_version = get_ffmpeg_version()
+    output = {}
+    for info in _load_cache(ffmpeg_version):
+        output[info.codec] = info
+
+    return output
+
+
+@lru_cache
 def get_ffmpeg_version() -> str:
     try:
         result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True)
