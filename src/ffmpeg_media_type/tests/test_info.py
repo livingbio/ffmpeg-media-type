@@ -1,10 +1,12 @@
+import os
+import tempfile
 from pathlib import Path
 
 import pytest
 from syrupy.assertion import SnapshotAssertion
 from syrupy.filters import props
 
-from ..info import detect
+from ..info import detect, generate_thumbnail
 
 
 @pytest.mark.parametrize(
@@ -12,4 +14,10 @@ from ..info import detect
     [pytest.param(k, id=k.name) for k in (Path(__file__).parent.parent / "utils/tests").glob("test_ffmpeg/*")],
 )
 def test_detect(case: Path, snapshot: SnapshotAssertion) -> None:
-    snapshot(name=case.name, exclude=props("duration")) == detect(str(case)).dict()
+    info = detect(str(case))
+    snapshot(name=case.name, exclude=props("duration")) == info.dict()
+
+    if info.type in ("video", "image"):
+        temp_dir = tempfile.mkdtemp()  # Create a temporary directory
+        thumbnail_path = os.path.join(temp_dir, f"{case.name}.thumbnail.jpg")  # Temporary thumbnail file path
+        generate_thumbnail(str(case), thumbnail_path)
