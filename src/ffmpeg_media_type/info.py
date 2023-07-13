@@ -1,6 +1,5 @@
 import os
 import subprocess
-import tempfile
 from typing import Literal
 from urllib.parse import urlparse
 
@@ -21,12 +20,10 @@ class MediaInfo(BaseModel):
     suggest_ext: str | None = None
 
 
-def generate_thumbnail(video_path: str, time_offset: float = 0) -> str:
-    temp_dir = tempfile.mkdtemp()  # Create a temporary directory
-    thumbnail_path = os.path.join(temp_dir, "thumbnail.jpg")  # Temporary thumbnail file path
-
+def generate_thumbnail(video_path: str, thumbnail_path: str, time_offset: float = 0) -> str:
     ffmpeg_cmd = [
         "ffmpeg",  # FFmpeg command
+        "-y",  # Overwrite output file if it exists
         "-i",
         video_path,  # Input video path
         "-ss",
