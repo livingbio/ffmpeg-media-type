@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 
 from pydantic import BaseModel
 
-from .utils.ffmpeg import FFProbeInfo, ffprobe_file, load_cache
+from .utils.ffmpeg import FFProbeInfo, ffprobe, load_cache
 
 
 class MediaInfo(BaseModel):
@@ -51,7 +51,7 @@ def _extract_file_extension(uri: str) -> str:
     path = parsed_uri.path
     filename = os.path.basename(path)
     _, extension = os.path.splitext(filename)
-    return extension[1:]
+    return extension[1:].lower()
 
 
 _KNOWN_CODEC_EXTS = {
@@ -135,5 +135,5 @@ def _guess_media_info(
 
 
 def detect(uri: str) -> MediaInfo:
-    probe_info = ffprobe_file(uri)
+    probe_info = ffprobe(uri)
     return _guess_media_info(uri, probe_info)

@@ -36,7 +36,7 @@ import ffmpeg_media_type
 To detect media file information, use the `detect` function, providing the path to the media file as a parameter:
 
 ```python
-media_info = ffmpeg_media_type.info.detect('/path/to/media/file.mp4')
+media_info = ffmpeg_media_type.detect('/path/to/media/file.mp4')
 ```
 
 The `detect` function returns a model containing the following information:
@@ -66,7 +66,7 @@ import ffmpeg_media_type
 file_path = '/path/to/media/file.mp4'
 
 # Detect media file information
-media_info = ffmpeg_media_type.info.detect(file_path)
+media_info = ffmpeg_media_type.detect(file_path)
 
 # Extract information from the media_info dictionary
 duration = media_info.duration
@@ -79,6 +79,23 @@ print(f"Width: {width} pixels")
 print(f"Height: {height} pixels")
 ```
 
+### Enhancing Accuracy in Guessing Media File Extensions with FFmpeg
+
+- Typically, the media file's extension is utilized to determine its file type. Nevertheless, this approach may not always yield accurate results. For instance, a file bearing the `.mp4` extension could, in reality, be an audio file.
+- The `ffmpeg-media-type` tool enhances the precision of media file extension guessing by leveraging the built-in format functionality of FFmpeg through the command `ffmpeg -formats`.
+
+check [data](https://github.com/livingbio/ffmpeg-media-type/tree/main/src/ffmpeg_media_type/data) for details.
+
+### Access ffprobe output
+
+If you need to access the raw ffprobe output, you can use the `ffprobe` function:
+
+```python
+ffprobe_output = ffmpeg_media_type.ffprobe('/path/to/media/file.mp4')
+
+duration = ffprobe_output.format.duration
+codec_type = ffprobe_output.streams[0].codec_type
+```
 ## Contributing
 
 Contributions are welcome! If you encounter any issues or have suggestions for improvements, please open an issue on the [GitHub repository](https://github.com/livingbio/ffmpeg-media-type/issues). If you would like to contribute code, please fork the repository and submit a pull request.
