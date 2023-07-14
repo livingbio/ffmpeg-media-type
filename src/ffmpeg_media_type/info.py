@@ -5,7 +5,7 @@ from urllib.parse import urlparse
 
 from pydantic import BaseModel
 
-from .utils.ffmpeg import FFProbeInfo, ffprobe_file, load_cache
+from .utils.ffmpeg import FFProbeInfo, ffprobe, load_cache
 
 
 class MediaInfo(BaseModel):
@@ -135,5 +135,5 @@ def _guess_media_info(
 
 
 def detect(uri: str) -> MediaInfo:
-    probe_info = ffprobe_file(uri)
+    probe_info = ffprobe(uri)
     return _guess_media_info(uri, probe_info)

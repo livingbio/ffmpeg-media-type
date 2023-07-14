@@ -176,7 +176,7 @@ def get_ffmpeg_version() -> str:
         raise FileNotFoundError("FFmpeg not found") from e
 
 
-def ffprobe_file(file_path: str) -> FFProbeInfo:
+def ffprobe(input_url: str) -> FFProbeInfo:
     # Construct the FFprobe command with JSON output format
     ffprobe_cmd = [
         "ffprobe",
@@ -186,7 +186,7 @@ def ffprobe_file(file_path: str) -> FFProbeInfo:
         "-show_streams",
         "-of",
         "json",
-        file_path,
+        input_url,
     ]
 
     try:
