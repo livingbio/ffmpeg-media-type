@@ -51,7 +51,7 @@ def _extract_file_extension(uri: str) -> str:
     path = parsed_uri.path
     filename = os.path.basename(path)
     _, extension = os.path.splitext(filename)
-    return extension[1:]
+    return extension[1:].lower()
 
 
 _KNOWN_CODEC_EXTS = {

@@ -78,6 +78,14 @@ print(f"Duration: {duration} seconds")
 print(f"Width: {width} pixels")
 print(f"Height: {height} pixels")
 ```
+
+### Enhancing Accuracy in Guessing Media File Extensions with FFmpeg
+
+- Typically, the media file's extension is utilized to determine its file type. Nevertheless, this approach may not always yield accurate results. For instance, a file bearing the `.mp4` extension could, in reality, be an audio file.
+- The `ffmpeg-media-type` tool enhances the precision of media file extension guessing by leveraging the built-in format functionality of FFmpeg through the command `ffmpeg -formats`.
+
+check [data](https://github.com/livingbio/ffmpeg-media-type/tree/main/src/ffmpeg_media_type/data) for details.
+
 ### Access ffprobe output
 
 If you need to access the raw ffprobe output, you can use the `ffprobe` function:
