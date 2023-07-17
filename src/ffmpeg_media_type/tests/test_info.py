@@ -6,12 +6,13 @@ import pytest
 from syrupy.assertion import SnapshotAssertion
 from syrupy.filters import props
 
+from ..conftest import ffmpeg_sample_files
 from ..info import detect, generate_thumbnail
 
 
 @pytest.mark.parametrize(
     "case",
-    [pytest.param(k, id=k.name) for k in (Path(__file__).parent.parent / "utils/tests").glob("test_ffmpeg/*")],
+    [pytest.param(k, id=k.name) for k in ffmpeg_sample_files()],
 )
 def test_detect(case: Path, snapshot: SnapshotAssertion) -> None:
     info = detect(str(case))
