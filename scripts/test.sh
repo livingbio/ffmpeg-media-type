@@ -1,8 +1,6 @@
 #!/bin/bash
 # basic reference for writing script for travis
 
-curl -sSL https://install.python-poetry.org | python3 -
-
 VERSION=${1:-6.0}
 
 poetry shell
