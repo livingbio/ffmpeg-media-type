@@ -29,16 +29,6 @@
     'width': 480,
   })
 # ---
-# name: test_detect[4ox1IBJxK3cVd0uJA6gOtceSP3g.jpg][4ox1IBJxK3cVd0uJA6gOtceSP3g.jpg]
-  dict({
-    'format': 'mjpeg',
-    'height': 836,
-    'size': 1249892,
-    'suggest_ext': 'mjpg',
-    'type': 'video',
-    'width': 1254,
-  })
-# ---
 # name: test_detect[9b5174019e8c9bec190903528ff6d0392a2d6a9b.mp4][9b5174019e8c9bec190903528ff6d0392a2d6a9b.mp4]
   dict({
     'format': 'mov,mp4,m4a,3gp,3g2,mj2',
@@ -57,16 +47,6 @@
     'suggest_ext': 'webp',
     'type': 'image',
     'width': 1920,
-  })
-# ---
-# name: test_detect[Cle9pQ5.jpg][Cle9pQ5.jpg]
-  dict({
-    'format': 'mjpeg',
-    'height': 668,
-    'size': 72973,
-    'suggest_ext': 'mjpg',
-    'type': 'video',
-    'width': 720,
   })
 # ---
 # name: test_detect[SampleAudio_0.4mb.mp3][SampleAudio_0.4mb.mp3]
@@ -99,6 +79,16 @@
     'width': 4716,
   })
 # ---
+# name: test_detect[cut__videoconverter.com.mjpeg][cut__videoconverter.com.mjpeg]
+  dict({
+    'format': 'mov,mp4,m4a,3gp,3g2,mj2',
+    'height': 512,
+    'size': 450733,
+    'suggest_ext': 'mov',
+    'type': 'video',
+    'width': 512,
+  })
+# ---
 # name: test_detect[maxresdefault.jpg-sdafdeagwdsadf][maxresdefault.jpg-sdafdeagwdsadf]
   dict({
     'format': 'jpeg_pipe',
@@ -117,6 +107,16 @@
     'suggest_ext': 'png',
     'type': 'image',
     'width': 163,
+  })
+# ---
+# name: test_detect[sample_640x360.mjpeg][sample_640x360.mjpeg]
+  dict({
+    'format': 'mjpeg',
+    'height': 360,
+    'size': 2389258,
+    'suggest_ext': 'mjpeg',
+    'type': 'image',
+    'width': 640,
   })
 # ---
 # name: test_detect[silent_video.mp4][silent_video.mp4]
