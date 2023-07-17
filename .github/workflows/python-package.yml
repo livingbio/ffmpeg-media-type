@@ -20,6 +20,8 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-version }}
+      - name: Test with pre-commit
+        run: ./scripts/test-pre-commit.sh
       - name: Test with pytest
         run: ./scripts/test.sh
         env: # Or as an environment variable
