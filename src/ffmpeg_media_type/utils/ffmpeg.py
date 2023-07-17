@@ -168,12 +168,17 @@ def load_cache() -> dict[str, FFMpegSupport]:
 def get_ffmpeg_version() -> str:
     try:
         result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True, shell=True)
+    except FileNotFoundError as e:
+        raise FileNotFoundError("FFmpeg not found") from e
+
+    try:
         output_lines = result.stdout.strip().split("\n")
         version_line = output_lines[0].strip()
         version = version_line.split(" ")[2]
-        return version
-    except FileNotFoundError as e:
-        raise FileNotFoundError("FFmpeg not found") from e
+    except IndexError as e:
+        raise RuntimeError(f"FFmpeg version not found {output_lines}") from e
+
+    return version
 
 
 def ffprobe(input_url: str) -> FFProbeInfo:
