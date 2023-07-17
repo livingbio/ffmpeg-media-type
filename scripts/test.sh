@@ -2,6 +2,7 @@
 # basic reference for writing script for travis
 
 VERSION=${1:-6.0}
+curl -sSL https://install.python-poetry.org | python3 -
 
 poetry install --with test
 

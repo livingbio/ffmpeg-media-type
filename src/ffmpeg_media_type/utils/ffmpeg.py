@@ -167,7 +167,7 @@ def load_cache() -> dict[str, FFMpegSupport]:
 @lru_cache
 def get_ffmpeg_version() -> str:
     try:
-        result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True)
+        result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True, shell=True)
         output_lines = result.stdout.strip().split("\n")
         version_line = output_lines[0].strip()
         version = version_line.split(" ")[2]
@@ -191,7 +191,7 @@ def ffprobe(input_url: str) -> FFProbeInfo:
 
     try:
         # Execute the FFprobe command and capture the output
-        output = subprocess.check_output(ffprobe_cmd, stderr=subprocess.STDOUT)
+        output = subprocess.check_output(ffprobe_cmd, stderr=subprocess.STDOUT, shell=True)
         output_str = output.decode("utf-8")  # Convert bytes to string
         return FFProbeInfo(**json.loads(output_str))
     except subprocess.CalledProcessError as e:

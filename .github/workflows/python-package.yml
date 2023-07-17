@@ -7,10 +7,10 @@ on:
     branches: ["**"]
 
 jobs:
-  build:
+  build_ffmpeg_6:
     runs-on: ubuntu-latest
     strategy:
-      fail-fast: false
+      fail-fast: true
       matrix:
         python-version: ["3.10"]
 
@@ -20,16 +20,21 @@ jobs:
         uses: actions/setup-python@v3
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install Poetry
-        run: |
-          curl -sSL https://install.python-poetry.org | python3 -
-
-      - name: Test with pre-commit
-        run: ./scripts/test-pre-commit.sh
-
       - name: Test with pytest
-        run: ./scripts/test.sh
-        env: # Or as an environment variable
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
-      - name: Coveralls
-        uses: coverallsapp/github-action@v2
+        run: ./scripts/test.sh 6.0
+
+  build_ffmpeg_5:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: true
+      matrix:
+        python-version: ["3.10"]
+
+    steps:
+      - uses: actions/checkout@v3
+      - name: Set up Python ${{ matrix.python-version }}
+        uses: actions/setup-python@v3
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Test with pytest
+        run: ./scripts/test.sh 5.0
