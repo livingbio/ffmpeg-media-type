@@ -16,8 +16,9 @@ def test__get_muxer_info(snapshot: SnapshotAssertion) -> None:
     assert snapshot == _get_muxer_info("6.0", "E", "mp4", "MP4 (MPEG-4 Part 14)")
 
 
-def test_get_ffmpeg_version() -> None:
-    get_ffmpeg_version()
+def test_get_ffmpeg_version(snapshot: SnapshotAssertion) -> None:
+    version = get_ffmpeg_version()
+    assert snapshot(name=version) == version
 
 
 @pytest.mark.parametrize(
