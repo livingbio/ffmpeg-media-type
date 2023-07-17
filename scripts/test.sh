@@ -5,6 +5,7 @@ curl -sSL https://install.python-poetry.org | python3 -
 
 VERSION=${1:-6.0}
 
+poetry shell
 poetry install --with test,dev
 pre-commit run --all-files
 
