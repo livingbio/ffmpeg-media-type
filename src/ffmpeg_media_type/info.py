@@ -38,7 +38,7 @@ def generate_thumbnail(video_path: str, thumbnail_path: str, time_offset: float 
     ]
 
     try:
-        subprocess.check_output(ffmpeg_cmd, stderr=subprocess.STDOUT, shell=True)
+        subprocess.check_output(ffmpeg_cmd, stderr=subprocess.STDOUT)
     except subprocess.CalledProcessError as e:
         print("Error generating thumbnail:", e.output)
         raise
