@@ -1,12 +1,12 @@
 import json
-import os
 import re
-import subprocess
 from functools import lru_cache
 from pathlib import Path
 from typing import Any
 
 from pydantic import BaseModel, Field
+
+from .shell import call
 
 
 class FFProbeFormat(BaseModel):
@@ -93,11 +93,11 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
         "default_audio_codec": "",
     }
     if "E" in flag:
-        os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h muxer={codec} > output 2>&1")
-        muxer_info.update(_parse_muxer_info(open("output").read()))
+        text = call(["docker", "run", f"jrottenberg/ffmpeg:{version}-scratch", "-h", f"muxer={codec}"])
+        muxer_info.update(_parse_muxer_info(text))
     if "D" in flag:
-        os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -h demuxer={codec} > output 2>&1")
-        muxer_info.update(_parse_muxer_info(open("output").read()))
+        text = call(["docker", "run", f"jrottenberg/ffmpeg:{version}-scratch", "-h", f"demuxer={codec}"])
+        muxer_info.update(_parse_muxer_info(text))
 
     # print(f"{codec=}, {muxer_info=}")
     return FFMpegSupport(
@@ -121,10 +121,7 @@ def _extract_file_format(content: str) -> list[tuple[str, str, str]]:
 
 
 def list_support_format(version: str) -> list[FFMpegSupport]:
-    os.system(f"docker run jrottenberg/ffmpeg:{version}-scratch -formats > format.txt 2>&1")
-
-    with open("format.txt") as ifile:
-        content = ifile.read()
+    content = call(["docker", "run", f"jrottenberg/ffmpeg:{version}-scratch", "-formats"])
 
     # print(f"FFMpeg version: {version}")
 
@@ -166,13 +163,10 @@ def load_cache() -> dict[str, FFMpegSupport]:
 
 @lru_cache
 def get_ffmpeg_version() -> str:
-    try:
-        result = subprocess.run(["ffmpeg", "-version"], capture_output=True, text=True)
-    except FileNotFoundError as e:
-        raise FileNotFoundError("FFmpeg not found") from e
+    result = call(["ffmpeg", "-version"])
 
     try:
-        output_lines = result.stdout.strip().split("\n")
+        output_lines = result.split("\n")
         version_line = output_lines[0].strip()
         version = version_line.split(" ")[2]
     except IndexError as e:
@@ -194,11 +188,6 @@ def ffprobe(input_url: str) -> FFProbeInfo:
         input_url,
     ]
 
-    try:
-        # Execute the FFprobe command and capture the output
-        output = subprocess.check_output(ffprobe_cmd, stderr=subprocess.STDOUT)
-        output_str = output.decode("utf-8")  # Convert bytes to string
-        return FFProbeInfo(**json.loads(output_str))
-    except subprocess.CalledProcessError as e:
-        # print(f"FFprobe error: {e.output}")
-        raise
+    # Execute the FFprobe command and capture the output
+    output = call(ffprobe_cmd)
+    return FFProbeInfo(**json.loads(output))

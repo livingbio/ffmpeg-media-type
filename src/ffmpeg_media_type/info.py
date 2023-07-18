@@ -1,11 +1,11 @@
 import os
-import subprocess
 from typing import Literal
 from urllib.parse import urlparse
 
 from pydantic import BaseModel
 
 from .utils.ffmpeg import FFProbeInfo, ffprobe, load_cache
+from .utils.shell import call
 
 
 class MediaInfo(BaseModel):
@@ -37,11 +37,7 @@ def generate_thumbnail(video_path: str, thumbnail_path: str, time_offset: float 
         thumbnail_path,  # Output thumbnail path
     ]
 
-    try:
-        subprocess.check_output(ffmpeg_cmd, stderr=subprocess.STDOUT)
-    except subprocess.CalledProcessError as e:
-        print("Error generating thumbnail:", e.output)
-        raise
+    call(ffmpeg_cmd)
 
     return thumbnail_path
 
