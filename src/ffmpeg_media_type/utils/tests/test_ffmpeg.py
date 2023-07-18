@@ -18,16 +18,17 @@ def test__get_muxer_info(snapshot: SnapshotAssertion) -> None:
     assert snapshot == _get_muxer_info("6.0", "E", "mp4", "MP4 (MPEG-4 Part 14)")
 
 
-def test_get_ffmpeg_version() -> None:
-    get_ffmpeg_version()
+def test_get_ffmpeg_version(snapshot: SnapshotAssertion) -> None:
+    version = get_ffmpeg_version()
+    assert snapshot(name=version) == get_ffmpeg_version()
 
 
 @pytest.mark.parametrize(
     "case",
     [pytest.param(k, id=k.name) for k in ffmpeg_sample_files()],
 )
-def test_ffprobe_file(case: Path) -> None:
-    ffprobe(str(case))
+def test_ffprobe_file(case: Path, snapshot: SnapshotAssertion) -> None:
+    assert snapshot == ffprobe(str(case))
 
 
 def test_generate_cache() -> None:

@@ -181,13 +181,11 @@ def get_ffmpeg_version() -> str:
     result = call(get_ffmpeg() + ["-version"])
 
     try:
-        output_lines = result.split("\n")
-        version_line = output_lines[0].strip()
-        version = version_line.split(" ")[2]
+        m_version = re.findall("ffmpeg version ([\d\.]+)", result)
+        assert len(m_version) == 1, m_version
+        return m_version[0]
     except IndexError as e:
-        raise RuntimeError(f"FFmpeg version not found {output_lines}") from e
-
-    return version
+        raise RuntimeError(f"FFmpeg version not found {result}") from e
 
 
 def ffprobe(input_url: str) -> FFProbeInfo:
