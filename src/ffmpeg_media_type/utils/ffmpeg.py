@@ -1,4 +1,5 @@
 import json
+import os
 import re
 from functools import lru_cache
 from pathlib import Path
@@ -161,9 +162,23 @@ def load_cache() -> dict[str, FFMpegSupport]:
     return output
 
 
+def get_ffprobe() -> list[str]:
+    version = os.environ.get("FFMPEG_DOCKER_VERSION")
+    if version:
+        return ["docker", "run", "--entrypoint", "ffprobe", f"jrottenberg/ffmpeg:{version}-scratch"]
+    return ["ffprobe"]
+
+
+def get_ffmpeg() -> list[str]:
+    version = os.environ.get("FFMPEG_DOCKER_VERSION")
+    if version:
+        return ["docker", "run", "--entrypoint", "ffmpeg", f"jrottenberg/ffmpeg:{version}-scratch"]
+    return ["ffmpeg"]
+
+
 @lru_cache
 def get_ffmpeg_version() -> str:
-    result = call(["ffmpeg", "-version"])
+    result = call(get_ffmpeg() + ["-version"])
 
     try:
         output_lines = result.split("\n")
@@ -177,8 +192,7 @@ def get_ffmpeg_version() -> str:
 
 def ffprobe(input_url: str) -> FFProbeInfo:
     # Construct the FFprobe command with JSON output format
-    ffprobe_cmd = [
-        "ffprobe",
+    ffprobe_cmd = get_ffprobe() + [
         "-v",
         "error",
         "-show_format",
