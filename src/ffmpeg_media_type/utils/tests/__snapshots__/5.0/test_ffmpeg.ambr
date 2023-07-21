@@ -2,8 +2,8 @@
 # name: test_ffprobe_file[10257640.mp4][10257640.mp4]
   dict({
     'format': dict({
-      'bit_rate': '698369',
-      'duration': 6.803447,
+      'bit_rate': '698381',
+      'duration': 6.803333,
       'format_long_name': None,
       'format_name': 'mov,mp4,m4a,3gp,3g2,mj2',
       'nb_programs': 0,
@@ -118,7 +118,6 @@
         'height': None,
         'id': '0x2',
         'index': 1,
-        'initial_padding': 0,
         'nb_frames': '293',
         'pix_fmt': None,
         'profile': '1',
@@ -354,8 +353,8 @@
 # name: test_ffprobe_file[9b5174019e8c9bec190903528ff6d0392a2d6a9b.mp4][9b5174019e8c9bec190903528ff6d0392a2d6a9b.mp4]
   dict({
     'format': dict({
-      'bit_rate': '1479571',
-      'duration': 38.740617,
+      'bit_rate': '1479557',
+      'duration': 38.741,
       'format_long_name': None,
       'format_name': 'mov,mp4,m4a,3gp,3g2,mj2',
       'nb_programs': 0,
@@ -615,7 +614,6 @@
         'duration_ts': 391533912,
         'height': None,
         'index': 0,
-        'initial_padding': 0,
         'pix_fmt': None,
         'profile': None,
         'r_frame_rate': '0/0',
@@ -752,7 +750,6 @@
         'height': None,
         'id': '0x2',
         'index': 1,
-        'initial_padding': 0,
         'nb_frames': '249',
         'pix_fmt': None,
         'profile': '1',
@@ -968,8 +965,8 @@
 # name: test_ffprobe_file[silent_video.mp4][silent_video.mp4]
   dict({
     'format': dict({
-      'bit_rate': '16964712',
-      'duration': 6.965292,
+      'bit_rate': '16965423',
+      'duration': 6.965,
       'format_long_name': None,
       'format_name': 'mov,mp4,m4a,3gp,3g2,mj2',
       'nb_programs': 0,
@@ -1050,16 +1047,4 @@
       }),
     ]),
   })
-# ---
-# name: test_get_ffmpeg_version[6.0]
-  '6.0'
-# ---
-# name: test_get_ffmpeg_version[major]
-  '6.0.0'
-# ---
-# name: test_get_ffmpeg_version[minor]
-  '6.0.0'
-# ---
-# name: test_get_ffmpeg_version[patch]
-  '6.0.0'
 # ---

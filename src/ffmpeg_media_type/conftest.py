@@ -17,7 +17,6 @@ class DifferentDirectoryExtension(AmberSnapshotExtension):
     @classmethod
     def dirname(cls, *, test_location: "PyTestLocation") -> str:
         version = get_ffmpeg_version("minor")
-
         return str(Path(test_location.filepath).parent / "__snapshots__" / version)
 
 

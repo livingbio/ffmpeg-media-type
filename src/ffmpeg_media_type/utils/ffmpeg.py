@@ -186,6 +186,10 @@ def get_ffprobe() -> list[str]:
             "run",
             "--entrypoint",
             "ffprobe",
+            "-v",
+            f"{Path.cwd()}:/work",
+            "-w",
+            "/work",
             f"jrottenberg/ffmpeg:{version}-scratch",
         ]
     return ["ffprobe"]
@@ -199,6 +203,10 @@ def get_ffmpeg() -> list[str]:
             "run",
             "--entrypoint",
             "ffmpeg",
+            "-v",
+            f"{Path.cwd()}:/work",
+            "-w",
+            "/work",
             f"jrottenberg/ffmpeg:{version}-scratch",
         ]
     return ["ffmpeg"]
