@@ -2,17 +2,6 @@
 # name: test__get_muxer_info
   FFMpegSupport(demuxing_support=False, muxing_support=True, codec='mp4', description='MP4 (MPEG-4 Part 14)', common_exts=['mp4'], mime_type='video/mp4', default_video_codec='h264', default_audio_codec='aac')
 # ---
-# name: test_get_ffmpeg_version.['ffmpeg version 5.0.2']
-  list([
-    'ffmpeg version 5.0.2',
-  ])
-# ---
-# name: test_get_ffmpeg_version[5.0.2]
-  '5.0.2'
-# ---
-# name: test_get_ffmpeg_version[6.0]
-  '6.0'
-# ---
 # name: test_list_support_format
   list([
     FFMpegSupport(demuxing_support=True, muxing_support=False, codec='3dostr', description='', common_exts=['str'], mime_type='', default_video_codec='', default_audio_codec=''),
