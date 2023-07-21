@@ -1,0 +1,4 @@
+# serializer version: 1
+# name: test_get_ffmpeg_version[6.0]
+  '6.0'
+# ---
