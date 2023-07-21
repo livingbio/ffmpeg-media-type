@@ -1,0 +1,144 @@
+# serializer version: 1
+# name: test_detect[10257640.mp4][10257640.mp4]
+  dict({
+    'duration': 6.803333,
+    'format': 'mov,mp4,m4a,3gp,3g2,mj2',
+    'height': 480,
+    'size': 593915,
+    'suggest_ext': 'mp4',
+    'type': 'video',
+    'width': 640,
+  })
+# ---
+# name: test_detect[188794898-eeb81e4b-b33a-4bdf-85a8-3b4b8460b88a.png][188794898-eeb81e4b-b33a-4bdf-85a8-3b4b8460b88a.png]
+  dict({
+    'duration': 0.0,
+    'format': 'png_pipe',
+    'height': 259,
+    'size': 47210,
+    'suggest_ext': 'png',
+    'type': 'image',
+    'width': 262,
+  })
+# ---
+# name: test_detect[201432913186_fish.gif][201432913186_fish.gif]
+  dict({
+    'duration': 0.0,
+    'format': 'gif',
+    'height': 360,
+    'size': 30333,
+    'suggest_ext': 'gif',
+    'type': 'image',
+    'width': 480,
+  })
+# ---
+# name: test_detect[4ox1IBJxK3cVd0uJA6gOtceSP3g.jpg][4ox1IBJxK3cVd0uJA6gOtceSP3g.jpg]
+  dict({
+    'duration': 0.04,
+    'format': 'mjpeg',
+    'height': 836,
+    'size': 1249892,
+    'suggest_ext': 'jpg',
+    'type': 'image',
+    'width': 1254,
+  })
+# ---
+# name: test_detect[9b5174019e8c9bec190903528ff6d0392a2d6a9b.mp4][9b5174019e8c9bec190903528ff6d0392a2d6a9b.mp4]
+  dict({
+    'duration': 38.741,
+    'format': 'mov,mp4,m4a,3gp,3g2,mj2',
+    'height': 1080,
+    'size': 7164941,
+    'suggest_ext': 'mp4',
+    'type': 'video',
+    'width': 1920,
+  })
+# ---
+# name: test_detect[9c7ee468-24a3-4930-9832-73f0f6001ab1.webp][9c7ee468-24a3-4930-9832-73f0f6001ab1.webp]
+  dict({
+    'duration': 0.0,
+    'format': 'webp_pipe',
+    'height': 787,
+    'size': 55242,
+    'suggest_ext': 'webp',
+    'type': 'image',
+    'width': 1920,
+  })
+# ---
+# name: test_detect[Cle9pQ5.jpg][Cle9pQ5.jpg]
+  dict({
+    'duration': 0.04,
+    'format': 'mjpeg',
+    'height': 668,
+    'size': 72973,
+    'suggest_ext': 'jpg',
+    'type': 'image',
+    'width': 720,
+  })
+# ---
+# name: test_detect[SampleAudio_0.4mb.mp3][SampleAudio_0.4mb.mp3]
+  dict({
+    'duration': 27.74475,
+    'format': 'mp3',
+    'height': 0,
+    'size': 443926,
+    'suggest_ext': 'mp3',
+    'type': 'audio',
+    'width': 0,
+  })
+# ---
+# name: test_detect[SampleVideo_1280x720_1mb.mp4][SampleVideo_1280x720_1mb.mp4]
+  dict({
+    'duration': 5.312,
+    'format': 'mov,mp4,m4a,3gp,3g2,mj2',
+    'height': 720,
+    'size': 1055736,
+    'suggest_ext': 'mp4',
+    'type': 'video',
+    'width': 1280,
+  })
+# ---
+# name: test_detect[cd89b1bf161582d55161f5ba94d03cc7728825c2.jpe][cd89b1bf161582d55161f5ba94d03cc7728825c2.jpe]
+  dict({
+    'duration': 0.0,
+    'format': 'jpeg_pipe',
+    'height': 3144,
+    'size': 12642182,
+    'suggest_ext': 'jpeg',
+    'type': 'image',
+    'width': 4716,
+  })
+# ---
+# name: test_detect[maxresdefault.jpg-sdafdeagwdsadf][maxresdefault.jpg-sdafdeagwdsadf]
+  dict({
+    'duration': 0.0,
+    'format': 'jpeg_pipe',
+    'height': 720,
+    'size': 99802,
+    'suggest_ext': 'jpeg',
+    'type': 'image',
+    'width': 1280,
+  })
+# ---
+# name: test_detect[overlay.png][overlay.png]
+  dict({
+    'duration': 0.0,
+    'format': 'png_pipe',
+    'height': 117,
+    'size': 2212,
+    'suggest_ext': 'png',
+    'type': 'image',
+    'width': 163,
+  })
+# ---
+# name: test_detect[silent_video.mp4][silent_video.mp4]
+  dict({
+    'duration': 6.965,
+    'format': 'mov,mp4,m4a,3gp,3g2,mj2',
+    'height': 1080,
+    'size': 14770522,
+    'suggest_ext': 'mp4',
+    'type': 'video',
+    'width': 1920,
+  })
+# ---
