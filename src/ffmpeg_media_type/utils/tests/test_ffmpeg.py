@@ -5,6 +5,7 @@ from unittest import mock
 import pytest
 from syrupy.assertion import SnapshotAssertion
 
+from .. import ffmpeg
 from ..ffmpeg import _cache_file, _generate_cache, _get_muxer_info, _load_cache, ffprobe, get_ffmpeg_version, list_support_format
 
 
@@ -32,10 +33,9 @@ def test_generate_cache() -> None:
 
 @pytest.mark.parametrize("mode", ["major", "minor", "patch"])
 def test_get_ffmpeg_version(mode: str, snapshot: SnapshotAssertion) -> None:
-    with mock.patch("ffmpeg_media_type.utils.ffmpeg.call") as call:
-        call.return_value = "ffmpeg version 4.2.2"
-        assert call.called
+    with mock.patch(ffmpeg.__name__ + ".call", return_value="ffmpeg version 4.2.2") as call:
         assert snapshot == get_ffmpeg_version(mode)
+        assert call.called
 
 
 @pytest.mark.parametrize(
