@@ -36,5 +36,12 @@ jobs:
       - name: Test with ffmpeg 5.0
         run: |
           poetry run ./scripts/test.sh 5.0
+      - name: Test with ffmpeg 6.0
+        run: |
+          poetry run ./scripts/test.sh 6.0
+      - name: Test without docker
+        run: |
+            apt-get update && apt-get install ffmpeg
+            poetry run py.test ./src --cov=./src -s -m "not ffmpeg_version" --cov-append
       - name: Coveralls
         uses: coverallsapp/github-action@v2
