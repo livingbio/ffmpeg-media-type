@@ -30,11 +30,11 @@ jobs:
       - name: Lint with pre-commit
         run: |
           poetry run pre-commit run --all-files
-      - name: Test with pytest
+      - name: Test with ffmpeg 4.0
         run: |
-          sudo apt install ffmpeg
-          poetry run pytest ./src --cov=./src -s
-        env: # Or as an environment variable
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          poetry run ./scripts/test.sh 4.0
+      - name: Test with ffmpeg 5.0
+        run: |
+          poetry run ./scripts/test.sh 5.0
       - name: Coveralls
         uses: coverallsapp/github-action@v2
