@@ -1,5 +1,6 @@
 import os
 from pathlib import Path
+from unittest import mock
 
 import pytest
 from syrupy.assertion import SnapshotAssertion
@@ -15,9 +16,11 @@ def test__get_muxer_info(snapshot: SnapshotAssertion) -> None:
     assert snapshot == _get_muxer_info("6.0", "E", "mp4", "MP4 (MPEG-4 Part 14)")
 
 
-def test_get_ffmpeg_version(snapshot_ffmpeg: SnapshotAssertion) -> None:
-    version = get_ffmpeg_version()
-    assert snapshot_ffmpeg(name=version) == version
+@pytest.mark.parametrize("mode", ["major", "minor", "patch"])
+def test_get_ffmpeg_version(mode: str, snapshot: SnapshotAssertion) -> None:
+    with mock.patch("ffmpeg_media_type.utils.ffmpeg.call") as call:
+        call.return_value = "ffmpeg version 4.2.2"
+        assert snapshot == get_ffmpeg_version(mode)
 
 
 @pytest.mark.parametrize(

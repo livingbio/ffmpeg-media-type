@@ -10,13 +10,13 @@ from .utils.ffmpeg import get_ffmpeg_version
 
 @pytest.fixture(scope="session")
 def ffmpeg_version() -> str:
-    return ".".join(get_ffmpeg_version().split(".")[:2])
+    return get_ffmpeg_version("minor")
 
 
 class DifferentDirectoryExtension(AmberSnapshotExtension):
     @classmethod
     def dirname(cls, *, test_location: "PyTestLocation") -> str:
-        version = ".".join(get_ffmpeg_version().split(".")[:2])
+        version = get_ffmpeg_version("minor")
 
         return str(Path(test_location.filepath).parent / "__snapshots__" / version)
 

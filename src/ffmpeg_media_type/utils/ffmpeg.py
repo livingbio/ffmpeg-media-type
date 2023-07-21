@@ -3,7 +3,7 @@ import os
 import re
 from functools import lru_cache
 from pathlib import Path
-from typing import Any
+from typing import Any, Literal
 
 from pydantic import BaseModel, Field
 
@@ -152,7 +152,7 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
 
 
 def _cache_file(version: str) -> str:
-    major_minor_version = ".".join(version.split(".")[:2])
+    major_minor_version = get_ffmpeg_version("minor")
     return str(Path(__file__).parent.parent / "data" / f"ffmpeg-{major_minor_version}.json")
 
 
@@ -205,13 +205,27 @@ def get_ffmpeg() -> list[str]:
 
 
 @lru_cache
-def get_ffmpeg_version() -> str:
+def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> str:
     result = call(get_ffmpeg() + ["-version"])
 
     try:
         m_version = re.findall(r"ffmpeg version ([\d\.]+)", result)
         assert len(m_version) == 1, m_version
-        return m_version[0]
+        version = m_version[0]
+
+        v_parts = version.split(".")
+        assert len(v_parts) <= 3, f"version format error: {version}"
+
+        if mode == "patch":
+            v_parts = v_parts[:3]
+        elif mode == "minor":
+            v_parts = v_parts[:2]
+        else:
+            v_parts = v_parts[:1]
+
+        v_parts += ["0"] * (3 - len(v_parts))
+        return ".".join(v_parts)
+
     except IndexError as e:
         raise RuntimeError(f"FFmpeg version not found {result}") from e
 

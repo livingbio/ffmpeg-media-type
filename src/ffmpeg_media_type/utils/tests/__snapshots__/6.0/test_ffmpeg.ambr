@@ -2,3 +2,12 @@
 # name: test_get_ffmpeg_version[6.0]
   '6.0'
 # ---
+# name: test_get_ffmpeg_version[major]
+  '6.0.0'
+# ---
+# name: test_get_ffmpeg_version[minor]
+  '6.0.0'
+# ---
+# name: test_get_ffmpeg_version[patch]
+  '6.0.0'
+# ---

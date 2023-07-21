@@ -13,6 +13,15 @@
 # name: test_get_ffmpeg_version[6.0]
   '6.0'
 # ---
+# name: test_get_ffmpeg_version[major]
+  '4.0.0'
+# ---
+# name: test_get_ffmpeg_version[minor]
+  '4.2.0'
+# ---
+# name: test_get_ffmpeg_version[patch]
+  '4.2.2'
+# ---
 # name: test_list_support_format
   list([
     FFMpegSupport(demuxing_support=True, muxing_support=False, codec='3dostr', description='', common_exts=['str'], mime_type='', default_video_codec='', default_audio_codec=''),
