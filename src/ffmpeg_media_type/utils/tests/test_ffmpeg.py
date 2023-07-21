@@ -32,7 +32,9 @@ def test_generate_cache() -> None:
 @pytest.mark.parametrize("mode", ["major", "minor", "patch"])
 def test_get_ffmpeg_version(mode: str, snapshot: SnapshotAssertion) -> None:
     with mock.patch(ffmpeg.__name__ + ".call", return_value="ffmpeg version 4.2.2") as call:
-        assert snapshot == get_ffmpeg_version(mode)
+        # NOTE: mock the call function to avoid calling the real ffmpeg
+        # NOTE: use __wrapped__ to get the original function since it is wrapped by lru_cache
+        assert snapshot == get_ffmpeg_version.__wrapped__(mode)
         assert call.called
 
 

@@ -57,6 +57,7 @@ _KNOWN_CODEC_EXTS = {
     "gif_pipe": ["gif"],
     "jpeg_pipe": ["jpeg", "jpg"],
     "webp_pipe": ["webp"],
+    "mjpeg": ["jpg", "jpeg", "mjpeg"],
 }
 
 
@@ -90,7 +91,7 @@ def _guess_media_info(
         suggest_ext = None
 
     # NOTE: we classify gif as image
-    if not duration or format_name == "gif":
+    if not duration or format_name in ("gif", "mjpeg"):
         return MediaInfo(
             type="image",
             width=info.streams[0].width or 0,

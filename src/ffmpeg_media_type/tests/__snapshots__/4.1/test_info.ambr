@@ -38,8 +38,8 @@
     'format': 'mjpeg',
     'height': 836,
     'size': 1249892,
-    'suggest_ext': 'mjpg',
-    'type': 'video',
+    'suggest_ext': 'jpg',
+    'type': 'image',
     'width': 1254,
   })
 # ---
@@ -71,8 +71,8 @@
     'format': 'mjpeg',
     'height': 668,
     'size': 72973,
-    'suggest_ext': 'mjpg',
-    'type': 'video',
+    'suggest_ext': 'jpg',
+    'type': 'image',
     'width': 720,
   })
 # ---
