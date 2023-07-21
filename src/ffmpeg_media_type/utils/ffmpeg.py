@@ -216,6 +216,8 @@ def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> st
         v_parts = version.split(".")
         assert len(v_parts) <= 3, f"version format error: {version}"
 
+        v_parts += ["0"] * (3 - len(v_parts))
+
         if mode == "patch":
             v_parts = v_parts[:3]
         elif mode == "minor":
@@ -223,7 +225,6 @@ def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> st
         else:
             v_parts = v_parts[:1]
 
-        v_parts += ["0"] * (3 - len(v_parts))
         return ".".join(v_parts)
 
     except IndexError as e:

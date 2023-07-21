@@ -14,13 +14,13 @@
   '6.0'
 # ---
 # name: test_get_ffmpeg_version[major]
-  '4.0.0'
+  '5'
 # ---
 # name: test_get_ffmpeg_version[minor]
-  '4.2.0'
+  '5.2'
 # ---
 # name: test_get_ffmpeg_version[patch]
-  '4.2.2'
+  '5.2.2'
 # ---
 # name: test_list_support_format
   list([
