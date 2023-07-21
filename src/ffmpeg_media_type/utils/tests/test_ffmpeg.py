@@ -34,9 +34,8 @@ def test_generate_cache() -> None:
 def test_get_ffmpeg_version(mode: str, snapshot: SnapshotAssertion) -> None:
     with mock.patch("ffmpeg_media_type.utils.ffmpeg.call") as call:
         call.return_value = "ffmpeg version 4.2.2"
-        assert snapshot == get_ffmpeg_version(mode)
-
         assert call.called
+        assert snapshot == get_ffmpeg_version(mode)
 
 
 @pytest.mark.parametrize(
