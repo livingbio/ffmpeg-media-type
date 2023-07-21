@@ -1,5 +1,3 @@
-import os
-import tempfile
 from pathlib import Path
 
 import pytest
@@ -21,7 +19,4 @@ def test_detect(case: Path, snapshot_ffmpeg: SnapshotAssertion) -> None:
     snapshot_ffmpeg(name=case.name) == info.dict()
 
     if info.type in ("video", "image"):
-        temp_dir = tempfile.mkdtemp()  # Create a temporary directory
-        thumbnail_path = os.path.join(temp_dir, f"{case.name}.thumbnail.jpg")  # Temporary thumbnail file path
-
-        generate_thumbnail(str(case.relative_to(Path.cwd())), thumbnail_path)
+        generate_thumbnail(str(case.relative_to(Path.cwd())), "tmp.png")
