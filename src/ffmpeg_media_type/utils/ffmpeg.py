@@ -94,10 +94,26 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
         "default_audio_codec": "",
     }
     if "E" in flag:
-        text = call(["docker", "run", f"jrottenberg/ffmpeg:{version}-scratch", "-h", f"muxer={codec}"])
+        text = call(
+            [
+                "docker",
+                "run",
+                f"jrottenberg/ffmpeg:{version}-scratch",
+                "-h",
+                f"muxer={codec}",
+            ]
+        )
         muxer_info.update(_parse_muxer_info(text))
     if "D" in flag:
-        text = call(["docker", "run", f"jrottenberg/ffmpeg:{version}-scratch", "-h", f"demuxer={codec}"])
+        text = call(
+            [
+                "docker",
+                "run",
+                f"jrottenberg/ffmpeg:{version}-scratch",
+                "-h",
+                f"demuxer={codec}",
+            ]
+        )
         muxer_info.update(_parse_muxer_info(text))
 
     # print(f"{codec=}, {muxer_info=}")
@@ -165,14 +181,26 @@ def load_cache() -> dict[str, FFMpegSupport]:
 def get_ffprobe() -> list[str]:
     version = os.environ.get("FFMPEG_DOCKER_VERSION")
     if version:
-        return ["docker", "run", "--entrypoint", "ffprobe", f"jrottenberg/ffmpeg:{version}-scratch"]
+        return [
+            "docker",
+            "run",
+            "--entrypoint",
+            "ffprobe",
+            f"jrottenberg/ffmpeg:{version}-scratch",
+        ]
     return ["ffprobe"]
 
 
 def get_ffmpeg() -> list[str]:
     version = os.environ.get("FFMPEG_DOCKER_VERSION")
     if version:
-        return ["docker", "run", "--entrypoint", "ffmpeg", f"jrottenberg/ffmpeg:{version}-scratch"]
+        return [
+            "docker",
+            "run",
+            "--entrypoint",
+            "ffmpeg",
+            f"jrottenberg/ffmpeg:{version}-scratch",
+        ]
     return ["ffmpeg"]
 
 
@@ -181,7 +209,7 @@ def get_ffmpeg_version() -> str:
     result = call(get_ffmpeg() + ["-version"])
 
     try:
-        m_version = re.findall("ffmpeg version ([\d\.]+)", result)
+        m_version = re.findall(r"ffmpeg version ([\d\.]+)", result)
         assert len(m_version) == 1, m_version
         return m_version[0]
     except IndexError as e:
