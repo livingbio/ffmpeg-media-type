@@ -104,7 +104,7 @@ def _guess_media_info(
 
     for stream in info.streams:
         # NOTE: if there is at least one video stream, the media is video
-        if stream.codec_type == "video":
+        if stream.codec_type == "video" and format_name not in ("mp3",):
             width = stream.width
             height = stream.height
 

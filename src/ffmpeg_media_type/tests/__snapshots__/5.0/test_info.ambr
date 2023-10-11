@@ -120,6 +120,17 @@
     'width': 1280,
   })
 # ---
+# name: test_detect[mp3-with-cover.mp3][mp3-with-cover.mp3]
+  dict({
+    'duration': 1.044898,
+    'format': 'mp3',
+    'height': 0,
+    'size': 677673,
+    'suggest_ext': 'mp3',
+    'type': 'audio',
+    'width': 0,
+  })
+# ---
 # name: test_detect[overlay.png][overlay.png]
   dict({
     'duration': 0.0,
