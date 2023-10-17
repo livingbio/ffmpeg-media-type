@@ -1,0 +1,2 @@
+class FfmpegMediaTypeError(Exception):
+    pass
