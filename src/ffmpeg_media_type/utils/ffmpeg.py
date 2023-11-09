@@ -87,7 +87,9 @@ def _parse_muxer_info(content: str) -> dict[str, Any]:
     return output
 
 
-def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FFMpegSupport:
+def _get_muxer_info(
+    version: str, flag: str, codec: str, description: str
+) -> FFMpegSupport:
     muxer_info = {
         "common_exts": [],
         "mime_type": "",
@@ -128,7 +130,9 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
 
 
 def _extract_file_format(content: str) -> list[tuple[str, str, str]]:
-    re_ffmpeg_support_file_format = re.compile(r"(?P<flag>[DE]+)[\s]+(?P<codec>[\w\d,]+)[\s]+(?P<description>[^\n]*)")
+    re_ffmpeg_support_file_format = re.compile(
+        r"(?P<flag>[DE]+)[\s]+(?P<codec>[\w\d,]+)[\s]+(?P<description>[^\n]*)"
+    )
     output = []
     for iline in content.split("\n"):
         support_infos = re_ffmpeg_support_file_format.findall(iline)
@@ -139,7 +143,9 @@ def _extract_file_format(content: str) -> list[tuple[str, str, str]]:
 
 
 def list_support_format(version: str) -> list[FFMpegSupport]:
-    content = call(["docker", "run", f"jrottenberg/ffmpeg:{version}-scratch", "-formats"])
+    content = call(
+        ["docker", "run", f"jrottenberg/ffmpeg:{version}-scratch", "-formats"]
+    )
 
     # print(f"FFMpeg version: {version}")
 
@@ -154,7 +160,9 @@ def list_support_format(version: str) -> list[FFMpegSupport]:
 
 def _cache_file(version: str) -> str:
     major_minor_version = get_ffmpeg_version("minor")
-    return str(Path(__file__).parent.parent / "data" / f"ffmpeg-{major_minor_version}.json")
+    return str(
+        Path(__file__).parent.parent / "data" / f"ffmpeg-{major_minor_version}.json"
+    )
 
 
 def _generate_cache(version: str) -> None:
@@ -247,13 +255,17 @@ def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> st
         raise RuntimeError(f"FFmpeg version not found {result}") from e
 
 
-def animated_webp_support(func: Callable[[str], FFProbeInfo]) -> Callable[[str], FFProbeInfo]:
+def animated_webp_support(
+    func: Callable[[str], FFProbeInfo]
+) -> Callable[[str], FFProbeInfo]:
     @wraps(func)
     def wrapper(uri: str) -> FFProbeInfo:
         probe_info = func(uri)
-        if probe_info.format.format_name != "webp_pipe":
-            return probe_info
-        if probe_info.streams[0].height == 0 and probe_info.streams[0].width == 0:
+        if (
+            probe_info.streams[0].height == 0
+            and probe_info.streams[0].width == 0
+            and probe_info.format.format_name == "webp_pipe"
+        ):
             webpmux_command = get_webpmux() + ["-get", "frame", "1", uri, "-o", uri]
             call(webpmux_command)
             return func(uri)
