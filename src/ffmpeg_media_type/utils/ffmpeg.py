@@ -257,6 +257,7 @@ def animated_webp_support(func: Callable[[str], FFProbeInfo]) -> Callable[[str],
             webpmux_command = get_webpmux() + ["-get", "frame", "1", uri, "-o", uri]
             call(webpmux_command)
             return func(uri)
+        return probe_info
 
     return wrapper
 
