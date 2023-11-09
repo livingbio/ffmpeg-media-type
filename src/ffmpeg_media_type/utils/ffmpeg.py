@@ -1,7 +1,8 @@
 import json
 import os
 import re
-from functools import lru_cache
+from collections.abc import Callable
+from functools import lru_cache, wraps
 from pathlib import Path
 from typing import Any, Literal
 
@@ -212,6 +213,13 @@ def get_ffmpeg() -> list[str]:
     return ["ffmpeg"]
 
 
+def get_webpmux() -> list[str]:
+    version = os.environ.get("WEBPMUX_DOCKER_VERSION")
+    if version:
+        return []
+    return ["webpmux"]
+
+
 @lru_cache
 def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> str:
     result = call(get_ffmpeg() + ["-version"])
@@ -239,6 +247,21 @@ def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> st
         raise RuntimeError(f"FFmpeg version not found {result}") from e
 
 
+def animated_webp_support(func: Callable[[str], FFProbeInfo]) -> Callable[[str], FFProbeInfo]:
+    @wraps(func)
+    def wrapper(uri: str) -> FFProbeInfo:
+        probe_info = func(uri)
+        if probe_info.format.format_name != "webp_pipe":
+            return probe_info
+        if probe_info.streams[0].height == 0 and probe_info.streams[0].width == 0:
+            webpmux_command = get_webpmux() + ["-get", "frame", "1", uri, "-o", uri]
+            call(webpmux_command)
+            return func(uri)
+
+    return wrapper
+
+
+@animated_webp_support
 def ffprobe(input_url: str) -> FFProbeInfo:
     # Construct the FFprobe command with JSON output format
     ffprobe_cmd = get_ffprobe() + [
