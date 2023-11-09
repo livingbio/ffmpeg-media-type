@@ -213,6 +213,7 @@ def get_ffmpeg() -> list[str]:
         ]
     return ["ffmpeg"]
 
+
 @lru_cache
 def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> str:
     result = call(get_ffmpeg() + ["-version"])
@@ -255,6 +256,7 @@ def animated_webp_support(func: Callable[[str], FFProbeInfo]) -> Callable[[str],
 
 @animated_webp_support
 def ffprobe(input_url: str) -> FFProbeInfo:
+
     # Construct the FFprobe command with JSON output format
     ffprobe_cmd = get_ffprobe() + [
         "-v",
