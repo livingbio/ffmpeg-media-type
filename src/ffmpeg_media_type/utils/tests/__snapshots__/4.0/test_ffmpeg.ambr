@@ -481,6 +481,7 @@
       }),
     ]),
   })
+# ---
 # name: test_ffprobe_file[Cle9pQ5.jpg][Cle9pQ5.jpg]
   dict({
     'format': dict({
