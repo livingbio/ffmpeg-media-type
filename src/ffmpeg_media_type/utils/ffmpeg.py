@@ -250,6 +250,8 @@ def animated_webp_support(func: Callable[[str], FFProbeInfo]) -> Callable[[str],
         probe_info = func(uri)
         if probe_info.streams[0].height == 0 and probe_info.streams[0].width == 0 and probe_info.format.format_name == "webp_pipe":
             if not uri.startswith("http"):
+                webpmux_command = ["webpmux", "-get", "frame", "1", uri, "-o", uri]
+                call(webpmux_command)
                 return func(uri)
 
             parsed_uri = urlparse(uri)
