@@ -1,11 +1,14 @@
 import json
 import os
 import re
+import tempfile
 from collections.abc import Callable
 from functools import lru_cache, wraps
 from pathlib import Path
 from typing import Any, Literal
+from urllib.parse import urlparse
 
+import requests
 from pydantic import BaseModel, Field
 
 from .shell import call
@@ -246,9 +249,22 @@ def animated_webp_support(func: Callable[[str], FFProbeInfo]) -> Callable[[str],
     def wrapper(uri: str) -> FFProbeInfo:
         probe_info = func(uri)
         if probe_info.streams[0].height == 0 and probe_info.streams[0].width == 0 and probe_info.format.format_name == "webp_pipe":
-            webpmux_command = ["webpmux", "-get", "frame", "1", uri, "-o", uri]
-            call(webpmux_command)
-            return func(uri)
+            if not uri.startswith("http"):
+                return func(uri)
+
+            parsed_uri = urlparse(uri)
+            path = parsed_uri.path
+            file = os.path.basename(path)
+            _, file_ext = os.path.splitext(file)
+
+            response = requests.get(uri)
+            response.raise_for_status()
+
+            with tempfile.NamedTemporaryFile(mode="wb", suffix=file_ext, delete=True) as f:
+                f.write(response.content)
+                webpmux_command = ["webpmux", "-get", "frame", "1", f.name, "-o", f.name]
+                call(webpmux_command)
+                return func(f.name)
         return probe_info
 
     return wrapper
