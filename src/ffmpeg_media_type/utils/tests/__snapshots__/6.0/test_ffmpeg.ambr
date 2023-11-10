@@ -844,8 +844,8 @@
   dict({
     'format': dict({
       'duration': None,
-      'format_long_name': 'piped webp sequence',
       'format_long_name': None,
+      'format_name': 'webp_pipe',
       'nb_programs': 0,
       'nb_streams': 1,
       'probe_score': 99,
