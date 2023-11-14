@@ -6,7 +6,6 @@ from collections.abc import Callable
 from functools import lru_cache, wraps
 from pathlib import Path
 from typing import Any, Literal
-from urllib.parse import urlparse
 
 import requests
 from pydantic import BaseModel, Field
