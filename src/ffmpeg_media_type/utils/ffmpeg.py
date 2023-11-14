@@ -11,7 +11,6 @@ from urllib.parse import urlparse
 import requests
 from pydantic import BaseModel, Field
 
-from ..exceptions import FfmpegMediaTypeError
 from .shell import call
 
 
@@ -245,20 +244,11 @@ def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> st
         raise RuntimeError(f"FFmpeg version not found {result}") from e
 
 
-@lru_cache
-def get_webpmux_version() -> None:
-    try:
-        result = call(["webpmux", "-version"])
-    except FfmpegMediaTypeError as e:
-        raise RuntimeError(f"webpmux version not found {result}") from e
-
-
 def animated_webp_support(func: Callable[[str], FFProbeInfo]) -> Callable[[str], FFProbeInfo]:
     @wraps(func)
     def wrapper(uri: str) -> FFProbeInfo:
         probe_info = func(uri)
         if probe_info.streams[0].height == 0 and probe_info.streams[0].width == 0 and probe_info.format.format_name == "webp_pipe":
-            get_webpmux_version()
             if not uri.startswith("http"):
                 webpmux_command = ["webpmux", "-get", "frame", "1", uri, "-o", uri]
                 call(webpmux_command)
