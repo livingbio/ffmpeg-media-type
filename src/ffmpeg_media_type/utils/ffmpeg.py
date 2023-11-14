@@ -1,10 +1,13 @@
 import json
 import os
 import re
-from functools import lru_cache
+import tempfile
+from collections.abc import Callable
+from functools import lru_cache, wraps
 from pathlib import Path
 from typing import Any, Literal
 
+import requests
 from pydantic import BaseModel, Field
 
 from .shell import call
@@ -87,6 +90,7 @@ def _parse_muxer_info(content: str) -> dict[str, Any]:
 
 
 def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FFMpegSupport:
+
     muxer_info = {
         "common_exts": [],
         "mime_type": "",
@@ -239,7 +243,30 @@ def get_ffmpeg_version(mode: Literal["major", "minor", "patch"] = "patch") -> st
         raise RuntimeError(f"FFmpeg version not found {result}") from e
 
 
+def animated_webp_support(func: Callable[[str], FFProbeInfo]) -> Callable[[str], FFProbeInfo]:
+    @wraps(func)
+    def wrapper(uri: str) -> FFProbeInfo:
+        probe_info = func(uri)
+        if probe_info.streams[0].height == 0 and probe_info.streams[0].width == 0 and probe_info.format.format_name == "webp_pipe":
+            if uri.startswith("http"):
+                response = requests.get(uri)
+                response.raise_for_status()
+                with tempfile.NamedTemporaryFile(mode="wb", suffix=".webp", delete=False) as f:
+                    f.write(response.content)
+                    uri = f.name
+
+            assert os.path.exists(uri)
+            webpmux_command = ["webpmux", "-get", "frame", "1", uri, "-o", uri]
+            call(webpmux_command)
+            return func(uri)
+        return probe_info
+
+    return wrapper
+
+
+@animated_webp_support
 def ffprobe(input_url: str) -> FFProbeInfo:
+
     # Construct the FFprobe command with JSON output format
     ffprobe_cmd = get_ffprobe() + [
         "-v",

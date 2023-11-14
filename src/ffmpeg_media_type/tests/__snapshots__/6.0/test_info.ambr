@@ -109,6 +109,17 @@
     'width': 4716,
   })
 # ---
+# name: test_detect[lionic_vp8x_1109.webp][lionic_vp8x_1109.webp]
+  dict({
+    'duration': 0.0,
+    'format': 'webp_pipe',
+    'height': 520,
+    'size': 344360,
+    'suggest_ext': 'webp',
+    'type': 'image',
+    'width': 1218,
+  })
+# ---
 # name: test_detect[maxresdefault.jpg-sdafdeagwdsadf][maxresdefault.jpg-sdafdeagwdsadf]
   dict({
     'duration': 0.0,
