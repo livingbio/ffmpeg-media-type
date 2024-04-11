@@ -26,12 +26,12 @@ def test_load_cache() -> None:
 
 
 def test_generate_cache() -> None:
-    cache_file = _cache_file("6.0")
+    cache_file = _cache_file("6.1")
     if os.path.exists(cache_file):
         os.remove(cache_file)
 
-    _generate_cache("6.0")
-    infos = _load_cache("6.0")
+    _generate_cache("6.1")
+    infos = _load_cache("6.1")
     assert len(infos) > 0
     assert os.path.exists(cache_file)
 
