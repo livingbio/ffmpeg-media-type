@@ -103,6 +103,7 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
                 "docker",
                 "run",
                 f"jrottenberg/ffmpeg:{version}-scratch",
+                "-hide_banner",
                 "-h",
                 f"muxer={codec}",
             ]
@@ -114,6 +115,7 @@ def _get_muxer_info(version: str, flag: str, codec: str, description: str) -> FF
                 "docker",
                 "run",
                 f"jrottenberg/ffmpeg:{version}-scratch",
+                "-hide_banner",
                 "-h",
                 f"demuxer={codec}",
             ]
