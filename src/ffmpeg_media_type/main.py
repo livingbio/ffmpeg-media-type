@@ -2,7 +2,10 @@ import typer
 
 from .utils.ffmpeg import _generate_cache
 
+app = typer.Typer()
 
+
+@app.command()
 def main() -> None:
     versions = [
         "3.2",
@@ -16,6 +19,7 @@ def main() -> None:
         "5.0",
         "5.1",
         "6.0",
+        "6.1",
     ]
 
     for version in versions:
@@ -23,4 +27,4 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    typer.run(main)
+    app()
