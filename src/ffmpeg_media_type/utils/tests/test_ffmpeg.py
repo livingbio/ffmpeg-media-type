@@ -18,6 +18,13 @@ def test__get_muxer_info(snapshot: SnapshotAssertion) -> None:
     assert snapshot == _get_muxer_info("6.0", "E", "mp4", "MP4 (MPEG-4 Part 14)")
 
 
+def test_load_cache() -> None:
+    cache_file_6_1 = _cache_file("6.1")
+    cache_file_6_1_1 = _cache_file("6.1.1")
+
+    assert cache_file_6_1 == cache_file_6_1_1
+
+
 def test_generate_cache() -> None:
     cache_file = _cache_file("6.0")
     if os.path.exists(cache_file):
