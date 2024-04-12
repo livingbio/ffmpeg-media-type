@@ -2,6 +2,7 @@ import re
 from typing import Any
 
 from ffmpeg_media_type.schema import FFMpegSupport
+from ffmpeg_media_type.utils.shell import call
 
 
 def _parse_muxer_info(content: str) -> dict[str, Any]:
@@ -33,7 +34,7 @@ def _get_muxer_info(cmds: list[str], flag: str, codec: str, description: str) ->
     }
 
     if "E" in flag:
-        text = _call(
+        text = call(
             cmds
             + [
                 "-hide_banner",
@@ -44,7 +45,7 @@ def _get_muxer_info(cmds: list[str], flag: str, codec: str, description: str) ->
         muxer_info.update(_parse_muxer_info(text))
 
     if "D" in flag:
-        text = _call(
+        text = call(
             cmds
             + [
                 "-hide_banner",
@@ -87,7 +88,7 @@ def list_support_format(cmds: list[str] = ["ffmpeg"]) -> list[FFMpegSupport]:
     Returns:
         List of supported formats.
     """
-    content = _call(cmds + ["-formats"])
+    content = call(cmds + ["-formats"])
 
     support_infos = _extract_file_format(content)
     output = []
