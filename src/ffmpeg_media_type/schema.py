@@ -91,7 +91,7 @@ class FFProbeFormat:
     """
     The media filename.
     """
-    duration: float | None = None
+    duration: str | None = None
     """
     The media duration.
     """

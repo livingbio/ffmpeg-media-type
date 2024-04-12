@@ -3,7 +3,7 @@
   "format": "gif",
   "height": 360,
   "size": 30333,
-  "suggest_ext": null,
+  "suggest_ext": "gif",
   "type": "image",
   "width": 480
 }

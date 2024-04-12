@@ -111,7 +111,6 @@ def detect(uri: str) -> MediaInfo:
     Raises:
         FfmpegMediaTypeError: If the ffmpeg command fails.
     """
-
     info = ffprobe(uri)
     current_ext = extract_file_extension_from_uri(uri)
 
@@ -143,9 +142,9 @@ def detect(uri: str) -> MediaInfo:
             type="image",
             width=info.streams[0].width or 0,
             height=info.streams[0].height or 0,
-            duration=float(duration) if duration else None,
+            duration=float(duration) if duration is not None else None,
             format=format_name,
-            size=int(info.format.size) if info.format.size else None,
+            size=int(info.format.size) if info.format.size is not None else None,
             suggest_ext=suggest_ext,
         )
 
@@ -159,9 +158,9 @@ def detect(uri: str) -> MediaInfo:
                 type="video",
                 width=width or 0,
                 height=height or 0,
-                duration=duration or 0,
+                duration=float(duration) if duration is not None else None,
                 format=format_name,
-                size=int(info.format.size) if info.format.size else None,
+                size=int(info.format.size) if info.format.size is not None else None,
                 suggest_ext=suggest_ext,
             )
 
@@ -170,8 +169,8 @@ def detect(uri: str) -> MediaInfo:
         type="audio",
         width=0,
         height=0,
-        duration=duration or 0,
+        duration=float(duration) if duration is not None else None,
         format=format_name,
-        size=int(info.format.size) if info.format.size else None,
+        size=int(info.format.size) if info.format.size is not None else None,
         suggest_ext=suggest_ext,
     )

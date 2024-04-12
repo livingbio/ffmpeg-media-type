@@ -3,7 +3,7 @@ from dataclasses import asdict, is_dataclass
 from pathlib import Path
 from typing import TypeVar
 
-cache_path = Path(__file__).parent / "cache"
+cache_path = Path(__file__).parent / "../cache"
 cache_path.mkdir(exist_ok=True)
 
 T = TypeVar("T")

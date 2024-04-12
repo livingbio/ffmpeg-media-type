@@ -2,8 +2,8 @@
   "duration": "5.312000",
   "format": "mov,mp4,m4a,3gp,3g2,mj2",
   "height": 720,
-  "size": "1055736",
-  "suggest_ext": null,
+  "size": 1055736,
+  "suggest_ext": "mp4",
   "type": "video",
   "width": 1280
 }
