@@ -2,6 +2,7 @@ import os
 from tempfile import NamedTemporaryFile
 from urllib.parse import urlparse
 
+from .exceptions import FfmpegMediaTypeError
 from .schema import FFMpegSupport, MediaInfo
 from .utils.cache import load
 from .utils.ffprobe import ffprobe
@@ -60,7 +61,10 @@ def generate_thumbnail(video_path: str, suffix: str = ".png", time_offset: float
         thumbnail_path,  # Output thumbnail path
     ]
 
-    call(ffmpeg_cmd)
+    try:
+        call(ffmpeg_cmd)
+    except FfmpegMediaTypeError:
+        pass
 
     return thumbnail_path
 
