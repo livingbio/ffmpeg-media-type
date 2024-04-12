@@ -1,48 +1,64 @@
-# This workflow will install Python dependencies, run tests and lint with a variety of Python versions
-# For more information see: https://docs.github.com/en/actions/automating-builds-and-tests/building-and-testing-python
-
-name: python-unittest
+name: "unittest for package"
 on:
   push:
     branches: ["**"]
 
 jobs:
-  build:
+  ci:
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        python-version: ["3.10"]
+        python-version: ["3.10", "3.11", "3.12"]
 
     steps:
-      - uses: actions/checkout@v3
-      - name: Set up Python ${{ matrix.python-version }}
-        uses: actions/setup-python@v3
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          submodules: recursive
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
         with:
           python-version: ${{ matrix.python-version }}
-      - name: Install Poetry & export Requirements
-        run: |
-          curl -sSL https://install.python-poetry.org | python3 -
+
       - name: Install dependencies
         run: |
-          bash ./scripts/build.sh
-          pip install -r ./requirements-test.txt
-      - name: Lint with pre-commit
+          pip install poetry
+          poetry install --with dev
+
+      # Install FFmpeg
+      - name: Install FFmpeg
         run: |
-          poetry run pre-commit run --all-files
-      - name: Test with ffmpeg 4.0
-        run: |
-          poetry run ./scripts/test.sh 4.0
-      - name: Test with ffmpeg 5.0
-        run: |
-          poetry run ./scripts/test.sh 5.0
-      - name: Test with ffmpeg 6.0
-        run: |
-          poetry run ./scripts/test.sh 6.0
-      - name: Test without docker
-        run: |
-            sudo apt-get update
-            sudo apt-get install ffmpeg
-            poetry run py.test ./src --cov=./src -s -m "not ffmpeg_version" --cov-append
-      - name: Coveralls
-        uses: coverallsapp/github-action@v2
+          sudo apt-get update -q
+          sudo apt-get install -y wget -q
+          wget https://www.johnvansickle.com/ffmpeg/old-releases/ffmpeg-6.0-amd64-static.tar.xz -q
+          tar -xf ffmpeg-6.0-amd64-static.tar.xz
+          sudo mv ffmpeg-*-amd64-static/ffmpeg /usr/local/bin/
+          sudo mv ffmpeg-*-amd64-static/ffprobe /usr/local/bin/
+          ffmpeg -version
+
+      - name: Install GCC
+        run: sudo apt-get update && sudo apt-get install -y build-essential nasm
+
+      # Run linting
+      - name: Linting
+        run: poetry run pre-commit run --all-files
+        working-directory: src
+
+      # Run unittests
+      - name: Run Unittest
+        run: poetry run pytest src/ --cov=./src --cov-report xml
+
+      # Upload coverage to Codecov
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          file: ./coverage.xml
+          flags: ${{ matrix.python-version }}
+          token: ${{ secrets.CODECOV_TOKEN }} # required
+          verbose: true # optional (default = false)
+
+      # # Build Mkdocs
+      # - name: Build Mkdocs
+      #   run: poetry run mkdocs build

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "subviewer1", "description": "SubViewer v1 subtitle format", "common_exts": ["sub"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

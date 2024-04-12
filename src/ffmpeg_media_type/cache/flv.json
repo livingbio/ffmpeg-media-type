@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "flv", "description": "FLV (Flash Video)", "common_exts": ["flv"], "mime_type": "video/x-flv", "default_video_codec": "flv1", "default_audio_codec": "mp3"}

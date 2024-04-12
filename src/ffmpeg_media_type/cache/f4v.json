@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "f4v", "description": "F4V Adobe Flash Video", "common_exts": ["f4v"], "mime_type": "application/f4v", "default_video_codec": "h264", "default_audio_codec": "aac"}

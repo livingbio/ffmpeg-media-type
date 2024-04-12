@@ -1,0 +1,26 @@
+{
+  "format": {
+    "duration": "1.200000",
+    "format_long_name": "CompuServe Graphics Interchange Format (GIF)",
+    "format_name": "gif",
+    "probe_score": 100,
+    "size": "30333",
+    "start_time": "0.000000"
+  },
+  "streams": [
+    {
+      "codec_long_name": "CompuServe GIF (Graphics Interchange Format)",
+      "codec_name": "gif",
+      "codec_type": "video",
+      "height": 360,
+      "index": 0,
+      "pix_fmt": "bgra",
+      "profile": null,
+      "r_frame_rate": "10/1",
+      "tags": {
+        "rotate": 0
+      },
+      "width": 480
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "spx", "description": "Ogg Speex", "common_exts": ["spx"], "mime_type": "audio/ogg", "default_video_codec": "", "default_audio_codec": "speex"}

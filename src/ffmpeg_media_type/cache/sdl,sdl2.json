@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "sdl,sdl2", "description": "SDL2 output device", "common_exts": [], "mime_type": "", "default_video_codec": "rawvideo", "default_audio_codec": ""}

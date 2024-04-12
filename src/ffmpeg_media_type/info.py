@@ -1,27 +1,51 @@
 import os
-from typing import Literal
+from tempfile import NamedTemporaryFile
 from urllib.parse import urlparse
 
-from pydantic import BaseModel
-
-from .utils.ffmpeg import FFProbeInfo, ffprobe, get_ffmpeg, load_cache
+from .schema import FFMpegSupport, MediaInfo
+from .utils.cache import load
+from .utils.ffprobe import ffprobe
 from .utils.shell import call
 
 
-class MediaInfo(BaseModel):
-    type: Literal["image", "video", "audio"]
+def create_temp_file_path(suffix: str) -> str:
+    """
+    Create a temporary file path.
 
-    width: int | None = None
-    height: int | None = None
-    duration: float | None = None
+    Returns:
+        the path to the temporary file
+    """
 
-    format: str | None = None
-    size: int | None = None
-    suggest_ext: str | None = None
+    # Create a NamedTemporaryFile
+    temp = NamedTemporaryFile(delete=True, suffix=suffix)
+    temp_path = temp.name
+
+    # Close and delete the temporary file (it won't actually create it)
+    temp.close()
+
+    # At this point, temp_path is a path to a non-existent file
+    return temp_path
 
 
-def generate_thumbnail(video_path: str, thumbnail_path: str, time_offset: float = 0) -> str:
-    ffmpeg_cmd = get_ffmpeg() + [
+def generate_thumbnail(video_path: str, suffix: str = ".png", time_offset: float = 0) -> str:
+    """
+    Generate a thumbnail from a video file at a specified time offset.
+
+    Args:
+        video_path: the path to the video file
+        suffix: the suffix of the generated thumbnail
+        time_offset: the time offset in seconds to generate the thumbnail
+
+    Raises:
+        FfmpegMediaTypeError: If the ffmpeg command fails.
+
+    Returns:
+        the path to the generated thumbnail
+    """
+
+    thumbnail_path = create_temp_file_path(suffix)
+
+    ffmpeg_cmd = ["ffmpeg"] + [
         "-y",  # Overwrite output file if it exists
         "-i",
         video_path,  # Input video path
@@ -41,7 +65,17 @@ def generate_thumbnail(video_path: str, thumbnail_path: str, time_offset: float 
     return thumbnail_path
 
 
-def _extract_file_extension(uri: str) -> str:
+def extract_file_extension_from_uri(uri: str) -> str:
+    """
+    Extract the file extension from a URI.
+
+    Args:
+        uri: the URI to extract the file extension from
+
+    Returns:
+        the file extension
+    """
+
     parsed_uri = urlparse(uri)
     path = parsed_uri.path
     filename = os.path.basename(path)
@@ -49,24 +83,36 @@ def _extract_file_extension(uri: str) -> str:
     return extension[1:].lower()
 
 
-_KNOWN_CODEC_EXTS = {
-    "png_pipe": ["png"],
-    "svg_pipe": ["svg"],
-    "tiff_pipe": ["tiff", "tif"],
-    "bmp_pipe": ["bmp"],
-    "gif_pipe": ["gif"],
-    "jpeg_pipe": ["jpeg", "jpg"],
-    "webp_pipe": ["webp"],
-    "mjpeg": ["jpg", "jpeg", "mjpeg"],
+KNOWN_CODEC_EXTS = {
+    "png_pipe": ("png",),
+    "svg_pipe": ("svg",),
+    "tiff_pipe": ("tiff", "tif"),
+    "bmp_pipe": ("bmp",),
+    "gif_pipe": ("gif",),
+    "jpeg_pipe": ("jpeg", "jpg"),
+    "webp_pipe": ("webp",),
+    "mjpeg": ("jpg", "jpeg", "mjpeg"),
 }
+"""
+Dictionary mapping codec names to common file extensions.
+"""
 
 
-def _guess_media_info(
-    uri: str,
-    info: FFProbeInfo,
-) -> MediaInfo:
-    infos = load_cache()
-    current_ext = _extract_file_extension(uri)
+def detect(uri: str) -> MediaInfo:
+    """
+    Detect the media type of a file.
+
+    Args:
+        uri: the URI of the file
+
+    Returns:
+        the media type information
+
+    Raises:
+        FfmpegMediaTypeError: If the ffmpeg command fails.
+    """
+    info = ffprobe(uri)
+    current_ext = extract_file_extension_from_uri(uri)
 
     format_name = info.format.format_name
     duration = info.format.duration
@@ -76,12 +122,12 @@ def _guess_media_info(
         format_name = info.streams[0].codec_name
 
     # NOTE: detect file extension
-    if format_name in _KNOWN_CODEC_EXTS:
-        common_exts = _KNOWN_CODEC_EXTS[format_name]
-    elif format_name in infos:
-        common_exts = infos[format_name].common_exts
+    if format_name in KNOWN_CODEC_EXTS:
+        common_exts = KNOWN_CODEC_EXTS[format_name]
+    elif support_info := load(FFMpegSupport, format_name):
+        common_exts = support_info.common_exts
     else:
-        common_exts = []
+        common_exts = ()
 
     if current_ext in common_exts:
         suggest_ext = current_ext
@@ -96,9 +142,9 @@ def _guess_media_info(
             type="image",
             width=info.streams[0].width or 0,
             height=info.streams[0].height or 0,
-            duration=duration or 0,
+            duration=float(duration) if duration is not None else None,
             format=format_name,
-            size=info.format.size,
+            size=int(info.format.size) if info.format.size is not None else None,
             suggest_ext=suggest_ext,
         )
 
@@ -112,9 +158,9 @@ def _guess_media_info(
                 type="video",
                 width=width or 0,
                 height=height or 0,
-                duration=duration or 0,
+                duration=float(duration) if duration is not None else None,
                 format=format_name,
-                size=info.format.size,
+                size=int(info.format.size) if info.format.size is not None else None,
                 suggest_ext=suggest_ext,
             )
 
@@ -123,13 +169,8 @@ def _guess_media_info(
         type="audio",
         width=0,
         height=0,
-        duration=duration or 0,
+        duration=float(duration) if duration is not None else None,
         format=format_name,
-        size=info.format.size,
+        size=int(info.format.size) if info.format.size is not None else None,
         suggest_ext=suggest_ext,
     )
-
-
-def detect(uri: str) -> MediaInfo:
-    probe_info = ffprobe(uri)
-    return _guess_media_info(uri, probe_info)

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "image2pipe", "description": "piped image2 sequence", "common_exts": [], "mime_type": "", "default_video_codec": "mjpeg", "default_audio_codec": ""}

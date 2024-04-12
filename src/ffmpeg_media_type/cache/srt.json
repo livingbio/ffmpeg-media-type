@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "srt", "description": "SubRip subtitle", "common_exts": ["srt"], "mime_type": "application/x-subrip", "default_video_codec": "", "default_audio_codec": ""}

@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "mp4", "description": "MP4 (MPEG-4 Part 14)", "common_exts": ["mp4"], "mime_type": "video/mp4", "default_video_codec": "h264", "default_audio_codec": "aac"}

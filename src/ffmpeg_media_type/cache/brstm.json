@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "brstm", "description": "BRSTM (Binary Revolution Stream)", "common_exts": ["brstm"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

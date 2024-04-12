@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "mpjpeg", "description": "MIME multipart JPEG", "common_exts": ["mjpg"], "mime_type": "multipart/x-mixed-replace", "default_video_codec": "mjpeg", "default_audio_codec": ""}

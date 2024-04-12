@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "hevc", "description": "raw HEVC video", "common_exts": ["hevc", "h265", "265"], "mime_type": "", "default_video_codec": "hevc", "default_audio_codec": ""}

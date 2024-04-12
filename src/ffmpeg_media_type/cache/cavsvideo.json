@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "cavsvideo", "description": "raw Chinese AVS (Audio Video Standard) video", "common_exts": ["avs"], "mime_type": "", "default_video_codec": "cavs", "default_audio_codec": ""}

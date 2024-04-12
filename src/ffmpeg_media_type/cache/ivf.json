@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "ivf", "description": "On2 IVF", "common_exts": ["ivf"], "mime_type": "", "default_video_codec": "vp8", "default_audio_codec": ""}

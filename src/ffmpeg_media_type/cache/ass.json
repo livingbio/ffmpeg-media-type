@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "ass", "description": "SSA (SubStation Alpha) subtitle", "common_exts": ["ass", "ssa"], "mime_type": "text/x-ass", "default_video_codec": "", "default_audio_codec": ""}

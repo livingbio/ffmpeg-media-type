@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "dts", "description": "raw DTS", "common_exts": ["dts"], "mime_type": "audio/x-dca", "default_video_codec": "", "default_audio_codec": "dts"}

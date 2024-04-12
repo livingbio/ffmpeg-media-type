@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "matroska", "description": "Matroska", "common_exts": ["mkv"], "mime_type": "video/x-matroska", "default_video_codec": "h264", "default_audio_codec": "vorbis"}

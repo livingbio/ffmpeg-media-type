@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "avm2", "description": "SWF (ShockWave Flash) (AVM2)", "common_exts": [], "mime_type": "application/x-shockwave-flash", "default_video_codec": "flv1", "default_audio_codec": "mp3"}

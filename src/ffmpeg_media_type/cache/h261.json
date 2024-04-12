@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "h261", "description": "raw H.261", "common_exts": ["h261"], "mime_type": "video/x-h261", "default_video_codec": "h261", "default_audio_codec": ""}

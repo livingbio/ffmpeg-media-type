@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "sbc", "description": "raw SBC", "common_exts": ["sbc", "msbc"], "mime_type": "audio/x-sbc", "default_video_codec": "", "default_audio_codec": "sbc"}

@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "mxf_opatom", "description": "MXF (Material eXchange Format) Operational Pattern Atom", "common_exts": ["mxf"], "mime_type": "application/mxf", "default_video_codec": "dnxhd", "default_audio_codec": "pcm_s16le"}

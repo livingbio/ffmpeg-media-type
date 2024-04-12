@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "mjpeg", "description": "raw MJPEG video", "common_exts": ["mjpg", "mjpeg", "mpo"], "mime_type": "video/x-mjpeg", "default_video_codec": "mjpeg", "default_audio_codec": ""}

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "redspark", "description": "RedSpark", "common_exts": ["rsd"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

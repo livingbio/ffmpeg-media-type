@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "vc1", "description": "raw VC-1 video", "common_exts": ["vc1"], "mime_type": "", "default_video_codec": "vc1", "default_audio_codec": ""}

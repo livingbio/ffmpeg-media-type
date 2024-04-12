@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "aac", "description": "raw ADTS AAC (Advanced Audio Coding)", "common_exts": ["aac"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

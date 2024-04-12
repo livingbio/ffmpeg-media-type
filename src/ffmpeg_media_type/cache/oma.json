@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "oma", "description": "Sony OpenMG audio", "common_exts": ["oma", "omg", "aa3"], "mime_type": "audio/x-oma", "default_video_codec": "", "default_audio_codec": "atrac3"}

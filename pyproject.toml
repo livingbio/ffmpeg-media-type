@@ -20,7 +20,9 @@ classifiers = [
 
 [tool.poetry.dependencies]
 python = "^3.10"
-pydantic = "*"
+
+[tool.poetry.group.dev]
+optional = true
 
 [tool.poetry.group.dev.dependencies]
 requests = "^2.31.0"
@@ -30,15 +32,13 @@ bandit = "^1.7.5"
 pre-commit = "^3.3.3"
 mypy = "^1.4.1"
 typer = "^0.9.0"
-
-[tool.poetry.group.test.dependencies]
 syrupy = "^4.0.5"
 pytest = "^7.4.0"
 pytest-vcr = "^1.0.2"
 pytest-cov = "^4.1.0"
 
 [tool.poetry.scripts]
-rebuild = "ffmpeg_media_type.main:app"
+rebuild = "scripts.main:app"
 
 
 [tool.poetry-dynamic-versioning]

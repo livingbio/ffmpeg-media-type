@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "nistsphere", "description": "NIST SPeech HEader REsources", "common_exts": ["nist", "sph"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

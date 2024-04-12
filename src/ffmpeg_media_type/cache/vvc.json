@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "vvc", "description": "raw H.266/VVC video", "common_exts": ["h266", "266", "vvc"], "mime_type": "", "default_video_codec": "vvc", "default_audio_codec": ""}

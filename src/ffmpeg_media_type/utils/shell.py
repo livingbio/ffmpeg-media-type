@@ -1,18 +1,24 @@
-import os
-import shlex
-import tempfile
+import subprocess
 
 from ..exceptions import FfmpegMediaTypeError
 
 
 def call(cmds: list[str]) -> str:
-    # call command and return stdout
+    """
+    Run a command and return the stdout.
 
-    command = " ".join(shlex.quote(part) for part in cmds)
-    with tempfile.TemporaryDirectory() as tmpdir:
-        output_path = f"{tmpdir}/output.txt"
-        if os.system(f"{command} > {output_path}") != 0:
-            raise FfmpegMediaTypeError(f"command failed: {command}")
+    Args:
+        cmds: List of command and arguments.
 
-        with open(output_path) as ifile:
-            return ifile.read()
+    Raises:
+        FfmpegMediaTypeError: If the command fails.
+
+    Returns:
+        stdout of the command.
+    """
+    try:
+        r = subprocess.run(cmds, stdout=subprocess.PIPE, check=True)
+    except subprocess.CalledProcessError as e:
+        raise FfmpegMediaTypeError(f"command failed: {e.cmd}")
+
+    return r.stdout.decode("utf-8")

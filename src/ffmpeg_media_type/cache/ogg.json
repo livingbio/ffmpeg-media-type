@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "ogg", "description": "Ogg", "common_exts": ["ogg"], "mime_type": "application/ogg", "default_video_codec": "theora", "default_audio_codec": "vorbis"}

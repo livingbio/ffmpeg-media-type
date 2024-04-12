@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "smoothstreaming", "description": "Smooth Streaming Muxer", "common_exts": [], "mime_type": "", "default_video_codec": "h264", "default_audio_codec": "aac"}

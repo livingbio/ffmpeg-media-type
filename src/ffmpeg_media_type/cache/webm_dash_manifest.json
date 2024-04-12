@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "webm_dash_manifest", "description": "WebM DASH Manifest", "common_exts": ["xml"], "mime_type": "application/xml", "default_video_codec": "", "default_audio_codec": ""}

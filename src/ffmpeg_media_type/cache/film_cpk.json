@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "film_cpk", "description": "Sega FILM / CPK", "common_exts": ["cpk"], "mime_type": "", "default_video_codec": "cinepak", "default_audio_codec": "pcm_s16be_planar"}

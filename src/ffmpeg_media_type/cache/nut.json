@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "nut", "description": "NUT", "common_exts": ["nut"], "mime_type": "video/x-nut", "default_video_codec": "mpeg4", "default_audio_codec": "vorbis"}

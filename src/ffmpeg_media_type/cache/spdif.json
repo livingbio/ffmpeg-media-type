@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "spdif", "description": "IEC 61937 (used on S/PDIF - IEC958)", "common_exts": ["spdif"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "ac3"}

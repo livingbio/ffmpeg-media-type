@@ -1,0 +1,26 @@
+{
+  "format": {
+    "duration": "0.040000",
+    "format_long_name": "image2 sequence",
+    "format_name": "image2",
+    "probe_score": 50,
+    "size": "72973",
+    "start_time": "0.000000"
+  },
+  "streams": [
+    {
+      "codec_long_name": "Motion JPEG",
+      "codec_name": "mjpeg",
+      "codec_type": "video",
+      "height": 668,
+      "index": 0,
+      "pix_fmt": "yuvj420p",
+      "profile": "Progressive",
+      "r_frame_rate": "25/1",
+      "tags": {
+        "rotate": 0
+      },
+      "width": 720
+    }
+  ]
+}
