@@ -107,7 +107,7 @@ class FFProbeFormat:
     """
     The media start time.
     """
-    size: int | None = None
+    size: str | None = None
     """
     The media size.
     """

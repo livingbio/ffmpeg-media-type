@@ -1,2 +1,4 @@
 class FfmpegMediaTypeError(Exception):
-    pass
+    """
+    Base class for exceptions in this module.
+    """

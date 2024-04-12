@@ -1,0 +1,40 @@
+{
+  "format": {
+    "duration": "1.044898",
+    "format_long_name": "MP2/3 (MPEG audio layer 2/3)",
+    "format_name": "mp3",
+    "probe_score": 51,
+    "size": "677673",
+    "start_time": "0.025056"
+  },
+  "streams": [
+    {
+      "codec_long_name": "MP3 (MPEG audio layer 3)",
+      "codec_name": "mp3",
+      "codec_type": "audio",
+      "height": null,
+      "index": 0,
+      "pix_fmt": null,
+      "profile": null,
+      "r_frame_rate": "0/0",
+      "tags": {
+        "rotate": 0
+      },
+      "width": null
+    },
+    {
+      "codec_long_name": "PNG (Portable Network Graphics) image",
+      "codec_name": "png",
+      "codec_type": "video",
+      "height": 500,
+      "index": 1,
+      "pix_fmt": "rgb24",
+      "profile": null,
+      "r_frame_rate": "90000/1",
+      "tags": {
+        "rotate": 0
+      },
+      "width": 888
+    }
+  ]
+}

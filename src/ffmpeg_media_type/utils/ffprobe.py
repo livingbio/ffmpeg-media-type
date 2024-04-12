@@ -6,6 +6,18 @@ from .shell import call
 
 
 def ffprobe(input_url: str) -> FFProbeInfo:
+    """
+    Get media information using FFprobe.
+
+    Args:
+        input_url: the URI of the media file
+
+    Returns:
+        the media information
+
+    Raises:
+        FfmpegMediaTypeError: If the FFprobe command fails.
+    """
 
     # Construct the FFprobe command with JSON output format
     ffprobe_cmd = ["ffprobe"] + [

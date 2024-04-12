@@ -2,8 +2,8 @@ import os
 from tempfile import NamedTemporaryFile
 from urllib.parse import urlparse
 
-from .cache import load
 from .schema import FFMpegSupport, MediaInfo
+from .utils.cache import load
 from .utils.ffprobe import ffprobe
 from .utils.shell import call
 
@@ -143,9 +143,9 @@ def detect(uri: str) -> MediaInfo:
             type="image",
             width=info.streams[0].width or 0,
             height=info.streams[0].height or 0,
-            duration=duration or 0,
+            duration=float(duration) if duration else None,
             format=format_name,
-            size=info.format.size,
+            size=int(info.format.size) if info.format.size else None,
             suggest_ext=suggest_ext,
         )
 
@@ -161,7 +161,7 @@ def detect(uri: str) -> MediaInfo:
                 height=height or 0,
                 duration=duration or 0,
                 format=format_name,
-                size=info.format.size,
+                size=int(info.format.size) if info.format.size else None,
                 suggest_ext=suggest_ext,
             )
 
@@ -172,6 +172,6 @@ def detect(uri: str) -> MediaInfo:
         height=0,
         duration=duration or 0,
         format=format_name,
-        size=info.format.size,
+        size=int(info.format.size) if info.format.size else None,
         suggest_ext=suggest_ext,
     )
