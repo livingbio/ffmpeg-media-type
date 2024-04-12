@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "g729", "description": "G.729 raw format demuxer", "common_exts": ["g729"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

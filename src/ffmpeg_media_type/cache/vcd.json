@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "vcd", "description": "MPEG-1 Systems / MPEG program stream (VCD)", "common_exts": [], "mime_type": "video/mpeg", "default_video_codec": "mpeg1video", "default_audio_codec": "mp2"}

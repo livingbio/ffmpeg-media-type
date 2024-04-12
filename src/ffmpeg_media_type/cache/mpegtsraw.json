@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "mpegtsraw", "description": "raw MPEG-TS (MPEG-2 Transport Stream)", "common_exts": [], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

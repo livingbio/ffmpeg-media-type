@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "avs3", "description": "AVS3-P2/IEEE1857.10", "common_exts": ["avs3"], "mime_type": "", "default_video_codec": "avs3", "default_audio_codec": ""}

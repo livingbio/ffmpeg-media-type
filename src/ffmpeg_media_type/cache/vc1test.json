@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "vc1test", "description": "VC-1 test bitstream", "common_exts": ["rcv"], "mime_type": "", "default_video_codec": "wmv3", "default_audio_codec": ""}

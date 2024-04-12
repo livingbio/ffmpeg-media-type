@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "dtshd", "description": "raw DTS-HD", "common_exts": ["dtshd"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

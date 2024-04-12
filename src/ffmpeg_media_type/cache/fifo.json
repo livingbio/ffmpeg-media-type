@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "fifo", "description": "FIFO queue pseudo-muxer", "common_exts": [], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "yuv4mpegpipe", "description": "YUV4MPEG pipe", "common_exts": ["y4m"], "mime_type": "", "default_video_codec": "wrapped_avframe", "default_audio_codec": ""}

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "adx", "description": "CRI ADX", "common_exts": ["adx"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "adpcm_adx"}

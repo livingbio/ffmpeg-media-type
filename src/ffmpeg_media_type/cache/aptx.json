@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "aptx", "description": "raw aptX (Audio Processing Technology for Bluetooth)", "common_exts": ["aptx"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "aptx"}

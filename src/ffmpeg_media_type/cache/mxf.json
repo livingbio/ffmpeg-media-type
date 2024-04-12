@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "mxf", "description": "MXF (Material eXchange Format)", "common_exts": ["mxf"], "mime_type": "application/mxf", "default_video_codec": "mpeg2video", "default_audio_codec": "pcm_s16le"}

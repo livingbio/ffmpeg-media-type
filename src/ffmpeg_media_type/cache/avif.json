@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "avif", "description": "AVIF", "common_exts": ["avif"], "mime_type": "image/avif", "default_video_codec": "av1", "default_audio_codec": ""}

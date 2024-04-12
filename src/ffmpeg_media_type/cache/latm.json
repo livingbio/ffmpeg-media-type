@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "latm", "description": "LOAS/LATM", "common_exts": ["latm", "loas"], "mime_type": "audio/MP4A-LATM", "default_video_codec": "", "default_audio_codec": "aac"}

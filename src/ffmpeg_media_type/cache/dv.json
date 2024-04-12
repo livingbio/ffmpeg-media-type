@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "dv", "description": "DV (Digital Video)", "common_exts": ["dv", "dif"], "mime_type": "", "default_video_codec": "dvvideo", "default_audio_codec": "pcm_s16le"}

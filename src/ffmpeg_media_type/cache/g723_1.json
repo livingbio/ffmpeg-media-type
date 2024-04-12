@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "g723_1", "description": "raw G.723.1", "common_exts": ["tco", "rco", "g723_1"], "mime_type": "audio/g723", "default_video_codec": "", "default_audio_codec": "g723_1"}

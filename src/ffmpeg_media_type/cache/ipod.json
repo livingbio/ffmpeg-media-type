@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "ipod", "description": "iPod H.264 MP4 (MPEG-4 Part 14)", "common_exts": ["m4v", "m4a", "m4b"], "mime_type": "video/mp4", "default_video_codec": "h264", "default_audio_codec": "aac"}

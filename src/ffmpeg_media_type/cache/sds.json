@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "sds", "description": "MIDI Sample Dump Standard", "common_exts": ["sds"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

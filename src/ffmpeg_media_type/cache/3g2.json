@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "3g2", "description": "3GP2 (3GPP2 file format)", "common_exts": ["3g2"], "mime_type": "", "default_video_codec": "h263", "default_audio_codec": "amr_nb"}

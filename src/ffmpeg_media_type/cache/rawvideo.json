@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "rawvideo", "description": "raw video", "common_exts": ["yuv", "cif", "qcif", "rgb"], "mime_type": "", "default_video_codec": "rawvideo", "default_audio_codec": ""}

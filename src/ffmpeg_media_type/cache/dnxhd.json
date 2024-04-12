@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "dnxhd", "description": "raw DNxHD (SMPTE VC-3)", "common_exts": ["dnxhd", "dnxhr"], "mime_type": "", "default_video_codec": "dnxhd", "default_audio_codec": ""}

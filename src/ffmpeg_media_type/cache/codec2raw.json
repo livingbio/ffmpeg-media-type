@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "codec2raw", "description": "raw codec2 muxer", "common_exts": [], "mime_type": "", "default_video_codec": "", "default_audio_codec": "codec2"}

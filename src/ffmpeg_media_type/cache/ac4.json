@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "ac4", "description": "raw AC-4", "common_exts": ["ac4"], "mime_type": "audio/ac4", "default_video_codec": "", "default_audio_codec": "ac4"}

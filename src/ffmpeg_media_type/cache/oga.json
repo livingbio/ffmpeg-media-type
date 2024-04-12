@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "oga", "description": "Ogg Audio", "common_exts": ["oga"], "mime_type": "audio/ogg", "default_video_codec": "", "default_audio_codec": "flac"}

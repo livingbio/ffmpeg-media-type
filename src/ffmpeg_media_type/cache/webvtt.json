@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "webvtt", "description": "WebVTT subtitle", "common_exts": ["vtt"], "mime_type": "text/vtt", "default_video_codec": "", "default_audio_codec": ""}

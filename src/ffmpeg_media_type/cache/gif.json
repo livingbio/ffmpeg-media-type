@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "gif", "description": "CompuServe Graphics Interchange Format (GIF)", "common_exts": ["gif"], "mime_type": "image/gif", "default_video_codec": "gif", "default_audio_codec": ""}

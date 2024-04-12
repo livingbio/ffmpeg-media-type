@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "framehash", "description": "Per-frame hash testing", "common_exts": [], "mime_type": "", "default_video_codec": "rawvideo", "default_audio_codec": "pcm_s16le"}

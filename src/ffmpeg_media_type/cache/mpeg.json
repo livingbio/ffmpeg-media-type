@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "mpeg", "description": "MPEG-1 Systems / MPEG program stream", "common_exts": ["mpg", "mpeg"], "mime_type": "video/mpeg", "default_video_codec": "mpeg1video", "default_audio_codec": "mp2"}

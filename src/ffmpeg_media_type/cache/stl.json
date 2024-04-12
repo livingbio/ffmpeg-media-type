@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "stl", "description": "Spruce subtitle format", "common_exts": ["stl"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

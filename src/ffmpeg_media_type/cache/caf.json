@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "caf", "description": "Apple CAF (Core Audio Format)", "common_exts": ["caf"], "mime_type": "audio/x-caf", "default_video_codec": "", "default_audio_codec": "pcm_s16be"}

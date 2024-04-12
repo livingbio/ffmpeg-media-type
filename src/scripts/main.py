@@ -1,30 +1,12 @@
 import re
-import subprocess
-from dataclasses import dataclass
+from typing import Any
 
 import typer
 
-from ..ffmpeg_media_type.utils.ffmpeg import _generate_cache
+from ffmpeg_media_type.cache import save
+from ffmpeg_media_type.schema import FFMpegSupport
 
 app = typer.Typer()
-
-
-@dataclass(frozen=True, kw_only=True)
-class FFMpegSupport:
-    demuxing_support: bool
-    muxing_support: bool
-    codec: str
-    description: str
-
-    common_exts: list[str]
-    mime_type: str
-    default_video_codec: str
-    default_audio_codec: str
-
-
-def call(cmds: list[str]) -> str:
-    r = subprocess.run(cmds, stdout=subprocess.PIPE)
-    return r.stdout.decode("utf-8")
 
 
 def _parse_muxer_info(content: str) -> dict[str, Any]:
@@ -48,26 +30,29 @@ def _parse_muxer_info(content: str) -> dict[str, Any]:
 
 
 def _get_muxer_info(cmds: list[str], flag: str, codec: str, description: str) -> FFMpegSupport:
-
     muxer_info = {
         "common_exts": [],
         "mime_type": "",
         "default_video_codec": "",
         "default_audio_codec": "",
     }
+
     if "E" in flag:
-        text = call(
+        text = _call(
             cmds
             + [
+                "-hide_banner",
                 "-h",
                 f"muxer={codec}",
             ]
         )
         muxer_info.update(_parse_muxer_info(text))
+
     if "D" in flag:
-        text = call(
+        text = _call(
             cmds
             + [
+                "-hide_banner",
                 "-h",
                 f"demuxer={codec}",
             ]
@@ -87,16 +72,27 @@ def _get_muxer_info(cmds: list[str], flag: str, codec: str, description: str) ->
 def _extract_file_format(content: str) -> list[tuple[str, str, str]]:
     re_ffmpeg_support_file_format = re.compile(r"(?P<flag>[DE]+)[\s]+(?P<codec>[\w\d,]+)[\s]+(?P<description>[^\n]*)")
     output = []
+
     for iline in content.split("\n"):
         support_infos = re_ffmpeg_support_file_format.findall(iline)
 
         if support_infos:
             output.append(support_infos[0])
+
     return output
 
 
 def list_support_format(cmds: list[str] = ["ffmpeg"]) -> list[FFMpegSupport]:
-    content = call(cmds + ["-formats"])
+    """
+    List all supported formats by ffmpeg.
+
+    Args:
+        cmds: Defaults to ["ffmpeg"].
+
+    Returns:
+        List of supported formats.
+    """
+    content = _call(cmds + ["-formats"])
 
     support_infos = _extract_file_format(content)
     output = []
@@ -108,24 +104,16 @@ def list_support_format(cmds: list[str] = ["ffmpeg"]) -> list[FFMpegSupport]:
 
 
 @app.command()
-def main() -> None:
-    versions = [
-        "3.2",
-        "3.3",
-        "3.4",
-        "4.0",
-        "4.1",
-        "4.2",
-        "4.3",
-        "4.4",
-        "5.0",
-        "5.1",
-        "6.0",
-        "6.1",
-    ]
+def generate(cmds: list[str] = ["ffmpeg"]) -> None:
+    """
 
-    for version in versions:
-        _generate_cache(version)
+    Generate cache for supported formats by ffmpeg and save it to cache directory.
+
+    Args:
+        cmds: Defaults to ["ffmpeg"].
+    """
+    for support_info in list_support_format(cmds):
+        save(support_info, support_info.codec)
 
 
 if __name__ == "__main__":

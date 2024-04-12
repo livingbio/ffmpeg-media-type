@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "ast", "description": "AST (Audio Stream)", "common_exts": ["ast"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "pcm_s16be_planar"}

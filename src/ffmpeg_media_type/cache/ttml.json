@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "ttml", "description": "TTML subtitle", "common_exts": ["ttml"], "mime_type": "text/ttml", "default_video_codec": "", "default_audio_codec": ""}

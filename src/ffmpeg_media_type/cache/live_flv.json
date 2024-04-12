@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "live_flv", "description": "live RTMP FLV (Flash Video)", "common_exts": ["flv"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

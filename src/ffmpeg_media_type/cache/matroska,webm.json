@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "matroska,webm", "description": "Matroska / WebM", "common_exts": ["mkv", "mk3d", "mka", "mks", "webm"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

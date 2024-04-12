@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "avs2", "description": "raw AVS2-P2/IEEE1857.4 video", "common_exts": ["avs", "avs2"], "mime_type": "", "default_video_codec": "avs2", "default_audio_codec": ""}

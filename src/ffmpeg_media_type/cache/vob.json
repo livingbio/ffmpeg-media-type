@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "vob", "description": "MPEG-2 PS (VOB)", "common_exts": ["vob"], "mime_type": "video/mpeg", "default_video_codec": "mpeg2video", "default_audio_codec": "mp2"}

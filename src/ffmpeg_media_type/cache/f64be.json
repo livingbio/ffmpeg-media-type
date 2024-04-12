@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "f64be", "description": "PCM 64-bit floating-point big-endian", "common_exts": [], "mime_type": "", "default_video_codec": "", "default_audio_codec": "pcm_f64be"}

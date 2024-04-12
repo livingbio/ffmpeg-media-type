@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "apng", "description": "Animated Portable Network Graphics", "common_exts": ["apng"], "mime_type": "image/png", "default_video_codec": "apng", "default_audio_codec": ""}

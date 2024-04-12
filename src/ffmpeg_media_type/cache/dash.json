@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "dash", "description": "DASH Muxer", "common_exts": ["mpd"], "mime_type": "", "default_video_codec": "h264", "default_audio_codec": "aac"}

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "hls", "description": "Apple HTTP Live Streaming", "common_exts": ["m3u8"], "mime_type": "", "default_video_codec": "h264", "default_audio_codec": "aac"}

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "av1", "description": "AV1 Annex B", "common_exts": ["obu"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

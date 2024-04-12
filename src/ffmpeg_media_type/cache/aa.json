@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "aa", "description": "Audible AA format files", "common_exts": ["aa"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

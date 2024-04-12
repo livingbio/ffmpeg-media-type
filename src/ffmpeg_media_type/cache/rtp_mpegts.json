@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "rtp_mpegts", "description": "RTP/mpegts output format", "common_exts": [], "mime_type": "", "default_video_codec": "mpeg4", "default_audio_codec": "aac"}

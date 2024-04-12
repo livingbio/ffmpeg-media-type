@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "rtsp", "description": "RTSP output", "common_exts": [], "mime_type": "", "default_video_codec": "mpeg4", "default_audio_codec": "aac"}

@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "null", "description": "raw null video", "common_exts": [], "mime_type": "", "default_video_codec": "wrapped_avframe", "default_audio_codec": "pcm_s16le"}

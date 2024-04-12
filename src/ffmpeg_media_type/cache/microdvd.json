@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "microdvd", "description": "MicroDVD subtitle format", "common_exts": ["sub"], "mime_type": "text/x-microdvd", "default_video_codec": "", "default_audio_codec": ""}

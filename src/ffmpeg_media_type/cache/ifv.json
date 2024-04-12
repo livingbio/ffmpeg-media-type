@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "ifv", "description": "IFV CCTV DVR", "common_exts": ["ifv"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

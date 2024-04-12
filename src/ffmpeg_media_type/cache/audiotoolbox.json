@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "audiotoolbox", "description": "AudioToolbox output device", "common_exts": [], "mime_type": "", "default_video_codec": "", "default_audio_codec": "pcm_s16le"}

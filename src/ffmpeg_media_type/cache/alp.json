@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "alp", "description": "LEGO Racers ALP", "common_exts": ["tun", "pcm"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "adpcm_ima_alp"}

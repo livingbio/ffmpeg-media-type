@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "cdxl", "description": "Commodore CDXL video", "common_exts": ["cdxl", "xl"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

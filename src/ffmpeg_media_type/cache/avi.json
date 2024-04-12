@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "avi", "description": "AVI (Audio Video Interleaved)", "common_exts": ["avi"], "mime_type": "video/x-msvideo", "default_video_codec": "mpeg4", "default_audio_codec": "mp3"}
