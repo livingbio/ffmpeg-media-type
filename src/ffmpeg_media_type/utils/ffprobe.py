@@ -1,11 +1,12 @@
 import json
+from pathlib import Path
 
 from ..schema import FFProbeInfo
 from .loader import from_dict
 from .shell import call
 
 
-def ffprobe(input_url: str) -> FFProbeInfo:
+def ffprobe(input_url: str | Path) -> FFProbeInfo:
     """
     Get media information using FFprobe.
 
@@ -27,7 +28,7 @@ def ffprobe(input_url: str) -> FFProbeInfo:
         "-show_streams",
         "-of",
         "json",
-        input_url,
+        str(input_url),
     ]
 
     # Execute the FFprobe command and capture the output

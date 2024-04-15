@@ -34,6 +34,9 @@ def create_temp_filename(suffix: str) -> str:
         the path to the temporary file
     """
 
+    if not suffix.startswith("."):
+        suffix = f".{suffix}"
+
     # Create a NamedTemporaryFile
     temp = NamedTemporaryFile(delete=True, suffix=suffix)
     temp_path = temp.name

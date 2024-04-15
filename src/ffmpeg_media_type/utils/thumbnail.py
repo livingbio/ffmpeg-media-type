@@ -20,7 +20,6 @@ def generate_thumbnail(video_path: str | Path, suffix: str = ".png", time_offset
     """
 
     thumbnail_path = create_temp_filename(suffix)
-
     ffmpeg_cmd = ["ffmpeg"] + [
         "-y",  # Overwrite output file if it exists
         "-i",
