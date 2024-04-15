@@ -1,4 +1,5 @@
 import subprocess
+from tempfile import NamedTemporaryFile
 
 from ..exceptions import FfmpegMediaTypeError
 
@@ -22,3 +23,22 @@ def call(cmds: list[str]) -> str:
         raise FfmpegMediaTypeError(f"command failed: {e.cmd}")
 
     return r.stdout.decode("utf-8")
+
+
+def create_temp_file_path(suffix: str) -> str:
+    """
+    Create a temporary file path.
+
+    Returns:
+        the path to the temporary file
+    """
+
+    # Create a NamedTemporaryFile
+    temp = NamedTemporaryFile(delete=True, suffix=suffix)
+    temp_path = temp.name
+
+    # Close and delete the temporary file (it won't actually create it)
+    temp.close()
+
+    # At this point, temp_path is a path to a non-existent file
+    return temp_path
