@@ -6,13 +6,11 @@ import pytest
 from syrupy.assertion import SnapshotAssertion
 from syrupy.extensions.json import JSONSnapshotExtension
 
+from ..conftest import sample_test_media_files
 from ..info import detect, generate_thumbnail
 
 
-@pytest.mark.parametrize(
-    "case",
-    [pytest.param(k, id=k.name) for k in (Path(__file__).parent.parent / "utils/tests").glob("data/*")],
-)
+@pytest.mark.parametrize("case", sample_test_media_files())
 def test_detect(case: Path, snapshot: SnapshotAssertion) -> None:
     # NOTE:
     # because we use docker to run ffmpeg, the input path need to be relative to the current working directory
