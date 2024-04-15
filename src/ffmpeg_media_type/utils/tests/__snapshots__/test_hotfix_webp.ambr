@@ -1,0 +1,19 @@
+# serializer version: 1
+# name: test_fix_animated_webp[9c7ee468-24a3-4930-9832-73f0f6001ab1.webp]
+  False
+# ---
+# name: test_fix_animated_webp[animated-webp.webp]
+  True
+# ---
+# name: test_fix_animated_webp[lionic_vp8x_1109.webp]
+  False
+# ---
+# name: test_is_webp_animated[9c7ee468-24a3-4930-9832-73f0f6001ab1.webp]
+  False
+# ---
+# name: test_is_webp_animated[animated-webp.webp]
+  True
+# ---
+# name: test_is_webp_animated[lionic_vp8x_1109.webp]
+  False
+# ---

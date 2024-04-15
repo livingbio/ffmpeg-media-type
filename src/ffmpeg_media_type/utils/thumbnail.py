@@ -1,8 +1,9 @@
-from ..exceptions import FfmpegMediaTypeError
-from .shell import call, create_temp_file_path
+from pathlib import Path
+
+from .shell import call, create_temp_filename
 
 
-def generate_thumbnail(video_path: str, suffix: str = ".png", time_offset: float = 0) -> str:
+def generate_thumbnail(video_path: str | Path, suffix: str = ".png", time_offset: float = 0) -> str:
     """
     Generate a thumbnail from a video file at a specified time offset.
 
@@ -18,12 +19,12 @@ def generate_thumbnail(video_path: str, suffix: str = ".png", time_offset: float
         the path to the generated thumbnail
     """
 
-    thumbnail_path = create_temp_file_path(suffix)
+    thumbnail_path = create_temp_filename(suffix)
 
     ffmpeg_cmd = ["ffmpeg"] + [
         "-y",  # Overwrite output file if it exists
         "-i",
-        video_path,  # Input video path
+        str(video_path),  # Input video path
         "-ss",
         str(time_offset),  # Time offset (seek to the specified position)
         "-vframes",
@@ -35,9 +36,6 @@ def generate_thumbnail(video_path: str, suffix: str = ".png", time_offset: float
         thumbnail_path,  # Output thumbnail path
     ]
 
-    try:
-        call(ffmpeg_cmd)
-    except FfmpegMediaTypeError:
-        pass
+    call(ffmpeg_cmd)
 
     return thumbnail_path

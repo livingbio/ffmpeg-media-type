@@ -1,4 +1,5 @@
 import subprocess
+from shlex import join
 from tempfile import NamedTemporaryFile
 
 from ..exceptions import FfmpegMediaTypeError
@@ -20,12 +21,12 @@ def call(cmds: list[str]) -> str:
     try:
         r = subprocess.run(cmds, stdout=subprocess.PIPE, check=True)
     except subprocess.CalledProcessError as e:
-        raise FfmpegMediaTypeError(f"command failed: {e.cmd}")
+        raise FfmpegMediaTypeError(f"command failed: {join(e.cmd)}")
 
     return r.stdout.decode("utf-8")
 
 
-def create_temp_file_path(suffix: str) -> str:
+def create_temp_filename(suffix: str) -> str:
     """
     Create a temporary file path.
 
