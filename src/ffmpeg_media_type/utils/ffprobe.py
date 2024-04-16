@@ -4,7 +4,6 @@ from pathlib import Path
 from ..schema import FFProbeInfo
 from .loader import from_dict
 from .shell import call
-from .hotfix_webp import hotfix_animate_webp, is_webp_animated
 
 
 def ffprobe(input_url: str | Path) -> FFProbeInfo:

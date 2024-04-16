@@ -50,7 +50,9 @@ def check_webpmux_installed() -> str | None:
 
     try:
         # Attempt to run `webpmux -version` to check if webpmux is installed
-        result = subprocess.run(["webpmux", "-version"], capture_output=True, text=True, check=True)
+        result = subprocess.run(
+            ["webpmux", "-version"], capture_output=True, text=True, check=True
+        )
         # print("webpmux is installed. Version info:")
         # print(result.stdout)
         return result.stdout
@@ -78,8 +80,24 @@ def is_webp_animated(file_path: str) -> bool:
         FfmpegMediaTypeError: If the webpmux command fails.
     """
 
+    ffprobe_cmd = ["ffprobe"] + [
+        "-v",
+        "error",
+        "-show_format",
+        "-show_streams",
+        "-of",
+        "json",
+        str(input_url),
+    ]
+
+    # Execute the FFprobe command and capture the output
+    output = call(ffprobe_cmd)
+    probe_info = from_dict(FFProbeInfo, json.loads(output))
+
     # Running the webpmux command to get information about the WebP file
-    result = subprocess.run(["webpmux", "-info", file_path], capture_output=True, text=True)
+    result = subprocess.run(
+        ["webpmux", "-info", file_path], capture_output=True, text=True
+    )
     output = result.stdout
 
     # Check output for the presence of 'ANMF' chunk which indicates animation
