@@ -4,6 +4,7 @@ from pathlib import Path
 from ..schema import FFProbeInfo
 from .loader import from_dict
 from .shell import call
+from .hotfix_webp import hotfix_animate_webp, is_webp_animated
 
 
 def ffprobe(input_url: str | Path) -> FFProbeInfo:
@@ -33,4 +34,15 @@ def ffprobe(input_url: str | Path) -> FFProbeInfo:
 
     # Execute the FFprobe command and capture the output
     output = call(ffprobe_cmd)
-    return from_dict(FFProbeInfo, json.loads(output))
+    probe_info = from_dict(FFProbeInfo, json.loads(output))
+
+    # hotfix animate webp
+    if (
+        probe_info.streams[0].height == 0
+        and probe_info.streams[0].width == 0
+        and probe_info.format.format_name == "webp_pipe"
+        and is_webp_animated(str(input_url))
+    ):
+        return ffprobe(hotfix_animate_webp(str(input_url)))
+
+    return probe_info

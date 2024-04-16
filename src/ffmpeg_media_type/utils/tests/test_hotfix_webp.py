@@ -5,7 +5,11 @@ from syrupy.assertion import SnapshotAssertion
 
 from ...conftest import sample_test_media_files
 from ...exceptions import FfmpegMediaTypeError
-from ..hotfix_webp import extract_animated_webp_frame, hotfix_animate_webp, is_webp_animated
+from ..hotfix_webp import (
+    extract_animated_webp_frame,
+    hotfix_animate_webp,
+    is_webp_animated,
+)
 
 
 @pytest.mark.parametrize("case", sample_test_media_files("54/*"))

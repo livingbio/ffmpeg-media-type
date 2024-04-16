@@ -1,7 +1,8 @@
 from pathlib import Path
 
 from .shell import call, create_temp_filename
-
+from ..exceptions import FfmpegMediaTypeError    
+from .ffprobe import ffprobe
 
 def generate_thumbnail(video_path: str | Path, suffix: str = ".png", time_offset: float = 0) -> str:
     """
@@ -35,6 +36,9 @@ def generate_thumbnail(video_path: str | Path, suffix: str = ".png", time_offset
         thumbnail_path,  # Output thumbnail path
     ]
 
-    call(ffmpeg_cmd)
+    try:
+        call(ffmpeg_cmd)
+    except FfmpegMediaTypeError:
+
 
     return thumbnail_path
