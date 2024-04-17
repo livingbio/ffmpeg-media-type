@@ -5,8 +5,8 @@ description = "ffmpeg-media-type is a Python library that utilizes FFmpeg to ext
 authors = ["lucemia <lucemia@gmail.com>"]
 readme = "README.md"
 packages = [{ include = "ffmpeg_media_type", from = "src" }]
-include = ["ffmpeg_media_type/py.typed", "ffmpeg_media_type/data/*.json"]
-exclude = ["**/tests"]
+include = ["ffmpeg_media_type/py.typed", "ffmpeg_media_type/cache/*.json"]
+exclude = ["**/tests", "**/test_data", "**/conftest.py"]
 keywords = ["ffmpeg", "ffprobe", "video", "image", "audio", "media", "mimetype", "mp4", "mp3", "mov", "webm"]
 classifiers = [
         'Intended Audience :: Developers',
