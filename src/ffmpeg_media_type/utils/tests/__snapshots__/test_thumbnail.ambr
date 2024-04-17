@@ -44,9 +44,6 @@
 # name: test_thumbnail[overlay.png]
   True
 # ---
-# name: test_thumbnail[silent_video.mp40]
-  True
-# ---
-# name: test_thumbnail[silent_video.mp41]
+# name: test_thumbnail[silent_video.mp4]
   True
 # ---
