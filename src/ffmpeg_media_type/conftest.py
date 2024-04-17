@@ -3,8 +3,10 @@ from typing import Any, Iterable
 
 import pytest
 
+TEST_DATA_FOLDER = Path(__file__).parent / "test_data"
 
-def sample_test_media_files() -> Iterable[Any]:
-    for f in (Path(__file__).parent / "test_data").glob("**/*"):
+
+def sample_test_media_files(pattern: str = "**/*") -> Iterable[Any]:
+    for f in TEST_DATA_FOLDER.glob(pattern):
         if f.is_file():
             yield pytest.param(f, id=f.name)

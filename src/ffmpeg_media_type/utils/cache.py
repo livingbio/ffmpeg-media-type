@@ -10,6 +10,16 @@ T = TypeVar("T")
 
 
 def load(cls: type[T], name: str) -> T | None:
+    """
+    Load a dataclass object from a JSON file.
+
+    Args:
+        cls: The dataclass type.
+        name: The name of the file.
+
+    Returns:
+        The dataclass object or None if the file does not exist.
+    """
     path = cache_path / f"{name}.json"
 
     if not path.exists():
@@ -20,6 +30,16 @@ def load(cls: type[T], name: str) -> T | None:
 
 
 def save(obj: T, name: str) -> None:
+    """
+    Save a dataclass object to a JSON file.
+
+    Args:
+        obj: The dataclass object.
+        name: The name of the file.
+
+    Returns:
+        None
+    """
     assert is_dataclass(obj) and not isinstance(obj, type)
 
     with (cache_path / f"{name}.json").open("w") as ofile:

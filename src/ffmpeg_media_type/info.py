@@ -1,72 +1,10 @@
 import os
-from tempfile import NamedTemporaryFile
 from urllib.parse import urlparse
 
-from .exceptions import FfmpegMediaTypeError
 from .schema import FFMpegSupport, MediaInfo
 from .utils.cache import load
 from .utils.ffprobe import ffprobe
-from .utils.shell import call
-
-
-def create_temp_file_path(suffix: str) -> str:
-    """
-    Create a temporary file path.
-
-    Returns:
-        the path to the temporary file
-    """
-
-    # Create a NamedTemporaryFile
-    temp = NamedTemporaryFile(delete=True, suffix=suffix)
-    temp_path = temp.name
-
-    # Close and delete the temporary file (it won't actually create it)
-    temp.close()
-
-    # At this point, temp_path is a path to a non-existent file
-    return temp_path
-
-
-def generate_thumbnail(video_path: str, suffix: str = ".png", time_offset: float = 0) -> str:
-    """
-    Generate a thumbnail from a video file at a specified time offset.
-
-    Args:
-        video_path: the path to the video file
-        suffix: the suffix of the generated thumbnail
-        time_offset: the time offset in seconds to generate the thumbnail
-
-    Raises:
-        FfmpegMediaTypeError: If the ffmpeg command fails.
-
-    Returns:
-        the path to the generated thumbnail
-    """
-
-    thumbnail_path = create_temp_file_path(suffix)
-
-    ffmpeg_cmd = ["ffmpeg"] + [
-        "-y",  # Overwrite output file if it exists
-        "-i",
-        video_path,  # Input video path
-        "-ss",
-        str(time_offset),  # Time offset (seek to the specified position)
-        "-vframes",
-        "1",  # Number of frames to output
-        "-vf",
-        "scale=320:-1",  # Thumbnail size (width: 320, height: proportional)
-        "-q:v",
-        "2",  # Quality (2 - high, 5 - low)
-        thumbnail_path,  # Output thumbnail path
-    ]
-
-    try:
-        call(ffmpeg_cmd)
-    except FfmpegMediaTypeError:
-        pass
-
-    return thumbnail_path
+from .utils.thumbnail import generate_thumbnail
 
 
 def extract_file_extension_from_uri(uri: str) -> str:
@@ -178,3 +116,6 @@ def detect(uri: str) -> MediaInfo:
         size=int(info.format.size) if info.format.size is not None else None,
         suggest_ext=suggest_ext,
     )
+
+
+__all__ = ["detect", "generate_thumbnail"]

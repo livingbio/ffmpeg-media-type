@@ -4,7 +4,7 @@
     "format_long_name": "piped webp sequence",
     "format_name": "webp_pipe",
     "probe_score": 99,
-    "size": "380850",
+    "size": "4242",
     "start_time": null
   },
   "streams": [
@@ -12,15 +12,15 @@
       "codec_long_name": "WebP",
       "codec_name": "webp",
       "codec_type": "video",
-      "height": 0,
+      "height": 225,
       "index": 0,
-      "pix_fmt": null,
+      "pix_fmt": "yuv420p",
       "profile": null,
       "r_frame_rate": "25/1",
       "tags": {
         "rotate": 0
       },
-      "width": 0
+      "width": 300
     }
   ]
 }
