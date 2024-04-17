@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "fifo_test", "description": "Fifo test muxer", "common_exts": [], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

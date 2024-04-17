@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "webm_chunk", "description": "WebM Chunk Muxer", "common_exts": ["chk"], "mime_type": "video/webm", "default_video_codec": "", "default_audio_codec": ""}

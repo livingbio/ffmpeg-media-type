@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "sami", "description": "SAMI subtitle format", "common_exts": ["smi", "sami"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

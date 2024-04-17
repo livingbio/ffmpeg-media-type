@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "aiff", "description": "Audio IFF", "common_exts": ["aif", "aiff", "afc", "aifc"], "mime_type": "audio/aiff", "default_video_codec": "png", "default_audio_codec": "pcm_s16be"}

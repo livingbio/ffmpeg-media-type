@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "dfpwm", "description": "raw DFPWM1a", "common_exts": ["dfpwm"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "dfpwm"}

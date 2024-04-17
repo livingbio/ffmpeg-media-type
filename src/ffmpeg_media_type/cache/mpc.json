@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "mpc", "description": "Musepack", "common_exts": ["mpc"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "asf_stream", "description": "ASF (Advanced / Active Streaming Format)", "common_exts": ["asf", "wmv", "wma"], "mime_type": "video/x-ms-asf", "default_video_codec": "msmpeg4v3", "default_audio_codec": "wmav2"}

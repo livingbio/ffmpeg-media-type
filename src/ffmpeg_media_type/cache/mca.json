@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "mca", "description": "MCA Audio Format", "common_exts": ["mca"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

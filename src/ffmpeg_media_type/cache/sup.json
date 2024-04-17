@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "sup", "description": "raw HDMV Presentation Graphic Stream subtitles", "common_exts": ["sup"], "mime_type": "application/x-pgs", "default_video_codec": "", "default_audio_codec": ""}

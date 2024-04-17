@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "3gp", "description": "3GP (3GPP file format)", "common_exts": ["3gp"], "mime_type": "", "default_video_codec": "h263", "default_audio_codec": "amr_nb"}

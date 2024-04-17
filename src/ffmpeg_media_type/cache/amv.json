@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "amv", "description": "AMV", "common_exts": ["amv"], "mime_type": "video/amv", "default_video_codec": "amv", "default_audio_codec": "adpcm_ima_amv"}

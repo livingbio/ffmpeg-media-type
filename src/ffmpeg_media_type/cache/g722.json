@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "g722", "description": "raw G.722", "common_exts": ["g722", "722"], "mime_type": "audio/G722", "default_video_codec": "", "default_audio_codec": "adpcm_g722"}

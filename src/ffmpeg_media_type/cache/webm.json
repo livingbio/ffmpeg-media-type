@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "webm", "description": "WebM", "common_exts": ["webm"], "mime_type": "video/webm", "default_video_codec": "vp9", "default_audio_codec": "opus"}

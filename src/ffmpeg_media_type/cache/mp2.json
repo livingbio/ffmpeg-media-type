@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "mp2", "description": "MP2 (MPEG audio layer 2)", "common_exts": ["mp2", "m2a", "mpa"], "mime_type": "audio/mpeg", "default_video_codec": "", "default_audio_codec": "mp2"}

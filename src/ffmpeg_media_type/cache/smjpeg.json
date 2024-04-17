@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "smjpeg", "description": "Loki SDL MJPEG", "common_exts": ["mjpg"], "mime_type": "", "default_video_codec": "mjpeg", "default_audio_codec": "pcm_s16le"}

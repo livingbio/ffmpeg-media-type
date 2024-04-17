@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "fits", "description": "Flexible Image Transport System", "common_exts": ["fits"], "mime_type": "", "default_video_codec": "fits", "default_audio_codec": ""}

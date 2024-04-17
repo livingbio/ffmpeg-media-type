@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "jacosub", "description": "JACOsub subtitle format", "common_exts": ["jss", "js"], "mime_type": "text/x-jacosub", "default_video_codec": "", "default_audio_codec": ""}

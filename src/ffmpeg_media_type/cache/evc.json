@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "evc", "description": "raw EVC video", "common_exts": ["evc"], "mime_type": "", "default_video_codec": "evc", "default_audio_codec": ""}

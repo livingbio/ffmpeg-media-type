@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "mpl2", "description": "MPL2 subtitles", "common_exts": ["txt", "mpl2"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

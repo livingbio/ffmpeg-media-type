@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "roq", "description": "raw id RoQ", "common_exts": ["roq"], "mime_type": "", "default_video_codec": "roq", "default_audio_codec": "roq_dpcm"}

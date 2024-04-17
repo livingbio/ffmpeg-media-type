@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "ismv", "description": "ISMV/ISMA (Smooth Streaming)", "common_exts": ["ismv", "isma"], "mime_type": "video/mp4", "default_video_codec": "h264", "default_audio_codec": "aac"}

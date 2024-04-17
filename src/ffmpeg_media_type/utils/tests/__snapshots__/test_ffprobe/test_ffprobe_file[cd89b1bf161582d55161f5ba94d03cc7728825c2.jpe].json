@@ -1,0 +1,26 @@
+{
+  "format": {
+    "duration": null,
+    "format_long_name": "piped jpeg sequence",
+    "format_name": "jpeg_pipe",
+    "probe_score": 26,
+    "size": "12642182",
+    "start_time": null
+  },
+  "streams": [
+    {
+      "codec_long_name": "Motion JPEG",
+      "codec_name": "mjpeg",
+      "codec_type": "video",
+      "height": 3144,
+      "index": 0,
+      "pix_fmt": "yuvj444p",
+      "profile": "Baseline",
+      "r_frame_rate": "25/1",
+      "tags": {
+        "rotate": 0
+      },
+      "width": 4716
+    }
+  ]
+}

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "vqf", "description": "Nippon Telegraph and Telephone Corporation (NTT) TwinVQ", "common_exts": ["vqf", "vql", "vqe"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

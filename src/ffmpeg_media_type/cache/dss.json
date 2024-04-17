@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "dss", "description": "Digital Speech Standard (DSS)", "common_exts": ["dss"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

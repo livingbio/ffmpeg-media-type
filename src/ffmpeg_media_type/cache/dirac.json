@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "dirac", "description": "raw Dirac", "common_exts": ["drc", "vc2"], "mime_type": "", "default_video_codec": "dirac", "default_audio_codec": ""}

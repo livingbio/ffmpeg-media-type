@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "au", "description": "Sun AU", "common_exts": ["au"], "mime_type": "audio/basic", "default_video_codec": "", "default_audio_codec": "pcm_s16be"}

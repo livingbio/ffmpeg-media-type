@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "mpegts", "description": "MPEG-TS (MPEG-2 Transport Stream)", "common_exts": ["ts", "m2t", "m2ts", "mts"], "mime_type": "video/MP2T", "default_video_codec": "mpeg2video", "default_audio_codec": "mp2"}

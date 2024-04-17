@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "apm", "description": "Ubisoft Rayman 2 APM", "common_exts": ["apm"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "adpcm_ima_apm"}

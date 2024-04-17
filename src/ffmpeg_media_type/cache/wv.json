@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "wv", "description": "raw WavPack", "common_exts": ["wv"], "mime_type": "audio/x-wavpack", "default_video_codec": "", "default_audio_codec": "wavpack"}

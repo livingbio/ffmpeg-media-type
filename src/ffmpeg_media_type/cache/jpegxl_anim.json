@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "jpegxl_anim", "description": "Animated JPEG XL", "common_exts": ["jxl"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

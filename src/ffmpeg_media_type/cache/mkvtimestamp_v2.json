@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "mkvtimestamp_v2", "description": "extract pts as timecode v2 format, as defined by mkvtoolnix", "common_exts": [], "mime_type": "", "default_video_codec": "rawvideo", "default_audio_codec": ""}

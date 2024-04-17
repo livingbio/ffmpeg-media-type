@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "mmf", "description": "Yamaha SMAF", "common_exts": ["mmf"], "mime_type": "application/vnd", "default_video_codec": "", "default_audio_codec": "adpcm_yamaha"}

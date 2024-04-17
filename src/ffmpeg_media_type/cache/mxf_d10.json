@@ -1,0 +1,1 @@
+{"demuxing_support": false, "muxing_support": true, "codec": "mxf_d10", "description": "MXF (Material eXchange Format) D-10 Mapping", "common_exts": [], "mime_type": "application/mxf", "default_video_codec": "mpeg2video", "default_audio_codec": "pcm_s16le"}

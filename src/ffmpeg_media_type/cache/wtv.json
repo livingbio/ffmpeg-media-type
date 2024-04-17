@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "wtv", "description": "Windows Television (WTV)", "common_exts": ["wtv"], "mime_type": "", "default_video_codec": "mpeg2video", "default_audio_codec": "ac3"}

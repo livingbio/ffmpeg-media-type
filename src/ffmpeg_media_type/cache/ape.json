@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": false, "codec": "ape", "description": "Monkey's Audio", "common_exts": ["ape", "apl", "mac"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

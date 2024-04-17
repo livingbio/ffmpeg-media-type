@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "s8", "description": "PCM signed 8-bit", "common_exts": ["sb"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "pcm_s8"}

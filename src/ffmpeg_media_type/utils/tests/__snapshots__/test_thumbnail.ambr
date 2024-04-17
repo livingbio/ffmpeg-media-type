@@ -1,0 +1,49 @@
+# serializer version: 1
+# name: test_thumbnail[10257640.mp4]
+  True
+# ---
+# name: test_thumbnail[188794898-eeb81e4b-b33a-4bdf-85a8-3b4b8460b88a.png]
+  True
+# ---
+# name: test_thumbnail[201432913186_fish.gif]
+  True
+# ---
+# name: test_thumbnail[4ox1IBJxK3cVd0uJA6gOtceSP3g.jpg]
+  True
+# ---
+# name: test_thumbnail[9b5174019e8c9bec190903528ff6d0392a2d6a9b.mp4]
+  True
+# ---
+# name: test_thumbnail[9c7ee468-24a3-4930-9832-73f0f6001ab1.webp]
+  True
+# ---
+# name: test_thumbnail[Cle9pQ5.jpg]
+  True
+# ---
+# name: test_thumbnail[SampleAudio_0.4mb.mp3]
+  False
+# ---
+# name: test_thumbnail[SampleVideo_1280x720_1mb.mp4]
+  True
+# ---
+# name: test_thumbnail[animated-webp.webp]
+  True
+# ---
+# name: test_thumbnail[cd89b1bf161582d55161f5ba94d03cc7728825c2.jpe]
+  True
+# ---
+# name: test_thumbnail[lionic_vp8x_1109.webp]
+  True
+# ---
+# name: test_thumbnail[maxresdefault.jpg-sdafdeagwdsadf]
+  True
+# ---
+# name: test_thumbnail[mp3-with-cover.mp3]
+  True
+# ---
+# name: test_thumbnail[overlay.png]
+  True
+# ---
+# name: test_thumbnail[silent_video.mp4]
+  True
+# ---

@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "rm", "description": "RealMedia", "common_exts": ["rm", "ra"], "mime_type": "application/vnd", "default_video_codec": "rv10", "default_audio_codec": "ac3"}

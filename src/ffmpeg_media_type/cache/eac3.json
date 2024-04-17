@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "eac3", "description": "raw E-AC-3", "common_exts": ["eac3", "ec3"], "mime_type": "audio/x-eac3", "default_video_codec": "", "default_audio_codec": "eac3"}

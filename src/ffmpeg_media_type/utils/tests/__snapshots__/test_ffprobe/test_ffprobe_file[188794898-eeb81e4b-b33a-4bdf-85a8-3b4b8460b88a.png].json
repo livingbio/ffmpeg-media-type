@@ -1,0 +1,26 @@
+{
+  "format": {
+    "duration": null,
+    "format_long_name": "piped png sequence",
+    "format_name": "png_pipe",
+    "probe_score": 99,
+    "size": "47210",
+    "start_time": null
+  },
+  "streams": [
+    {
+      "codec_long_name": "PNG (Portable Network Graphics) image",
+      "codec_name": "png",
+      "codec_type": "video",
+      "height": 259,
+      "index": 0,
+      "pix_fmt": "rgba",
+      "profile": null,
+      "r_frame_rate": "25/1",
+      "tags": {
+        "rotate": 0
+      },
+      "width": 262
+    }
+  ]
+}

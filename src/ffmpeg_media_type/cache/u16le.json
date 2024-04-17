@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "u16le", "description": "PCM unsigned 16-bit little-endian", "common_exts": ["uw"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "pcm_u16le"}

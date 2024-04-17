@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "voc", "description": "Creative Voice", "common_exts": ["voc"], "mime_type": "audio/x-voc", "default_video_codec": "", "default_audio_codec": "pcm_s16le"}

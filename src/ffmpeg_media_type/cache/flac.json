@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "flac", "description": "raw FLAC", "common_exts": ["flac"], "mime_type": "audio/x-flac", "default_video_codec": "png", "default_audio_codec": "flac"}

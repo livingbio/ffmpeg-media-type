@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "argo_cvg", "description": "Argonaut Games CVG", "common_exts": ["cvg"], "mime_type": "", "default_video_codec": "", "default_audio_codec": "adpcm_psx"}

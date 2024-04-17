@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "ilbc", "description": "iLBC storage", "common_exts": ["lbc"], "mime_type": "audio/iLBC", "default_video_codec": "", "default_audio_codec": "ilbc"}

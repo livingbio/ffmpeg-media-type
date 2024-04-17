@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "ffmetadata", "description": "FFmpeg metadata in text", "common_exts": ["ffmeta"], "mime_type": "", "default_video_codec": "", "default_audio_codec": ""}

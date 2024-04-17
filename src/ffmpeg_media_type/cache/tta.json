@@ -1,0 +1,1 @@
+{"demuxing_support": true, "muxing_support": true, "codec": "tta", "description": "TTA (True Audio)", "common_exts": ["tta"], "mime_type": "audio/x-tta", "default_video_codec": "", "default_audio_codec": "tta"}
