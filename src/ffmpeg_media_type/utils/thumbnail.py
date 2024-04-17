@@ -1,8 +1,8 @@
 from pathlib import Path
 
+from .hotfix_webp import hotfix_animate_webp
 from .shell import call, create_temp_filename
-from ..exceptions import FfmpegMediaTypeError    
-from .ffprobe import ffprobe
+
 
 def generate_thumbnail(video_path: str | Path, suffix: str = ".png", time_offset: float = 0) -> str:
     """
@@ -20,6 +20,8 @@ def generate_thumbnail(video_path: str | Path, suffix: str = ".png", time_offset
         the path to the generated thumbnail
     """
 
+    video_path = hotfix_animate_webp(video_path)
+
     thumbnail_path = create_temp_filename(suffix)
     ffmpeg_cmd = ["ffmpeg"] + [
         "-y",  # Overwrite output file if it exists
@@ -36,9 +38,6 @@ def generate_thumbnail(video_path: str | Path, suffix: str = ".png", time_offset
         thumbnail_path,  # Output thumbnail path
     ]
 
-    try:
-        call(ffmpeg_cmd)
-    except FfmpegMediaTypeError:
-
+    call(ffmpeg_cmd)
 
     return thumbnail_path

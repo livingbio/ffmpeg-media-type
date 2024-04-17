@@ -4,6 +4,7 @@ from urllib.parse import urlparse
 from .schema import FFMpegSupport, MediaInfo
 from .utils.cache import load
 from .utils.ffprobe import ffprobe
+from .utils.thumbnail import generate_thumbnail
 
 
 def extract_file_extension_from_uri(uri: str) -> str:
@@ -115,3 +116,6 @@ def detect(uri: str) -> MediaInfo:
         size=int(info.format.size) if info.format.size is not None else None,
         suggest_ext=suggest_ext,
     )
+
+
+__all__ = ["detect", "generate_thumbnail"]

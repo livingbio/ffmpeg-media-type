@@ -1,8 +1,11 @@
+import json
 import subprocess
 from functools import lru_cache
 from pathlib import Path
 from urllib.request import urlretrieve
 
+from ..schema import FFProbeInfo
+from .loader import from_dict
 from .shell import call, create_temp_filename
 
 
@@ -50,9 +53,7 @@ def check_webpmux_installed() -> str | None:
 
     try:
         # Attempt to run `webpmux -version` to check if webpmux is installed
-        result = subprocess.run(
-            ["webpmux", "-version"], capture_output=True, text=True, check=True
-        )
+        result = subprocess.run(["webpmux", "-version"], capture_output=True, text=True, check=True)
         # print("webpmux is installed. Version info:")
         # print(result.stdout)
         return result.stdout
@@ -80,24 +81,8 @@ def is_webp_animated(file_path: str) -> bool:
         FfmpegMediaTypeError: If the webpmux command fails.
     """
 
-    ffprobe_cmd = ["ffprobe"] + [
-        "-v",
-        "error",
-        "-show_format",
-        "-show_streams",
-        "-of",
-        "json",
-        str(input_url),
-    ]
-
-    # Execute the FFprobe command and capture the output
-    output = call(ffprobe_cmd)
-    probe_info = from_dict(FFProbeInfo, json.loads(output))
-
     # Running the webpmux command to get information about the WebP file
-    result = subprocess.run(
-        ["webpmux", "-info", file_path], capture_output=True, text=True
-    )
+    result = subprocess.run(["webpmux", "-info", file_path], capture_output=True, text=True)
     output = result.stdout
 
     # Check output for the presence of 'ANMF' chunk which indicates animation
@@ -129,6 +114,43 @@ def extract_animated_webp_frame(uri: str) -> str:
     return temp_uri
 
 
+def is_webp_need_fix(uri: str | Path) -> bool:
+    """
+    Check if a WebP file needs to be fixed.
+
+    Args:
+        uri: The URI of the WebP file.
+
+    Returns:
+        True if the WebP file is animated, False otherwise.
+
+    Raises:
+        FfmpegMediaTypeError: If the ffprobe command fails.
+    """
+
+    ffprobe_cmd = ["ffprobe"] + [
+        "-v",
+        "error",
+        "-show_format",
+        "-show_streams",
+        "-of",
+        "json",
+        str(uri),
+    ]
+
+    # Execute the FFprobe command and capture the output
+    output = call(ffprobe_cmd)
+    probe_info = from_dict(FFProbeInfo, json.loads(output))
+
+    if probe_info.format.format_name != "webp_pipe":
+        return False
+
+    if probe_info.streams[0].height == 0 and probe_info.streams[0].width == 0:
+        return True
+
+    return False
+
+
 def hotfix_animate_webp(uri: str | Path) -> str:
     """
     Fix a WebP file if it is animated.
@@ -150,6 +172,10 @@ def hotfix_animate_webp(uri: str | Path) -> str:
 
     if check_webpmux_installed() is None:
         # webpmux is not installed, so we cannot fix the WebP file
+        return str(uri)
+
+    if not is_webp_need_fix(str(uri)):
+        # The WebP file work with ffprobe, so no fix is needed
         return str(uri)
 
     downloaded_file = _ensure_downloaded(str(uri))
