@@ -113,7 +113,7 @@ print(f"Height: {height} pixels")
 - Typically, the media file's extension is utilized to determine its file type. Nevertheless, this approach may not always yield accurate results. For instance, a file bearing the `.mp4` extension could, in reality, be an audio file.
 - The `ffmpeg-media-type` tool enhances the precision of media file extension guessing by leveraging the built-in format functionality of FFmpeg through the command `ffmpeg -formats`.
 
-check [data](https://github.com/livingbio/ffmpeg-media-type/tree/main/src/ffmpeg_media_type/data) for details.
+check [cache](https://github.com/livingbio/ffmpeg-media-type/tree/main/src/ffmpeg_media_type/cache) for details.
 
 ### Access ffprobe output
 
@@ -141,7 +141,7 @@ Contributions are welcome! If you encounter any issues or have suggestions for i
 Before submitting a pull request, make sure to run the tests using the following command:
 
 ```bash
-poetry install --with test
+poetry install --with dev
 py.test src
 ```
 
