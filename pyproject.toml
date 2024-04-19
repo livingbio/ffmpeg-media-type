@@ -38,7 +38,15 @@ pytest = "^7.4.0"
 pytest-vcr = "^1.0.2"
 pytest-cov = "^4.1.0"
 
-# Script
+# Doc
+mkdocs = "*"
+markdown-callouts = "^0.4.0"
+mkdocs-material = "^9.5.9"
+mkdocstrings = "^0.24.0"
+mkdocstrings-python = "^1.8.0"
+pymdown-extensions = "^10.7"
+griffe_inherited_docstrings = "*"
+black = "*"
 ipykernel = "^6.29.4"
 mknotebooks = "*"
 

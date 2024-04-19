@@ -14,6 +14,12 @@
 
 
 
+### Table of Contents
+
+- [Documentation](https://livingbio.github.io/typed-ffmpeg/)
+
+
+
 
 ## Installation
 

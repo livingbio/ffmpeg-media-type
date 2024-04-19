@@ -1,0 +1,109 @@
+site_name: ffmpeg-media-type
+site_description: Data validation using Python type hints
+strict: true
+site_url: https://livingbio.github.io/ffmpeg-media-type/
+
+theme:
+  name: "material"
+  palette:
+    - media: "(prefers-color-scheme: light)"
+      scheme: default
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/lightbulb-outline
+        name: "Switch to dark mode"
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: pink
+      accent: pink
+      toggle:
+        icon: material/lightbulb
+        name: "Switch to light mode"
+  features:
+    - content.tabs.link
+    - content.code.annotate
+    - content.code.copy
+    - announce.dismiss
+    - navigation.tabs
+
+repo_name: livingbio/ffmpeg-media-type
+repo_url: https://github.com/livingbio/ffmpeg-media-type
+edit_uri: edit/main/docs/
+
+# https://www.mkdocs.org/user-guide/configuration/#validation
+# validation:
+#   omitted_files: warn
+#   absolute_links: warn
+#   unrecognized_links: warn
+
+nav:
+  - Get Started:
+      - Overview: index.md
+  - API Documentation:
+      - ffmpeg_media_type: ffmpeg_media_type.md
+
+watch:
+  - "src"
+  - "docs"
+  - "README.md"
+
+# https://www.mkdocs.org/user-guide/configuration/#validation
+# validation:
+#   omitted_files: warn
+#   absolute_links: warn
+#   unrecognized_links: warn
+
+markdown_extensions:
+  - attr_list
+  - admonition
+  - callouts
+  - footnotes
+  - pymdownx.details
+  - pymdownx.magiclink
+  - pymdownx.snippets:
+      check_paths: true
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.highlight:
+      pygments_lang_class: true
+  - pymdownx.extra
+  - pymdownx.tilde
+  - tables
+  - toc:
+      permalink: true
+      title: Page contents
+
+plugins:
+  - search
+  - mknotebooks:
+      execute: false
+      timeout: 100
+      # preamble:  "<path/to/your/script>"
+      allow_errors: true
+  - mkdocstrings:
+      handlers:
+        python:
+          options:
+            docstring_options:
+              ignore_init_summary: true
+            filters: ["!^_"]
+            heading_level: 1
+            inherited_members: true
+            merge_init_into_class: true
+            separate_signature: true
+            show_root_heading: true
+            show_root_full_path: false
+            show_signature_annotations: true
+            show_symbol_type_heading: true
+            show_symbol_type_toc: true
+            signature_crossrefs: true
+            summary: true
+            docstring_section_style: table
+            order: source
+            docstring_style: google
+            extensions:
+              - griffe_inherited_docstrings
