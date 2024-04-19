@@ -16,7 +16,7 @@
 
 ### Table of Contents
 
-- [Documentation](https://livingbio.github.io/typed-ffmpeg/)
+- [Documentation](https://livingbio.github.io/ffmpeg-media-type/)
 
 
 
