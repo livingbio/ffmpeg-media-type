@@ -20,7 +20,7 @@ repos:
     rev: 5.12.0
     hooks:
       - id: isort
-        args: [--line-length=240, --profile=black]
+        args: [--line-length=120, --profile=black]
 
   # this is slightly dangerous because python imports have side effects
   # and this tool removes unused imports, which may be providing
@@ -40,28 +40,17 @@ repos:
     rev: 22.8.0
     hooks:
       - id: black
-        args: [--line-length=240, --exclude=""]
+        args: [--line-length=120, --exclude=""]
 
-  - repo: local
+  - repo: https://github.com/pre-commit/mirrors-mypy
+    rev: v1.8.0
     hooks:
       - id: mypy
         name: mypy
         entry: mypy
-        language: system
         types: [python]
-        exclude: migrations/|commands/|scripts/
-        args:
-          [
-            --pretty,
-            --install-types,
-            --non-interactive,
-            --show-error-codes,
-            --implicit-optional,
-            --follow-imports=silent,
-            --warn-redundant-casts,
-            --warn-unused-ignores,
-            --disallow-any-generics,
-            --check-untyped-defs,
-            --no-implicit-reexport,
-            --disallow-untyped-defs,
-          ]
+        exclude: migrations/|commands/|sandbox/|samples|sdk
+        additional_dependencies: [pytest, syrupy, typer, devtools, types-requests, types-beautifulsoup4]
+        args: [
+          "--config-file=pyproject.toml"
+        ]

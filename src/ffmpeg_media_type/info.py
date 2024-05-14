@@ -1,4 +1,5 @@
 import os
+from pathlib import Path
 from urllib.parse import urlparse
 
 from .schema import FFMpegSupport, MediaInfo
@@ -40,7 +41,7 @@ Dictionary mapping codec names to common file extensions.
 """
 
 
-def detect(uri: str) -> MediaInfo:
+def detect(uri: str | Path) -> MediaInfo:
     """
     Detect the media type of a file.
 
@@ -53,6 +54,7 @@ def detect(uri: str) -> MediaInfo:
     Raises:
         FfmpegMediaTypeError: If the ffmpeg command fails.
     """
+    uri = str(uri)
     info = ffprobe(uri)
     current_ext = extract_file_extension_from_uri(uri)
 

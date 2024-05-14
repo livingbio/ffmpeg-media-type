@@ -12,4 +12,6 @@ from ..ffprobe import ffprobe
 
 @pytest.mark.parametrize("case", sample_test_media_files())
 def test_ffprobe_file(case: Path, snapshot: SnapshotAssertion) -> None:
-    assert snapshot(extension_class=JSONSnapshotExtension, exclude=paths("format.filename")) == asdict(ffprobe(str(case.relative_to(Path.cwd()))))
+    assert snapshot(extension_class=JSONSnapshotExtension, exclude=paths("format.filename")) == asdict(
+        ffprobe(str(case.relative_to(Path.cwd())))
+    )
