@@ -54,15 +54,15 @@ class MediaInfo:
     The media type.
     """
 
-    width: int | None = None
+    width: int = 0
     """
     The media width.
     """
-    height: int | None = None
+    height: int = 0
     """
     The media height.
     """
-    duration: float | None = None
+    duration: float = 0
     """
     The media duration.
     """
@@ -71,7 +71,7 @@ class MediaInfo:
     """
     The media format.
     """
-    size: int | None = None
+    size: int = 0
     """
     The media size.
     """
