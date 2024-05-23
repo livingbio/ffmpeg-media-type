@@ -8,6 +8,9 @@
 # name: test_thumbnail[201432913186_fish.gif]
   True
 # ---
+# name: test_thumbnail[3c289a15d14d8b6775ec0a2cd233da70b963de5a.mp4]
+  True
+# ---
 # name: test_thumbnail[4ox1IBJxK3cVd0uJA6gOtceSP3g.jpg]
   True
 # ---

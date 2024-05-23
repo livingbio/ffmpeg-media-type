@@ -1,0 +1,54 @@
+{
+  "format": {
+    "duration": "89.600000",
+    "format_long_name": "QuickTime / MOV",
+    "format_name": "mov,mp4,m4a,3gp,3g2,mj2",
+    "probe_score": 100,
+    "size": "15080282",
+    "start_time": "0.000000"
+  },
+  "streams": [
+    {
+      "codec_long_name": "H.264 / AVC / MPEG-4 AVC / MPEG-4 part 10",
+      "codec_name": "h264",
+      "codec_type": "video",
+      "height": 1080,
+      "index": 0,
+      "pix_fmt": "yuv420p",
+      "profile": "High",
+      "r_frame_rate": "30/1",
+      "tags": {
+        "rotate": 0
+      },
+      "width": 1920
+    },
+    {
+      "codec_long_name": "AAC (Advanced Audio Coding)",
+      "codec_name": "aac",
+      "codec_type": "audio",
+      "height": null,
+      "index": 1,
+      "pix_fmt": null,
+      "profile": "LC",
+      "r_frame_rate": "0/0",
+      "tags": {
+        "rotate": 0
+      },
+      "width": null
+    },
+    {
+      "codec_long_name": null,
+      "codec_name": null,
+      "codec_type": "data",
+      "height": null,
+      "index": 2,
+      "pix_fmt": null,
+      "profile": null,
+      "r_frame_rate": "0/0",
+      "tags": {
+        "rotate": 0
+      },
+      "width": null
+    }
+  ]
+}
