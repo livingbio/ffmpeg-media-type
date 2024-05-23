@@ -63,6 +63,7 @@ def detect(uri: str | Path) -> MediaInfo:
 
     # NOTE: handle ffmpeg's image compatibility
     if format_name == "image2":
+        assert info.streams[0].codec_name
         format_name = info.streams[0].codec_name
 
     # NOTE: detect file extension

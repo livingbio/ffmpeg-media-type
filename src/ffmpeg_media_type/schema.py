@@ -151,9 +151,9 @@ class FFProbeStream:
     """
     The stream codec type.
     """
-    codec_name: str
+    codec_name: str | None = None
     """
-    The stream codec name.
+    The stream codec name. If the stream is a data stream, this field will be set to None
     """
     codec_long_name: str | None = None
     """
