@@ -1,0 +1,4 @@
+# serializer version: 1
+# name: test_detect[tmpz1wcuugh.webp]
+  "<ExceptionInfo FFMpegMediaCorruptedError('Corrupted image file src/ffmpeg_media_type/test_data/133-raise-exception/tmpz1wcuugh.webp') tblen=2>"
+# ---

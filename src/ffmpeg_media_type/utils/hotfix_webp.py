@@ -78,7 +78,7 @@ def is_webp_animated(file_path: str) -> bool:
         True if the WebP file is animated, False otherwise.
 
     Raises:
-        FfmpegMediaTypeError: If the webpmux command fails.
+        FFmpegMediaTypeError: If the webpmux command fails.
     """
 
     # Running the webpmux command to get information about the WebP file
@@ -103,7 +103,7 @@ def extract_animated_webp_frame(uri: str) -> str:
         The URI of the fixed webp file.
 
     Raises:
-        FfmpegMediaTypeError: If the webpmux command fails.
+        FFmpegMediaTypeError: If the webpmux command fails.
 
     Notes:
         Will raise Exception if the webp file is not animated.
@@ -125,7 +125,7 @@ def is_webp_need_fix(uri: str | Path) -> bool:
         True if the WebP file is animated, False otherwise.
 
     Raises:
-        FfmpegMediaTypeError: If the ffprobe command fails.
+        FFmpegMediaTypeError: If the ffprobe command fails.
     """
 
     ffprobe_cmd = ["ffprobe"] + [
@@ -162,7 +162,7 @@ def hotfix_animate_webp(uri: str | Path) -> str:
         The URI of the fixed WebP file if it was animated, otherwise the original URI.
 
     Raises:
-        FfmpegMediaTypeError: If the webpmux command fails.
+        FFmpegMediaTypeError: If the webpmux command fails.
 
     Notes:
         Some WebP files (e.g. animated WebP files) may not be supported by ffmpeg.

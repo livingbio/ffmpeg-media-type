@@ -2,7 +2,7 @@ import subprocess
 from shlex import join
 from tempfile import NamedTemporaryFile
 
-from ..exceptions import FfmpegMediaTypeError
+from ..exceptions import FFmpegMediaTypeError
 
 
 def call(cmds: list[str]) -> str:
@@ -13,7 +13,7 @@ def call(cmds: list[str]) -> str:
         cmds: List of command and arguments.
 
     Raises:
-        FfmpegMediaTypeError: If the command fails.
+        FFmpegMediaTypeError: If the command fails.
 
     Returns:
         stdout of the command.
@@ -21,7 +21,7 @@ def call(cmds: list[str]) -> str:
     try:
         r = subprocess.run(cmds, stdout=subprocess.PIPE, check=True)
     except subprocess.CalledProcessError as e:
-        raise FfmpegMediaTypeError(f"command failed: {join(e.cmd)}")
+        raise FFmpegMediaTypeError(f"command failed: {join(e.cmd)}")
 
     return r.stdout.decode("utf-8")
 

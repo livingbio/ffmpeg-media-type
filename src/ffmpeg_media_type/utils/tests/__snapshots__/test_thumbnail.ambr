@@ -50,3 +50,6 @@
 # name: test_thumbnail[silent_video.mp4]
   True
 # ---
+# name: test_thumbnail[tmpz1wcuugh.webp]
+  False
+# ---
