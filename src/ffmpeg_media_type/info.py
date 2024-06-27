@@ -2,6 +2,8 @@ import os
 from pathlib import Path
 from urllib.parse import urlparse
 
+from ffmpeg_media_type.exceptions import FFMpegMediaCorruptedError
+
 from .schema import FFMpegSupport, MediaInfo
 from .utils.cache import load
 from .utils.ffprobe import ffprobe
@@ -52,7 +54,8 @@ def detect(uri: str | Path) -> MediaInfo:
         the media type information
 
     Raises:
-        FfmpegMediaTypeError: If the ffmpeg command fails.
+        FFmpegMediaTypeError: If the ffmpeg command fails.
+        FFMpegMediaCorruptedError: If the media file is corrupted.
     """
     uri = str(uri)
     info = ffprobe(uri)
@@ -63,7 +66,8 @@ def detect(uri: str | Path) -> MediaInfo:
 
     # NOTE: handle ffmpeg's image compatibility
     if format_name == "image2":
-        assert info.streams[0].codec_name
+        if not info.streams[0].codec_name:
+            raise FFMpegMediaCorruptedError(f"Corrupted image file {uri}")
         format_name = info.streams[0].codec_name
 
     # NOTE: detect file extension
@@ -81,8 +85,11 @@ def detect(uri: str | Path) -> MediaInfo:
     else:
         suggest_ext = None
 
-    # NOTE: we classify gif as image
+    # NOTE: we classify gif and mjpeg as imageg
     if not duration or format_name in ("gif", "mjpeg"):
+        if not (info.streams[0].width and info.streams[0].height):
+            raise FFMpegMediaCorruptedError(f"Corrupted image file {uri}")
+
         return MediaInfo(
             type="image",
             width=info.streams[0].width or 0,
@@ -98,6 +105,9 @@ def detect(uri: str | Path) -> MediaInfo:
         if stream.codec_type == "video" and format_name not in ("mp3",):
             width = stream.width
             height = stream.height
+
+            if not (width and height):
+                raise FFMpegMediaCorruptedError(f"Corrupted image file {uri}")
 
             return MediaInfo(
                 type="video",

@@ -5,7 +5,12 @@ from .shell import call, create_temp_filename
 
 
 def generate_thumbnail(
-    video_path: str | Path, suffix: str = ".png", *, width: int = 320, height: int = -1, time_offset: float = 0
+    video_path: str | Path,
+    suffix: str = ".png",
+    *,
+    width: int = 320,
+    height: int = -1,
+    time_offset: float = 0,
 ) -> str:
     """
     Generate a thumbnail from a video file at a specified time offset.
@@ -18,7 +23,7 @@ def generate_thumbnail(
         time_offset: the time offset in seconds to generate the thumbnail
 
     Raises:
-        FfmpegMediaTypeError: If the ffmpeg command fails.
+        FFmpegMediaTypeError: If the ffmpeg command fails.
 
     Returns:
         the path to the generated thumbnail

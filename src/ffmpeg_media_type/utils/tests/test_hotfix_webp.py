@@ -4,7 +4,7 @@ import pytest
 from syrupy.assertion import SnapshotAssertion
 
 from ...conftest import sample_test_media_files
-from ...exceptions import FfmpegMediaTypeError
+from ...exceptions import FFmpegMediaTypeError
 from ..hotfix_webp import extract_animated_webp_frame, hotfix_animate_webp, is_webp_animated
 
 
@@ -18,7 +18,7 @@ def test_extract_animated_webp_frame(case: Path, snapshot: SnapshotAssertion) ->
     try:
         extract_animated_webp_frame(str(case))
         assert snapshot == True
-    except FfmpegMediaTypeError:
+    except FFmpegMediaTypeError:
         assert snapshot == False
 
 

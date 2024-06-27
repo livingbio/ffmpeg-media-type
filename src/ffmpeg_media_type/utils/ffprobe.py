@@ -18,7 +18,7 @@ def ffprobe(input_url: str | Path) -> FFProbeInfo:
         the media information
 
     Raises:
-        FfmpegMediaTypeError: If the FFprobe command fails.
+        FFmpegMediaTypeError: If the FFprobe command fails.
     """
 
     input_url = hotfix_animate_webp(input_url)
