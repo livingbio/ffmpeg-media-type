@@ -19,7 +19,7 @@ def test_detect(case: Path, snapshot: SnapshotAssertion) -> None:
     if "raise-exception" in str(case):
         with pytest.raises(FFmpegMediaTypeError) as e:
             info = detect(str(case.relative_to(Path.cwd())))
-            assert snapshot == str(e)
+        assert snapshot == str(e)
     else:
         info = detect(str(case.relative_to(Path.cwd())))
         assert snapshot(extension_class=JSONSnapshotExtension) == asdict(info)
