@@ -653,13 +653,13 @@ colorama = ">=0.4"
 
 [[package]]
 name = "griffe-inherited-docstrings"
-version = "1.0.1"
+version = "1.1.0"
 description = "Griffe extension for inheriting docstrings."
 optional = false
-python-versions = ">=3.8"
+python-versions = ">=3.9"
 files = [
-    {file = "griffe_inherited_docstrings-1.0.1-py3-none-any.whl", hash = "sha256:76854a4fc10acabe223cd5cbd42637e45cafb30dcaf36f120c4752fca99e48a8"},
-    {file = "griffe_inherited_docstrings-1.0.1.tar.gz", hash = "sha256:c827ce1a571ada3fdc0f74be05ba31e40743cc909c9463fac60779a57d387e60"},
+    {file = "griffe_inherited_docstrings-1.1.0-py3-none-any.whl", hash = "sha256:078440adf9d14284728c4531638ef0fc39dcea464c90e1d22d2414ee22f811f8"},
+    {file = "griffe_inherited_docstrings-1.1.0.tar.gz", hash = "sha256:1b69616eee4972149d047a54aa87ae29e9ba65e45c5ac0df8e22f39884b61f20"},
 ]
 
 [package.dependencies]
