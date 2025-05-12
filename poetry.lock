@@ -2211,15 +2211,15 @@ files = [
 
 [[package]]
 name = "pyyaml-env-tag"
-version = "0.1"
-description = "A custom YAML tag for referencing environment variables in YAML files. "
+version = "1.0"
+description = "A custom YAML tag for referencing environment variables in YAML files."
 optional = false
-python-versions = ">=3.6"
+python-versions = ">=3.9"
 groups = ["dev"]
 markers = "platform_python_implementation == \"PyPy\""
 files = [
-    {file = "pyyaml_env_tag-0.1-py3-none-any.whl", hash = "sha256:af31106dec8a4d68c60207c1886031cbf839b68aa7abccdb19868200532c2069"},
-    {file = "pyyaml_env_tag-0.1.tar.gz", hash = "sha256:70092675bda14fdec33b31ba77e7543de9ddc88f2e5b99160396572d11525bdb"},
+    {file = "pyyaml_env_tag-1.0-py3-none-any.whl", hash = "sha256:37f081041b8dca44ed8eb931ce0056f97de17251450f0ed08773dc2bcaf9e683"},
+    {file = "pyyaml_env_tag-1.0.tar.gz", hash = "sha256:bc952534a872b583f66f916e2dd83e7a7b9087847f4afca6d9c957c48b258ed2"},
 ]
 
 [package.dependencies]
