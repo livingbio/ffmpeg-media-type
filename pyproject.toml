@@ -28,7 +28,7 @@ optional = true
 # Code Gen
 requests = "^2.31.0"
 beautifulsoup4 = "^4.12.2"
-typer = ">=0.9,<0.17"
+typer = ">=0.9,<0.18"
 
 # test
 pre-commit = ">=3.3.3,<5.0.0"
