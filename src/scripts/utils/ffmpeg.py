@@ -78,7 +78,7 @@ def _extract_file_format(content: str) -> list[tuple[str, str, str]]:
     return output
 
 
-def list_support_format(cmds: list[str] = ["ffmpeg"]) -> list[FFMpegSupport]:
+def list_support_format(cmds: list[str] = None) -> list[FFMpegSupport]:
     """
     List all supported formats by ffmpeg.
 
@@ -88,6 +88,8 @@ def list_support_format(cmds: list[str] = ["ffmpeg"]) -> list[FFMpegSupport]:
     Returns:
         List of supported formats.
     """
+    if cmds is None:
+        cmds = ["ffmpeg"]
     content = call(cmds + ["-formats"])
 
     support_infos = _extract_file_format(content)

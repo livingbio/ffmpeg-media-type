@@ -42,7 +42,7 @@ def _ensure_downloaded(uri: str) -> str:
     return file_path
 
 
-@lru_cache()
+@lru_cache
 def check_webpmux_installed() -> str | None:
     """
     Check if webpmux is installed.
@@ -57,7 +57,7 @@ def check_webpmux_installed() -> str | None:
         # print("webpmux is installed. Version info:")
         # print(result.stdout)
         return result.stdout
-    except subprocess.CalledProcessError as e:
+    except subprocess.CalledProcessError:
         # The command was found, but it exited with an error
         # print("webpmux command failed:", e)
         return None
