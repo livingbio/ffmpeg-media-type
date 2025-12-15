@@ -12,6 +12,6 @@ from ..thumbnail import generate_thumbnail
 def test_thumbnail(case: Path, snapshot: SnapshotAssertion) -> None:
     try:
         generate_thumbnail(case)
-        assert snapshot == True
+        assert snapshot
     except FFmpegMediaTypeError:
-        assert snapshot == False
+        assert not snapshot

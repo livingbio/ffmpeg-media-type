@@ -8,7 +8,7 @@ app = typer.Typer()
 
 
 @app.command()
-def generate(cmds: list[str] = ["ffmpeg"]) -> None:
+def generate(cmds: list[str] = None) -> None:
     """
 
     Generate cache for supported formats by ffmpeg and save it to cache directory.
@@ -16,6 +16,8 @@ def generate(cmds: list[str] = ["ffmpeg"]) -> None:
     Args:
         cmds: Defaults to ["ffmpeg"].
     """
+    if cmds is None:
+        cmds = ["ffmpeg"]
     for support_info in list_support_format(cmds):
         save(support_info, support_info.codec)
 

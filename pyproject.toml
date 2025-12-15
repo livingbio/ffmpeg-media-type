@@ -1,63 +1,88 @@
-[tool.poetry]
+[project]
 name = "ffmpeg-media-type"
 version = "0.0.0"
 description = "ffmpeg-media-type is a Python library that utilizes FFmpeg to extract crucial details from media files, such as duration, width, and height. With seamless integration of 100% typehint support, it offers a user-friendly interface for easy access to media file information."
-authors = ["lucemia <lucemia@gmail.com>"]
+authors = [{ name = "lucemia", email = "lucemia@gmail.com" }]
 readme = "README.md"
-packages = [{ include = "ffmpeg_media_type", from = "src" }]
-include = ["ffmpeg_media_type/py.typed", "ffmpeg_media_type/cache/*.json"]
-exclude = ["**/tests", "**/test_data", "**/conftest.py"]
+requires-python = ">=3.10"
+dependencies = []
 keywords = ["ffmpeg", "ffprobe", "video", "image", "audio", "media", "mimetype", "mp4", "mp3", "mov", "webm"]
 classifiers = [
-        'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
-        'Natural Language :: English',
-        'Operating System :: OS Independent',
-        'Programming Language :: Python',
-        'Programming Language :: Python :: 3',
-        'Programming Language :: Python :: 3.10',
-    ]
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Natural Language :: English',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python',
+    'Programming Language :: Python :: 3',
+    'Programming Language :: Python :: 3.10',
+]
 
-[tool.poetry.dependencies]
-python = "^3.10"
+[project.optional-dependencies]
+dev = [
+    # Code Gen
+    "requests>=2.31.0",
+    "beautifulsoup4>=4.12.2",
+    "typer>=0.9,<0.21",
+    # test
+    "pre-commit>=3.3.3,<5.0.0",
+    "mypy>=1.4.1",
+    "syrupy>=4.0.5,<6.0.0",
+    "pytest>=7.4,<10.0",
+    "pytest-vcr>=1.0.2",
+    "pytest-cov>=4.1,<8.0",
+    # Lint
+    "ruff>=0.8.0",
+    # Doc
+    "mkdocs",
+    "markdown-callouts>=0.4.0",
+    "mkdocs-material>=9.5.9",
+    "mkdocstrings>=0.24,<1.1",
+    "mkdocstrings-python>=1.8,<3.0",
+    "pymdown-extensions>=10.7",
+    "griffe_inherited_docstrings",
+    "ipykernel>=6.29.4,<8.0.0",
+    "mknotebooks",
+]
 
-[tool.poetry.group.dev]
-optional = true
-
-[tool.poetry.group.dev.dependencies]
-# Code Gen
-requests = "^2.31.0"
-beautifulsoup4 = "^4.12.2"
-typer = ">=0.9,<0.21"
-
-# test
-pre-commit = ">=3.3.3,<5.0.0"
-mypy = "^1.4.1"
-syrupy = ">=4.0.5,<6.0.0"
-pytest = ">=7.4,<10.0"
-pytest-vcr = "^1.0.2"
-pytest-cov = ">=4.1,<8.0"
-
-# Doc
-mkdocs = "*"
-markdown-callouts = "^0.4.0"
-mkdocs-material = "^9.5.9"
-mkdocstrings = ">=0.24,<1.1"
-mkdocstrings-python = ">=1.8,<3.0"
-pymdown-extensions = "^10.7"
-griffe_inherited_docstrings = "*"
-black = "*"
-ipykernel = ">=6.29.4,<8.0.0"
-mknotebooks = "*"
-
-[tool.poetry.scripts]
+[project.scripts]
 rebuild = "scripts.main:app"
 
+[tool.hatch.build.targets.wheel]
+packages = ["src/ffmpeg_media_type"]
 
-[tool.poetry-dynamic-versioning]
-enable = true
-pattern = "default-unprefixed"
+[tool.hatch.build.targets.wheel.sources]
+"src" = ""
+
+[tool.hatch.build]
+include = ["ffmpeg_media_type/py.typed", "ffmpeg_media_type/cache/*.json"]
+exclude = ["**/tests", "**/test_data", "**/conftest.py"]
+
+[tool.ruff]
+line-length = 120
+target-version = "py310"
+
+[tool.ruff.lint]
+select = [
+    "E",
+    "W",
+    "F",
+    "I",
+    "B",
+    "C4",
+    "UP",
+]
+ignore = [
+    "E501",
+    "B008",
+    "B905",
+]
+
+[tool.ruff.format]
+quote-style = "double"
+indent-style = "space"
+skip-magic-trailing-comma = false
+line-ending = "auto"
 
 [build-system]
-requires = ["poetry-core>=1.0.0", "poetry-dynamic-versioning"]
-build-backend = "poetry_dynamic_versioning.backend"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
