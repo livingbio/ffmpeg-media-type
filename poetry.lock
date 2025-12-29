@@ -1316,14 +1316,14 @@ files = [
 
 [[package]]
 name = "mistune"
-version = "3.1.4"
+version = "3.2.0"
 description = "A sane and fast Markdown parser with useful plugins and renderers"
 optional = false
 python-versions = ">=3.8"
 groups = ["dev"]
 files = [
-    {file = "mistune-3.1.4-py3-none-any.whl", hash = "sha256:93691da911e5d9d2e23bc54472892aff676df27a75274962ff9edc210364266d"},
-    {file = "mistune-3.1.4.tar.gz", hash = "sha256:b5a7f801d389f724ec702840c11d8fc48f2b33519102fc7ee739e8177b672164"},
+    {file = "mistune-3.2.0-py3-none-any.whl", hash = "sha256:febdc629a3c78616b94393c6580551e0e34cc289987ec6c35ed3f4be42d0eee1"},
+    {file = "mistune-3.2.0.tar.gz", hash = "sha256:708487c8a8cdd99c9d90eb3ed4c3ed961246ff78ac82f03418f5183ab70e398a"},
 ]
 
 [package.dependencies]
@@ -2494,25 +2494,6 @@ files = [
 
 [package.dependencies]
 pytest = ">=8.0.0"
-
-[[package]]
-name = "tinycss2"
-version = "1.5.1"
-description = "A tiny CSS parser"
-optional = false
-python-versions = ">=3.10"
-groups = ["dev"]
-files = [
-    {file = "tinycss2-1.5.1-py3-none-any.whl", hash = "sha256:3415ba0f5839c062696996998176c4a3751d18b7edaaeeb658c9ce21ec150661"},
-    {file = "tinycss2-1.5.1.tar.gz", hash = "sha256:d339d2b616ba90ccce58da8495a78f46e55d4d25f9fd71dfd526f07e7d53f957"},
-]
-
-[package.dependencies]
-webencodings = ">=0.4"
-
-[package.extras]
-doc = ["furo", "sphinx"]
-test = ["pytest", "ruff"]
 
 [[package]]
 name = "tomli"
