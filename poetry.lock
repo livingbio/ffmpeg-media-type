@@ -799,18 +799,18 @@ pypi = ["griffelib[pypi] (==2.0.0)"]
 
 [[package]]
 name = "griffe-inherited-docstrings"
-version = "1.1.2"
+version = "1.1.3"
 description = "Griffe extension for inheriting docstrings."
 optional = false
-python-versions = ">=3.9"
+python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "griffe_inherited_docstrings-1.1.2-py3-none-any.whl", hash = "sha256:b1cf61fff6e12a769db75de5718ddbbb5361b2cc4155af1f1ad86c13f56c197b"},
-    {file = "griffe_inherited_docstrings-1.1.2.tar.gz", hash = "sha256:0a489ac4bb6093a7789d014b23083b4cbb1ab139f0b8dd878c8f3a4f8e892624"},
+    {file = "griffe_inherited_docstrings-1.1.3-py3-none-any.whl", hash = "sha256:aa7f6e624515c50d9325a5cfdf4b2acac547f1889aca89092d5da7278f739695"},
+    {file = "griffe_inherited_docstrings-1.1.3.tar.gz", hash = "sha256:cd1f937ec9336a790e5425e7f9b92f5a5ab17f292ba86917f1c681c0704cb64e"},
 ]
 
 [package.dependencies]
-griffe = ">=1.14"
+griffelib = ">=2.0"
 
 [[package]]
 name = "griffecli"
