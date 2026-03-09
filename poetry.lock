@@ -780,24 +780,6 @@ doc = ["sphinx (>=7.1.2,<7.2)", "sphinx-autodoc-typehints", "sphinx_rtd_theme"]
 test = ["coverage[toml]", "ddt (>=1.1.1,!=1.4.3)", "mock ; python_version < \"3.8\"", "mypy (==1.18.2) ; python_version >= \"3.9\"", "pre-commit", "pytest (>=7.3.1)", "pytest-cov", "pytest-instafail", "pytest-mock", "pytest-sugar", "typing-extensions ; python_version < \"3.11\""]
 
 [[package]]
-name = "griffe"
-version = "2.0.0"
-description = "Signatures for entire Python programs. Extract the structure, the frame, the skeleton of your project, to generate API documentation or find breaking changes in your API."
-optional = false
-python-versions = ">=3.10"
-groups = ["dev"]
-files = [
-    {file = "griffe-2.0.0-py3-none-any.whl", hash = "sha256:5418081135a391c3e6e757a7f3f156f1a1a746cc7b4023868ff7d5e2f9a980aa"},
-]
-
-[package.dependencies]
-griffecli = "2.0.0"
-griffelib = "2.0.0"
-
-[package.extras]
-pypi = ["griffelib[pypi] (==2.0.0)"]
-
-[[package]]
 name = "griffe-inherited-docstrings"
 version = "1.1.3"
 description = "Griffe extension for inheriting docstrings."
@@ -811,21 +793,6 @@ files = [
 
 [package.dependencies]
 griffelib = ">=2.0"
-
-[[package]]
-name = "griffecli"
-version = "2.0.0"
-description = "Signatures for entire Python programs. Extract the structure, the frame, the skeleton of your project, to generate API documentation or find breaking changes in your API."
-optional = false
-python-versions = ">=3.10"
-groups = ["dev"]
-files = [
-    {file = "griffecli-2.0.0-py3-none-any.whl", hash = "sha256:9f7cd9ee9b21d55e91689358978d2385ae65c22f307a63fb3269acf3f21e643d"},
-]
-
-[package.dependencies]
-colorama = ">=0.4"
-griffelib = "2.0.0"
 
 [[package]]
 name = "griffelib"
@@ -1094,6 +1061,7 @@ description = "Mypyc runtime library"
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
+markers = "platform_python_implementation != \"PyPy\""
 files = [
     {file = "librt-0.8.1-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:81fd938344fecb9373ba1b155968c8a329491d2ce38e7ddb76f30ffb938f12dc"},
     {file = "librt-0.8.1-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:5db05697c82b3a2ec53f6e72b2ed373132b0c2e05135f0696784e97d7f5d48e7"},
@@ -2570,14 +2538,14 @@ files = [
 
 [[package]]
 name = "smmap"
-version = "5.0.2"
+version = "5.0.3"
 description = "A pure Python implementation of a sliding window memory map manager"
 optional = false
 python-versions = ">=3.7"
 groups = ["dev"]
 files = [
-    {file = "smmap-5.0.2-py3-none-any.whl", hash = "sha256:b30115f0def7d7531d22a0fb6502488d879e75b260a9db4d0819cfb25403af5e"},
-    {file = "smmap-5.0.2.tar.gz", hash = "sha256:26ea65a03958fa0c8a1c7e8c7a58fdc77221b8910f6be2131affade476898ad5"},
+    {file = "smmap-5.0.3-py3-none-any.whl", hash = "sha256:c106e05d5a61449cf6ba9a1e650227ecfb141590d2a98412103ff35d89fc7b2f"},
+    {file = "smmap-5.0.3.tar.gz", hash = "sha256:4d9debb8b99007ae47165abc08670bd74cb74b5227dda7f643eccc4e9eb5642c"},
 ]
 
 [[package]]
