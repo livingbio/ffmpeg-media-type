@@ -1078,6 +1078,7 @@ description = "Mypyc runtime library"
 optional = false
 python-versions = ">=3.9"
 groups = ["dev"]
+markers = "platform_python_implementation != \"PyPy\""
 files = [
     {file = "librt-0.9.0-cp310-cp310-macosx_10_9_x86_64.whl", hash = "sha256:2f8e12706dcb8ff6b3ed57514a19e45c49ad00bcd423e87b2b2e4b5f64578443"},
     {file = "librt-0.9.0-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:4e3dda8345307fd7306db0ed0cb109a63a2c85ba780eb9dc2d09b2049a931f9c"},
@@ -1491,14 +1492,14 @@ files = [
 
 [[package]]
 name = "mkdocstrings"
-version = "1.0.3"
+version = "1.0.4"
 description = "Automatic documentation from sources, for MkDocs."
 optional = false
 python-versions = ">=3.10"
 groups = ["dev"]
 files = [
-    {file = "mkdocstrings-1.0.3-py3-none-any.whl", hash = "sha256:0d66d18430c2201dc7fe85134277382baaa15e6b30979f3f3bdbabd6dbdb6046"},
-    {file = "mkdocstrings-1.0.3.tar.gz", hash = "sha256:ab670f55040722b49bb45865b2e93b824450fb4aef638b00d7acb493a9020434"},
+    {file = "mkdocstrings-1.0.4-py3-none-any.whl", hash = "sha256:63464b4b29053514f32a1dbbf604e52876d5e638111b0c295ab7ed3cac73ca9b"},
+    {file = "mkdocstrings-1.0.4.tar.gz", hash = "sha256:3969a6515b77db65fd097b53c1b7aa4ae840bd71a2ee62a6a3e89503446d7172"},
 ]
 
 [package.dependencies]
