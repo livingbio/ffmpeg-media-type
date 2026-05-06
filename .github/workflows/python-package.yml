@@ -46,7 +46,7 @@ jobs:
 
       # Run linting
       - name: Linting
-        run: poetry run pre-commit run --all-files
+        run: poetry run prek run --all-files
         working-directory: src
 
       # Run unittests
