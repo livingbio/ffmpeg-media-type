@@ -20,7 +20,7 @@ def from_dict(data_class: type[T], data: dict[str, Any]) -> T:
         assert is_dataclass(data_class)
         fieldtypes = {f.name: f.type for f in fields(data_class)}
         return data_class(**{f: from_dict(fieldtypes[f], data[f]) for f in data if f in fieldtypes})  # type: ignore[return-value]
-    elif get_origin(data_class) == tuple:
+    elif get_origin(data_class) is tuple:
         # Handling tuple types by converting each element in the tuple
         # assuming all elements are of the type specified in the first argument of the tuple type
         element_type = get_args(data_class)[0]
