@@ -21,7 +21,7 @@ def call(cmds: list[str]) -> str:
     try:
         r = subprocess.run(cmds, stdout=subprocess.PIPE, check=True)
     except subprocess.CalledProcessError as e:
-        raise FFmpegMediaTypeError(f"command failed: {join(e.cmd)}")
+        raise FFmpegMediaTypeError(f"command failed: {join(e.cmd)}") from e
 
     return r.stdout.decode("utf-8")
 
